@@ -91,3 +91,56 @@ def resolve_value(value):
     
 #--------------------------------------------------------------------------------------------------------
 
+import pandas as pd
+import pandas_datareader.data as web
+import os
+
+DATE_FORMAT = "%Y-%m-%d"
+#symbols_list = ["FB","AAPL","NFLX","GOOG","BA","GS","BABA","TSLA"]
+symbols_list = ["AAPL"]
+
+def file_exists(fn):
+    exists = os.path.isfile(fn)
+    if exists:
+        return 1
+    else:
+        return 0
+
+def write_to_file(exists, fn, f):
+    if exists:
+        f1 = open(fn, "r")
+        last_line = f1.readlines()[-1]
+        f1.close()
+        last = last_line.split(",")
+        date = (datetime.datetime.strptime(last[0], DATE_FORMAT)).strftime(DATE_FORMAT)
+        today = datetime.datetime.now().strftime(DATE_FORMAT)
+        if date != today:
+            with open(fn, 'a') as outFile:
+                f.tail(1).to_csv(outFile, header=False)
+    else:
+        print("new file")
+        f.to_csv(fn)
+
+def get_daily_quote(ticker):
+    today = datetime.datetime.now().strftime(DATE_FORMAT)
+    f = web.DataReader([ticker], "yahoo", start=today)
+    return f
+
+def get_history_quotes(ticker):
+    today = datetime.now().strftime(DATE_FORMAT)
+    f = web.DataReader([ticker], "yahoo", start='2018-08-01', end=today)
+    return f
+
+
+    for ticker in symbols_list:
+        fn = "./quotes/" + ticker + "_day.csv";
+        if file_exists(fn):
+            f = get_daily_quote(ticker)
+            write_to_file(OLD, fn, f)
+        else:
+            f = get_history_quotes(ticker)
+            write_to_file(NEW, fn, f)
+
+#--------------------------------------------------------------------------------------------------------
+
+
