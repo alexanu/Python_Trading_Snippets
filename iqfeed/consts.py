@@ -1,0 +1,5 @@
+IQ_TIME_COL = 'datetime'
+IQ_OPEN_COL = 'open'
+IQ_CLOSE_COL = 'close'
+IQ_HIGH_COL = 'high'
+IQ_LOW_COL = 'low'

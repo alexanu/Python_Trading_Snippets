@@ -143,4 +143,12 @@ def get_history_quotes(ticker):
 
 #--------------------------------------------------------------------------------------------------------
 
-
+def read_line_from_file(filename):
+    """Load lines from csv file"""
+    lines = []
+    with open(filename, 'r') as f:
+        for line in f:
+            lines.append(line.rstrip())
+    if len(lines) > 0:
+        lines = lines[1:]
+return lines
