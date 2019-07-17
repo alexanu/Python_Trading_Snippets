@@ -30,6 +30,18 @@ parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 data_dir = os.path.join(parent_dir, 'data', 'sr')
 if not os.path.isdir(data_dir):
     os.makedirs(data_dir)
+    
+
+def download_from_url(url, filename, overwrite=False):
+    if not overwrite and os.path.isfile(filename):
+        return filename
+    request = requests.get(url)
+    with open(filename, 'wb') as fp:
+        for chunk in request.iter_content(chunk_size=1024):
+            if chunk:
+                fp.write(chunk)
+return filename
+    
 
 def download_income_stmt(symbol, force=True):
     url = income_statement_url.format(symbol)
@@ -59,3 +71,24 @@ if __name__ == '__main__':
 company = Stockrow('AAPL').dump()
 
 #--------------------------------------------------------------------------------------------------------
+import re
+
+def resolve_value(value):
+    """
+    Convert "1k" to 1 000, "1m" to 1 000 000, etc.
+    """
+    if value is None:
+        return None
+    tens = dict(k=10e3, m=10e6, b=10e9, t=10e12)
+    value = value.replace(',', '')
+    match = re.match(r'(-?\d+\.?\d*)([kmbt]?)$', value, re.I)
+    if not match:
+        return None
+    factor, exp = match.groups()
+    if not exp:
+        return float(factor)
+     return int(float(factor)*tens[exp.lower()])
+    
+#--------------------------------------------------------------------------------------------------------
+
+
