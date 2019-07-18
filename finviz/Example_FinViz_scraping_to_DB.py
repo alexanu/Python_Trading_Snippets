@@ -1,6 +1,9 @@
+# you will need to know how to set up your postgresql database
+
 from bs4 import BeautifulSoup
 import requests
 import re
+import psycopg2 # to execute SQL statements
 import urllib.request, urllib.error, urllib.parse
 
 
@@ -50,10 +53,36 @@ def get_data():
 	return all_data
 
 
-# need to determine which table I am trying to access
-# need to get headers from that table<td>, and return them in a list as text
-# then need to get td of stocks with a market cap under 50M
-# need to scrape all the same tables from all pages
-# then need to load that data into a postgres db table
-# then need to query the db 
-# then need to get the avg
+DB = psycopg2.connect(dbname="david", user="david")
+cursor = DB.cursor()
+table_name = "market_cap"
+cursor.execute("DROP TABLE IF EXISTS " + table_name)
+cursor.execute("""
+	CREATE TABLE {} (
+		no INT, ticket VARCHAR(10), company VARCHAR(255), sector VARCHAR(255), industry VARCHAR(255),
+		country VARCHAR(255), market_cap FLOAT(4), price FLOAT(4), change FLOAT(4), volume INT, pe FLOAT(4),
+	);
+""".format(table_name))
+DB.commit()
+
+data = get_data()
+
+from pprint import pprint
+pprint(data)
+
+for row in data:
+	cursor.execute("""
+	INSERT INTO {}(no, ticket, company, sector, industry, country, market_cap, price, change, volume, pe)
+	VALUES({}, '{}', '{}', '{}', '{}', '{}', {}, {}, {}, {}, {})
+	""".format(
+		table_name, row['No.'], row['Ticker'], row['Company'], row['Sector'], row['Industry'], row['Country'],
+		row['Market Cap'][:-1], row['Price'], row['Change'][:-1], row['Volume'].replace(',', ""),
+		"NULL" if row['P/E'] == "-" else row['P/E'],	
+	))
+DB.commit()
+
+avg = cursor.execute('select AVG(market_cap) from market_cap;')
+
+#results = cursor.fetchall()
+#print(results)
+#DB.close()
