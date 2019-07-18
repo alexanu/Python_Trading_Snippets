@@ -53,7 +53,7 @@ def get_data():
 	return all_data
 
 
-DB = psycopg2.connect(dbname="david", user="david")
+DB = psycopg2.connect(dbname="xx", user="xx")
 cursor = DB.cursor()
 table_name = "market_cap"
 cursor.execute("DROP TABLE IF EXISTS " + table_name)
