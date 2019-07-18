@@ -36,8 +36,42 @@ while nse_stocks_page.has_more_results() and pageCount < 7:
     pageCount = pageCount + 1
     nse_stocks_page = nse.datasets(params = {"page":pageCount})
 
+#------------------------------------------------------------------------------------------------------------------------------
 
-#--------------------------------------------------------------------------------------------------------
+# uses Yahoo Finance's API to get minute-by-minute ticks
+
+import requests
+import pandas as pd
+import arrow
+import datetime
+import pandas as pd
+import numpy as np
+
+
+def get_quote_data(symbol, data_range, data_interval):
+    res = requests.get(
+        'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range={data_range}&interval={data_interval}'.format(
+            **locals()))
+    data = res.json()
+    body = data['chart']['result'][0]
+    dt = datetime.datetime
+    dt = pd.Series(map(lambda x: arrow.get(x).to('EST').datetime.replace(tzinfo=None), body['timestamp']), name='dt')
+    df = pd.DataFrame(body['indicators']['quote'][0], index=dt)
+    dg = pd.DataFrame(body['timestamp'])
+    df = df.loc[:, ('close', 'volume')]
+    df.dropna(inplace=True)  # removing NaN rows
+    df.columns = ['CLOSE', 'VOLUME']  # Renaming columns in pandas
+    df.to_csv('out.csv')
+
+    return df
+
+
+data = get_quote_data('F', '5d', '1m')
+print(data)
+    
+    
+
+#------------------------------------------------------------------------------------------------------------------------------
 
 from io import StringIO
 import os
