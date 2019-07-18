@@ -3,9 +3,17 @@ from bs4 import BeautifulSoup
 import csv
 import pdb
 import datetime
-#pdb.set_trace() - python step by step debugger command
+
+
+# pdb.set_trace() - python step by step debugger command
 print datetime.datetime.now()
 print "Finviz Performance Start"
+
+
+# -------------------------------- Scrape FinViz  ---------------------------------------------------------------
+# Overview = 111, Valuation = 121, Financial = 161, Ownership = 131, Performance = 141
+# pagesarray = [111,121,161,131,141]
+
 url = "http://www.finviz.com/screener.ashx?v=141&f=geo_usa"
 response = requests.get(url)
 html = response.content
@@ -17,8 +25,7 @@ currentpage = int(lastpagenum)
 
 alldata = []
 templist = []
-# Overview = 111, Valuation = 121, Financial = 161, Ownership = 131, Performance = 141
-#pagesarray = [111,121,161,131,141]
+
 titleslist = soup.find_all('td',{"class" : "table-top"})
 titleslisttickerid = soup.find_all('td',{"class" : "table-top-s"})
 titleticker = titleslisttickerid[0].text
@@ -58,3 +65,14 @@ with open('stockownership.csv', 'wb') as csvfile:
 
 print datetime.datetime.now()
 print "Finviz Ownership Completed"
+
+
+# -------------------------------- Scrape News  ------------------------------------------------------------------------------
+
+url = "http://www.finviz.com/quote.ashx?t=intc"
+response = requests.get(url)
+html = response.content
+soup = BeautifulSoup(html)
+titleslist = soup.find_all('a',{"class" : "tab-link-news"})
+
+
