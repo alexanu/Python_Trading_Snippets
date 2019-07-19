@@ -208,4 +208,35 @@ def read_line_from_file(filename):
             lines.append(line.rstrip())
     if len(lines) > 0:
         lines = lines[1:]
-return lines
+    return lines
+
+
+#--------------------------------------------------------------------------------------------------------
+
+"""
+Momentum
+Source: https://en.wikipedia.org/wiki/Momentum_(technical_analysis)
+Params: 
+    data: pandas DataFrame
+	periods: period for calculating momentum
+	close_col: the name of the CLOSE values column
+    
+Returns:
+    copy of 'data' DataFrame with 'momentum' column added
+"""
+def momentum(data, periods=14, close_col='<CLOSE>'):
+    data['momentum'] = 0.
+    
+    for index,row in data.iterrows():
+        if index >= periods:
+            prev_close = data.at[index-periods, close_col]
+            val_perc = (row[close_col] - prev_close)/prev_close
+
+            data.set_value(index, 'momentum', val_perc)
+
+   return data
+
+#--------------------------------------------------------------------------------------------------------
+
+
+
