@@ -1,3 +1,19 @@
+
+"""
+You can download all tick data for given year. Data are downloaded for each month, extracted and concatenated into one CSV file.
+
+python get_data_for_year_in_csv.py -u <truefxUsername> -p <truefxPassword> -f <folder> -y <year> -s <symbol>
+
+There are some configuration variables in this script:
+
+    -u or --username - username to login in TrueFX
+    -p or --password - password to login in TrueFX
+    -f or --folder - folder where to download data
+    -y or --year - year for which to download data
+    -s or --symbol - symbol for which to download data
+"""
+
+
 import cookielib
 import urllib
 import urllib2
@@ -8,8 +24,55 @@ from lxml import html
 import url_provider
 import zipfile
 import glob
+import sys, getopt
 
 
+class UrlProvider:
+    base_url_https = 'https://www.truefx.com/'
+    base_url_http = 'http://www.truefx.com/'
+
+    months = {
+        1: "January",
+        2: "February",
+        3: "March",
+        4: "April",
+        5: "May",
+        6: "June",
+        7: "July",
+        8: "August",
+        9: "September",
+        10: "October",
+        11: "November",
+        12: "December"
+    }
+
+    def get_login_url(self):
+        return self.base_url_https + "?page=loginz"
+
+    def get_download_referrer_url(self, year, month):
+        return self.base_url_http \
+                + "?page=download&description=" \
+                + self.months.get(month).lower() + str(year) \
+                + "&dir=" + str(year) + "/" \
+                + self.months.get(month).upper() + "-" + str(year)
+
+    def get_download_url_type_1(self, year, month, symbol):
+        return self.base_url_http \
+               + "dev/data/" \
+               + str(year) + "/" \
+               + str(year) + "-" + str(month).zfill(2) + "/" \
+               + symbol.upper() + "-" + str(year) + "-" + str(month).zfill(2) + ".zip"
+
+    def get_download_url_type_2(self, year, month, symbol):
+        return self.base_url_http \
+               + "dev/data/" \
+               + str(year) + "/" \
+               + self.months.get(month).upper() + "-" + str(year) + "/" \
+               + symbol.upper() + "-" + str(year) + "-" + str(month).zfill(2) + ".zip"
+
+
+
+    
 class Manager:
     url_provider = url_provider.UrlProvider()
     login_response_cookies = False
@@ -159,3 +222,63 @@ class Manager:
             return True
         else:
             return False
+
+        
+def main(argv):
+    try:
+
+        truefx_username = None
+        truefx_password = None
+        destination_folder = None
+        year = None
+        symbol = None
+
+        opts, args = getopt.getopt(argv, "hu:p:f:y:s:", ["username=", "password=", "folder=", "year=", "symbol="])
+
+        for opt, arg in opts:
+
+            if opt == "-h":
+                print_usage()
+                exit()
+            elif opt in ("-u", "--username"):
+                truefx_username = arg
+            elif opt in ("-p", "--password"):
+                truefx_password = arg
+            elif opt in ("-f", "--folder"):
+                destination_folder = arg
+            elif opt in ("-y", "--year"):
+                year = arg
+            elif opt in ("-s", "--symbol"):
+                symbol = arg
+
+        if truefx_password is None or truefx_password is None or destination_folder is None \
+                or year is None or symbol is None:
+                print("Usage: python get_data_for_year_in_csv.py -u <truefxUsername> -p <truefxPassword>" +
+                "-f <folder> -y <year> -s <symbol>")
+            exit(2)
+
+        truefxManager = manager.Manager()
+
+        if truefxManager.login_to_true_fx(truefx_username, truefx_password):
+            print("Successfully logged to TrueFx")
+            truefxManager.download_and_merge_to_one_file(year, symbol, destination_folder + '\\')
+        else:
+            print("Can't login to TrueFx")
+
+    except getopt.GetoptError:
+        print("Usage: python get_data_for_year_in_csv.py -u <truefxUsername> -p <truefxPassword>" +
+               "-f <folder> -y <year> -s <symbol>")
+        sys.exit(2)
+
+    except OSError as e:
+        if e.errno == errno.EEXIST:
+            print(e.strerror)
+        else:
+            raise e
+
+
+if __name__ == "__main__":
+     main(sys.argv[1:])
+        
+        
+       
