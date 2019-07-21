@@ -238,5 +238,106 @@ def momentum(data, periods=14, close_col='<CLOSE>'):
 
 #--------------------------------------------------------------------------------------------------------
 
+"""chained comparison with all kind of operators"""
+a = 10
+print(1 < a < 50)
+print(10 == a < 20)
 
+
+"""Concatenate long strings elegantly 
+across line breaks in code"""
+
+my_long_text = ("We are no longer the knights who say Ni! "
+                "We are now the knights who say ekki-ekki-"
+                "ekki-p'tang-zoom-boing-z'nourrwringmm!")
+
+
+"""calling different functions with same arguments based on condition"""
+def product(a, b):
+    return a * b
+
+def subtract(a, b):
+    return a - b
+
+b = True
+print((product if b else subtract)(1, 1))
+
+
+"""else gets called when for loop does not reach break statement"""
+a = [1, 2, 3, 4, 5]
+for el in a:
+    if el == 0:
+        break
+else:
+     print('did not break out of for loop')
+
+d1 = {'a': 1}
+d2 = {'b': 2}
+
+d1.update(d2)
+print(d1)
+
+
+"""
+Find Index of Min/Max Element.
+"""
+
+lst = [40, 10, 20, 30]
+
+
+def minIndex(lst):
+    return min(range(len(lst)), key=lst.__getitem__)  # use xrange if < 2.7
+
+
+def maxIndex(lst):
+    return max(range(len(lst)), key=lst.__getitem__)  # use xrange if < 2.7
+
+print(minIndex(lst))
+print(maxIndex(lst))
+
+
+"""
+Convert raw string integer inputs to integers
+"""
+
+str_input = "1 2 3 4 5 6"
+
+print("### Input ###")
+print(str_input)
+
+int_input = map(int, str_input.split())
+
+print("### Output ###")
+print(list(int_input))
+
+
+""" You can have an 'else' clause with try/except. 
+    It gets excecuted if no exception is raised.
+    This allows you to put less happy-path code in the 'try' block so you can be 
+    more sure of where a caught exception came from."""
+
+try:
+    1 + 1
+except TypeError:
+    print("Oh no! An exception was raised.")
+else:
+    print("Oh good, no exceptions were raised.")
+
+
+
+#--------------------------------------------------------------------------------------------------------
+
+
+dctA = {'a': 1, 'b': 2, 'c': 3}
+dctB = {'b': 4, 'c': 3, 'd': 6}
+
+"""loop over dicts that share (some) keys in Python3"""
+for ky in dctA.keys() & dctB.keys():
+    print(ky)
+
+"""loop over dicts that share (some) keys and values in Python3"""
+for item in dctA.items() & dctB.items():
+print(item)
+
+#--------------------------------------------------------------------------------------------------------
 
