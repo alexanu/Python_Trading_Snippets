@@ -1,10 +1,14 @@
+symbols = ['AAPL', 'MMM', 'INTC', 'JPM', 'DE', 'WFC', 'BK', 'PM', 'HD', 'GE']
+allocations = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+root_path = "C:/..."
+
+
 import quandl
 import datetime as dt
 import calendar
 import os
 import pandas as pd
 import sys
-from main import root_path
 
 #Dates
 end_date = dt.date.today()
@@ -53,16 +57,10 @@ def portfolio(symbols, allocations, api_key, start_date):
             sys.exit()
 
     port_val = port_data * allocations
-    # Remove Rows With No Values
-
-    #FIX!!!!!!
-    #port_data.dropna(axis=0, how='any')
-    port_val = port_val.fillna(port_val.mean())
-
+    port_val = port_val.fillna(port_val.mean()) # Remove Rows With No Values
     port_val['Portfolio Value'] = port_val.sum(axis=1)
 
-    # Calculate Portfolio Returns
-    port_rets = port_val.pct_change()
+    port_rets = port_val.pct_change() # Calculate Portfolio Returns
     port_rets = port_rets.dropna(how='any')
 
     #Calculate Portfolio Weights
