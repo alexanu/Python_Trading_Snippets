@@ -4,11 +4,33 @@ import os
 import zipfile
 import logging
 import hashlib
-import forex.config as cfg
+import itertools
+import logging
+import sys
+
+
+def default_data_path():
+    match = re.match(r'.+/forex-lab', os.getcwd())
+    if match:
+        return os.path.join(match.group(), 'data')
+    return os.path.join(os.getcwd(), 'data')
+
+
+DATA_PATH = default_data_path()
+
+
+
+def configure_logs(level=logging.INFO):
+logging.basicConfig(stream=sys.stdout, level=level, format='%(levelname)s: %(message)s')
+
 
 
 HIST_DATA_URL = 'http://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/{}/{}'
 CSV_FILE = 'DAT_ASCII_{}_M1_{}.csv'
+
+
+
+
 
 
 def pair_string(pair):
@@ -70,10 +92,14 @@ def get_prices(pair, year, month=None):
     return list(lines_filtered)
 
 
+CURRENCIES = ['eur', 'gbp', 'aud', 'nzd', 'usd', 'cad', 'chf', 'jpy']
+def pairs():
+    return list(itertools.combinations(CURRENCIES, 2))
+
 def merge_all_pairs(year, month=None):
     """Merges the prices of all pairs into one entry per timestamp."""
 
-    pairs = cfg.pairs()
+    pairs = pairs()
     all_prices_dict = {}
     for i in range(len(pairs)):
         price_entries = get_prices(pairs[i], year, month)
