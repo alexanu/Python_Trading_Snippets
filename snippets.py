@@ -1,3 +1,20 @@
+#--------------------------------------------------------------------------------------------------------
+
+future_types = ['m']
+expiry_years = ['17', '18']
+expiry_months = ['01', '03', '05', '07', '08', '09', '11', '12']
+strike_prices = range(2000, 3500, 50)
+option_types = ['C', 'P']
+
+future_symbols = [(x + y + z) for x in future_types for y in expiry_years for z in expiry_months]
+option_symbols = [(x + '-' + y + '-' + str(z)) for x in future_symbols for y in option_types for z in strike_prices]
+call_symbols = [x for x in option_symbols if 'C' in x]
+put_symbols = [x for x in option_symbols if 'P' in x]
+
+all_symbols = future_symbols + option_symbols
+all_symbols.sort()
+
+#--------------------------------------------------------------------------------------------------------
 
 CURRENCIES = ['eur', 'gbp', 'aud', 'nzd', 'usd', 'cad', 'chf', 'jpy']
 def pairs():
