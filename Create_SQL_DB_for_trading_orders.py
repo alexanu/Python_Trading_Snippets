@@ -313,3 +313,16 @@ if __name__ == '__main__':
         print(stock.symbol, stock.num_holdings, stock.price, stock.avg_cost, stock.date)
     
 hs.conn.close()
+
+
+
+def get_record(self):
+        """
+        get the asset values record of our own trading strategy
+        """
+        self.asset_values = []
+        cur = self.holdings.conn.cursor()
+        cur.execute('select * from asset_values_record')
+        temp_asset_values = cur.fetchall()
+        for av in temp_asset_values:
+          self.asset_values.append(av[1])
