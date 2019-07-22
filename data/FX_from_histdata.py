@@ -9,48 +9,37 @@ import logging
 import sys
 
 
+
+HIST_DATA_URL = 'http://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/{}/{}'
+CSV_FILE = 'DAT_ASCII_{}_M1_{}.csv'
+
+
+def pair_string(pair):
+    return ''.join(pair).lower()
+
 def default_data_path():
     match = re.match(r'.+/forex-lab', os.getcwd())
     if match:
         return os.path.join(match.group(), 'data')
     return os.path.join(os.getcwd(), 'data')
 
-
 DATA_PATH = default_data_path()
 
-
-
-def configure_logs(level=logging.INFO):
-logging.basicConfig(stream=sys.stdout, level=level, format='%(levelname)s: %(message)s')
-
-
-
-HIST_DATA_URL = 'http://www.histdata.com/download-free-forex-historical-data/?/ascii/1-minute-bar-quotes/{}/{}'
-CSV_FILE = 'DAT_ASCII_{}_M1_{}.csv'
-
-
-
-
-
-
-def pair_string(pair):
-    return ''.join(pair).lower()
-
-
-def year_month(year, month=None, sep=''):
-    if month is None:
-        return str(year)
-    return '{}{}{:02d}'.format(year, sep, month)
-
-
 def create_data_directory(pair):
-    output_path = os.path.join(cfg.DATA_PATH, pair_string(pair))
+    output_path = os.path.join(DATA_PATH, pair_string(pair))
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
 
+        
+
+def year_month(year, month=None, sep=''):
+    if month is None:
+        return str(year)
+    return '{}{}{:02d}'.format(year, sep, month)        
+        
 def get_archive_path(pair, year, month=None):
-    return os.path.join(cfg.DATA_PATH, pair_string(pair), '{}.zip'.format(year_month(year, month)))
+    return os.path.join(DATA_PATH, pair_string(pair), '{}.zip'.format(year_month(year, month)))
 
 
 def download_hist_data(pair, year, month=None):
@@ -140,7 +129,7 @@ def prepare_data(from_year, to_year, to_month=None):
     """Writes the merged prices of all pairs to file given a date range."""
 
     currencies_hash = hashlib.md5(','.join(cfg.CURRENCIES).encode('utf-8')).hexdigest()
-    out_dir = os.path.join(cfg.DATA_PATH, currencies_hash)
+    out_dir = os.path.join(DATA_PATH, currencies_hash)
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
 
@@ -158,6 +147,9 @@ def prepare_data(from_year, to_year, to_month=None):
     return out_file
 
 
+def configure_logs(level=logging.INFO):
+logging.basicConfig(stream=sys.stdout, level=level, format='%(levelname)s: %(message)s')
+
 if __name__ == "__main__":
     cfg.configure_logs()
-prepare_data(2015, 2019)
+    prepare_data(2015, 2019)
