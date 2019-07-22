@@ -1,3 +1,15 @@
+dome_sign = 'cu'
+dome_expire_year = ['17', '18']
+dome_expire_month = ['01', '02', '03', '04', '05','06', '07', '08', '09', '10', '11', '12']
+dome_all_symbols = [dome_sign + x + y for x in dome_expire_year for y in dome_expire_month]
+
+fore_sign = 'HG'
+fore_expire_year = ['7', '8']
+fore_expire_month = ['F', 'G', 'H', 'J', 'K', 'M','N', 'Q', 'U', 'V', 'X', 'Z']
+fore_all_symbols = [fore_sign + x + y for x in fore_expire_year for y in fore_expire_month]
+
+symbol_pairs = zip(dome_all_symbols, fore_all_symbols)
+
 #--------------------------------------------------------------------------------------------------------
 
 future_types = ['m']
