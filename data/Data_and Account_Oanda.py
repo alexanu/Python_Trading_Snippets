@@ -8,7 +8,7 @@ import pandas as pd
 from v20.transaction import StopLossDetails
 
 
-class tpqoa(object):
+class OAN(object):
 
     def __init__(self, conf_file):
         ''' oanda.cfg:
@@ -48,7 +48,7 @@ class tpqoa(object):
 
         
  # Setting-up the connection
-# oanda = tpqoa('oanda.cfg')
+# oanda = OAN('oanda.cfg')
         
         
         
