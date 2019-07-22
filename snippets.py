@@ -1,3 +1,8 @@
+
+CURRENCIES = ['eur', 'gbp', 'aud', 'nzd', 'usd', 'cad', 'chf', 'jpy']
+def pairs():
+    return list(itertools.combinations(CURRENCIES, 2))
+
 #--------------------------------------------------------------------------------------------------------
 import re
 from ftplib import FTP
