@@ -57,5 +57,64 @@ for trading_d in trading_days:
         ]}
 
 
+# -------------------------------------------------------------------------------------------------------------
+now   = dt.date.today()
+year  = str(now.year)
+m     = str(now.month)
+month = '0'+m
 
+day_5 = now - 5 * BDay()
+day_4 = now - 4 * BDay()
+day_3 = now - 3 * BDay()
+day_2 = now - 2 * BDay()
+day_1 = now - 1 * BDay()
+# Add current day_0
+day_0 = now - 0 * BDay()
+
+days  = [ day_5.day, day_4.day, day_3.day, day_2.day, day_1.day, day_0.day ]
+months = [ day_5.month, day_4.month, day_3.month, day_2.month, day_1.month, day_0.month ]
+years = [ day_5.year, day_4.year, day_3.year, day_2.year, day_1.year, day_0.year ]
+days  = [ str(d) for d in days ]
+months  = [ str(ms) for ms in months ]
+years  = [ str(ys) for ys in years ]
+
+    #for day in days:
+    for (day, month, year) in itertools.izip(days, months, years):
+        try:
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+def trading_start(d):
+    mkt_open = dt.datetime( int(year), int(month), int(d), 9, 30 )
+    return mkt_open
+
+def trading_end(d):
+    mkt_close = dt.datetime( int(year), int(month), int(d), 16, 00 )
+    return mkt_close
+
+def trading_hours(data):
+    test = []
+    for d in days:
+        dat = data[ ( data.index > trading_start(d) ) & ( data.index < trading_end(d) ) ]
+        test.append( dat )
+    return test
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+
+# -------------------------------------------------------------------------------------------------------------
 

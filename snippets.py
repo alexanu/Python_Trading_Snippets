@@ -1,3 +1,18 @@
+
+
+
+
+
+def resample( data ):
+    dat       = data.resample( rule='1min', how='mean').dropna()
+    dat.index = dat.index.tz_localize('UTC').tz_convert('US/Eastern')
+    dat       = dat.fillna(method='ffill')
+    return dat
+#--------------------------------------------------------------------------------------------------------
+
+
+
+
 dome_sign = 'cu'
 dome_expire_year = ['17', '18']
 dome_expire_month = ['01', '02', '03', '04', '05','06', '07', '08', '09', '10', '11', '12']
