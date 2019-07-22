@@ -29,5 +29,33 @@ def str_to_date(dt):
     convert date string to datetime.date object
     """
     year, month, day = (int(x) for x in dt.split('-'))    
-return datetime.date(year, month, day)
+    return datetime.date(year, month, day)
+
+
+# -------------------------------------------------------------------------------------------------------------
+start_trading_day = datetime.date(2017, 6, 8)
+end_trading_day = datetime.date(2017, 6, 20) #end_trading_day包括在所有交易日期内
+trading_days = []
+while start_trading_day <= end_trading_day:
+    trading_days.append(start_trading_day)
+    start_trading_day += datetime.timedelta(days=1)
+
+for trading_d in trading_days:
+    print(u"calculate volatility in date:%r" % trading_d)
+
+    #构建查询条件
+    start_datetime1 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 9, 0, 0)
+    end_datetime1 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 10, 15, 0)
+    start_datetime2 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 10, 30, 0)
+    end_datetime2 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 11, 30, 0)
+    start_datetime3 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 13, 30, 0)
+    end_datetime3 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 15, 0, 0)
+    time_query = {
+        '$or':[{'snapshot_time':{'$gte':start_datetime1, '$lte':end_datetime1}},
+        {'snapshot_time':{'$gte':start_datetime2, '$lte':end_datetime2}},
+        {'snapshot_time':{'$gte':start_datetime3, '$lte':end_datetime3}}
+        ]}
+
+
+
 
