@@ -1,3 +1,8 @@
+# Schema is here:
+# https://bubbl.us/NDc3NDc4NC8zODMxOTMwLzAxOWMyZmJiYThkYmNmYzM0OTMyYzczNTI4MTA3ZGVk@X?utm_source=shared-link&utm_medium=link&s=10033179
+
+
+
 import requests
 import zipfile
 import io
