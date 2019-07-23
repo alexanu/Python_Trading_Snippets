@@ -5,6 +5,11 @@
  #   and Marketwatch.com. Stores data as .pkl and/or .csv files.
  # Copyright 2017 James Whiteley IV
  # *******************************************************************
+ 
+ # Schema of the scraper:
+ # https://bubbl.us/NDc3NDc4NC8zODMxNzgzLzJlMDZmNTliOTgwYjYyN2U3NGZmZDRmZWQwNWY5Zjg2@X?utm_source=shared-link&utm_medium=link&s=10033173
+ 
+ 
 import os
 import time
 import datetime as dt
