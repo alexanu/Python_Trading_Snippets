@@ -1,3 +1,7 @@
+
+# Schema is here:
+# https://bubbl.us/NDc3NDc4NC8zODMxNzgzLzJlMDZmNTliOTgwYjYyN2U3NGZmZDRmZWQwNWY5Zjg2@X?utm_source=shared-link&utm_medium=link&s=10033173
+
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import numpy as np
