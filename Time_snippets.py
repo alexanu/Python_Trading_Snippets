@@ -102,10 +102,22 @@ def trading_hours(data):
 
 # -------------------------------------------------------------------------------------------------------------
 
-
+def closest_business_day_in_past(date=None):
+    if date is None:
+        date = dt.datetime.today()
+    return date + BDay(1) - BDay(1)
 
 # -------------------------------------------------------------------------------------------------------------
+    def prepare_date_strings(date):
 
+        date_yr = date.year.__str__()
+        date_mth = date.month.__str__()
+        date_day = date.day.__str__()
+
+        if len(date_mth) == 1: date_mth = '0' + date_mth
+        if len(date_day) == 1: date_day = '0' + date_day
+        
+        return date_yr, date_mth, date_day
 
 
 # -------------------------------------------------------------------------------------------------------------
