@@ -1,3 +1,6 @@
+# Schema is here:
+# https://bubbl.us/NDc3NDc4NC8zODMxNjI5LzlkMGU3NzBiYmRkOTUxMTA4MzliYzM2ZTcwNzNiODBi@X?utm_source=shared-link&utm_medium=link&s=10033168
+
 symbols = ['AAPL', 'MMM', 'INTC', 'JPM', 'DE', 'WFC', 'BK', 'PM', 'HD', 'GE']
 allocations = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
 root_path = "C:/..."
