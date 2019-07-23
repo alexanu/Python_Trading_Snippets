@@ -10,6 +10,10 @@ Todo:
     * Make one API call per day only
 """
 
+# Schema is here:
+# https://bubbl.us/NDc3NDc4NC8zODM0MjE0LzVkYzg2MzJlZGJjZTgxZGFkNzA4ZWEzNDY1Mjk0ZWI3@X?utm_source=shared-link&utm_medium=link&s=10033237
+
+
 import requests as rq
 import pandas as pd
 import json
