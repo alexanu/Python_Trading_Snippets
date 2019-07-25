@@ -1,6 +1,55 @@
+mask = df_results[pnl_col_name] > 0
+all_winning_trades = df_results[pnl_col_name].loc[mask] 
+
+#--------------------------------------------------------------------------------------------------------
 
 
+def create_directories(self):
+        main_directory = "PairsResults"+self.params
+        
+        if not os.path.exists(main_directory):
+            os.makedirs(main_directory)
+        if not os.path.exists(self.directory_pair):
+            os.makedirs(self.directory_pair)
 
+#--------------------------------------------------------------------------------------------------------
+
+def fetch_last_day_mth(year_, conn):
+    """
+    return date of the last day of data we have for a given year in our Postgres DB. 
+    args:
+        year_: year, type int
+        conn: a Postgres DB connection object
+    return:
+        integer, last trading day of year that we have data for
+    """  
+    cur = conn.cursor()
+    SQL =   """
+            SELECT MAX(date_part('day', date_price)) FROM daily_data
+            WHERE date_price BETWEEN '%s-12-01' AND '%s-12-31'
+            """
+    cur.execute(SQL, [year_,year_])        
+    data = cur.fetchall()
+    cur.close()
+    last_day = int(data[0][0])
+    return last_day
+
+#--------------------------------------------------------------------------------------------------------
+
+
+def data_array_merge(data_array):
+    """
+    merge all dfs into one dfs
+    args:
+        data_array: array of pandas df
+    returns:
+        merged_df, single pandas dataframe
+    """
+    merged_df = functools.reduce(lambda left,right: pd.merge(left,right,on='Date'), data_array)
+    merged_df.set_index('Date', inplace=True)
+    return merged_df
+
+#--------------------------------------------------------------------------------------------------------
 
 
 def resample( data ):
