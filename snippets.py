@@ -1,6 +1,17 @@
 mask = df_results[pnl_col_name] > 0
 all_winning_trades = df_results[pnl_col_name].loc[mask] 
 
+    # for each ticker in our pair
+    for ticker in stocks:
+        # filter our column based on a date range
+        mask = (stock_data['Date'] > start_date) & (stock_data['Date'] <= end_date)
+        # rebuild our dataframe
+        stock_data = stock_data.loc[mask]
+        # re-index the data
+        stock_data = stock_data.reset_index(drop=True)
+        # append our df to our array
+        array_pd_dfs.append(stock_data)
+
 #--------------------------------------------------------------------------------------------------------
 
 
@@ -38,16 +49,42 @@ def fetch_last_day_mth(year_, conn):
 
 
 def data_array_merge(data_array):
-    """
-    merge all dfs into one dfs
-    args:
-        data_array: array of pandas df
-    returns:
-        merged_df, single pandas dataframe
-    """
+    # merge all dfs into one dfs
     merged_df = functools.reduce(lambda left,right: pd.merge(left,right,on='Date'), data_array)
     merged_df.set_index('Date', inplace=True)
     return merged_df
+
+def pair_data_verifier(array_df_data, pair_tickers, threshold=10):
+    """
+    merge two dataframes, verify if we still have the same number of data we originally had.
+    use an inputted threshold that tells us whether we've lost too much data in our merge or not.
+    threshold: max number of days of data we can be missing after merging eshold
+    """
+    stock_1 = pair_tickers[0]
+    stock_2 = pair_tickers[1]
+    df_merged = pd.merge(array_df_data[0], array_df_data[1], left_on=['Date'], right_on=['Date'], how='inner')
+    
+    new_col_names = ['Date', stock_1, stock_2] 
+    df_merged.columns = new_col_names
+    # round columns
+    df_merged[stock_1] = df_merged[stock_1].round(decimals = 2)
+    df_merged[stock_2] = df_merged[stock_2].round(decimals = 2)
+    
+    new_size = len(df_merged.index)
+    old_size_1 = len(array_df_data[0].index)
+    old_size_2 = len(array_df_data[1].index)
+
+    print("Pairs: {0} and {1}".format(stock_1, stock_2))
+    print("New merged df size: {0}".format(new_size))
+    print("{0} old size: {1}".format(stock_1, old_size_1))
+    print("{0} old size: {1}".format(stock_2, old_size_2))
+
+    if (old_size_1 - new_size) > threshold or (old_size_2 - new_size) > threshold:
+        print("This pair {0} and {1} were missing data.".format(stock_1, stock_2))
+        return False
+    else:
+        return df_merged
+
 
 #--------------------------------------------------------------------------------------------------------
 
