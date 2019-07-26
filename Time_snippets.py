@@ -1,3 +1,15 @@
+# -------------------------------------------------------------------------------------------------------------
+
+# http://dateutil.readthedocs.io/en/stable/rrule.html
+from dateutil.rrule import DAILY, rrule, MO, TU, WE, TH, FR
+def daterange(start_date, end_date):
+    # automate a range of business days between two dates
+    return rrule(DAILY, dtstart=start_date, until=end_date, byweekday=(MO,TU,WE,TH,FR))
+
+for tr_date in daterange(start_date, end_date):
+
+# -------------------------------------------------------------------------------------------------------------    
+
 import datetime
 
 def utc_to_local(self, utc_dt):
@@ -11,6 +23,7 @@ def utc_to_local(utc_dt):
 
 utc_dt = datetime.strptime("2018-11-01 01:45:00", "%Y-%m-%d %H:%M:%S")
 print(utc_to_local(utc_dt))
+
 
 
 def days_ago(d, start_date=None):
