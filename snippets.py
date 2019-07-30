@@ -28,11 +28,7 @@ def create_directories(self):
 def fetch_last_day_mth(year_, conn):
     """
     return date of the last day of data we have for a given year in our Postgres DB. 
-    args:
-        year_: year, type int
-        conn: a Postgres DB connection object
-    return:
-        integer, last trading day of year that we have data for
+    conn: a Postgres DB connection object
     """  
     cur = conn.cursor()
     SQL =   """
@@ -94,10 +90,20 @@ def resample( data ):
     dat.index = dat.index.tz_localize('UTC').tz_convert('US/Eastern')
     dat       = dat.fillna(method='ffill')
     return dat
-#--------------------------------------------------------------------------------------------------------
 
 
 
+#--------------------------------------------------------------------------------------------------------------------------
+def PickRandomPair(self, pair_type):
+       pairs = {
+            'major': ['EUR_USD', 'USD_JPY', 'GBP_USD', 'USD_CAD', 'USD_CHF', 'AUD_USD', 'NZD_USD'],
+            'minor': ['EUR_GBP', 'EUR_CHF', 'EUR_CAD', 'EUR_AUD', 'EUR_NZD', 'EUR_JPY', 'GBP_JPY', 'CHF_JPY', 'CAD_JPY', 'AUD_JPY', 'NZD_JPY', 'GBP_CHF', 'GBP_AUD', 'GBP_CAD'],
+            'exotic': ['EUR_TRY', 'USD_SEK', 'USD_NOK', 'USD_DKK', 'USD_ZAR', 'USD_HKD', 'USD_SGD'],
+            'all': ['EUR_USD', 'USD_JPY', 'GBP_USD', 'USD_CAD', 'USD_CHF', 'AUD_USD', 'NZD_USD', 'EUR_GBP', 'EUR_CHF', 'EUR_CAD', 'EUR_AUD', 'EUR_NZD', 'EUR_JPY', 'GBP_JPY', 'CHF_JPY', 'CAD_JPY', 'AUD_JPY', 'NZD_JPY', 'GBP_CHF', 'GBP_AUD', 'GBP_CAD', 'EUR_TRY', 'USD_SEK', 'USD_NOK', 'USD_DKK', 'USD_ZAR', 'USD_HKD', 'USD_SGD']
+        }
+       return pairs[pair_type][randint(0, len(pairs[pair_type]) - 1)]
+
+#--------------------------------------------------------------------------------------------------------------------------
 
 dome_sign = 'cu'
 dome_expire_year = ['17', '18']
@@ -127,11 +133,43 @@ put_symbols = [x for x in option_symbols if 'P' in x]
 all_symbols = future_symbols + option_symbols
 all_symbols.sort()
 
-#--------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------
 
 CURRENCIES = ['eur', 'gbp', 'aud', 'nzd', 'usd', 'cad', 'chf', 'jpy']
 def pairs():
     return list(itertools.combinations(CURRENCIES, 2))
+
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+ def make_instrument_triangles(self, instruments):
+
+        # Making a list of all instrument pairs (based on quoted currency)
+        first_instruments = []
+        for instrument in itertools.combinations(instruments, 2):
+            quote1 = instrument[0][4:]
+            if quote1 in instrument[1]:
+                first_instruments.append((instrument[0], instrument[1]))
+
+        # Adding the final instrument to the pairs to convert currency back to starting ...
+	# ... (based on the currency only in one pair and the starting currency)
+        for instrument in first_instruments:
+            currency1 = instrument[0][:3]
+            currency2 = instrument[0][4:]
+            currency3 = instrument[1][:3]
+            currency4 = instrument[1][4:]
+            currencies = [currency1, currency2]
+            if currency3 not in currencies:
+                currencies.append(currency3)
+            elif currency4 not in currencies:
+                currencies.append(currency4)
+            for combo in itertools.combinations(currencies, 2):
+                combo_str = combo[0] + '_' + combo[1]
+                if combo_str not in instrument and combo_str in instruments:
+                    instruments.append(
+                        (instrument[0], instrument[1], combo_str))
+
+     return instruments
 
 #--------------------------------------------------------------------------------------------------------
 import re
