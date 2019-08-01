@@ -1,3 +1,20 @@
+
+# -------------------------------------------------------------------------------------------------------------
+
+day = re.compile('[1-3][0-9]?') # day regex
+year = re.compile('20[0-9]{2}') # year regex
+    
+tmp = self.soup.find('small', text=re.compile('market', re.IGNORECASE)).text.split('Market')[0].strip()
+self.year = year.search(tmp).group(0)
+self.day = day.search(tmp).group(0)
+months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+for ii, mo in enumerate(months, 1): # iterate over months and flag if match found
+    more = re.compile(mo, re.IGNORECASE)
+    if more.search(tmp):
+        self.month = ii
+        break
+
+
 # -------------------------------------------------------------------------------------------------------------
 
 # http://dateutil.readthedocs.io/en/stable/rrule.html
