@@ -195,17 +195,11 @@ import os
 quandl.ApiConfig.api_key = os.environ["QUANDL_API_KEY"]
 nse = quandl.Database('NSE')
 
-# retrieve first page of 100 stocks in NSE
-
 nse_stocks_page = nse.datasets()
 pageCount = 1
-
-# restricting the pageCount not to exceed daily call limit
-
-while nse_stocks_page.has_more_results() and pageCount < 7:
+while nse_stocks_page.has_more_results() and pageCount < 7: # restricting the pageCount not to exceed daily call limit
     for nse_stock in nse_stocks_page:
         print("{0}\t\t{1}".format(nse_stock.code, nse_stock.name))
-
     pageCount = pageCount + 1
     nse_stocks_page = nse.datasets(params = {"page":pageCount})
 
@@ -238,12 +232,9 @@ def get_quote_data(symbol, data_range, data_interval):
 
     return df
 
-
 data = get_quote_data('F', '5d', '1m')
 print(data)
     
-    
-
 #------------------------------------------------------------------------------------------------------------------------------
 
 from io import StringIO
@@ -386,17 +377,6 @@ def read_line_from_file(filename):
 
 #--------------------------------------------------------------------------------------------------------
 
-"""
-Momentum
-Source: https://en.wikipedia.org/wiki/Momentum_(technical_analysis)
-Params: 
-    data: pandas DataFrame
-	periods: period for calculating momentum
-	close_col: the name of the CLOSE values column
-    
-Returns:
-    copy of 'data' DataFrame with 'momentum' column added
-"""
 def momentum(data, periods=14, close_col='<CLOSE>'):
     data['momentum'] = 0.
     
@@ -417,6 +397,8 @@ print(1 < a < 50)
 print(10 == a < 20)
 
 
+
+#--------------------------------------------------------------------------------------------------------
 """Concatenate long strings elegantly 
 across line breaks in code"""
 
@@ -425,6 +407,7 @@ my_long_text = ("We are no longer the knights who say Ni! "
                 "ekki-p'tang-zoom-boing-z'nourrwringmm!")
 
 
+#--------------------------------------------------------------------------------------------------------
 """calling different functions with same arguments based on condition"""
 def product(a, b):
     return a * b
@@ -436,6 +419,8 @@ b = True
 print((product if b else subtract)(1, 1))
 
 
+
+#--------------------------------------------------------------------------------------------------------
 """else gets called when for loop does not reach break statement"""
 a = [1, 2, 3, 4, 5]
 for el in a:
@@ -444,6 +429,8 @@ for el in a:
 else:
      print('did not break out of for loop')
 
+
+#--------------------------------------------------------------------------------------------------------
 d1 = {'a': 1}
 d2 = {'b': 2}
 
@@ -451,38 +438,21 @@ d1.update(d2)
 print(d1)
 
 
-"""
-Find Index of Min/Max Element.
-"""
+#--------------------------------------------------------------------------------------------------------
+# Find Index of Min Element
 
 lst = [40, 10, 20, 30]
+min(range(len(lst)), key=lst.__getitem__)
 
 
-def minIndex(lst):
-    return min(range(len(lst)), key=lst.__getitem__)  # use xrange if < 2.7
-
-
-def maxIndex(lst):
-    return max(range(len(lst)), key=lst.__getitem__)  # use xrange if < 2.7
-
-print(minIndex(lst))
-print(maxIndex(lst))
-
-
-"""
-Convert raw string integer inputs to integers
-"""
+#--------------------------------------------------------------------------------------------------------
+# Convert raw string integer inputs to integers
 
 str_input = "1 2 3 4 5 6"
-
-print("### Input ###")
-print(str_input)
-
 int_input = map(int, str_input.split())
-
-print("### Output ###")
 print(list(int_input))
 
+#--------------------------------------------------------------------------------------------------------
 
 """ You can have an 'else' clause with try/except. 
     It gets excecuted if no exception is raised.
