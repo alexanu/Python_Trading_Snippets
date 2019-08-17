@@ -13,15 +13,31 @@ all_winning_trades = df_results[pnl_col_name].loc[mask]
         array_pd_dfs.append(stock_data)
 
 #--------------------------------------------------------------------------------------------------------
+df[df["gender"] == "M"]["name"].nunique() # Unique names for male
+df[(df["M"] >= 50000) & (df["F"] >= 50000)] # names that atleast have 50,000 records for each gender
+
+male_df = df[df["gender"] == "M"].groupby("year").sum()
+male_df.min()["count"]
+male_df.idxmin()["count"]
+
+df[df["year"] >= 2008].pivot_table(index="name", columns="year", values="count", aggfunc=np.sum).fillna(0)
+
+# Step by step approach, ...
+df = df[df["gender"] == "M"]
+df = df[["name", "count"]]
+df = df.groupby("name")
+df = df.sum()
+df = df.sort_values("count", ascending=False)
+df.head(10)
+# ... the same one-liner
+df[df["gender"] == "M"][["name", "count"]].groupby("name").sum().sort_values("count", ascending=False).head(10)
 
 
-def create_directories(self):
-        main_directory = "PairsResults"+self.params
-        
-        if not os.path.exists(main_directory):
-            os.makedirs(main_directory)
-        if not os.path.exists(self.directory_pair):
-            os.makedirs(self.directory_pair)
+
+
+
+
+
 
 #--------------------------------------------------------------------------------------------------------
 
@@ -364,6 +380,17 @@ def get_history_quotes(ticker):
 
 #--------------------------------------------------------------------------------------------------------
 
+
+def create_directories(self):
+        main_directory = "PairsResults"+self.params
+        
+        if not os.path.exists(main_directory):
+            os.makedirs(main_directory)
+        if not os.path.exists(self.directory_pair):
+            os.makedirs(self.directory_pair)
+        return 0		
+#--------------------------------------------------------------------------------------------------------
+
 def read_line_from_file(filename):
     """Load lines from csv file"""
     lines = []
@@ -373,6 +400,81 @@ def read_line_from_file(filename):
     if len(lines) > 0:
         lines = lines[1:]
     return lines
+
+
+#--------------------------------------------------------------------------------------------------------
+
+# download the zip file and saved it to our computer
+import requests
+url = "https://www.ssa.gov/oact/babynames/names.zip"
+with requests.get(url) as response:
+    with open("names.zip", "wb") as temp_file:
+        temp_file.write(response.content)
+
+data_list = [["year", "name", "gender", "count"]] # 2-dimensional Array (list of lists)
+
+with ZipFile("names.zip") as temp_zip: # open the zip file into memory
+    for file_name in temp_zip.namelist(): # Then we read the file list.
+        if ".txt" in file_name: # We will only process .txt files.
+            with temp_zip.open(file_name) as temp_file: # read the current file from the zip file.
+                # The file is opened as binary, we decode it using utf-8 so it can be manipulated as a string.
+                for line in temp_file.read().decode("utf-8").splitlines():
+                    line_chunks = line.split(",")
+                    year = file_name[3:7]
+                    name = line_chunks[0]
+                    gender = line_chunks[1]
+                    count = line_chunks[2]
+
+                    data_list.append([year, name, gender, count])
+
+csv.writer(open("data.csv", "w", newline="", # We save the data list into a csv file.
+                encoding="utf-8")).writerows(data_list)
+                # I prefer to use writerows() instead of writerow() ...
+                # ...since it is faster as it does it in bulk instead of one row at a time.
+
+
+
+#--------------------------------------------------------------------------------------------------------
+
+'''divide text (csv or ...) to small files with defined number of lines'''
+import os
+
+def splitter(name, parts = 100000):
+    # make dir for files
+    if not os.path.exists(name.split('.')[0]):
+        os.makedirs(name.split('.')[0])
+    f = open(name, 'r', errors = 'ignore')
+    lines = f.readlines()
+    f.close()
+    i = 0
+    while i < len(lines):
+        for item in lines[i:i+parts]:
+            f2 = open(name.split('.')[0]+ '/'name.split('.')[0]+ str(i)+'.txt', 'a+', errors = 'ignore') 
+            f2.write(item)
+            f2.close()
+    i += parts
+
+#--------------------------------------------------------------------------------------------------------
+'''
+Short function using Pandas to export data from MongoDB to excel
+'''
+import pandas as pd
+from pymongo import MongoClient
+
+# Connectio URI can be in shape mongodb://<username>:<password>@<ip>:<port>/<authenticationDatabase>')
+client = MongoClient('mongodb://localhost')
+
+def export_to_excel(name, collection, database):
+    '''
+    save collection from MongoDB as .xlsx file, name of file is argument of function 
+    collection <string> is name of collection 
+    database <string> is name of database
+    '''
+    data = list(client[database][collection].find({},{'_id':0}))
+    df =  pd.DataFrame(data)
+    #writer = pd.ExcelWriter('{}.xlsx'.format(name), engine='xlsxwriter')
+    df.to_excel('{}.xlsx'.format(name)') #writer, sheet_name='Sheet1')
+    #writer.save()
 
 
 #--------------------------------------------------------------------------------------------------------
@@ -391,24 +493,69 @@ def momentum(data, periods=14, close_col='<CLOSE>'):
 
 #--------------------------------------------------------------------------------------------------------
 
-"""chained comparison with all kind of operators"""
+# chained comparison with all kind of operators
 a = 10
 print(1 < a < 50)
 print(10 == a < 20)
 
 
-
 #--------------------------------------------------------------------------------------------------------
-"""Concatenate long strings elegantly 
-across line breaks in code"""
+# Concatenate long strings elegantly across line breaks in code
 
 my_long_text = ("We are no longer the knights who say Ni! "
                 "We are now the knights who say ekki-ekki-"
                 "ekki-p'tang-zoom-boing-z'nourrwringmm!")
 
 
+#--------------------------------------------------------------------------------------------------------		
+# extract US numbers from text
+import re
+numbers = ' 123.456.7889 (123)-456-7888 (425) 465-7523 456 123-7891 111 111.1111 (222)333-4444 666 777 8888 987-654-4321'
+res = re.findall(r'\d{3}\)*?\-*?\s*?\.*?\d{3}\-*?\s*?\.*?\d{3}', numbers)		
+
+
 #--------------------------------------------------------------------------------------------------------
-"""calling different functions with same arguments based on condition"""
+# clean spaces in strings
+		
+import re
+def clean(string): # cleans string from empty spaces on the start and on the end
+    # input is : "   Hello World    " and output is "Hello World"
+		
+    first = 0
+    for item in string:
+        if item != ' ':
+            first = string.index(item)
+            break
+    string = string[::-1]
+    last = 0
+    for item in string:
+        if item != ' ':
+            last = string.index(item)
+            break
+    return string[::-1][first:len(string)-last]
+    
+def clean2(string): # the same purpose as above
+    nonempty = [string.index(item) for item in string if item != ' ']
+    nonempty2 = [string[::-1].index(item) for item in string[::-1] if item != ' ']
+    return string[nonempty[0]:len(string) -nonempty2[0]]
+
+def clean3(string): # clean string from rebundant spaces
+    try:
+        for item in re.findall('[" "]{2,}',string):
+            string = string.replace(item, ' ')
+            if string[0] == ' ':
+                string = string[1:]
+            if string[-1] == ' ':
+                string = string[:-1]
+        return string
+    except:
+return string
+		
+		
+		
+#--------------------------------------------------------------------------------------------------------
+# calling different functions with same arguments based on condition
+
 def product(a, b):
     return a * b
 
@@ -421,7 +568,7 @@ print((product if b else subtract)(1, 1))
 
 
 #--------------------------------------------------------------------------------------------------------
-"""else gets called when for loop does not reach break statement"""
+# else gets called when for loop does not reach break statement
 a = [1, 2, 3, 4, 5]
 for el in a:
     if el == 0:
@@ -440,7 +587,6 @@ print(d1)
 
 #--------------------------------------------------------------------------------------------------------
 # Find Index of Min Element
-
 lst = [40, 10, 20, 30]
 min(range(len(lst)), key=lst.__getitem__)
 
@@ -483,4 +629,20 @@ for item in dctA.items() & dctB.items():
 print(item)
 
 #--------------------------------------------------------------------------------------------------------
+
+''' use threading module for paralel running of some function '''
+
+import time
+from threading import Thread
+
+def no_arg(func, instances): # func is function withOUT arguments
+    for i in range(instances): # number of threads equals instances
+        t = Thread(target=func)
+        t.start()
+
+def with_arg(func, instances,args): # func is function with arguments
+    for i in range(instances): # number of threads equals instances
+        t = Thread(target=func, args = args) # arguments in tuple
+	t.start()
+
 

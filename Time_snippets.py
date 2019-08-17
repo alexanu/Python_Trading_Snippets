@@ -152,7 +152,20 @@ def closest_business_day_in_past(date=None):
 
 # -------------------------------------------------------------------------------------------------------------
 
+# We want to transform the value to a valid date. 
+# value "09/2007" to date 2007-09-01. 
+# value "2006" to date 2016-01-01.
 
+import datetime
+
+def parse_thisdate(text: str) -> datetime.date:
+    parts = text.split('/')
+    if len(parts) == 2:
+        return datetime.date(int(parts[1]), int(parts[0]), 1)
+    elif len(parts) == 1:
+        return datetime.date(int(parts[0]), 1, 1)
+    else:
+        assert False, 'Unknown date format'
 
 # -------------------------------------------------------------------------------------------------------------
 
