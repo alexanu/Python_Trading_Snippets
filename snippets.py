@@ -2,8 +2,8 @@ mask = df_results[pnl_col_name] > 0
 all_winning_trades = df_results[pnl_col_name].loc[mask] 
 
     # for each ticker in our pair
-    for ticker in stocks:
-        # filter our column based on a date range
+      for ticker in stocks:
+          # filter our column based on a date range
         mask = (stock_data['Date'] > start_date) & (stock_data['Date'] <= end_date)
         # rebuild our dataframe
         stock_data = stock_data.loc[mask]
@@ -387,8 +387,7 @@ def create_directories(self):
         if not os.path.exists(main_directory):
             os.makedirs(main_directory)
         if not os.path.exists(self.directory_pair):
-            os.makedirs(self.directory_pair)
-        return 0		
+            os.makedirs(self.directory_pair)		
 #--------------------------------------------------------------------------------------------------------
 
 def read_line_from_file(filename):
@@ -400,6 +399,48 @@ def read_line_from_file(filename):
     if len(lines) > 0:
         lines = lines[1:]
     return lines
+
+#--------------------------------------------------------------------------------------------------------
+
+'''divide text (csv or ...) to small files with defined number of lines'''
+import os
+
+def splitter(name, parts = 100000):
+    # make dir for files
+    if not os.path.exists(name.split('.')[0]):
+        os.makedirs(name.split('.')[0])
+    f = open(name, 'r', errors = 'ignore')
+    lines = f.readlines()
+    f.close()
+    i = 0
+    while i < len(lines):
+        for item in lines[i:i+parts]:
+            f2 = open(name.split('.')[0]+ '/'name.split('.')[0]+ str(i)+'.txt', 'a+', errors = 'ignore') 
+            f2.write(item)
+            f2.close()
+    i += parts
+
+#--------------------------------------------------------------------------------------------------------
+'''
+Short function using Pandas to export data from MongoDB to excel
+'''
+import pandas as pd
+from pymongo import MongoClient
+
+# Connectio URI can be in shape mongodb://<username>:<password>@<ip>:<port>/<authenticationDatabase>')
+client = MongoClient('mongodb://localhost')
+
+def export_to_excel(name, collection, database):
+    '''
+    save collection from MongoDB as .xlsx file, name of file is argument of function 
+    collection <string> is name of collection 
+    database <string> is name of database
+    '''
+    data = list(client[database][collection].find({},{'_id':0}))
+    df =  pd.DataFrame(data)
+    #writer = pd.ExcelWriter('{}.xlsx'.format(name), engine='xlsxwriter')
+    df.to_excel('{}.xlsx'.format(name)') #writer, sheet_name='Sheet1')
+    #writer.save()
 
 
 #--------------------------------------------------------------------------------------------------------
