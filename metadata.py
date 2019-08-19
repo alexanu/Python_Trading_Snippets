@@ -1,3 +1,20 @@
+def list_of_companies(exchange: str = "all"):
+        nasdaq_request = requests.get("https://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nasdaq&render=download" )
+        nasdaq_dataframe = nasdaq_request.content %>% .decode("utf-8") %>% io.StringIO() %>% pandas.read_csv()
+        nyse_request = requests.get("https://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=nyse&render=download" )
+        nyse_dataframe = nyse_request.content %>% .decode("utf-8") %>% io.StringIO() %>% pandas.read_csv()
+        amex_request = requests.get("https://www.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange=amex&render=download" )
+        amex_dataframe = amex_request.content %>% .decode("utf-8") %>% io.StringIO() %>% pandas.read_csv()
+
+        if exchange == "all":
+            dataframe = nyse_dataframe.append(nasdaq_dataframe, ignore_index=True)
+            dataframe = dataframe.append(amex_dataframe, ignore_index=True)
+        dataframe = dataframe.drop(columns=["Summary Quote", "Unnamed: 8"])
+        return dataframe
+
+
+#-----------------------------------------------------------------------------------------------------------------------
+
 class Period:
     """Periods available for the charts
     Values are the minutes of each period
