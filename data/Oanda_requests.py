@@ -1,3 +1,7 @@
+
+# schema is here: 
+# https://bubbl.us/NDc3NDc4NC80MDkzODQwL2U4Mjg0YTdlMmMzOTBlY2E5MzIyYzZjNGEzMjVhNGUw@X?utm_source=shared-link&utm_medium=link&s=10055319
+
 import json
 import requests
 import datetime
