@@ -388,7 +388,29 @@ def create_directories(self):
             os.makedirs(main_directory)
         if not os.path.exists(self.directory_pair):
             os.makedirs(self.directory_pair)		
-#--------------------------------------------------------------------------------------------------------
+	
+	
+#-----------------------------------------------------------------------------------------------------------------------	
+
+if os.path.exists('{}'.format(path)):
+	response = input('A database with that path already exists. Are you sure you want to proceed? [Y/N] ')
+	if response == 'Y':
+		for item in os.listdir('{}/trades/'.format(path)):
+			os.remove('{}/trades/{}'.format(path, item))
+		os.rmdir('{}/trades/'.format(path))
+		for item in os.listdir('{}'.format(path)):
+			os.remove('{}/{}'.format(path, item))
+		os.rmdir('{}'.format(path))
+print('Creating a new database in directory: {}/'.format(path))
+self.trades_path = '{}/trades/'.format(path)
+os.makedirs(path)
+os.makedirs(self.trades_path)
+for name in names:
+	with open(self.trades_path + 'trades_{}.txt'.format(name), 'w') as trades_file:
+		trades_file.write('sec,nano,name,side,shares,price\n')
+			
+			
+#-----------------------------------------------------------------------------------------------------------------------
 
 def read_line_from_file(filename):
     """Load lines from csv file"""
