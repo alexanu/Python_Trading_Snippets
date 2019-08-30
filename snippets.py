@@ -673,4 +673,20 @@ def with_arg(func, instances,args): # func is function with arguments
         t = Thread(target=func, args = args) # arguments in tuple
 	t.start()
 
+		
+#--------------------------------------------------------------------------------------------------------		
+# Parallel programming with Pool
+
+# Importing the multiprocessing 
+from multiprocessing import Pool
+
+# function to which we'll perform multi-processing
+def cube(i):
+    i = i+1
+    z = i**3
+    return z
+
+# using pool class to map the function with iterable arguments-
+print(Pool().map(cube, [1, 2, 3]))
+		
 
