@@ -1,42 +1,13 @@
 mask = df_results[pnl_col_name] > 0
 all_winning_trades = df_results[pnl_col_name].loc[mask] 
-
-    # for each ticker in our pair
-      for ticker in stocks:
-          # filter our column based on a date range
-        mask = (stock_data['Date'] > start_date) & (stock_data['Date'] <= end_date)
-        # rebuild our dataframe
-        stock_data = stock_data.loc[mask]
-        # re-index the data
-        stock_data = stock_data.reset_index(drop=True)
-        # append our df to our array
-        array_pd_dfs.append(stock_data)
-
+   
 #--------------------------------------------------------------------------------------------------------
-df[df["gender"] == "M"]["name"].nunique() # Unique names for male
-df[(df["M"] >= 50000) & (df["F"] >= 50000)] # names that atleast have 50,000 records for each gender
-
-male_df = df[df["gender"] == "M"].groupby("year").sum()
-male_df.min()["count"]
-male_df.idxmin()["count"]
-
-df[df["year"] >= 2008].pivot_table(index="name", columns="year", values="count", aggfunc=np.sum).fillna(0)
-
-# Step by step approach, ...
-df = df[df["gender"] == "M"]
-df = df[["name", "count"]]
-df = df.groupby("name")
-df = df.sum()
-df = df.sort_values("count", ascending=False)
-df.head(10)
-# ... the same one-liner
-df[df["gender"] == "M"][["name", "count"]].groupby("name").sum().sort_values("count", ascending=False).head(10)
-
-
-
-
-
-
+	
+for ticker in stocks: # for each ticker in our pair          
+	mask = (stock_data['Date'] > start_date) & (stock_data['Date'] <= end_date) # filter our column based on a date range   
+	stock_data = stock_data.loc[mask] # rebuild our dataframe
+	stock_data = stock_data.reset_index(drop=True) # re-index the data        
+	array_pd_dfs.append(stock_data) # append our df to our array
 
 
 #--------------------------------------------------------------------------------------------------------
@@ -60,8 +31,7 @@ def fetch_last_day_mth(year_, conn):
 #--------------------------------------------------------------------------------------------------------
 
 
-def data_array_merge(data_array):
-    # merge all dfs into one dfs
+def data_array_merge(data_array): # merge all dfs into one dfs    
     merged_df = functools.reduce(lambda left,right: pd.merge(left,right,on='Date'), data_array)
     merged_df.set_index('Date', inplace=True)
     return merged_df
@@ -443,6 +413,21 @@ def splitter(name, parts = 100000):
     i += parts
 
 #--------------------------------------------------------------------------------------------------------
+''' Seperates dataframe into multiple by treatment
+E.g. if treatment is 'gender' with possible values 1 (male) or 2 (female) 
+the function returns a list of two frames (one with all males the other with all females) '''
+
+def seperated_dataframes(df, treatment):
+    treat_col = data[treatment] # col with the treatment
+    dframes_sep = [] # list to hold seperated dataframes 
+    for cat in categories(treat_col): # Go through all categories of the treatment
+         for the treatmet into a new dataframe
+        df = data[treat_col == cat] # select all rows that match the category        
+        dframes_sep.append(df) # append the selected dataframe
+    return dframes_sep
+
+
+#--------------------------------------------------------------------------------------------------------
 '''
 Short function using Pandas to export data from MongoDB to excel
 '''
@@ -496,26 +481,6 @@ csv.writer(open("data.csv", "w", newline="", # We save the data list into a csv 
                 # ...since it is faster as it does it in bulk instead of one row at a time.
 
 
-
-#--------------------------------------------------------------------------------------------------------
-
-'''divide text (csv or ...) to small files with defined number of lines'''
-import os
-
-def splitter(name, parts = 100000):
-    # make dir for files
-    if not os.path.exists(name.split('.')[0]):
-        os.makedirs(name.split('.')[0])
-    f = open(name, 'r', errors = 'ignore')
-    lines = f.readlines()
-    f.close()
-    i = 0
-    while i < len(lines):
-        for item in lines[i:i+parts]:
-            f2 = open(name.split('.')[0]+ '/'name.split('.')[0]+ str(i)+'.txt', 'a+', errors = 'ignore') 
-            f2.write(item)
-            f2.close()
-    i += parts
 
 #--------------------------------------------------------------------------------------------------------
 '''
