@@ -169,6 +169,66 @@ def parse_thisdate(text: str) -> datetime.date:
 
 # -------------------------------------------------------------------------------------------------------------
 
+# https://github.com/alexanu/market_calendars
+# Chinese and US trading calendars with date math utilities 
+# based on pandas_market_calendar
+# Speed is achieved via Cython
+
+import sys
+sys.path.append("../") 
+import market_calendars as mcal
+from market_calendars.core import Date, Period, Calendar, Schedule
+
+current_date = Date(2015, 7, 24) # create date object
+two_days_later = current_date + 2 # => Date(2015, 7, 26)
+str(two_days_later) # => '2015-07-26'
+current_date + '1M' # => Date(2015, 8, 24)
+current_date + Period('1M') # same with previous line # => Date(2015, 8, 24)
+
+current_date.strftime("%Y%m%d") # => '20150724'
+Date.strptime('20160115', '%Y%m%d') # => Date(2016, 1, 15)
+Date.strptime('2016-01-15', '%Y-%m-%d') # => Date(2016, 1, 15)
+import datetime as dt
+Date.from_datetime(dt.datetime(2015, 7, 24)) # => Date(2015, 7, 24)
+
+
+
+cal_sse = mcal.get_calendar('China.SSE') # create chinese shanghai stock exchange calendar
+cal_nyse = mcal.get_calendar('NYSE') # create nyse calendar
+cal_sse.name, cal_sse.tz # return name and time zone => ('China.SSE', <DstTzInfo 'Asia/Shanghai' LMT+8:06:00 STD>)
+
+cal_sse.holidays('2018-09-20', '2018-10-10') # return holidays in datetime format
+cal_sse.holidays('2018-09-20', '2018-10-10', return_string=True) # return holidays in string format
+cal_sse.holidays('2018-09-20', '2018-10-10', return_string=True, include_weekends=False) # return holidays excluding weekends
+cal_sse.biz_days('2015-05-20', '2015-06-01') # return biz days in datetime format
+
+
+
+cal_sse.is_biz_day('2014-09-22'), cal_sse.is_biz_day('20140130') # => (True, True)
+cal_sse.is_holiday('2016-10-01'), cal_sse.is_holiday('2014/9/21') # => (True, True)
+cal_sse.is_weekend('2014-01-25'), cal_sse.is_weekend('2011/12/31') # => (True, True)
+cal_sse.is_end_of_month('2011-12-30'), cal_sse.is_end_of_month('20120131') # => (True, True)
+
+
+cal_sse.adjust_date('20130131') # => datetime.datetime(2013, 1, 31, 0, 0)
+cal_sse.adjust_date('20130131', return_string=True) # => '2013-01-31'
+cal_sse.adjust_date('2017/10/01') # => datetime.datetime(2017, 10, 9, 0, 0)
+cal_sse.adjust_date('2017/10/01', convention=2) # => datetime.datetime(2017, 9, 29, 0, 0)
+
+cal_sse.advance_date('2017-04-27', '2b') # => datetime.datetime(2017, 5, 2, 0, 0)
+cal_sse.advance_date('20170427', '2b', return_string=True) # => '2017-05-02'
+cal_sse.advance_date('20170427', '1w', return_string=True) # => '2017-05-04'
+cal_sse.advance_date('20170427', '1m', return_string=True) # => '2017-05-31'
+cal_sse.advance_date('20170427', '-1m', return_string=True) # => '2017-03-27'
+
+cal_sse.schedule('2018-01-05', '2018-02-01', '1w', return_string=True, date_generation_rule=2) # => ['2018-01-05', '2018-01-12', '2018-01-19', '2018-01-26', '2018-02-01']
+
+
+
+
+
+
+
 
 
 # -------------------------------------------------------------------------------------------------------------
