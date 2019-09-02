@@ -1,6 +1,6 @@
+# Source: https://github.com/thoriuchi0531/intraday_data
 # Schema is here:
 # https://bubbl.us/NDc3NDc4NC8zODMxOTMwLzAxOWMyZmJiYThkYmNmYzM0OTMyYzczNTI4MTA3ZGVk@X?utm_source=shared-link&utm_medium=link&s=10033179
-
 
 
 import requests
@@ -14,11 +14,7 @@ import pandas as pd
 from arctic.date import DateRange
 
 from adagio.utils.date import date_shift
-from adagio.utils.logging import get_logger
-from adagio.utils.mongo import get_library
 
-logger = get_logger(__name__)
-library = get_library('truefx_fx_rates')
 
 ccy_pairs = ['AUDJPY', 'AUDNZD', 'AUDUSD', 'CADJPY', 'CHFJPY', 'EURCHF',
              'EURGBP', 'EURJPY', 'EURUSD', 'GBPJPY', 'GBPUSD', 'NZDUSD',
@@ -29,6 +25,18 @@ url_change_date = datetime(2017, 4, 1)
 root_url = r'https://www.truefx.com/dev/data'
 download_to = expanduser('~')
 data_frequency = '1min'
+
+
+from arctic import Arctic
+arctic_store = Arctic(arctic_host = 'localhost')
+
+def get_library(library_name):
+    libraries = arctic_store.list_libraries()
+    if library_name not in libraries:
+        arctic_store.initialize_library(library_name)
+    return arctic_store[library_name]
+  
+library = get_library('truefx_fx_rates')
 
 
 def get_last_update(symbol):
@@ -42,9 +50,7 @@ def get_last_update(symbol):
 
 
 def get_download_url(ccy_pair, download_date):
-    """ Return download url """
     filename = '{}-{}.zip'.format(ccy_pair, download_date.strftime('%Y-%m'))
-
     if download_date < url_change_date:
         dir = download_date.strftime('%B-%Y').upper()
     else:
@@ -72,9 +78,7 @@ def get_df_from_csv(csv_filepath):
 
 
 def data_to_mongo(symbol, data):
-    metadata = {
-        'last_datetime': data.index[-1]
-    }
+    metadata = {'last_datetime': data.index[-1]}
 
     if library.has_symbol(symbol):
         # only append non-overlapping part
@@ -86,34 +90,24 @@ def data_to_mongo(symbol, data):
 
         save_from = date_shift(existing_up_to, data_frequency)
         save_data = data.loc[save_from:, :]
-        logger.debug('Append {} rows'.format(len(save_data)))
         library.append(symbol, save_data, metadata=metadata)
     else:
-        logger.debug('Write {} rows'.format(len(data)))
         library.write(symbol, data, metadata=metadata)
 
-
+        
 if __name__ == '__main__':
     for ccy_pair in ccy_pairs:
-        logger.info('Updating {}'.format(ccy_pair))
         last_update = get_last_update(ccy_pair)
         download_date = date_shift(last_update, '+MonthBegin')
         last_month = date_shift(datetime.today(), '-MonthEnd')
 
         while download_date < last_month:
-            logger.info('Downloading {}-{}'.format(download_date.year,
-                                                   download_date.month))
             download_url = get_download_url(ccy_pair, download_date)
             filename = download_url.split('/')[-1].replace('zip', 'csv')
-
-            logger.debug('Try download: {}'.format(download_url))
             download_zip_from_url(download_url, download_to)
-
-            logger.debug('Loading csv: {}'.format(filename))
             csv_filepath = join(download_to, filename)
             data = get_df_from_csv(csv_filepath)
-            # remove duplicate rows, also sometimes csv contains NaNs.
-            data = data[~data.index.duplicated(keep='last')].dropna()
+            data = data[~data.index.duplicated(keep='last')].dropna() # remove duplicate rows and NaNs
             data_1min = data.sort_index().resample(data_frequency).last()
 
             is_unique = data_1min.index.is_unique
@@ -123,7 +117,6 @@ if __name__ == '__main__':
                                  'is_monotonic_increasing={}'
                                  .format(is_unique, is_monotonic_increasing))
 
-            logger.debug('Pushing to MongoDB')
             data_to_mongo(ccy_pair, data_1min)
             download_date = date_shift(download_date, '+1m')
             remove(csv_filepath)
