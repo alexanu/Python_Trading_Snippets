@@ -1,8 +1,6 @@
+# Source: https://github.com/thoriuchi0531/adagio
+
 import re
-from .decorators import check_quandl_ticker
-from .const import (FutureContractMonth, QUANDL_FULL_TICKER_MATCH,
-                    QUANDL_GENERIC_TICKER_MATCH, QUANDL_TICKER_FORMAT)
-from . import keys
 
 QUANDL_FULL_TICKER_MATCH = '^\w+/\w+[FGHJKMNQUVXZ][0-9]+$'
 QUANDL_GENERIC_TICKER_MATCH = '^\w+/\w+$'
