@@ -1,3 +1,5 @@
+# Source: https://github.com/thoriuchi0531/adagio
+
 from collections import namedtuple
 from datetime import datetime
 from enum import Enum, unique
