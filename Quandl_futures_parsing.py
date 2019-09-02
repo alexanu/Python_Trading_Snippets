@@ -2,8 +2,26 @@ import re
 from .decorators import check_quandl_ticker
 from .const import (FutureContractMonth, QUANDL_FULL_TICKER_MATCH,
                     QUANDL_GENERIC_TICKER_MATCH, QUANDL_TICKER_FORMAT)
-from .mongo import get_library
 from . import keys
+
+QUANDL_FULL_TICKER_MATCH = '^\w+/\w+[FGHJKMNQUVXZ][0-9]+$'
+QUANDL_GENERIC_TICKER_MATCH = '^\w+/\w+$'
+QUANDL_TICKER_FORMAT = '^{}[FGHJKMNQUVXZ][0-9]+$'
+
+class FutureContractMonth(IntEnum):
+    F = 1
+    G = 2
+    H = 3
+    J = 4
+    K = 5
+    M = 6
+    N = 7
+    Q = 8
+    U = 9
+    V = 10
+    X = 11
+    Z = 12
+    
 
 
 @check_quandl_ticker
@@ -11,17 +29,13 @@ def exchange(ticker):
     """ Return exchange name such as 'CME' """
     return ticker.split('/')[0]
 
-
 @check_quandl_ticker
 def year(ticker):
     """ Return the expiry year such as 2017 in SPH2017 """
     ret = re.findall('[0-9]{4}', ticker)
-
-    # TODO: issue might occur when ticker has more than 4 digits.
     if len(ret) != 1:
         raise ValueError('{} does not valid year information.'.format(ticker))
     return int(ret[0])
-
 
 @check_quandl_ticker
 def futures_contract_name(ticker):
