@@ -1,28 +1,8 @@
+# Source: https://github.com/thoriuchi0531/adagio
+
 from collections import namedtuple
 from enum import IntEnum, Enum
 import os
-
-ROOT_DIRECTORY = os.path.abspath(
-    os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                 os.path.pardir)
-)
-DATA_DIRECTORY = os.path.join(ROOT_DIRECTORY, 'data')
-
-# ------------------------------------------------------------------------------
-# For general backtest information
-# ------------------------------------------------------------------------------
-ANNUAL_FACTOR = 252.0
-
-# ------------------------------------------------------------------------------
-# For futures contract
-# ------------------------------------------------------------------------------
-RETURN_KEY_PRIORITY = ("Settle", "Settlement Price", "Last Traded",
-                       "Last", "Close", "Previous Settlement")
-VOLUME_KEY_PRIORITY = ('Volume', 'Total Volume')
-DEFAULT_ROLL_RULE = "-3bd"
-QUANDL_GENERIC_TICKER_MATCH = '^\w+/\w+$'
-QUANDL_FULL_TICKER_MATCH = '^\w+/\w+[FGHJKMNQUVXZ][0-9]+$'
-QUANDL_TICKER_FORMAT = '^{}[FGHJKMNQUVXZ][0-9]+$'
 
 futures_info = namedtuple("futures_info",
                           ["full_name", "asset_class", "start_from",
