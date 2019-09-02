@@ -5,13 +5,14 @@ from os.path import join
 import pandas as pd
 import quandl
 from pandas_datareader.data import DataReader
+# Source: https://github.com/thoriuchi0531/adagio
+        
+from adagio.utils.date import date_shift
 
-from ..utils.config import AdagioConfig
-from ..utils.const import DATA_DIRECTORY
-from ..utils.date import date_shift
-from ..utils.logging import get_logger
+ROOT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)),os.path.pardir))
+DATA_DIRECTORY = os.path.join(ROOT_DIRECTORY, 'data')
 
-logger = get_logger(name=__name__)
+quandl_token = "XXXXXX"
 START_DATE = datetime(1677, 9, 23)
 
 
@@ -29,54 +30,6 @@ class CashFile(Enum):
     GBP_POLICY_RATE = "BOERUKM"
 
 
-class DayCount(Enum):
-    USD = "ACT/360"
-    EUR = "ACT/360"
-    JPY = "ACT/360"
-    GBP = "ACT/365"
-
-
-def to_monthend(df):
-    """ Shift the index of a dataframe to month-end """
-    df.index = [date_shift(d, "+BMonthEnd") for d in df.index]
-    return df
-
-
-def count_days(df):
-    tmp = pd.Series(df.index.date, index=df.index)
-    delta = tmp - tmp.shift()
-    delta = delta.fillna(0).apply(lambda x: x.days)
-    return delta
-
-
-def get_ann_days(convention):
-    """ Return the denominator of the cash daycount convention """
-    _, days = convention.split("/")
-    return float(days)
-
-
-def get_cash_rate(currency):
-    """ Return historical cash rate for a given currency name """
-    func_map = {
-        "USD": load_usd,
-        "EUR": load_eur,
-        "JPY": load_jpy,
-        "GBP": load_gbp,
-    }
-    cash_rate = func_map[currency]()
-    return cash_rate
-
-
-def to_cash_returns(cash_rate, currency):
-    """ Convert historical cash rate to returns """
-    n_days = count_days(cash_rate)
-    day_fraction = n_days / get_ann_days(DayCount[currency].value)
-
-    name = "cash_return_{}".format(currency.lower())
-    return (cash_rate.div(100).shift().mul(day_fraction)
-            .fillna(0).rename(name))
-
-
 def load_usd():
     """ Return cash rate for USD """
     nyfed_df = DataReader(CashFile.USD_NYFED_DF.value, "fred", START_DATE)
@@ -90,30 +43,23 @@ def load_usd():
             .sum(axis=1).rename("cash_rate_usd"))
     return data
 
-
 def load_eur():
     """ Return cash rate for EUR and DEM prior to the introduction of EUR """
-    bank_rate = quandl.get(CashFile.GER_BANKRATE.value,
-                           api_key=AdagioConfig.quandl_token)
+    bank_rate = quandl.get(CashFile.GER_BANKRATE.value, api_key=quandl_token)
 
-    ww2_data = pd.DataFrame([4.0, 3.5, 5.0],
-                            index=[datetime(1936, 6, 30),
-                                   datetime(1940, 4, 9),
-                                   datetime(1948, 6, 28)])
+    ww2_data = pd.DataFrame([4.0, 3.5, 5.0], index=[datetime(1936, 6, 30),datetime(1940, 4, 9),datetime(1948, 6, 28)])
     ww2_month = pd.date_range('1936-06-01', '1948-06-01', freq='M')
     ww2_month = pd.DataFrame(index=ww2_month)
     ww2_data = pd.concat((ww2_data, ww2_month), axis=1).fillna(method="pad")
 
-    parser = lambda d: date_shift(datetime.strptime(d, "%Y-%m"),
-                                  "+BMonthEnd")
+    parser = lambda d: date_shift(datetime.strptime(d, "%Y-%m"),"+BMonthEnd")
     filename = join(DATA_DIRECTORY, 'cash_rate', 'eur', 'BBK01.SU0112.csv')
-    discount_rate = pd.read_csv(filename,
-                                skiprows=[1, 2, 3, 4], index_col=0,
-                                usecols=[0, 1], engine="python", skipfooter=95,
+    discount_rate = pd.read_csv(filename, index_col=0,
+                                skiprows=[1, 2, 3, 4], usecols=[0, 1], engine="python", skipfooter=95,
                                 parse_dates=True, date_parser=parser)
+    
     ib_rate = DataReader(CashFile.EUR_3M_IB_RATE.value, "fred", START_DATE)
-    libor = quandl.get(CashFile.EUR_3M_EURIBOR.value,
-                       api_key=AdagioConfig.quandl_token)
+    libor = quandl.get(CashFile.EUR_3M_EURIBOR.value, api_key=quandl_token)
 
     data = (pd.concat((bank_rate[:"1936-06"].fillna(method="pad"),
                        ww2_data,
@@ -129,18 +75,15 @@ def load_jpy():
     """ Return cash rate for JPY """
     libor = DataReader(CashFile.JPY_3M_LIBOR.value, 'fred', START_DATE)
 
-    parser = lambda d: date_shift(datetime.strptime(d, "%Y/%m"),
-                                  "+BMonthEnd")
+    parser = lambda d: date_shift(datetime.strptime(d, "%Y/%m"),"+BMonthEnd")
     filename = join(DATA_DIRECTORY, 'cash_rate', 'jpy', 'discount_rate.csv')
     discount_rate = pd.read_csv(filename, index_col=0, usecols=[0, 1],
                                 parse_dates=True, date_parser=parser)
-    data = (pd.concat((discount_rate["1882-10":"1985-12"].astype("float")
-                       .fillna(method="pad"),
+    data = (pd.concat((discount_rate["1882-10":"1985-12"].astype("float").fillna(method="pad"),
                        libor['1986':].fillna(method="pad")),
                       axis=1)
             .sum(axis=1).rename("cash_rate_jpy"))
     return data
-
 
 def load_gbp():
     """ Return cash rate for GBP """
@@ -154,3 +97,16 @@ def load_gbp():
                       axis=1)
             .sum(axis=1).rename("cash_rate_gbp"))
     return data
+
+
+def get_cash_rate(currency):
+    """ Return historical cash rate for a given currency name """
+    func_map = {
+        "USD": load_usd,
+        "EUR": load_eur,
+        "JPY": load_jpy,
+        "GBP": load_gbp,
+    }
+    cash_rate = func_map[currency]()
+    return cash_rate
+
