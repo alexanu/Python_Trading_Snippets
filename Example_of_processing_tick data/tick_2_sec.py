@@ -1,3 +1,14 @@
+
+"""
+Tick source: Netfonds-Tick-Capture. Check this: https://github.com/FEC-UIUC/Netfonds-Tick-Capture
+
+Converts tick data semicolon delimited - TIME;PRICE;VOLUME - format...
+... to second bars - TIME,OPEN,HIGH,LOW,CLOSE,VWAP-PRICE,VOLUME
+
+Source: https://github.com/FEC-UIUC/Ticks-To-Second-Bars/tree/master/src
+
+"""
+
 import os
 import sys
 import csv
