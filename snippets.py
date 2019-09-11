@@ -173,6 +173,26 @@ def get_nasdaq_stocks(filename, column):
     result = [l.split('|')[column] for l in lines.readlines()]
     return [l for l in result if re.match(r'^[A-Z]+$', l)]
 
+
+#--------------------------------------------------------------------------------------------------------
+# List of ETFs
+
+import urllib2
+import pandas
+
+def ETF_from_YH():
+    response = urllib2.urlopen('http://finance.yahoo.com/etf/lists/?mod_id=mediaquotesetf&tab=tab3&rcnt=50')
+    the_page = response.read()
+    splits = the_page.split('<a href=\\"\/q?s=')
+    etf_symbols = [split.split('\\')[0] for split in splits[1:]]
+    return etf_symbols
+
+def get_ETFSymbols(source):
+    if source.lower() == 'yahoo':
+        return ETF_from_YH()
+    elif source.lower() == 'nasdaq':
+        return pandas.read_csv('http://www.nasdaq.com/investing/etfs/etf-finder-results.aspx?download=Yes')['Symbol'].values
+
 #--------------------------------------------------------------------------------------------------------
 
 import quandl
