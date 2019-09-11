@@ -27,12 +27,10 @@ from multiprocessing import Pool
 # Logging
 import logging
 
+
+quandl_token='xxxx'
+
 def make_dir(date):
-    '''
-    @summary: create a directory for some date
-    @param date: the date to create
-    @return: directory path
-    '''
     s_dir = os.getcwd() + '/' + date.strftime('%Y-%m-%d')
     if not os.path.exists(s_dir):
         os.makedirs(s_dir)
@@ -40,20 +38,11 @@ def make_dir(date):
 
 
 def get_index_symbols(date, index='spr', use_cache=True):
-    '''
-    @summary: get index member list from www.barchart.com
-    @param date: job date to run on
-    @param index: the index to derive, e.g. sp400, sp500, sp600
-    @param use_cache: bool value to decide whether use cache data
-    @return: list of index symbols
-    '''
-
     # database path for SPR symbol list
     s_symbol_path = make_dir(date)+'/SPR_symbols.csv'
     if os.path.isfile(s_symbol_path) and use_cache:
         return pd.read_csv(s_symbol_path, index_col=0)
     
-    # derive sp400, sp500, sp600 symbol list from www.barchart.com
     if index in ['sp400', 'sp500', 'sp600']:
         s_url = 'http://www.barchart.com/stocks/' + index + '.php?_dtp1=0'
         ls_lines = urllib2.urlopen(s_url).readlines()
@@ -80,27 +69,16 @@ def get_index_symbols(date, index='spr', use_cache=True):
 
 
 def get_quandl_earnings(date, use_cache=True):
-    '''
-    @summary: create earnings history for each equity in SPR index according to given date
-    @datasource: Quandl
-    @param date: date to run on
-    @param use_cache: True if using previous run data, False to re-run all the stuffs
-    @return: None, save all earnings file in database
-    '''
-    # Derive list of SPR symbols
     ls_spr = get_index_symbols(date, 'spr', use_cache).index.values
     
     # Derive surprise dates for each equity
     for i, s_equity in enumerate(ls_spr):
-        print s_equity
-        
-        # database for equity
         s_equity_path = make_dir(date) + '/' + s_equity + '.csv'
         if os.path.isfile(s_equity_path):
             continue
         
-        # get surprise date from Quandl
-        df_earnings = Quandl.get("ZES/"+s_equity.replace('.','_'), authtoken='p1CszsPdpoP8fKymyAir')
+        
+        df_earnings = Quandl.get("ZES/"+s_equity.replace('.','_'), authtoken=quandl_token) # get surprise date from Quandl
         ls_earnings_dates = df_earnings.index.values
         
         # derive close price from Yahoo
