@@ -1,3 +1,5 @@
+# source https://github.com/jdwittenauer/alpha/blob/master/fetch.py
+
 import time
 import urllib2
 import Quandl
@@ -8,8 +10,7 @@ from sqlalchemy import sql
 from zipfile import ZipFile
 
 
-# TODO - add option to group data retrieval by related code sets
-# TODO - modify code update routine to pull entire existing table in memory at once
+
 
 
 def load_sql_data(engine, table=None, query=None, index=None, date_columns=None):
