@@ -30,12 +30,6 @@ def fetch_last_day_mth(year_, conn):
 
 #--------------------------------------------------------------------------------------------------------
 
-
-def data_array_merge(data_array): # merge all dfs into one dfs    
-    merged_df = functools.reduce(lambda left,right: pd.merge(left,right,on='Date'), data_array)
-    merged_df.set_index('Date', inplace=True)
-    return merged_df
-
 def pair_data_verifier(array_df_data, pair_tickers, threshold=10):
     """
     merge two dataframes, verify if we still have the same number of data we originally had.
