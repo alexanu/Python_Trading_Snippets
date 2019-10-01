@@ -168,6 +168,8 @@ def get_nasdaq_stocks(filename, column):
     return [l for l in result if re.match(r'^[A-Z]+$', l)]
 
 
+
+
 #--------------------------------------------------------------------------------------------------------
 # List of ETFs
 
