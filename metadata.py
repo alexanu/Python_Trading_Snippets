@@ -29,6 +29,63 @@ class Period:
     w1 = 10080  # 1 week
     mn1 = 43200 # 1 month
 
+#-----------------------------------------------------------------------------------------------------------------------       
+#-----------------------------------------------------------------------------------------------------------------------
+
+# Time Enum
+class Span(Enum):
+    FIVE_MINUTE = "5minute"   # Five minute's time
+    TEN_MINUTE = "10minute"   # Ten minute's time
+    DAY = "day"               # 24 hours' time
+    WEEK = "week"             # 7 days' time
+    YEAR = "year"             # 365 days' time
+
+
+def get_history(self, symbol, interval = Span.DAY, span = Span.YEAR, bounds = Bounds.REGULAR):
+        return self.trader.get_historical_quotes(symbol, interval.value, span.value, bounds.value)
+
+
+#-----------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
+
+
+# Tag Enum
+class Tag(Enum):
+    TOP_MOVERS = "top-movers"
+    ETF = "etf"
+    MOST_POPULAR = "100-most-popular"
+    MUTUAL_FUND = "mutual-fund"
+    FINANCE = "finance"
+    CAP_WEIGHTED = "cap-weighted"
+    INVESTMENT_OR_TRUST = "investment-trust-or-fund"
+    HEALTHCARE = "healthcare"
+    PHARMACEUTICAL = "pharmaceutical"
+    MEDICAL = "medical"
+    HEALTH = "health"
+    MEDICAL_DEVICES = "medical-devices"
+    MANUFACTURING = "manufacturing"
+    TECHNOLOGY = "technology"
+    US = "us"
+
+
+
+    def get_fundamentals_by_criteria(self, price_range = (0.00, sys.maxsize), tags = None):
+        all_symbols = []
+        if tags is not None and tags is not []:
+            if isinstance(tags, Enum):
+                all_symbols = self.get_by_tag(tag)
+            else:
+                for tag in tags:
+                    all_symbols += self.get_by_tag(tag)
+        else:
+            all_symbols = [ instrument['symbol'] for instrument in self.trader.instruments_all() ]
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
+
+
 
 def get_exchanges():
     """
