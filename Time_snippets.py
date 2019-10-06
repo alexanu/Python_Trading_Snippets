@@ -64,7 +64,7 @@ def str_to_date(dt):
 
 # -------------------------------------------------------------------------------------------------------------
 start_trading_day = datetime.date(2017, 6, 8)
-end_trading_day = datetime.date(2017, 6, 20) #end_trading_day包括在所有交易日期内
+end_trading_day = datetime.date(2017, 6, 20) #end_trading_day
 trading_days = []
 while start_trading_day <= end_trading_day:
     trading_days.append(start_trading_day)
@@ -73,7 +73,6 @@ while start_trading_day <= end_trading_day:
 for trading_d in trading_days:
     print(u"calculate volatility in date:%r" % trading_d)
 
-    #构建查询条件
     start_datetime1 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 9, 0, 0)
     end_datetime1 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 10, 15, 0)
     start_datetime2 = datetime.datetime(trading_d.year, trading_d.month, trading_d.day, 10, 30, 0)
@@ -85,6 +84,21 @@ for trading_d in trading_days:
         {'snapshot_time':{'$gte':start_datetime2, '$lte':end_datetime2}},
         {'snapshot_time':{'$gte':start_datetime3, '$lte':end_datetime3}}
         ]}
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+with zipfile.ZipFile(self.fname) as zf:
+    with zf.open(zf.namelist()[0]) as infile:
+        header = infile.readline()
+        datestr, record_count = header.split(b':')
+        self.month = int(datestr[2:4])
+        self.day = int(datestr[4:6])
+        self.year = int(datestr[6:10])
+        utc_base_time = datetime(self.year, self.month, self.day)
+        self.base_time = timezone('US/Eastern').\
+                                        localize(utc_base_time).\
+                                        timestamp()
 
 
 # -------------------------------------------------------------------------------------------------------------
@@ -167,7 +181,8 @@ def parse_thisdate(text: str) -> datetime.date:
     else:
         assert False, 'Unknown date format'
 
-# -------------------------------------------------------------------------------------------------------------
+
+#
 
 # https://github.com/alexanu/market_calendars
 # Chinese and US trading calendars with date math utilities 
@@ -224,12 +239,53 @@ cal_sse.advance_date('20170427', '-1m', return_string=True) # => '2017-03-27'
 cal_sse.schedule('2018-01-05', '2018-02-01', '1w', return_string=True, date_generation_rule=2) # => ['2018-01-05', '2018-01-12', '2018-01-19', '2018-01-26', '2018-02-01']
 
 
-
-
-
-
-
-
-
 # -------------------------------------------------------------------------------------------------------------
+# Pandas with @staticmethod
+
+
+
+pd.to_datetime(pd.Series(["Jul 31, 2017","2010-10-01","2016/10/10","2014.06.10"]))
+pd.to_datetime(pd.Series(["11 Jul 2018","13.04.2015","30/12/2011"]),dayfirst=True)
+# providing a format could increase speed of conversion significantly
+pd.to_datetime(pd.Series(["12-11-2010 01:56","11-01-2012 22:10","28-02-2013 14:59"]), format='%d-%m-%Y %H:%M')
+
+# epoch timestamps: default unit is nanoseconds
+pd.to_datetime([1349720105100, 1349720105200, 1349720105300, 1349720105400, 1349720105500], unit='ms')
+
+start=pd.Timestamp("2018-01-06 00:00:00")
+pd.date_range(start, periods=10,freq="2h20min")
+
+# Business days and biz hours
+	start = datetime(2018,10,1), end = datetime(2018,10,10)
+	pd.date_range(start,end)
+	pd.bdate_range(start,end)
+	pd.bdate_range(start,periods=4,freq="BQS")
+
+	rng=pd.date_range(start,end,freq="BM")
+	ts=pd.Series(np.random.randn(len(rng)),index=rng)
+	ts["2018"]
+	ts["2019-2":"2019-7"]
+	ts.truncate(before="2019-2",after="2019-7") # select less than above
+
+	# https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#time-date-components
+
+	two_biz_days=2*pd.offsets.BDay()
+	friday = pd.Timestamp("2018-01-05")
+	friday.day_name()
+	two_biz_days.apply(friday).day_name()
+	(friday+two_biz_days),(friday+two_biz_days).day_name()
+
+	ts =pd.Timestamp("2018-01-06 00:00:00")
+	ts.day_name() # --> "Saturday"
+	offset=pd.offsets.BusinessHour(start="09:00")
+	offset.rollforward(ts) # Bring the date to the closest offset date (Monday)
+
+	pd.offsets.BusinessHour() # from 9 till 17
+	rng = pd.date_range("2018-01-10","2018-01-15",freq="BH") # BH is "business hour"
+	rng+pd.DateOffset(months=2,hours=3)
+
+	
+rng=pd.date_range(start,end,freq="D")
+ts=pd.Series(np.random.randn(len(rng)),index=rng)
+ts.shift(2)[1]
 

@@ -122,7 +122,7 @@ def pairs():
 
 #----------------------------------------------------------------------------------------------------------------------------
 
- def make_instrument_triangles(self, instruments):
+def make_instrument_triangles(self, instruments):
 
         # Making a list of all instrument pairs (based on quoted currency)
         first_instruments = []
@@ -166,9 +166,6 @@ def get_nasdaq_stocks(filename, column):
     lines.seek(0)
     result = [l.split('|')[column] for l in lines.readlines()]
     return [l for l in result if re.match(r'^[A-Z]+$', l)]
-
-
-
 
 #--------------------------------------------------------------------------------------------------------
 # List of ETFs
@@ -243,7 +240,6 @@ if __name__ == '__main__':
 	main()
 	
 #------------------------------------------------------------------------------------------------------------------------------
-
 # uses Yahoo Finance's API to get minute-by-minute ticks
 
 import requests
@@ -330,24 +326,6 @@ class Stockrow(object):
 if __name__ == '__main__':
 company = Stockrow('AAPL').dump()
 
-#--------------------------------------------------------------------------------------------------------
-import re
-
-def resolve_value(value):
-    """
-    Convert "1k" to 1 000, "1m" to 1 000 000, etc.
-    """
-    if value is None:
-        return None
-    tens = dict(k=10e3, m=10e6, b=10e9, t=10e12)
-    value = value.replace(',', '')
-    match = re.match(r'(-?\d+\.?\d*)([kmbt]?)$', value, re.I)
-    if not match:
-        return None
-    factor, exp = match.groups()
-    if not exp:
-        return float(factor)
-     return int(float(factor)*tens[exp.lower()])
     
 #--------------------------------------------------------------------------------------------------------
 
@@ -403,163 +381,6 @@ def get_history_quotes(ticker):
 
 #--------------------------------------------------------------------------------------------------------
 
-
-def create_directories(self):
-        main_directory = "PairsResults"+self.params
-        
-        if not os.path.exists(main_directory):
-            os.makedirs(main_directory)
-        if not os.path.exists(self.directory_pair):
-            os.makedirs(self.directory_pair)		
-	
-	
-#-----------------------------------------------------------------------------------------------------------------------	
-
-if os.path.exists('{}'.format(path)):
-	response = input('A database with that path already exists. Are you sure you want to proceed? [Y/N] ')
-	if response == 'Y':
-		for item in os.listdir('{}/trades/'.format(path)):
-			os.remove('{}/trades/{}'.format(path, item))
-		os.rmdir('{}/trades/'.format(path))
-		for item in os.listdir('{}'.format(path)):
-			os.remove('{}/{}'.format(path, item))
-		os.rmdir('{}'.format(path))
-print('Creating a new database in directory: {}/'.format(path))
-self.trades_path = '{}/trades/'.format(path)
-os.makedirs(path)
-os.makedirs(self.trades_path)
-for name in names:
-	with open(self.trades_path + 'trades_{}.txt'.format(name), 'w') as trades_file:
-		trades_file.write('sec,nano,name,side,shares,price\n')
-			
-			
-#-----------------------------------------------------------------------------------------------------------------------
-
-def read_line_from_file(filename):
-    """Load lines from csv file"""
-    lines = []
-    with open(filename, 'r') as f:
-        for line in f:
-            lines.append(line.rstrip())
-    if len(lines) > 0:
-        lines = lines[1:]
-    return lines
-
-#--------------------------------------------------------------------------------------------------------
-
-'''divide text (csv or ...) to small files with defined number of lines'''
-import os
-
-def splitter(name, parts = 100000):
-    # make dir for files
-    if not os.path.exists(name.split('.')[0]):
-        os.makedirs(name.split('.')[0])
-    f = open(name, 'r', errors = 'ignore')
-    lines = f.readlines()
-    f.close()
-    i = 0
-    while i < len(lines):
-        for item in lines[i:i+parts]:
-            f2 = open(name.split('.')[0]+ '/'name.split('.')[0]+ str(i)+'.txt', 'a+', errors = 'ignore') 
-            f2.write(item)
-            f2.close()
-    i += parts
-
-#--------------------------------------------------------------------------------------------------------
-''' Seperates dataframe into multiple by treatment
-E.g. if treatment is 'gender' with possible values 1 (male) or 2 (female) 
-the function returns a list of two frames (one with all males the other with all females) '''
-
-def seperated_dataframes(df, treatment):
-    treat_col = data[treatment] # col with the treatment
-    dframes_sep = [] # list to hold seperated dataframes 
-    for cat in categories(treat_col): # Go through all categories of the treatment
-         for the treatmet into a new dataframe
-        df = data[treat_col == cat] # select all rows that match the category        
-        dframes_sep.append(df) # append the selected dataframe
-    return dframes_sep
-
-
-#--------------------------------------------------------------------------------------------------------
-'''
-Short function using Pandas to export data from MongoDB to excel
-'''
-import pandas as pd
-from pymongo import MongoClient
-
-# Connectio URI can be in shape mongodb://<username>:<password>@<ip>:<port>/<authenticationDatabase>')
-client = MongoClient('mongodb://localhost')
-
-def export_to_excel(name, collection, database):
-    '''
-    save collection from MongoDB as .xlsx file, name of file is argument of function 
-    collection <string> is name of collection 
-    database <string> is name of database
-    '''
-    data = list(client[database][collection].find({},{'_id':0}))
-    df =  pd.DataFrame(data)
-    #writer = pd.ExcelWriter('{}.xlsx'.format(name), engine='xlsxwriter')
-    df.to_excel('{}.xlsx'.format(name)') #writer, sheet_name='Sheet1')
-    #writer.save()
-
-
-#--------------------------------------------------------------------------------------------------------
-
-# download the zip file and saved it to our computer
-import requests
-url = "https://www.ssa.gov/oact/babynames/names.zip"
-with requests.get(url) as response:
-    with open("names.zip", "wb") as temp_file:
-        temp_file.write(response.content)
-
-data_list = [["year", "name", "gender", "count"]] # 2-dimensional Array (list of lists)
-
-with ZipFile("names.zip") as temp_zip: # open the zip file into memory
-    for file_name in temp_zip.namelist(): # Then we read the file list.
-        if ".txt" in file_name: # We will only process .txt files.
-            with temp_zip.open(file_name) as temp_file: # read the current file from the zip file.
-                # The file is opened as binary, we decode it using utf-8 so it can be manipulated as a string.
-                for line in temp_file.read().decode("utf-8").splitlines():
-                    line_chunks = line.split(",")
-                    year = file_name[3:7]
-                    name = line_chunks[0]
-                    gender = line_chunks[1]
-                    count = line_chunks[2]
-
-                    data_list.append([year, name, gender, count])
-
-csv.writer(open("data.csv", "w", newline="", # We save the data list into a csv file.
-                encoding="utf-8")).writerows(data_list)
-                # I prefer to use writerows() instead of writerow() ...
-                # ...since it is faster as it does it in bulk instead of one row at a time.
-
-
-
-#--------------------------------------------------------------------------------------------------------
-'''
-Short function using Pandas to export data from MongoDB to excel
-'''
-import pandas as pd
-from pymongo import MongoClient
-
-# Connectio URI can be in shape mongodb://<username>:<password>@<ip>:<port>/<authenticationDatabase>')
-client = MongoClient('mongodb://localhost')
-
-def export_to_excel(name, collection, database):
-    '''
-    save collection from MongoDB as .xlsx file, name of file is argument of function 
-    collection <string> is name of collection 
-    database <string> is name of database
-    '''
-    data = list(client[database][collection].find({},{'_id':0}))
-    df =  pd.DataFrame(data)
-    #writer = pd.ExcelWriter('{}.xlsx'.format(name), engine='xlsxwriter')
-    df.to_excel('{}.xlsx'.format(name)') #writer, sheet_name='Sheet1')
-    #writer.save()
-
-
-#--------------------------------------------------------------------------------------------------------
-
 def momentum(data, periods=14, close_col='<CLOSE>'):
     data['momentum'] = 0.
     
@@ -573,173 +394,3 @@ def momentum(data, periods=14, close_col='<CLOSE>'):
    return data
 
 #--------------------------------------------------------------------------------------------------------
-
-# chained comparison with all kind of operators
-a = 10
-print(1 < a < 50)
-print(10 == a < 20)
-
-
-#--------------------------------------------------------------------------------------------------------
-# Concatenate long strings elegantly across line breaks in code
-
-my_long_text = ("We are no longer the knights who say Ni! "
-                "We are now the knights who say ekki-ekki-"
-                "ekki-p'tang-zoom-boing-z'nourrwringmm!")
-
-
-#--------------------------------------------------------------------------------------------------------		
-# extract US numbers from text
-import re
-numbers = ' 123.456.7889 (123)-456-7888 (425) 465-7523 456 123-7891 111 111.1111 (222)333-4444 666 777 8888 987-654-4321'
-res = re.findall(r'\d{3}\)*?\-*?\s*?\.*?\d{3}\-*?\s*?\.*?\d{3}', numbers)		
-
-
-#--------------------------------------------------------------------------------------------------------
-# clean spaces in strings
-		
-import re
-def clean(string): # cleans string from empty spaces on the start and on the end
-    # input is : "   Hello World    " and output is "Hello World"
-		
-    first = 0
-    for item in string:
-        if item != ' ':
-            first = string.index(item)
-            break
-    string = string[::-1]
-    last = 0
-    for item in string:
-        if item != ' ':
-            last = string.index(item)
-            break
-    return string[::-1][first:len(string)-last]
-    
-def clean2(string): # the same purpose as above
-    nonempty = [string.index(item) for item in string if item != ' ']
-    nonempty2 = [string[::-1].index(item) for item in string[::-1] if item != ' ']
-    return string[nonempty[0]:len(string) -nonempty2[0]]
-
-def clean3(string): # clean string from rebundant spaces
-    try:
-        for item in re.findall('[" "]{2,}',string):
-            string = string.replace(item, ' ')
-            if string[0] == ' ':
-                string = string[1:]
-            if string[-1] == ' ':
-                string = string[:-1]
-        return string
-    except:
-return string
-		
-		
-		
-#--------------------------------------------------------------------------------------------------------
-# calling different functions with same arguments based on condition
-
-def product(a, b):
-    return a * b
-
-def subtract(a, b):
-    return a - b
-
-b = True
-print((product if b else subtract)(1, 1))
-
-
-
-#--------------------------------------------------------------------------------------------------------
-# else gets called when for loop does not reach break statement
-a = [1, 2, 3, 4, 5]
-for el in a:
-    if el == 0:
-        break
-else:
-     print('did not break out of for loop')
-
-
-#--------------------------------------------------------------------------------------------------------
-d1 = {'a': 1}
-d2 = {'b': 2}
-
-d1.update(d2)
-print(d1)
-
-
-#--------------------------------------------------------------------------------------------------------
-# Find Index of Min Element
-lst = [40, 10, 20, 30]
-min(range(len(lst)), key=lst.__getitem__)
-
-
-#--------------------------------------------------------------------------------------------------------
-# Convert raw string integer inputs to integers
-
-str_input = "1 2 3 4 5 6"
-int_input = map(int, str_input.split())
-print(list(int_input))
-
-#--------------------------------------------------------------------------------------------------------
-
-""" You can have an 'else' clause with try/except. 
-    It gets excecuted if no exception is raised.
-    This allows you to put less happy-path code in the 'try' block so you can be 
-    more sure of where a caught exception came from."""
-
-try:
-    1 + 1
-except TypeError:
-    print("Oh no! An exception was raised.")
-else:
-    print("Oh good, no exceptions were raised.")
-
-
-
-#--------------------------------------------------------------------------------------------------------
-
-
-dctA = {'a': 1, 'b': 2, 'c': 3}
-dctB = {'b': 4, 'c': 3, 'd': 6}
-
-"""loop over dicts that share (some) keys in Python3"""
-for ky in dctA.keys() & dctB.keys():
-    print(ky)
-
-"""loop over dicts that share (some) keys and values in Python3"""
-for item in dctA.items() & dctB.items():
-print(item)
-
-#--------------------------------------------------------------------------------------------------------
-
-''' use threading module for paralel running of some function '''
-
-import time
-from threading import Thread
-
-def no_arg(func, instances): # func is function withOUT arguments
-    for i in range(instances): # number of threads equals instances
-        t = Thread(target=func)
-        t.start()
-
-def with_arg(func, instances,args): # func is function with arguments
-    for i in range(instances): # number of threads equals instances
-        t = Thread(target=func, args = args) # arguments in tuple
-	t.start()
-
-		
-#--------------------------------------------------------------------------------------------------------		
-# Parallel programming with Pool
-
-# Importing the multiprocessing 
-from multiprocessing import Pool
-
-# function to which we'll perform multi-processing
-def cube(i):
-    i = i+1
-    z = i**3
-    return z
-
-# using pool class to map the function with iterable arguments-
-print(Pool().map(cube, [1, 2, 3]))
-		
-
