@@ -1,0 +1,116 @@
+Destination;Dates;Price;Group;Period;Status;Regio
+Porto;['07.03.2020', '21.03.2020'];46 €;staedtereisen;2020-03;2019-10-10;Europe
+Mailand Malpensa;['23.04.2020', '25.04.2020'];54 €;staedtereisen;2020-04;2019-10-10;Europe
+Lissabon;['01.12.2019', '08.12.2019'];63 €;staedtereisen;2019-12;2019-10-10;Europe
+Barcelona;['15.10.2019', '22.10.2019'];65 €;staedtereisen;2019-10;2019-10-10;Europe
+Olbia;['17.10.2019', '23.10.2019'];66 €;staedtereisen;2019-10;2019-10-10;Europe
+Thessaloniki;['05.03.2020', '12.03.2020'];71 €;staedtereisen;2020-03;2019-10-10;Europe
+Florenz;['28.11.2019', '29.11.2019'];75 €;staedtereisen;2019-11;2019-10-10;Europe
+Kalamata;['16.02.2020', '23.02.2020'];77 €;staedtereisen;2020-02;2019-10-10;
+Edinburgh;['02.06.2020', '11.06.2020'];78 €;staedtereisen;2020-06;2019-10-10;Europe
+Porto;['17.05.2020', '27.05.2020'];83 €;staedtereisen;2020-05;2019-10-10;Europe
+Taipei;['02.03.2020', '15.03.2020'];296 €;fernreisen;2020-03;2019-10-10;Asia
+New York;['27.04.2020', '03.05.2020'];304 €;fernreisen;2020-04;2019-10-10;USA
+Taipei Songshan;['24.02.2020', '05.03.2020'];313 €;fernreisen;2020-02;2019-10-10;Asia
+Las Vegas;['05.11.2019', '19.11.2019'];314 €;fernreisen;2019-11;2019-10-10;USA
+New York La Guardia;['15.01.2020', '23.01.2020'];314 €;fernreisen;2020-01;2019-10-10;USA
+Fort Myers;['05.11.2019', '13.11.2019'];316 €;fernreisen;2019-11;2019-10-10;USA
+Tampa;['29.10.2019', '06.11.2019'];316 €;fernreisen;2019-10;2019-10-10;USA
+Orlando;['26.02.2020', '03.03.2020'];318 €;fernreisen;2020-02;2019-10-10;USA
+Dallas;['03.03.2020', '24.03.2020'];326 €;fernreisen;2020-03;2019-10-10;USA
+Houston;['04.03.2020', '25.03.2020'];328 €;fernreisen;2020-03;2019-10-10;USA
+Jacksonville Florida;['12.05.2020', '27.05.2020'];328 €;fernreisen;2020-05;2019-10-10;USA
+Miami International;['24.03.2020', '01.04.2020'];328 €;fernreisen;2020-03;2019-10-10;USA
+Toronto;['24.11.2019', '29.11.2019'];337 €;fernreisen;2019-11;2019-10-10;Canada
+Austin;['21.04.2020', '28.04.2020'];338 €;fernreisen;2020-04;2019-10-10;USA
+Philadelphia;['05.11.2019', '17.11.2019'];339 €;fernreisen;2019-11;2019-10-10;USA
+Hongkong;['18.03.2020', '26.03.2020'];340 €;fernreisen;2020-03;2019-10-10;Asia
+Atlanta;['15.02.2020', '15.03.2020'];361 €;fernreisen;2020-02;2019-10-10;USA
+Phoenix;['14.04.2020', '24.04.2020'];361 €;fernreisen;2020-04;2019-10-10;USA
+Shanghai Pudong;['12.03.2020', '24.03.2020'];362 €;fernreisen;2020-03;2019-10-10;Asia
+Seoul Incheon;['04.03.2020', '17.03.2020'];365 €;fernreisen;2020-03;2019-10-10;Asia
+Bangkok;['21.02.2020', '08.03.2020'];372 €;fernreisen;2020-02;2019-10-10;Asia
+Montreal Pierre Elliott Trudeau;['17.03.2020', '24.03.2020'];373 €;fernreisen;2020-03;2019-10-10;Canada
+San Diego;['10.01.2020', '24.01.2020'];376 €;fernreisen;2020-01;2019-10-10;USA
+Manila;['07.02.2020', '01.03.2020'];377 €;fernreisen;2020-02;2019-10-10;Asia
+Tokio Narita;['07.12.2019', '14.12.2019'];377 €;fernreisen;2019-12;2019-10-10;Asia
+Tokio Haneda;['04.12.2019', '18.12.2019'];378 €;fernreisen;2019-12;2019-10-10;Asia
+Kuala Lumpur;['06.04.2020', '15.04.2020'];388 €;fernreisen;2020-04;2019-10-10;Asia
+Seoul;['22.04.2020', '06.05.2020'];389 €;fernreisen;2020-04;2019-10-10;Asia
+Charlotte;['28.02.2020', '15.03.2020'];391 €;fernreisen;2020-02;2019-10-10;USA
+Hanoi;['05.02.2020', '14.02.2020'];392 €;fernreisen;2020-02;2019-10-10;Asia
+Phnom Penh;['26.03.2020', '05.04.2020'];394 €;fernreisen;2020-03;2019-10-10;Asia
+Beijing International;['05.12.2019', '14.12.2019'];396 €;fernreisen;2019-12;2019-10-10;Asia
+Fort Lauderdale;['20.11.2019', '08.12.2019'];397 €;fernreisen;2019-11;2019-10-10;
+Johannesburg;['07.12.2019', '22.12.2019'];397 €;fernreisen;2019-12;2019-10-10;
+Mailand Malpensa;['23.04.2020', '25.04.2020'];54 €;kurzurlaub;2020-04;2019-10-10;Europe
+Barcelona;['01.02.2020', '06.02.2020'];66 €;kurzurlaub;2020-02;2019-10-10;Europe
+Florenz;['28.11.2019', '29.11.2019'];75 €;kurzurlaub;2019-11;2019-10-10;Europe
+Malta;['30.04.2020', '03.05.2020'];85 €;kurzurlaub;2020-04;2019-10-10;Europe
+Turin;['21.01.2020', '24.01.2020'];92 €;kurzurlaub;2020-01;2019-10-10;Europe
+Pisa;['20.03.2020', '22.03.2020'];95 €;kurzurlaub;2020-03;2019-10-10;Europe
+Venedig;['03.03.2020', '07.03.2020'];102 €;kurzurlaub;2020-03;2019-10-10;Europe
+Triest;['09.04.2020', '13.04.2020'];104 €;kurzurlaub;2020-04;2019-10-10;Europe
+Rijeka;['19.03.2020', '22.03.2020'];105 €;kurzurlaub;2020-03;2019-10-10;Europe
+Bologna;['30.04.2020', '03.05.2020'];115 €;kurzurlaub;2020-04;2019-10-10;
+Birmingham;['05.03.2020', '09.03.2020'];118 €;kurzurlaub;2020-03;2019-10-10;
+Lyon;['06.02.2020', '09.02.2020'];119 €;kurzurlaub;2020-02;2019-10-10;
+Moskau Scheremetjewo;['29.01.2020', '03.02.2020'];123 €;kurzurlaub;2020-01;2019-10-10;
+Mailand Malpensa;['17.07.2020', '19.07.2020'];61 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Malta;['10.07.2020', '16.07.2020'];86 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Madrid;['08.07.2020', '16.07.2020'];96 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Lissabon;['23.09.2020', '30.09.2020'];101 €;warme-reiseziele;2020-09;2019-10-10;Europe
+Pisa;['22.06.2020', '06.07.2020'];106 €;warme-reiseziele;2020-06;2019-10-10;Europe
+Faro;['12.08.2020', '26.08.2020'];118 €;warme-reiseziele;2020-08;2019-10-10;Europe
+Marseille;['01.07.2020', '08.07.2020'];131 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Funchal;['02.09.2020', '16.09.2020'];162 €;warme-reiseziele;2020-09;2019-10-10;Europe
+Ponta Delgada;['03.07.2020', '10.07.2020'];171 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Eriwan;['13.07.2020', '23.07.2020'];249 €;warme-reiseziele;2020-07;2019-10-10;Europe
+Luxor;['15.11.2019', '25.11.2019'];263 €;warme-reiseziele;2019-11;2019-10-10;MENA
+Taipei;['30.04.2020', '16.05.2020'];306 €;warme-reiseziele;2020-04;2019-10-10;Asia
+Fort Myers;['05.11.2019', '13.11.2019'];316 €;warme-reiseziele;2019-11;2019-10-10;USA
+Tampa;['29.10.2019', '06.11.2019'];316 €;warme-reiseziele;2019-10;2019-10-10;USA
+Dallas;['19.05.2020', '03.06.2020'];326 €;warme-reiseziele;2020-05;2019-10-10;USA
+Houston;['29.10.2019', '05.11.2019'];328 €;warme-reiseziele;2019-10;2019-10-10;USA
+Jacksonville Florida;['12.05.2020', '27.05.2020'];328 €;warme-reiseziele;2020-05;2019-10-10;USA
+Miami International;['24.03.2020', '01.04.2020'];328 €;warme-reiseziele;2020-03;2019-10-10;USA
+Banjul;['19.11.2019', '25.11.2019'];329 €;warme-reiseziele;2019-11;2019-10-10;MENA
+Orlando;['05.05.2020', '12.05.2020'];330 €;warme-reiseziele;2020-05;2019-10-10;USA
+Las Vegas;['20.05.2020', '26.05.2020'];333 €;warme-reiseziele;2020-05;2019-10-10;USA
+Austin;['21.04.2020', '28.04.2020'];338 €;warme-reiseziele;2020-04;2019-10-10;USA
+Hongkong;['06.05.2020', '13.05.2020'];340 €;warme-reiseziele;2020-05;2019-10-10;Asia
+Jeddah;['01.11.2019', '11.11.2019'];346 €;warme-reiseziele;2019-11;2019-10-10;MENA
+Phoenix;['14.04.2020', '24.04.2020'];361 €;warme-reiseziele;2020-04;2019-10-10;USA
+Pisa;['23.08.2020', '06.09.2020'];113 €;sommerferien;2020-08;2019-10-10;Europe
+Faro;['12.08.2020', '26.08.2020'];118 €;sommerferien;2020-08;2019-10-10;Europe
+Palermo;['05.08.2020', '16.08.2020'];135 €;sommerferien;2020-08;2019-10-10;Europe
+Bari;['01.08.2020', '15.08.2020'];138 €;sommerferien;2020-08;2019-10-10;Europe
+Palermo;['13.08.2020', '27.08.2020'];151 €;sommerferien;2020-08;2019-10-10;Europe
+Reykjavik Keflavik;['13.08.2020', '20.08.2020'];214 €;sommerferien;2020-08;2019-10-10;Europe
+Las Vegas;['10.08.2020', '31.08.2020'];447 €;sommerferien;2020-08;2019-10-10;USA
+Phoenix;['04.08.2020', '27.08.2020'];471 €;sommerferien;2020-08;2019-10-10;USA
+Manila;['05.08.2020', '27.08.2020'];501 €;sommerferien;2020-08;2019-10-10;Asia
+Recife;['06.08.2020', '25.08.2020'];510 €;sommerferien;2020-08;2019-10-10;Karibik
+Calgary;['23.08.2020', '31.08.2020'];612 €;sommerferien;2020-08;2019-10-10;Canada
+San Antonio;['07.08.2020', '21.08.2020'];613 €;sommerferien;2020-08;2019-10-10;USA
+San Diego;['05.08.2020', '19.08.2020'];634 €;sommerferien;2020-08;2019-10-10;USA
+Liberia Costa Rica;['08.08.2020', '22.08.2020'];657 €;sommerferien;2020-08;2019-10-10;Karibik
+Rio de Janeiro Santos Dumont;['17.08.2020', '24.08.2020'];675 €;sommerferien;2020-08;2019-10-10;Karibik
+Belem;['28.07.2020', '20.08.2020'];738 €;sommerferien;2020-07;2019-10-10;Karibik
+Perth;['01.08.2020', '24.08.2020'];809 €;sommerferien;2020-08;2019-10-10;Asia
+Fes;['23.10.2019', '30.10.2019'];22 €;last-minute;2019-10;2019-10-10;Europe
+Barcelona;['15.10.2019', '22.10.2019'];65 €;last-minute;2019-10;2019-10-10;Europe
+Olbia;['17.10.2019', '23.10.2019'];66 €;last-minute;2019-10;2019-10-10;Europe
+Kutaisi;['19.10.2019', '26.10.2019'];84 €;last-minute;2019-10;2019-10-10;Europe
+Miami International;['23.10.2019', '19.11.2019'];328 €;last-minute;2019-10;2019-10-10;USA
+Jacksonville Florida;['24.10.2019', '04.11.2019'];341 €;last-minute;2019-10;2019-10-10;USA
+Atlanta;['24.10.2019', '10.11.2019'];361 €;last-minute;2019-10;2019-10-10;USA
+Las Vegas;['24.10.2019', '30.10.2019'];361 €;last-minute;2019-10;2019-10-10;USA
+Tampa;['24.10.2019', '03.11.2019'];377 €;last-minute;2019-10;2019-10-10;USA
+San Diego;['24.10.2019', '07.11.2019'];388 €;last-minute;2019-10;2019-10-10;USA
+Phoenix;['24.10.2019', '04.11.2019'];401 €;last-minute;2019-10;2019-10-10;USA
+Banjul;['24.10.2019', '04.11.2019'];423 €;last-minute;2019-10;2019-10-10;MENA
+Houston;['22.10.2019', '31.10.2019'];428 €;last-minute;2019-10;2019-10-10;USA
+Portland Oregon;['24.10.2019', '12.11.2019'];516 €;last-minute;2019-10;2019-10-10;USA
+Cincinnati;['22.10.2019', '01.11.2019'];562 €;last-minute;2019-10;2019-10-10;USA
+Perth;['23.10.2019', '04.11.2019'];742 €;last-minute;2019-10;2019-10-10;Asia
