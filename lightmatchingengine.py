@@ -1,3 +1,8 @@
+# Schema
+# https://bubbl.us/NDc3NDc4NC80Mzk3ODE5L2JhODc0YjI2NDRjNWI0ZWFjNzE3YWEyN2Q1ODY3YzY5@X?utm_source=shared-link&utm_medium=link&s=10329621
+
+
+
 #!/usr/bin/python3
 class Side:
     """
