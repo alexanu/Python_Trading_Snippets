@@ -63,26 +63,16 @@ class API(object):
         return message.sid
 
     def processData(self, date, major):
-
         impactful_data = self.data_df.loc[self.data_df['impact'] == 3].copy()
         impactful_data = self.data_df
-        impactful_data['timestamp_af'] = impactful_data['timestamp'].apply(
-            lambda x: self.utc_to_local(x))
-        impactful_data['date'] = impactful_data['timestamp_af'].apply(
-            lambda x: x[:10])
-        impactful_data = impactful_data.loc[
-            impactful_data['date'] == date].copy()
-        impactful_data['tmsp_3_min'] = impactful_data['timestamp_af'].apply(
-            lambda x: self.three_min_behind(x))
-        impactful_data['major'] = impactful_data['economy'].apply(
-            lambda x: True if x in major else False)
-        impactful_data = impactful_data.loc[
-            impactful_data['major'] == True].copy()
-        impactful_data['timestamp_af'] = impactful_data['timestamp_af'].apply(
-            lambda x: self.change_24_to_12(x))
-        self.final_data = impactful_data[['economy', 'name',
-                                          'impact', 'timestamp_af',
-                                          'tmsp_3_min']].copy()
+        impactful_data['timestamp_af'] = impactful_data['timestamp'].apply(lambda x: self.utc_to_local(x))
+        impactful_data['date'] = impactful_data['timestamp_af'].apply(lambda x: x[:10])
+        impactful_data = impactful_data.loc[impactful_data['date'] == date].copy()
+        impactful_data['tmsp_3_min'] = impactful_data['timestamp_af'].apply(lambda x: self.three_min_behind(x))
+        impactful_data['major'] = impactful_data['economy'].apply(lambda x: True if x in major else False)
+        impactful_data = impactful_data.loc[impactful_data['major'] == True].copy()
+        impactful_data['timestamp_af'] = impactful_data['timestamp_af'].apply(lambda x: self.change_24_to_12(x))
+        self.final_data = impactful_data[['economy', 'name','impact','timestamp_af','tmsp_3_min']].copy()
         self.time_list = list(impactful_data['tmsp_3_min'])
 
     def create_msg(self, time_to_send):
