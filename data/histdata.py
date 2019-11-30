@@ -1,3 +1,5 @@
+# source: https://github.com/tgrandjean/histdata-downloader
+
 import os
 import sys
 from datetime import datetime, timedelta
