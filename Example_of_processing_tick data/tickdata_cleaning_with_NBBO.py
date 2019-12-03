@@ -3,6 +3,9 @@
 # High-frequency Quotes and Prices
 # Resampling into 1min or 5 min research data
 # There are 386 prices and 78 prices per trading day for 1min and 5min frequencies
+
+# Schema: https://bubbl.us/NDc3NDc4NC80Mzk4NDA2LzBiYzk1NDM4ZGI4NGExNmI5ZWUzMmEwODc3NWQ3OTQ2@X?utm_source=shared-link&utm_medium=link&s=10337730
+
 # ================================================================
 import os
 import pandas as pd
