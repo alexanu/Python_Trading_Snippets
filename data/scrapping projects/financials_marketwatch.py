@@ -16,26 +16,16 @@ def format(list):
             posornegnumber = -1
             
         if text.endswith('%'):
-#             Then please make it into comma float
             endtext = float(text[:-1].replace(",",""))/100.0 * posornegnumber 
         elif text.endswith('B'):
-#             Then please times 1000000000
-#             Change it into integer
             endtext = int(float(text[:-1].replace(",",""))*1000000000)* posornegnumber 
         elif text.endswith('M'):
-#             Then please times 1000000
-#             Change it into integer
             endtext = int(float(text[:-1].replace(",",""))*1000000)* posornegnumber 
         elif ',' in text:
-#             Then please remove the ,
-#             Then change it into int
             endtext = int(float(text.replace(",","")))* posornegnumber 
-
         elif text.endswith('-'):
-#             Insert 0
             endtext = 0
         else:
-#             change to float
             endtext = float(text)* posornegnumber 
         newlist.append(endtext)
     return newlist 
@@ -127,7 +117,6 @@ def getfinancialreportingdfformatted(ticker):
     return dfformatted
 
 
-
 # This will keep tickers + gics industries & sub industries
 def save_sp500_stocks_info():
     print("Getting SP500 stocks info from wikipedia")
@@ -202,5 +191,35 @@ def save_self_stocks_info():
     dictlist.append({'value':'BN', 'label':'Danone'})
     dictlist.append({'value': 'DATA', 'label': 'Tableau Software Data Visualization'})
 
-
     return dictlist
+
+def eligibilitycheck(ticker,dfformatted):
+    
+    legiblestock = True
+    reasonlist=[]
+
+    # print (dfformatted)
+    # EPS increases over the year (consistent)
+    for growth in dfformatted.epsgrowth:
+        if growth<0:
+            legiblestock = False
+            reasonlist.append('there is negative growth '+str(growth))
+            break
+    # ROE > 0.15
+    if dfformatted.roe.mean()<0.13:
+            legiblestock = False
+            reasonlist.append('roe mean is less than 0.13 '+ str(dfformatted.roe.mean()))
+    # ROA > 0.07 (also consider debt to equity cause Assets = liabilities + equity)
+    if dfformatted.roa.mean()<0.07:
+            legiblestock = False
+            reasonlist.append('roa mean is less than 0.07 ' + str(dfformatted.roa.mean()))
+    # Long term debt < 5 * income
+    if dfformatted.longtermdebt.tail(1).values[0]>5*dfformatted.netincome.tail(1).values[0]:
+            legiblestock = False
+            reasonlist.append('longtermdebt is 5 times the netincome ')
+    # Interest Coverage Ratio > 3
+    if dfformatted.interestcoverageratio.tail(1).values[0]<3:
+            legiblestock = False
+            reasonlist.append('Interestcoverageratio is less than 3 ')
+#     print ticker,legiblestock,reasonlist
+    return reasonlist
