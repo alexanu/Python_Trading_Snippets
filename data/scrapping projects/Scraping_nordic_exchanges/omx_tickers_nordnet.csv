@@ -1,0 +1,495 @@
+,company_name,ticker,market_id,stock_id
+0,A1M Pharma AB,A1M,11,93181
+1,AAK AB,AAK,11,36273
+2,Arc Aroma Pure AB,AAP-B,11,93180
+3,ABB Ltd,ABB,11,3966
+4,Absolent Group AB,ABSO,11,103171
+5,Acando AB ser. B,ACAN-B,11,981
+6,AdCityMedia AB,ACM,11,116111
+7,Actic Group AB,ACTI,11,135947
+8,Addtech AB ser. B,ADDT-B,11,14336
+9,ADDvise Group AB A,ADDV-A,11,1449
+10,ADDvise Group AB B,ADDV-B,11,113184
+11,Advenica AB,ADVE,11,102777
+12,AF Gruppen,AF-B,15,27028
+13,Ages Industri AB ser. B,AGES-B,11,100816
+14,A Group of Retail Assets AB ser. B,AGORA-B,11,110529
+15,A Group Of Retail Assets AB Pref,AGORA-PREF,11,110782
+16,Byggmästare Anders J Ahlström Holding AB,AJA-B,11,105147
+17,Akelius Residential AB Pref,AKEL-PREF,11,101200
+18,Alfa Laval AB,ALFA,11,18634
+19,AddLife AB ser. B,ALIF-B,11,120190
+20,Alimak Group AB,ALIG,11,110204
+21,Autoliv Inc. SDB,ALIV-SDB,11,47
+22,ALLGON AB ser. B,ALLG-B,11,28738
+23,Beijer Alma AB ser. B,ALM,11,875
+24,Amasten Fastighets AB Pref,AMAST-PREF,11,101778
+25,Amasten Fastighets AB,AMAST,11,53228
+26,Addnode Group AB ser. B,ANOD-B,11,3887
+27,Anoto Group AB,ANOT,11,5110
+28,Africa Oil Corp.,AOI,11,77948
+29,AQ Group AB,AQ,11,13236
+30,Arcoma AB,ARCOMA,11,103617
+31,Arctic Paper S.A.,ARCT,11,91264
+32,Arise AB,ARISE,11,74570
+33,AroCell AB (publ),AROC,11,82338
+34,Arctic Paper S.A.,ARP,11,91264
+35,ASCO LIQUIDATING C,ASCO,21,ASCL
+36,ASSA ABLOY AB ser. B,ASSA-B,11,402
+37,Atlas Copco AB ser. A,ATCO-A,11,45
+38,Atlas Copco AB ser. B,ATCO-B,11,46
+39,Atlantic Petroleum,ATLA-NOKO,15,1300746
+40,Atrium Ljungberg AB ser. B,ATRLJ-B,11,1011
+41,Attendo AB,ATT,11,115956
+42,Auriant Mining AB,AUR,11,76848
+43,Avensia AB,AVEN,11,5101
+44,Avtech Sweden AB B,AVT-B,11,86868
+45,Axfood AB,AXFO,11,4590
+46,aXichem AB,AXIC-A,11,80256
+47,Axis AB,AXIS,11,5150
+48,Avanza Bank Holding AB,AZA,11,988
+49,AstraZeneca PLC,AZN,11,3524
+50,Bactiguard Holding AB,BACTI-B,11,101601
+51,Fastighets AB Balder ser. B,BALD-B,11,4212
+52,Bayn Europe AB,BAYN,11,103618
+53,BE Group AB,BEGR,11,37309
+54,Beijer Alma AB ser. B,BEIA-B,11,875
+55,Beijer Ref AB ser. B,BEIJ-B,11,792
+56,Beijer Electronics Group AB,BELE,11,5081
+57,Besqab AB,BESQ,11,101207
+58,Betsson AB ser. B,BETS-B,11,5121
+59,Bilia AB ser. A,BILI-A,11,794
+60,BillerudKorsnäs AB,BILL,11,14922
+61,BIMobject AB,BIM,11,99204
+62,BioInvent International AB,BINV,11,13348
+63,BioGaia AB ser. B,BIOG-B,11,959
+64,Biotage AB,BIOT,11,5209
+65,Byggmax Group AB,BMAX,11,75712
+66,Boliden AB,BOL,11,15285
+67,Bonäsudden Holding AB,BONAS,11,110781
+68,Bong AB,BONG,11,892
+69,Björn Borg AB,BORG,11,40286
+70,Botnia Exploration Holding AB,BOTX,11,147133
+71,Boule Diagnostics AB,BOUL,11,82889
+72,Bravida Holding AB,BRAV,11,113960
+73,Bredband2 i Skandinavien AB,BRE2,11,34627
+74,Bergs Timber AB ser. B,BRG-B,11,891
+75,BERGIO INTL INC,BRGO,21,BRGO
+76,Brighter AB,BRIG,11,86375
+77,Brinova Fastigheter AB ser. B,BRIN-B,11,127241
+78,BTS Group AB ser. B,BTS-B,11,13288
+79,Bufab AB,BUFAB,11,99667
+80,Bulten AB,BULTEN,11,82239
+81,Bure Equity AB,BURE,11,800
+82,Camurus AB,CAMX,11,115961
+83,Cantargia AB,CANTA,11,107644
+84,Capacent Holding AB,CAPAC,11,113748
+85,Capio AB,CAPIO,11,110740
+86,Cassandra Oil AB,CASO,11,25660
+87,Castellum AB,CAST,11,966
+88,Catella AB ser. A,CAT-A,11,62547
+89,Catella AB ser. B,CAT-B,11,62559
+90,Catella AB ser. A,CATE,11,62547
+91,Christian Berner Tech Trade AB ser. B,CBTT-B,11,103391
+92,Cavotec SA,CCC,11,84962
+93,Concordia Maritime AB ser. B,CCOR-B,11,971
+94,Millicom International Cellular S.A. SDB,CE,11,24507
+95,CellaVision AB,CEVI,11,40679
+96,Cherry AB ser. B,CHER-B,11,36291
+97,Cell Impact AB ser. B,CI-B,11,92429
+98,Cinnober Financial Technology AB,CINN,11,102935
+99,Cloetta AB ser. B,CLA-B,11,63225
+100,Clas Ohlson AB ser. B,CLAS-B,11,4145
+101,Clavister Holding AB,CLAV,11,100970
+102,Corline Biomedical AB,CLBIO,11,110074
+103,Clinical Laserthermia Systems AB ser. B,CLS-B,11,65182
+104,CLX Communications AB,CLX,11,113927
+105,Concentric AB,COIC,11,82656
+106,Collector AB,COLL,11,110079
+107,Com Hem Holding AB,COMH,11,101281
+108,Confidence International AB,CONF,11,85522
+109,Consilium AB ser. B,CONS-B,11,803
+110,Coor Service Management Holding AB,COOR,11,110382
+111,Copperstone Resources AB ser. B,COPP-B,11,38904
+112,Corem Property Group AB Pref,CORE-PREF,11,74282
+113,C-RAD AB ser. B,CRAD-B,11,74313
+114,Creades AB A,CRED-A,11,86903
+115,Catena Media P.L.C,CTM,11,119018
+116,CTT Systems AB,CTT,11,3081
+117,D. Carnegie & Co AB B,DCAR-B,11,100378
+118,DDM Holding AG,DDM,11,102079
+119,Dedicare AB ser. B,DEDI,11,81878
+120,Deflamo AB ser. B,DEFL-B,11,60687
+121,Delarka Holding AB,DELARK,11,98836
+122,Diadrom Holding AB,DIAH,11,40563
+123,Dignitana AB,DIGN,11,66773
+124,Diös Fastigheter AB,DIOS,11,34271
+125,DistIT AB,DIST,11,81545
+126,Diamyd Medical AB ser. B,DMYD-B,11,94266
+127,Dometic Group AB,DOM,11,115619
+128,DORO AB,DORO,11,896
+129,Doxa AB,DOXA,11,100241
+130,Drillcon AB,DRIL,11,35729
+131,Duni AB,DUNI,11,49775
+132,Duroc AB ser. B,DURC-B,11,4005
+133,Dustin Group AB,DUST,11,106202
+134,Elekta AB ser. B,EKTA-B,11,806
+135,Elanders AB ser. B,ELAN-B,11,897
+136,"Electrolux, AB ser. A",ELEC,11,80
+137,Ellen AB,ELN,11,42472
+138,Elos Medtech AB ser. B,ELOS-B,11,947
+139,Eltel AB,ELTEL,11,106028
+140,"Electrolux, AB ser. A",ELUX-A,11,80
+141,"Electrolux, AB ser. B",ELUX-B,11,81
+142,Endomines AB,ENDO,11,41059
+143,Enea AB,ENEA,11,1149
+144,EnQuest PLC,ENQ,11,75073
+145,Eniro AB,ENRO,11,11046
+146,Enzymatica AB,ENZY,11,82655
+147,Eolus Vind AB ser. B,EOLU-B,11,66174
+148,EnergyO Solutions Russia AB,EOS,11,41064
+149,Episurf Medical AB B,EPIS-B,11,78419
+150,"Ericsson, Telefonab. L M ser. A",ERIC-A,11,100
+151,"Ericsson, Telefonab. L M ser. B",ERIC-B,11,101
+152,Etrion Corporation,ETX,11,78547
+153,Evolution Gaming Group AB,EVO,11,107867
+154,eWork Group AB,EWRK,11,72798
+155,Fabege AB,FABG,11,861
+156,"Fagerhult, AB",FAG,11,903
+157,Feelgood Svenska AB,FEEL,11,5053
+158,Fingerprint Cards AB ser. B,FING-B,11,4870
+159,Firefly AB,FIRE,11,59997
+160,Fenix Outdoor International AG Ser. B,FOI-B,11,101639
+161,Footway Group AB Pref,FOOT-PREF,11,110741
+162,Fast Partner AB Pref,FPAR-PREF,11,94771
+163,Fast Partner AB,FPAR,11,980
+164,FormPipe Software AB,FPIP,11,72565
+165,G5 Entertainment AB,G5EN,11,60158
+166,Gabather AB,GABA,11,153739
+167,Garo AB,GARO,11,119990
+168,Gaming Corps AB,GCOR,11,110080
+169,Generic Sweden AB,GENI,11,60626
+170,Genova Property Group AB Pref,GENO,11,116646
+171,Getinge AB ser. B,GETI-B,11,812
+172,GHP Specialty Care AB,GHP,11,59064
+173,Götenehus Group AB ser. B,GHUS-B,11,37306
+174,Genova Property Group AB Pref,GPG-PREF,11,116646
+175,Greater Than AB,GREAT,11,101192
+176,Gränges AB,GRNG,11,103110
+177,Gunnebo AB,GUNN,11,816
+178,GWS Production AB,GWS,11,103191
+179,Hancap AB Pref A,HANC-PREF-A,11,108039
+180,Hanza Holding AB,HANZA,11,100972
+181,Havsfrun Investment AB ser. B,HAV-B,11,990
+182,Heba Fastighets AB ser. B,HEBA-B,11,991
+183,Hedera Group AB,HEGR,11,117665
+184,Heimstaden AB Pref,HEIM-PREF,11,110093
+185,Heliospectra AB,HELIO,11,101607
+186,Hemfosa Fastigheter Pref AB,HEMF-PREF,11,104593
+187,Hemfosa Fastigheter AB,HEMF,11,100152
+188,Hexagon AB ser. B,HEXA-B,11,819
+189,THE HYDROPOTHECARY CORPORATION,HEXO,25,HEXO
+190,Hifab Group AB ser. B,HIFA-B,11,5232
+191,HiQ International AB,HIQ,11,3540
+192,Haldex AB,HLDX,11,817
+193,"Hennes & Mauritz AB, H & M ser. B",HM-B,11,992
+194,Hansa Medical AB,HMED,11,43288
+195,HMS Networks AB,HMS,11,43302
+196,Hoist Finance AB,HOFI,11,107904
+197,Hancap AB Pref A,HOGK-PREF-A,11,108039
+198,Holmen AB ser. A,HOLM-A,11,221
+199,Holmen AB ser. B,HOLM-B,11,222
+200,Hövding Sverige AB,HOVD,11,110530
+201,HEXPOL AB ser. B,HPOL-B,11,55907
+202,Hexatronic Group AB,HTRO,11,82816
+203,Hufvudstaden AB ser. A,HUFV-A,11,820
+204,Hufvudstaden AB ser. C,HUFV-C,11,821
+205,Humana AB,HUM,11,120363
+206,Husqvarna AB ser. A,HUSQ-A,11,34913
+207,Husqvarna AB ser. B,HUSQ-B,11,34915
+208,I.A.R Systems Group AB ser. B,IAR-B,11,2346
+209,Infant Bacterial Therapeutics AB ser. B,IBT-B,11,120381
+210,ICA Gruppen AB,ICA,11,32443
+211,Immunovia AB,IMMNOV,11,115966
+212,Immunovia AB,IMMU,11,115966
+213,Impact Coatings AB,IMPC,11,28041
+214,Indutrade AB,INDT,11,31308
+215,"Industrivärden, AB ser. A",INDU-A,11,142
+216,"Industrivärden, AB ser. C",INDU-C,11,143
+217,Inission AB ser. B,INISS-B,11,110377
+218,Intuitive Aerial AB,INTU,11,105287
+219,Investor AB ser. A,INVE-A,11,160
+220,Investor AB ser. B,INVE-B,11,161
+221,Inwido AB,INWI,11,102786
+222,Insplanet AB,IPL,11,34625
+223,ISR Immune System Regulation Holding AB,IS,11,135384
+224,ITAB Shop Concept AB ser. B,ITAB-B,11,56940
+225,Italeaf S.p.A SDB,ITAL-SDB,11,102704
+226,IVISYS AB,IVISYS,11,108037
+227,Invisio Communications AB,IVSO,11,34597
+228,Jays Group AB,JAYS,11,75344
+229,JLT Mobile Computers AB,JLT,11,21189
+230,JM AB,JM,11,13217
+231,K2A Knaust & Andersson Fastigheter  Pref,K2A-PREF,11,107160
+232,KABE Group AB ser. B,KABE-B,11,912
+233,KappAhl AB,KAHL,11,33359
+234,Kambi Group Plc,KAMBI,11,101199
+235,Kancera AB,KAN,11,80745
+236,Kallebäck Property Invest AB,KAPIAB,11,100207
+237,Karessa Pharma Holding AB,KARE,11,106031
+238,Karo Pharma AB,KARO,11,3927
+239,Karolinska Development AB ser.B,KDEV,11,81547
+240,Kentima Holding AB,KENH,11,94870
+241,Kinnevik AB ser. A,KINV-A,11,998
+242,Kinnevik AB ser. B,KINV-B,11,999
+243,Kitov Pharamceuticals Holdings Ltd,KITO,19,KTOVW
+244,Klaria Pharma Holding AB,KLAR,11,114250
+245,Kungsleden AB,KLED,11,3546
+246,Klövern AB Ser. A,KLOV-A,11,19459
+247,Klövern AB Ser. B,KLOV-B,11,104594
+248,Klövern AB pref,KLOV-PREF,11,86345
+249,Knowit AB,KNOW,11,3219
+250,Kontigo Care AB,KONT,11,110540
+251,Kopy Goldfields AB,KOPY,11,77457
+252,Lagercrantz Group AB ser B,LAGR-B,11,14335
+253,Lammhults Design Group AB ser. B,LAMM-B,11,1049
+254,"Latour, Investmentab. ser. B",LATO-B,11,914
+255,LeoVegas AB,LEO,11,120184
+256,The Lexington Company AB,LEX,11,106153
+257,Lindab International AB,LIAB,11,37400
+258,LIDDS AB,LIDDS,11,101904
+259,Lifco AB ser.B,LIFCO-B,11,103930
+260,Link Prop Investment AB,LINKAB,11,110776
+261,LightLab Sweden AB ser. B,LLSW-B,11,63604
+262,Loomis AB ser. B,LOOM-B,11,61536
+263,LAND SECURITIES GP ADR EACH REP 1 ORD SHS,LSGO,21,LSGOY
+264,Lucara Diamond Corp,LUC,11,85525
+265,Lundin Gold Inc.,LUG,11,105183
+266,"Lundbergföretagen AB, L E ser. B",LUND-B,11,1012
+267,Lundin Petroleum AB,LUPE,11,22335
+268,Mackmyra Svensk Whisky AB B,MACK-B,11,85847
+269,Magnolia Bostad AB,MAG,11,110088
+270,Mangold AB,MANG,11,88788
+271,Mavshack AB,MAV,11,58547
+272,MedCap AB,MCAP,11,35364
+273,Catena Media P.L.C,ME,11,119018
+274,Malmbergs Elektriska AB ser. B,MEAB-B,11,3223
+275,MediRätt AB,MEDR-B,11,81251
+276,Mekonomen AB,MEKO,11,4986
+277,Millicom International Cellular S.A. SDB,MIC-SDB,11,24507
+278,Midway Holding AB ser. A,MIDW-A,11,834
+279,Midway Holding AB ser. B,MIDW-B,11,835
+280,Minesto AB,MINEST,11,114883
+281,Misen Energy AB,MISE,11,40872
+282,Moberg Pharma AB,MOB,11,79252
+283,MQ Holding AB,MQ,11,76085
+284,Mr Green & Co AB,MRG,11,94882
+285,Micro Systemation AB B,MSAB-B,11,85846
+286,Midsona AB ser. A,MSON-A,11,3921
+287,Midsona AB ser. B,MSON-B,11,3922
+288,Modern Times Group MTG AB ser. A,MTG-A,11,3598
+289,Modern Times Group MTG AB ser. B,MTG-B,11,3599
+290,MultiQ International AB,MULQ,11,4359
+291,Medivir AB ser. B,MVIR-B,11,1020
+292,Mycronic AB,MYCR,11,4714
+293,myFC Holding AB,MYFC,11,101187
+294,NattoPharma ASA,NATTO,11,109535
+295,NAXS AB,NAXS,11,40342
+296,NCC AB ser. A,NCC-A,11,837
+297,NCC AB ser. B,NCC-B,11,838
+298,Nordea Bank AB,NDA-SEK,11,220
+299,Net Insight AB ser. B,NET-B,11,3871
+300,Net Gaming Europe AB,NETG,11,156878
+301,Net Insight AB ser. B,NETI-B,11,3871
+302,New Wave Group AB ser. B,NEWA-B,11,920
+303,Nexam Chemical Holding AB,NEXAM,11,93656
+304,NGEx Resources Inc,NGQ,11,101618
+305,NIBE Industrier AB ser. B,NIBE-B,11,921
+306,Nicoccino Holding AB,NICO,11,101773
+307,Nilörngruppen AB ser. B,NIL-B,11,110376
+308,Nilsson Special Vehicles AB,NILS,11,116628
+309,NetJobs Group AB,NJOB,11,36534
+310,Nordic Leisure AB,NLAB,11,35508
+311,Nederman Holding AB,NMAN,11,40347
+312,New Nordic Healthbrands AB,NNH,11,38278
+313,Nobia AB,NOBI,11,19095
+314,Nobina AB,NOBINA,11,110535
+315,Nokia Corporation,NOKIA-SEK,24,24311
+316,Nolato AB ser. B,NOLA-B,11,923
+317,Noront Resources Ltd.,NORO,26,NOT
+318,NOTE AB,NOTE,11,25319
+319,NP3 Fastigheter AB,NP3,11,104592
+320,NOVOTEK AB ser. B,NTEK-B,11,4000
+321,Nuevolution AB,NUE,11,116423
+322,NeuroVive Pharmaceutical AB,NVP,11,58531
+323,Nexstim Oyj,NXTMS,11,103571
+324,Oasmia Pharmaceutical AB,OASM,11,76461
+325,Online Brands Nordic AB,OBAB,11,40016
+326,Oboya Horticulture Industries AB ser. B,OBOYA-B,11,147128
+327,Odd Molly International AB,ODD,11,40936
+328,OEM International AB ser. B,OEM-B,11,927
+329,BOW ENERGY LTD,ONG,26,ONG
+330,Oscar Properties Holding AB PREF,OP-PREF,11,109238
+331,Nobia AB,OP,11,19095
+332,Opus Group AB,OPUS,11,35920
+333,"Öresund, Investment AB",ORES,11,863
+334,OrganoClick AB,ORGC,11,106253
+335,Oriflame Holding AG,ORI,11,110536
+336,Ortivus AB ser. A,ORTI-A,11,1031
+337,Ortivus AB ser. B,ORTI-B,11,1032
+338,Orexo AB,ORX,11,31885
+339,Proact IT Group AB,PACT,11,4003
+340,Pallas Group AB,PALS-B,11,76786
+341,Papilly AB,PAPI,11,101907
+342,Photocat A/S,PCAT,11,115935
+343,PowerCell Sweden AB,PCELL,11,105121
+344,Precomp Solutions AB ser. B,PCOM-B,11,42464
+345,Peab AB ser. B,PEAB-B,11,928
+346,Pegroco Invest AB Pref,PEGRO-PREF,11,110545
+347,"Pfizer, Inc.",PFE,17,PFE
+348,Platzer Fastigheter Holding AB ser. B,PLAZ-B,11,98395
+349,PledPharma AB,PLED,11,81313
+350,Pandox AB ser. B,PNDX-B,11,110533
+351,Polygiene AB,POLY,11,119989
+352,Polygiene AB,POLYG,11,119989
+353,Poolia AB ser. B,POOL-B,11,3974
+354,"PPG Industries, Inc.",PPG-PREFO,17,PPG
+355,Precio Fishbone AB ser. B,PRCO-B,11,62455
+356,Precise Biometrics AB,PREC,11,10751
+357,Prevas AB ser. B,PREV-B,11,1039
+358,Pricer AB ser. B,PRIC-B,11,1040
+359,Prime Living AB Pref,PRIME-PREF-B,11,105127
+360,Prime Living AB,PRIME,11,110385
+361,Probi AB,PROB,11,27701
+362,ProfilGruppen AB ser. B,PROF-B,11,929
+363,BlackPearl Resources Inc. SDB,PXXS-SDB,11,41187
+364,Qliro Group AB,QLRO,11,79303
+365,Direxion NASDAQ-100 Equal Weighted Index Shares,QQQE,18,QQQE
+366,Railcare Group AB,RAIL,11,153508
+367,Ratos AB ser. A,RATO-A,11,1044
+368,Ratos AB ser. B,RATO-B,11,1045
+369,RaySearch Laboratories AB ser. B,RAY-B,11,1063
+370,Recipharm AB,RECI-B,11,100208
+371,Redsense Medical AB,REDS,11,110532
+372,Rejlers AB,REJL-B,11,37758
+373,RLS Global AB,RLS,11,87701
+374,RNB RETAIL AND BRANDS AB,RNBS,11,13467
+375,Rottneros AB,RROS,11,930
+376,SAAB AB ser. B,SAAB-B,11,1051
+377,Saga Tankers,SAGA-A,15,1249132
+378,Saga Tankers,SAGA-B,15,1249132
+379,Sagax AB pref,SAGA-PREF,11,43046
+380,Sandvik AB,SAND,11,4928
+381,Saniona AB,SANION,11,100428
+382,Saltängen Property Invest AB,SAPIAB,11,105300
+383,SAS AB,SAS-NOKO,11,13557
+384,SAS AB,SAS,11,13557
+385,Absolicon BTA,SAVOS-BTA,52,4D9C
+386,Savosolar Plc,SAVOS-TR,11,108026
+387,Savosolar Plc,SAVOS,11,108026
+388,ScandBook Holding AB,SBOK,11,74901
+389,Svenska Cellulosa AB SCA ser. A,SCA-A,11,322
+390,Svenska Cellulosa AB SCA ser. B,SCA-B,11,323
+391,Scibase Holding AB,SCIB,11,110073
+392,Scandi Standard AB,SCST,11,101634
+393,Sdiptech AB Pref,SDIP-PREF,11,106736
+394,ScandiDos AB,SDOS,11,100380
+395,Skånska Energi AB B,SEAB-B,11,85557
+396,Skandinaviska Enskilda Banken ser. A,SEB-A,11,281
+397,Skandinaviska Enskilda Banken ser. C,SEB-C,11,282
+398,SECTRA AB ser B,SECT-B,11,3083
+399,Securitas AB ser. B,SECU-B,11,401
+400,Semcon AB,SEMC,11,1054
+401,Sensys Gatso Group AB,SENS,11,12241
+402,Serstech AB,SERT,11,96216
+403,Scandinavian Enviro Systems AB,SES,11,101603
+404,Senzime AB,SEZI,11,56147
+405,Resurs Holding AB,SF,11,121360
+406,Svenska Handelsbanken ser. A,SHB-A,11,340
+407,Svenska Handelsbanken ser. B,SHB-B,11,341
+408,Scandic Hotels Group AB,SHOT,11,115964
+409,SinterCast AB,SINT,11,1058
+410,Sivers IMA Holding AB,SIVE,11,146655
+411,SJR in Scandinavia AB ser. B,SJR-B,11,39303
+412,Skanska AB ser. B,SKA-B,11,283
+413,"SKF, AB ser. A",SKF-A,11,284
+414,"SKF, AB ser. B",SKF-B,11,285
+415,SkiStar AB ser. B,SKIS-B,11,939
+416,Skåne-möllan AB,SKMO,11,1452
+417,Semafo Inc.,SMF,11,84981
+418,SENSIO TECHNOLOGIE,SNIO,21,SNIOF
+419,ShaMaran Petroleum Corp,SNM,11,82824
+420,Swedish Orphan Biovitrum AB,SOBI,11,36316
+421,Softronic AB ser. B,SOF-B,11,1546
+422,SolTech Energy Sweden AB,SOLT,11,110738
+423,SpiffX AB,SPIFFX,11,108517
+424,Sportamore AB,SPOR,11,90180
+425,Sprint Bioscience AB,SPRINT,11,103613
+426,SSAB AB ser. A,SSAB-A,11,300
+427,SSAB AB ser. B,SSAB-B,11,301
+428,Starbreeze AB ser. A,STAR-A,11,110197
+429,Star Vault B,STAR-B,52,4109
+430,Stora Enso Oyj ser. A,STE-A,11,2169
+431,Stora Enso Oyj ser. R,STE-R,11,2170
+432,Stendörren Fastigheter AB,STEF-B,11,80255
+433,Stille AB,STIL,11,32001
+434,Strax AB,STRAX,11,5116
+435,Stockwik Förvaltning AB,STWK,11,1007
+436,Svedbergs i Dalstorp AB ser. B,SVED-B,11,935
+437,Studsvik AB,SVIK,11,13094
+438,Svolder AB ser. A,SVOL-A,11,936
+439,Svolder AB ser. B,SVOL-B,11,937
+440,SWECO AB ser. A,SWEC-A,11,1061
+441,SWECO AB ser. B,SWEC-B,11,1062
+442,Swedbank AB ser A,SWED-A,11,120
+443,Swedish Match AB,SWMA,11,361
+444,Swedol AB ser. B,SWOL-B,11,55913
+445,Systemair AB,SYSR,11,43007
+446,TagMaster AB ser. B,TAGM-B,11,31153
+447,SAS AB,TCT,11,13557
+448,Tele2 AB ser. A,TEL2-A,11,1026
+449,Tele2 AB ser. B,TEL2-B,11,1027
+450,TargetEveryOne AB,TEONE,11,110094
+451,Tethys Oil AB,TETY,11,24588
+452,Thule Group AB,THULE,11,104058
+453,Tobii AB,TOBII,11,108332
+454,Tobin Properties AB Pref,TOBIN-PREF,11,104981
+455,Torslanda Property Investment AB,TORSAB,11,105564
+456,Traction AB ser. B,TRAC-B,11,4963
+457,Christian Berner Tech Trade AB ser. B,TRAD,11,103391
+458,Transtema Group AB,TRANS,11,109528
+459,Trelleborg AB ser. B,TREL-B,11,364
+460,Troax Group AB,TROAX,11,107899
+461,Uniflex AB ser. B,UFLX-B,11,36986
+462,Unlimited Travel Group AB,UTG,11,37471
+463,VBG GROUP AB ser. B,VBG-B,11,942
+464,Vostok Emerging Finance Ltd,VEMF-SDB,11,110742
+465,Verisec AB,VERI,11,104860
+466,Vicore Pharma Holding AB,VICO,11,116629
+467,Victoria Park AB ser. A,VICP-A,11,49803
+468,Victoria Park AB ser. B,VICP-B,11,100963
+469,Victoria Park AB Pref,VICP-PREF,11,95710
+470,Vitec Software Group AB ser. B,VIT-B,11,5177
+471,Vitrolife AB,VITR,11,13469
+472,Vostok New Ventures Ltd,VNV-SDB,11,41044
+473,Volati AB Pref,VOLO-PREF,11,110084
+474,"Volvo, AB ser. A",VOLV-A,11,365
+475,"Volvo, AB ser. B",VOLV-B,11,366
+476,Venue Retail Group AB ser. B,VRG-B,11,946
+477,Viking Supply Ships AB ser. B,VSSAB-B,11,964
+478,Wallenstam AB ser. B,WALL-B,11,945
+479,Waystream Holding AB,WAYS,11,115386
+480,WeSC AB,WESC-BTA,11,55316
+481,WeSC AB,WESC,11,55316
+482,Wifog Holding AB,WIFOG,11,67911
+483,Wihlborgs Fastigheter AB,WIHL,11,29759
+484,Wintrust Financial Corporation,WINT,19,WTFC
+485,Wise Group AB,WISE,11,40017
+486,WOWIO INC,WWIO,21,WWIO
+487,XANO Industri AB ser. B,XANO-B,11,1074
+488,Xbrane Biopharma AB,XBRANE,11,118813
+489,Xintela AB,XINT,11,120379
+490,Xvivo Perfusion AB,XVIVO,11,90126
+491,ZetaDisplay AB,ZETA,11,81310
+492,Zinzino AB Ser. B,ZZ-B,11,77836
+493,NDX GROWTH AND INCOME FUND,^NDX,25,NGI.UN
