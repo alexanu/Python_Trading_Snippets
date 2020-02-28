@@ -1,15 +1,10 @@
 # Based on : qstrader/blob/master/qstrader/scripts/generate_simulated_prices.py
 
-from __future__ import print_function
-
-import click
-
 import calendar
 import copy
 import datetime
 import os
 import numpy as np
-from .. import settings
 
 
 def month_weekdays(year_int, month_int):
@@ -22,6 +17,17 @@ def month_weekdays(year_int, month_int):
         d for d in cal.itermonthdates(year_int, month_int)
         if d.weekday() < 5 and d.year == year_int
     ]
+
+
+ticker='GOOG'
+init_price=700
+seed=42 # Fix the randomness by default but use a negative value for true randomness
+s0=1.5000
+year=2017
+month=1
+days=-1 # Number days to process
+
+
 
 
 def run(outdir, ticker, init_price, seed, s0, spread, mu_dt, sigma_dt, year, month, nb_days, config):
@@ -84,23 +90,3 @@ def run(outdir, ticker, init_price, seed, s0, spread, mu_dt, sigma_dt, year, mon
                 outfile.write(line)
         if nb_days > 0 and i >= nb_days - 1:
             break
-
-
-@click.command()
-@click.option('--outdir', default='', help='Ouput directory (CSV_DATA_DIR)')
-@click.option('--ticker', default='GOOG', help='Equity ticker symbol (GOOG, SP500TR...)')
-@click.option('--init_price', default=700, help='Init price')
-@click.option('--seed', default=42, help='Seed (Fix the randomness by default but use a negative value for true randomness)')
-@click.option('--s0', default=1.5000, help='s0')
-@click.option('--spread', default=0.02, help='spread')
-@click.option('--mu_dt', default=1400, help='mu_dt (Milliseconds)')
-@click.option('--sigma_dt', default=100, help='sigma_dt (Milliseconds)')
-@click.option('--year', default=2014, help='Year')
-@click.option('--month', default=1, help='Month')
-@click.option('--days', default=-1, help='Number days to process')
-def main(outdir, ticker, init_price, seed, s0, spread, mu_dt, sigma_dt, year, month, days, config=None):
-    return run(outdir, ticker, init_price, seed, s0, spread, mu_dt, sigma_dt, year, month, days, config=config)
-
-
-if __name__ == "__main__":
-    main()
