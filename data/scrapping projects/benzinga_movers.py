@@ -1,3 +1,5 @@
+# Source: benzinga_movers_scraper/blob/master/scripts/scrape_benzinga.py
+
 import requests
 import urllib3
 from bs4 import BeautifulSoup
@@ -315,51 +317,31 @@ def get_new_benzinga_data(old_data): #gets new data given an df of previous coll
         soup = BeautifulSoup(page.content, "html.parser")
 
         movers = soup.find_all('a', text = re.compile('Biggest Movers'))
-        print('%d movers links found on page %d...' %(len(movers),i))
-
-        #if no movers links found on page, break
-        if len(movers) == 0:
+        print('%d movers links found on page %d...' %(len(movers),i))        
+        if len(movers) == 0: # #if no movers links found on page, ...
             break
 
         for lk in movers:
             href = lk.get('href')
-
-            #open link
             url2 = 'https://www.benzinga.com' + href
-
-            if url2 in set(old_data.link): #if link already encountered, break and set boolean for link saved already = 1
-                link_saved_already = 1
+            if url2 in set(old_data.link): # if link already encountered, ...
+                link_saved_already = 1 # ... break and set boolean for link saved already = 1
                 break
-
             page2 = requests.get(url2)
             soup2 = BeautifulSoup(page2.content, 'html.parser')
-
-            #get date
             date = soup2.find_all('div', class_ = 'article-date-wrap')[0].text.strip()[:25].strip()
-
-            #body of article is list of ticker and movement descriptions
-            article_body = soup2.find_all('div', class_ = 'article-content-body-only')[0]
-
-            #loop through all items in list to get ticker and price movement descriptions
-            for row in article_body.find_all('li'):
+            article_body = soup2.find_all('div', class_ = 'article-content-body-only')[0] #body of article is list of ticker and movement descriptions             
+            for row in article_body.find_all('li'): #loop through all items in list
                 tck = row.find_next('a', class_ = 'ticker').text
                 dsc = row.text
-
-                #add ticker and description to data
-                data['ticker'] += [tck]
-                data['descriptions'] += [dsc]
-
-                #add date
-                data['date'] += [date]
-
-                #add link
-                data['link'] += [url2]
+                data['ticker'] += [tck] #add ticker and description to data
+                data['descriptions'] += [dsc]                
+                data['date'] += [date] #add date                
+                data['link'] += [url2] #add link
         i += 1
     df = pd.DataFrame(data)
     df['date'] = pd.to_datetime(df.date) - BDay(1) #set to previous business day
     df = df[['date', 'ticker', 'descriptions', 'link']]
-
-    #drop duplicates
-    df = df.drop_duplicates()
+    df = df.drop_duplicates()  #drop duplicates
     
     return(df)
