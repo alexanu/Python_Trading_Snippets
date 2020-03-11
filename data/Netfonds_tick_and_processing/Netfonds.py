@@ -414,6 +414,33 @@ class Multi():
     
 # EXAMPLES ##############################################################################################
 
+stl = multi(instrument='STL', exchange='OSE') # Statoil ASA
+ohlcv = stl.get_ohlcv('20170801', '20171020', '15min') # intraday data
+# ohlcv = stl.get_ohlcv(interval='5min')
+ohlcv.to_csv('stl.csv')
 
-    
+
+stl = Dl('STL', exchange='OSE', download=False)
+history = stl.get_history()
+history_ma = stl.get_history(mas=[10,20,50,100,200])
+
+stl_2 = Dl('STL', exchange='OSE', day='today', download=True)
+stl_2.trades.tail(5)
+# If download=False then you need to call dl.get_trades()
+#trades = stl_2.get_trades()
+stl_2.vwap()
+
+positions = stl.get_positions() 
+fig, ax = plt.subplots()
+ax.tick_params(labeltop=False, labelright=True)
+positions.bid.plot(drawstyle='steps', color='b')
+positions.ask.plot(drawstyle='steps', color='g')
+plt.title("Intraday best bid vs best ask")
+plt.grid()
+
+
+brokers = stl.get_broker_stats()
+
+
+
  
