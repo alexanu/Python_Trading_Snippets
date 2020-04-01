@@ -410,3 +410,71 @@ def month_weekdays(year_int, month_int):
 
 
 #--------------------------------------------------------------------------------------------------------
+
+# https://www.thertrader.com/2020/03/15/speeding-up-your-python-code/
+
+import numpy as np    
+import pandas as pd
+import os
+import time
+ 
+# regularly spaced data is needed to calculate 1 second return ...
+# ... however tick data is completely irregularly spaced in time 
+# # I need first at each point in time, to find the right time stamp looking backward then do the calculation itself.
+
+mf = pd.read_csv(theMessageFile, 
+                names = ['timeStamp','EventType','Order ID','Size','Price','Direction'], 
+                float_precision='round_trip') # keeps the same number of decimals as in the original csv file
+stop = []
+
+#----- Method #1 : Standard method with Pandas - very slow!!!
+timeStamp = mf['timeStamp'].to_frame() 
+timeStamp = timeStamp[:100000]
+stop = [timeStamp.timeStamp[abs(timeStamp.timeStamp 
+                            - (timeStamp.timeStamp[i] - 1)).idxmin()] # look for index 1 second back in the past 
+        for i in range(len(timeStamp)-1)]
+
+#----- Method #2 : Numpy Array - very similar but much faster
+timeStamp = mf['timeStamp'].to_frame().values # convert to Numpy array
+timeStamp = timeStamp[:100000]
+stop = [timeStamp[np.abs(timeStamp 
+                        - (timeStamp[i] - 1)).argmin()]  
+        for i in np.arange(len(timeStamp))]
+
+#-----  Method #3: Numpy + optimal experiment design - 150 times faster!!
+timeStamp = mf['timeStamp']
+timeStamp = timeStamp[:100000]
+timeStampInSeconds = timeStamp.round(0) 
+
+
+# at each point in time,  I don’t need to search for the entire set of indexes ...
+# ... but only indexes located before i ...
+# ... so it can be of the form i-n with n being anything between 0 and i-1. 
+# I find the maximum number of ticks per second in the entire data set 
+# this will be the maximum number of ticks I will have to look back in the past ...
+# ... to find the right index to calculate the return per second. 
+
+lookBack = max(timeStampInSeconds.value_counts()) + 10 
+timeStamp = timeStamp.to_frame().values # convert to Numpy array like above
+myPos = []
+for i in range(len(timeStamp)):
+    if i == 0:
+        pos = timeStamp[0]
+    elif i < lookBack:
+        pos = timeStamp[abs(timeStamp[:i,0] - (timeStamp[i,0] - 1)).argmin()]
+    elif i >= lookBack:    
+        a = i - lookBack
+        bb = timeStamp[a:i,0]
+        pos = bb[abs(bb - (timeStamp[i,0] - 1)).argmin()]
+    myPos.append(pos)
+
+
+#--------------------------------------------------------------------------------------------------------
+
+
+#convert tick data to 15 minute data
+data_frame = pd.read_csv(tick_data_file, names=['id', 'deal', 'Symbol', 'Date_Time', 'Bid', 'Ask'], index_col=3, parse_dates=True, skiprows= 1)
+ohlc_M15 =  data_frame['Bid'].resample('15Min').ohlc()
+ohlc_H1 = data_frame['Bid'].resample('1H').ohlc()
+ohlc_H4 = data_frame['Bid'].resample('4H').ohlc()
+ohlc_D = data_frame['Bid'].resample('1D').ohlc()

@@ -19,9 +19,124 @@ import socket
 from collections import namedtuple
 from enum import Enum
 import logging
-import parsers as parser_table
+from functools import wraps
+import time
+import pandas as pd
+from datetime import datetime
+from consts import *
 
-from .tools import retry
+
+log = logging.getLogger(__name__)
+
+DATE_INPUT_FORMAT = '%Y-%m-%d %H:%M:%S'
+
+
+def parse_minute(data):
+    """
+    :param data: Iqfeed data
+    :return: Array JSON objects representing minute history data
+    """
+    result = []
+
+    if len(data) is 0:
+        return result
+
+    for line in data.split('\n'):
+        try:
+            (datetime_str, high, low, open_, close, volume, _, _) = line.split(',')
+            line_data = {
+                IQ_TIME_COL: datetime.strptime(datetime_str, DATE_INPUT_FORMAT),
+                IQ_HIGH_COL: float(high),
+                IQ_LOW_COL: float(low),
+                IQ_OPEN_COL: float(open_),
+                IQ_CLOSE_COL: float(close),
+            }
+            result.append(line_data)
+        except ValueError:
+            if 'NO_DATA' in line:
+                log.info('No data received.')
+            else:
+                log.info(data)
+            return []
+
+    return result
+
+
+def parse_day(data):
+    return parse_minute(data)
+
+
+def parse_tick():
+    pass
+
+
+
+def retry(tries, exceptions=None, delay=0):
+    """
+    Decorator for retrying a function if exception occurs
+    Source: https://gist.github.com/treo/728327
+
+    tries -- num tries
+    exceptions -- exceptions to catch
+    delay -- wait between retries
+    """
+    exceptions = exceptions or (Exception, )
+
+    def _retry(fn):
+        @wraps(fn)
+        def __retry(*args, **kwargs):
+            for _ in xrange(tries+1):
+                try:
+                    return fn(*args, **kwargs)
+                except exceptions as e:
+                    log.warning("Exception, retrying...", exc_info=e)
+                    time.sleep(delay)
+            raise  # If no success after tries raise last exception
+        return __retry
+
+    return _retry
+
+
+
+def bars_to_dateframe(bars, tz):
+    """Creates dataframe from list of Bar instances"""
+
+    rows = [{'DateTime':  bar.datetime,
+             'Open':      bar.open,
+             'High':      bar.high,
+             'Low':       bar.low,
+             'Close':     bar.close,
+             'Volume':    bar.volume,
+             } for bar in bars]
+    return pd.DataFrame.from_records(rows).set_index(['DateTime']).sort_index()
+
+
+def tick_bars_to_dateframe(bars):
+    rows = [{
+        'DateTime': bar.datetime,
+        'Last':     bar.last,
+        'LastSize': bar.last_size,
+        'Volume':   bar.volume,
+        'Bid':      bar.bid,
+        'Ask':      bar.ask,
+        'TicketID': bar.ticket_id,
+        } for bar in bars]
+    return pd.DataFrame.from_records(rows).set_index(['DateTime']).sort_index()
+
+
+def get_instruments_from_file(filename):
+    """Load index from txt file"""
+    instruments = []
+    with open(filename, 'r') as f:
+        for instrument in f:
+            instruments.append(instrument.rstrip())
+    if len(instruments) > 0:
+        instruments = instruments[1:]
+    return instruments
+
+
+
+
 
 log = logging.getLogger(__name__)
 

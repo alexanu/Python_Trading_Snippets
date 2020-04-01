@@ -1,3 +1,5 @@
+# Source: https://github.com/stefan-jansen/machine-learning-for-trading/tree/master/04_alpha_factor_research
+
 # Chapter 04: Alpha Factor Research & Evaluation
 
 Alpha factors aim to predict the price movements of assets in the investment universe based on the available market, fundamental, or alternative data. A factor may combine one or several input variables, but assumes a single value for each asset every time the strategy evaluates the factor. 
