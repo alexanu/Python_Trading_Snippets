@@ -1,0 +1,70 @@
+exchange,exchange_full,financial_center_id,mic,operating_mic
+JSE,Johannesburg Stock Exchange,Johannesburg,XJSE,XJSE
+SAFEX,South African Futures Exchange,Johannesburg,XSAF,XJSE
+SSE,Shanghai Stock Exchange,Shanghai,XSHG,XSHG
+SZSE,Shenzhen Stock Exchange,Shenzhen,XSHE,XSHE
+CFFEX,China Financial Futures Exchange,Shanghai,CCFX,CCFX
+DCE,Dalian Commodity Exchange,Dalian,XDCE,XDCE
+SHFE,Shanghai Futures Exchange,Shanghai,XSGE,XSGE
+ZCE,Zhengzhou Commodity Exchange,Zhengzhou,XZCE,XZCE
+HKFE,Hong Kong Futures Exchange,Hong_Kong,XHKF,XHKF
+SEHK,Hong Kong Stock Exchange,Hong_Kong,SHSC,XHKG
+BSE,Bombay Stock Exchange,Mumbai,XBAH,XBAH
+NSE,National Stock Exchange of India,Mumbai,XNSE,XNSE
+MCX,Multi Commodity Exchange,Mumbai,XIMC,XIMC
+NCDEX,National Commodity & Derivatives Exchange,Mumbai,XNCD,XNCD
+ICDX,Indonesia Commodity and Derivatives Exchange,Jakarta,ICDX,ICDX
+JFX,Jakarta Futures Exchange,Jakarta,XBBJ,XBBJ
+OSE,Osaka Exchange,Tokyo,XOSE,XJPX
+JPX,Japan Exchange Group,Tokyo,XJPX,XJPX
+KRX FM,Korea Exchange (Futures Market),Seoul,XKFE,XKRX
+KRX SM,Korea Exchange (Stock Market),Seoul,XKRX,XKRX
+MYX,Bursa Malaysia,Kuala_Lumpur,XKLS,XKLS
+MCX,Manila Commodity Exchange,Manila,XIMC,XIMC
+SGX,Singapore Exchange,Singapore,XSES,XSES
+SICOM,Singapore Commodity Exchange,Singapore,XSCE,XSES
+SMX,Singapore Mercantile Exchange,Singapore,SMEX,SMEX
+APEX,Asia Pacific Exchange,Singapore,APEX,APEX
+TWSE,Taiwan Stock Exchange,Taipei,XTAI,XTAI
+TAIFEX,Taiwan Futures Exchange,Taipei,XTAF,XTAF
+TFEX,Thailand Futures Exchange,Bangkok,TFEX,TFEX
+ENX_Brussels,Euronext Brussels,Brussels,XBRU,XBRU
+ENX_Brussels,Euronext Brussels Derivative,Brussels,XBRD,XBRU
+CSE,Nasdaq Copenhagen,Copenhagen,XCSE,XCSE
+OMXH,Nasdaq Helsinki,Helsinki,XHEL,XHEL
+ENX_Paris,Euronext Paris,Paris,XPAR,XPAR
+EUREX,European Exchange,Frankfurt,XEUR,XEUR
+FWB,Frankfurt Stock Exchange - Boerse Frankfurt Regulieter Markt,Frankfurt,FRAA,XFRA
+MI,Borsa Italiana,Milan,XMIL,XMIL
+ENX_Amsterdam,Euronext Amsterdam,Amsterdam,XAMS,XAMS
+EDXNO,EDXNO,Oslo,XLOD,XLON
+ENX_Lisbon,Euronext Lisbon - Futures,Lisbon,MFOX,XLIS
+MOEX,Moscow Exchange,Moscow,MISX,MISX
+MEFF,Spanish Futures and Options Exchange,Madrid,XMRV,BMEX
+BME,Bolsas Y Mercados Espanoles,Madrid,BMEX,BMEX
+OMX,Nasdaq OMX Stockholm,Stockholm,XSTO,XSTO
+SIX,SIX Swiss Exchange,Zurich,XSWX,XSWX
+ICE_US,Intercontinental Exchange - US,New_York,IFUS,IFUS
+ICE_EUR,Intercontinental Exchange - EU,London,IFEU,IFEU
+LSE_Futures,London Stock Exchange Group  - Derivatives,London,AIMX,XLON
+LSE_Stock,London Stock Exchange Group  - MTF,London,XLOM,XLON
+LME,London Metal Exchange,London,XLME,XLME
+MX,Montreal Exchange,Montreal,XMOD,XMOD
+TSX,Toronto Stock Exchange,Toronto,XTSE,XTSE
+MEXDER,Mexican Derivatives Exchange,Mexico_City,XEMD,XEMD
+MEXBOL,Mexican Stock Exchange,Mexico_City,XMEX,XMEX
+CBOT,Chicago Board of Trade,Chicago,XCBT,XCBT
+NYMEX,New York Mercantile Exchange,New_York,XNYM,XNYM
+CME,Chicago Mercantile Exchange,Chicago,XCME,XCME
+NYSE,New York Stock Exchange,New_York,XNYS,XNYS
+NASDAQ,Nasdaq Stock Market,New_York,XNCM,XNAS
+ESPEED,Nasdaq OMX Espeed,New_York,ESPD,XNAS
+AMEX,American Stock Exchange,New_York,XASE,XNYS
+CBOE,Chicago Board of Options Exchange - Futures,Chicago,XCBF,XCBO
+KCBT,Kansas City Board of Trade,Kansas_City,XKBT,XCBT
+ASX,Australian Securities Exchange,Sydney,XASX,XASX
+B3,"BM&F Bovespa S.A., Bolsa de Valores, Mercadorias e Futuros",Sao Paulo,BVMF,BVMF
+ECB,ECB Exchange Rates,Frankfurt,XECB,XECB
+XETRA_Stocks,Xetra Regulierter,Frankfurt,XETA,XETR
+XETRA_Bonds,Eurex Bonds,Frankfurt,XEUB,XETR
+OSE,Oslo Bors,Oslo,XOSL,XOSL

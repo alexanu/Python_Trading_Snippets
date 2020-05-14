@@ -441,3 +441,123 @@ for row in symbol_data[1:-1]: # cut off the the last row because it is a null st
     symbol_data_dict['industry'] = row[7]
     
     symbol_list.append(symbol_data_dict)
+
+
+
+###############################################################################################
+
+"""download to csv file ETF holdings
+
+    Materials (XLB)
+    Energy (XLE)
+    Financials (XLF)
+    Industrials (XLI)
+    Technology (XLK)
+    Staples (XLP)
+    Utilities (XLU)
+    Health care (XLV)
+    Consumer discretionary (XLY)
+
+"""
+
+import pandas as pd
+
+def get_holdings(spdr_ticker):
+    
+    url = f'http://www.sectorspdr.com/sectorspdr/IDCO.Client.Spdrs.Holdings/Export/ExportCsv?symbol={spdr_ticker}'
+    df = pd.read_csv(url, skiprows=1).to_csv(f'{spdr_ticker}_holdings.csv', index=False)
+        
+    return df
+    
+    
+if __name__ == "__main__":
+    
+    tickers = ['XLB', 'XLE', 'XLF', 'XLI', 'XLK', 'XLP', 'XLU', 'XLV', 'XLY']
+
+    for t in tickers:
+        get_holdings(t)
+
+
+#################################################################################################
+
+
+"""
+Download the ticker list from NASDAQ and save as csv.
+Output filename: ./input/tickerList.csv
+"""
+import csv
+import sys
+
+from urllib.request import urlopen
+
+import numpy as np
+
+
+def get_tickers(percent):
+    """Keep the top percent market-cap companies."""
+    assert isinstance(percent, int)
+
+    file = open('./input/tickerList.csv', 'w')
+    writer = csv.writer(file, delimiter=',')
+    cap_stat, output = np.array([]), []
+    for exchange in ["NASDAQ", "NYSE", "AMEX"]:
+        url = "http://www.nasdaq.com/screening/companies-by-industry.aspx?exchange="
+        repeat_times = 10 # repeat downloading in case of http error
+        for _ in range(repeat_times):
+            try:
+                print("Downloading tickers from {}...".format(exchange))
+                response = urlopen(url + exchange + '&render=download')
+                content = response.read().decode('utf-8').split('\n')
+                for num, line in enumerate(content):
+                    line = line.strip().strip('"').split('","')
+                    if num == 0 or len(line) != 9:
+                        continue # filter unmatched format
+                    # ticker, name, last_sale, market_cap, IPO_year, sector, industry
+                    ticker, name, _, market_cap, _, _, _ = line[0:4] + line[5:8]
+                    cap_stat = np.append(cap_stat, float(market_cap))
+                    output.append([ticker, name.replace(',', '').replace('.', ''),
+                                   exchange, market_cap])
+                break
+            except:
+                continue
+
+    for data in output:
+        market_cap = float(data[3])
+        if market_cap < np.percentile(cap_stat, 100 - percent):
+            continue
+        writer.writerow(data)
+
+
+
+#################################################################################################
+
+
+def getSpyHoldings(dataDir):
+    ''' get SPY holdings from the net, uses temp data storage to save xls file '''
+
+    import urllib.request, urllib.parse, urllib.error
+    
+    dest = os.path.join(dataDir,"spy_holdings.xls")
+    
+    if os.path.exists(dest):
+        print('File found, skipping download')
+    else:
+        print('saving to', dest)
+        urllib.request.urlretrieve ("https://www.spdrs.com/site-content/xls/SPY_All_Holdings.xls?fund=SPY&docname=All+Holdings&onyx_code1=1286&onyx_code2=1700",
+                             dest) # download xls file and save it to data directory
+        
+    # parse
+    import xlrd # module for excel file reading
+    wb = xlrd.open_workbook(dest) # open xls file, create a workbook
+    sh = wb.sheet_by_index(0) # select first sheet
+    
+    
+    data = {'name':[], 'symbol':[], 'weight':[],'sector':[]}
+    for rowNr  in range(5,505): # cycle through the rows
+        v = sh.row_values(rowNr) # get all row values
+        data['name'].append(v[0])
+        data['symbol'].append(v[1]) # symbol is in the second column, append it to the list
+        data['weight'].append(float(v[2]))
+        data['sector'].append(v[3])
+      
+    return  pd.DataFrame(data)    

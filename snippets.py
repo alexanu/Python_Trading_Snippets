@@ -478,3 +478,128 @@ ohlc_M15 =  data_frame['Bid'].resample('15Min').ohlc()
 ohlc_H1 = data_frame['Bid'].resample('1H').ohlc()
 ohlc_H4 = data_frame['Bid'].resample('4H').ohlc()
 ohlc_D = data_frame['Bid'].resample('1D').ohlc()
+
+
+#--------------------------------------------------------------------------------------------------------
+
+
+    def calculate_ib_commission(self):
+        """
+        Calculates the fees of trading based on an Interactive
+        Brokers fee structure for API, in USD.
+        This does not include exchange or ECN fees.
+        Based on "US API Directed Orders":
+        https://www.interactivebrokers.com/en/index.php?f=commission&p=stocks2
+        """
+        full_cost = 1.3
+        if self.quantity <= 500:
+            full_cost = max(1.3, 0.013 * self.quantity)
+        else: # Greater than 500
+            full_cost = max(1.3, 0.008 * self.quantity)
+        return full_cost
+
+
+#################################################################################################
+
+import pandas_datareader.data as web
+import pandas as pd
+import datetime
+
+
+def sim_leverage(df, leverage=1, expense_ratio=0.0, initial_value=1.0):
+    pct_change = df["Adj Close"].pct_change(1)
+    sim = pd.DataFrame().reindex_like(df)
+    pct_change = (pct_change - expense_ratio / 252) * leverage
+    sim["Adj Close"] = (1 + pct_change).cumprod() * initial_value
+    sim["Close"] = (1 + pct_change).cumprod() * initial_value
+
+    sim.loc[sim.index[0], "Adj Close"] = initial_value
+    sim = sim.drop(columns=["Volume"])
+
+    sim["Open"] = sim["Adj Close"]
+    sim["High"] = sim["Adj Close"]
+    sim["Low"] = sim["Adj Close"]
+    sim["Close"] = sim["Adj Close"]
+
+    return sim
+
+
+def main():
+    start = datetime.datetime(1989, 1, 1)
+    end = datetime.datetime(2019, 1, 1)
+    vfinx = web.DataReader("VFINX", "yahoo", start, end)
+    vusxt = web.DataReader("VUSTX", "yahoo", start, end)
+    upro_sim = sim_leverage(vfinx, leverage=3.0, expense_ratio=0.0092)
+    tmf_sim = sim_leverage(vusxt, leverage=3.0, expense_ratio=0.0111)
+    spxu_sim = sim_leverage(
+        vfinx, leverage=-3.0, expense_ratio=0.0091, initial_value=100000
+    )
+
+    spxu_sim.to_csv("../data/SPXU_SIM.csv")
+    upro_sim.to_csv("../data/UPRO_SIM.csv")
+    tmf_sim.to_csv("../data/TMF_SIM.csv")
+
+
+if __name__ == "__main__":
+    main()
+
+#####################################################################################################
+# identify outliers using 3 sigma approach ----
+
+
+import matplotlib.pyplot as plt
+plt.style.use('seaborn') #set style to `seaborn`
+
+df_ma = df[['simple_rtn']].rolling(window=21).agg(['mean', 'std']) #calculate rolling mean and standard deviation
+df_ma.columns = df_ma.columns.droplevel() # drop multi-level index
+
+# identify outliers
+df_outliers = df.join(df_ma)
+df_outliers['outlier'] = [1 if (x > mu + 3 * sigma) or (x < mu - 3 * sigma) else 0 for x, mu, sigma in zip(df_outliers.simple_rtn, 
+                                                                                                           df_outliers['mean'], 
+                                                                                                           df_outliers['std'])] 
+fig, ax = plt.subplots(figsize=(15, 9)) # create instance of plot
+outliers = df_outliers.loc[df_outliers['outlier'] == 1, ['simple_rtn']] # define outliers for convenience
+ax.plot(df_outliers.index, df_outliers.simple_rtn, color='blue', label='Normal') # add line plot of returns
+ax.scatter(outliers.index, outliers.simple_rtn, color='red', label='Anomaly') # add points for outliers
+plt.legend(loc='lower right')
+plt.title('Apple stock returns', fontsize = 20)
+plt.show();
+
+
+#-------------------------------------------------------------------------------------------------------------
+
+amzn['Log_Ret'] = np.log(amzn['Close'] / amzn['Close'].shift(1))
+amzn['Volatility'] = amzn['Log_Ret'].rolling(window=252).std() * np.sqrt(252)
+
+futures_data['DATE'] = futures_data['DATE'].apply(lambda x: dt.datetime.fromtimestamp(x / 1e9))
+
+AAPL['42d'] = np.round(AAPL['Close'].rolling(window=42).mean(), 2)
+AAPL['42-252'] = AAPL['42d'] - AAPL['252d']
+SD = 0.5
+AAPL['Position'] = np.where(AAPL['42-252'] > SD, 1, 0)
+AAPL['Position'] = np.where(AAPL['42-252'] < -SD, -1, AAPL['Position'])
+AAPL['Position'].value_counts()
+AAPL['Market'] = np.log(AAPL['Close'] / AAPL['Close'].shift(1))
+AAPL['Strategy'] = AAPL['Position'].shift(1) * AAPL['Market']
+
+#-------------------------------------------------------------------------------------------------------------
+
+
+def overlap_by_symbol(old_df: pd.DataFrame, new_df: pd.DataFrame, overlap: int):
+    """
+    Overlap dataframes for timestamp continuity. Prepend the end of old_df to the beginning of new_df, grouped by symbol.
+    If no symbol exists, just overlap the dataframes
+    :param old_df: old dataframe
+    :param new_df: new dataframe
+    :param overlap: number of time steps to overlap
+    :return DataFrame with changes
+    """
+    if isinstance(old_df.index, pd.MultiIndex) and isinstance(new_df.index, pd.MultiIndex):
+        old_df_tail = old_df.groupby(level='symbol').tail(overlap)
+
+        old_df_tail = old_df_tail.drop(set(old_df_tail.index.get_level_values('symbol')) - set(new_df.index.get_level_values('symbol')), level='symbol')
+
+        return pd.concat([old_df_tail, new_df], sort=True)
+    else:
+        return pd.concat([old_df.tail(overlap), new_df], sort=True)

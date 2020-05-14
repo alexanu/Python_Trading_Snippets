@@ -1,0 +1,73 @@
+http://help.yahoo.com/help/us/fin/quote/quote-12.html
+
+Yahoo! Finance offers access to historical quote data in tabular format in several
+timeframes: Daily, Weekly, Monthly, and Dividends. The historical quotes feature
+includes notations for all splits and dividend distributions during the date range
+covered. Open, high, low, and close quotes are not adjusted for splits or dividends.
+An additional column, Adjusted Close, is provided that shows the close price adjusted
+for all splits and dividends.
+On the Historical Quotes page, you can choose the date range of the data displayed,
+change the ticker symbol query, or switch to a different timeframe format. If the
+data requested is beyond the range of historical quotes available through Yahoo!
+Finance, all available data within the range will be displayed. Historical quotes
+typically do not go back further than 1970.
+
+There is currently no restriction to the amount of historical quote data you can
+request, however, only 66 rows will be displayed at a time. To see all all the
+data you've requested, click the "Download to Spreadsheet" link at the bottom of
+the page. Note that dividend information is not included in the downloaded spreadsheet.
+However, dividend data can be downloaded separately when the "Dividends Only" button
+is clicked.
+
+Daily Historical Quotes provide you with the daily open, high, low, close, and
+volume for each trading day in the chosen date range.
+
+Weekly Historical Quotes retrieve the open trade from the first trading day for
+the week, the high and low price quotes of the week, and the closing price on the
+last trading day of the week. The weekly volume is the average daily volume for
+all trading days in the reported week.
+
+Monthly Historical Quotes report the open trade from the first trading day of the
+month, the high and low price quotes for the month, and the closing price on the
+last trading day of the month. The monthly volume is the average daily volume for
+all trading days in the reported month.
+
+Historical Dividends report the dividend distributed by a company and the
+ex-dividend date of the distribution.
+
+Adjusted Close provides the closing price for the requested day, week, or month,
+adjusted for all applicable splits and dividend distributions. Data is adjusted
+using appropriate split and dividend multipliers, adhering to CRSP (Center for
+Research in Security Prices) standards. Split multipliers are determined by the
+split ratio. For instance, in a 2 for 1 split, the pre-split data is multiplied
+by 0.5. Dividend multipliers are calculated based on dividend as a percentage of
+price, primarily to avoid negative historical pricing. For example, when a $0.08
+cash dividend is distributed on Feb 19 (ex-date), and the Feb 18 closing price was
+24.96, the pre-dividend data is multiplied by (1-0.08/24.96) = 0.9968. Below is a
+detailed example of adjusted close calculations.
+Example: Adjusted Close Calculations
+
+2/13/03 Close = 46.99
+2/14/03 Close = 48.30
+2/18/03 Split = 2:1
+2/18/03 Close = 24.96
+2/19/03 Cash Dividend = 0.08 (ex-date)
+2/19/03 Close = 24.53
+
+
+Split Multiplier = 0.5
+Dividend Multiplier = 1 – (0.08/24.96) = 0.9968
+
+
+2/13/03 Adj. Close = 0.5 * 0.9968 * 46.99 = 23.42
+2/14/03 Adj. Close = 0.5 * 0.9968 * 48.30 = 24.07
+2/18/03 Adj. Close = 0.9968 * 24.96 = 24.88
+2/19/03 Adj. Close = 24.53
+
+
+A "Download to Spreadsheet" link is available at the bottom of each historical
+table. Selecting this option allows you to download the data as a .CSV file for
+use with a spreadsheet program. Dividend data can be separately downloaded by
+clicking the "Dividends Only" button and then clicking the "Download to Spreadsheet"
+link. International ticker downloads are limited to 200 rows of data due to contractual
+obligations with our data provider.

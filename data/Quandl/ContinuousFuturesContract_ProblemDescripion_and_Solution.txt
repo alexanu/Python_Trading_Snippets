@@ -1,0 +1,65 @@
+ Forward contracts present an interesting challenge for aggregating accurate
+ and reliable (and useable) historical market data for backtesting. Since in
+ any given year there are 4 delivery periods there are always 4 continuously
+ moving spot prices for each delivery date (for that year). A rule of thumb
+ and for intuitive reasons it is usually the most revealing to look at the
+ next upcoming contract (the "near" contract) when trading. However, when
+ constructing a data set to back test on the upcoming spot is irrelevant.
+
+ We are left with these differing prices for the same underlying forward 
+ contract simply due to differing delivery (or "expiration") dates. Should we
+ take the average of all existing futures contracts at each point in time and
+ use that as the price? Definitely not! That was more rhetorical to illustrate
+ a more greedy/ simple way of determining a single historical price to use.
+ Different delivery dates should have different prices for good reasons that I
+ will not go into here, averaging them together would result in horribly
+ inaccurate/ unusable historical data to backtest and research strategies on.
+
+ Having a background in Numerical Methods (of which interpolation,
+ extrapolation, time series, smoothing, perturbations, stiffness, and
+ stability might rear their heads in this problem) I immediately started
+ coming up with entirely unjustifiably complex ideas. Ideas along the lines 
+ of non-linear weighting schemes that might be challenging to implement, 
+ would most likely look for too much data from Quandl (without hardcoding 
+ tolerances), and would probably require to much computational power to 
+ re-proccess and update considerable amounts of historical future prices at a
+ time.
+
+ Luckily the internet exists and the book I'm walking through proposes 
+ several methodologies for creating this time series through overlapping
+ prices:
+    
+    1) Naively always using the nearest delivery contract - This would have an
+       always defined value but would likely often result in jump 
+       discontinuities every three months as you switch to the next near 
+       contract (contango and backwardation will naturally occur causing these
+       inconsistancies between different spot and future prices.
+
+    2) Convert over to the next nearest delivery date gradually or a few days
+       before the upcoming delivery date. Apparently a lot of traders do this,
+       This works but loses relative accuracy as we shift from one contract to
+       another.
+
+    3) Use a Panama (Back/Forward) adjustment where upon transitioning to the
+       next period you retroactively take the gap and shift the historical
+       prices to make it a continuous series. Note that the shift is almost
+       always down which creates a negative drift in prices, as well as the 
+       odd possibility of having negative prices in your historical dataset 
+       if you adjust far enough back.
+
+    4) In a similar but slightly better manner take the proportional adjustment
+       and apply it backwards in time to the historical prices. This preserves
+       relative price shifts accurately (so percentage returns are reliable),
+       but any strategy relying on actual price could not use this model. This
+       model is most effective for summary statistic analysis not backtesting.
+
+    5) Rollover/ Perpetual Series is the method we will go with as it preserves
+       relative accuracy and does not adjust prices too wildly. Similarly but
+       less complex than my original idea it revolves around a weighted linear
+       equation to construct the price out of the near contract and the far
+       contract over a specified interval  The implementation is in the file
+       named: perpetualSeries_ContinuousFuturesContractModel.py
+       The only problem with this method is that it would entail trading on all
+       five days which might not necessarily be reasonable
+       (transaction costs, market movements/risk, etc)
+
