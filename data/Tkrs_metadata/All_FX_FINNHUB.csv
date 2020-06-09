@@ -1,0 +1,762 @@
+,description,displaySymbol,symbol,source,Group,Asset
+1,FXCM Bund,Bund,FXCM:Bund,fxcm,Bonds_indices,
+2,Bund,DE10YB/EUR,OANDA:DE10YB_EUR,oanda,Bonds_indices,
+3,UK 10Y Gilt,UK10YB/GBP,OANDA:UK10YB_GBP,oanda,Bonds_indices,
+4,US 2Y T-Note,USB02Y/USD,OANDA:USB02Y_USD,oanda,Bonds_indices,
+5,US 5Y T-Note,USB05Y/USD,OANDA:USB05Y_USD,oanda,Bonds_indices,
+6,US 10Y T-Note,USB10Y/USD,OANDA:USB10Y_USD,oanda,Bonds_indices,
+7,US T-Bond,USB30Y/USD,OANDA:USB30Y_USD,oanda,Bonds_indices,
+8,PEPPERSTONE Cocoa Cash Contract Cocoa,Cocoa/USD,PEPPERSTONE:10023,pepperstone,Commodity,
+9,PEPPERSTONE Coffee Cash Contract Coffee,Coffee/USD,PEPPERSTONE:10021,pepperstone,Commodity,
+10,Corn,CORN/USD,OANDA:CORN_USD,oanda,Commodity,
+11,FXCM CORNF,CORNF,FXCM:CORNF,fxcm,Commodity,
+12,PEPPERSTONE Cotton Cash Contract Cotton,Cotton/USD,PEPPERSTONE:10022,pepperstone,Commodity,
+13,PEPPERSTONE Orange Juice Cash Contract OrangeJuice,Orange Juice/USD,PEPPERSTONE:10024,pepperstone,Commodity,
+14,Soybeans,SOYBN/USD,OANDA:SOYBN_USD,oanda,Commodity,
+15,FXCM SOYF,SOYF,FXCM:SOYF,fxcm,Commodity,
+16,PEPPERSTONE Sugar Cash Contract Sugar,Sugar/USD,PEPPERSTONE:10020,pepperstone,Commodity,
+17,Sugar,SUGAR/USD,OANDA:SUGAR_USD,oanda,Commodity,
+18,Wheat,WHEAT/USD,OANDA:WHEAT_USD,oanda,Commodity,
+19,FXCM WHEATF,WHEATF,FXCM:WHEATF,fxcm,Commodity,
+20,FXCM BCH/USD,BCH/USD,FXCM:BCH/USD,fxcm,Crypto,
+21,ICMTRADER Bitcoin cash BCHUSD,BCH/USD,ICMTRADER:110,icmtrader,Crypto,
+22,IC MARKETS Bitcoin Cash US Dollar BCHUSD,BCH/USD,IC MARKETS:10028,ic markets,Crypto,
+23,PEPPERSTONE Bitcoin vs US Dollar Bitcoin,Bitcoin/USD,PEPPERSTONE:10028,pepperstone,Crypto,
+24,FXCM BTC/USD,BTC/USD,FXCM:BTC/USD,fxcm,Crypto,
+25,ICMTRADER Bitcoin BTCUSD,BTC/USD,ICMTRADER:108,icmtrader,Crypto,
+26,IC MARKETS Bitcoin BTCUSD,BTC/USD,IC MARKETS:10026,ic markets,Crypto,
+27,PEPPERSTONE Dash vs US Dollar Dash,Dash/USD,PEPPERSTONE:10031,pepperstone,Crypto,
+28,IC MARKETS Dashcoin US Dollar DSHUSD,DSH/USD,IC MARKETS:10027,ic markets,Crypto,
+29,FXCM ETH/USD,ETH/USD,FXCM:ETH/USD,fxcm,Crypto,
+30,ICMTRADER Etherium ETHUSD,ETH/USD,ICMTRADER:112,icmtrader,Crypto,
+31,IC MARKETS Etherimum US Dollar ETHUSD,ETH/USD,IC MARKETS:10029,ic markets,Crypto,
+32,PEPPERSTONE Ethereum vs US Dollar Ethereum,Ethereum/USD,PEPPERSTONE:10029,pepperstone,Crypto,
+33,PEPPERSTONE Ripple vs US Dollar Ripple,Ripple/USD,PEPPERSTONE:10032,pepperstone,Crypto,
+34,FXCM XRP/USD,XRP/USD,FXCM:XRP/USD,fxcm,Crypto,
+35,AUD/CAD,AUD/CAD,OANDA:AUD_CAD,oanda,Curr,AUD/CAD
+36,FXCM AUD/CAD,AUD/CAD,FXCM:AUD/CAD,fxcm,Curr,AUD/CAD
+37,Forex.com AUD/CAD,AUD/CAD,FOREX:401484300,forex.com,Curr,AUD/CAD
+38,FXPIG Australian Dollar vs Canadian Dollar AUDCAD.spa,AUD/CAD,FXPIG:18,fxpig,Curr,AUD/CAD
+39,PEPPERSTONE Australian Dollar vs Canadian Dollar AUDCAD,AUD/CAD,PEPPERSTONE:18,pepperstone,Curr,AUD/CAD
+40,ICMTRADER Australian Dollar vs Canadian Dollar AUDCAD,AUD/CAD,ICMTRADER:18,icmtrader,Curr,AUD/CAD
+41,IC MARKETS Australian Dollar vs Canadian Dollar AUDCAD,AUD/CAD,IC MARKETS:18,ic markets,Curr,AUD/CAD
+42,OCTAFX Australian Dollar vs Canadian Dollar AUDCAD,AUD/CAD,OCTAFX:18,octafx,Curr,AUD/CAD
+43,AUD/CHF,AUD/CHF,OANDA:AUD_CHF,oanda,Curr,AUD/CHF
+44,FXCM AUD/CHF,AUD/CHF,FXCM:AUD/CHF,fxcm,Curr,AUD/CHF
+45,Forex.com AUD/CHF,AUD/CHF,FOREX:401484301,forex.com,Curr,AUD/CHF
+46,PEPPERSTONE Australian Dollar vs Swiss Franc AUDCHF,AUD/CHF,PEPPERSTONE:23,pepperstone,Curr,AUD/CHF
+47,ICMTRADER Australian Dollar vs Swiss Franc AUDCHF,AUD/CHF,ICMTRADER:23,icmtrader,Curr,AUD/CHF
+48,IC MARKETS Australian Dollar vs Swiss Franc AUDCHF,AUD/CHF,IC MARKETS:23,ic markets,Curr,AUD/CHF
+49,OCTAFX Australian Dollar vs Swiss Franc AUDCHF,AUD/CHF,OCTAFX:23,octafx,Curr,AUD/CHF
+50,Forex.com AUD/CNH,AUD/CNH,FOREX:401484302,forex.com,Curr,AUD/CNH
+51,FXPIG Australian Dollar vs Danish Krone AUDDKK.spa,AUD/DKK,FXPIG:38,fxpig,Curr,AUD/DKK
+52,AUD/HKD,AUD/HKD,OANDA:AUD_HKD,oanda,Curr,AUD/HKD
+53,AUD/JPY,AUD/JPY,OANDA:AUD_JPY,oanda,Curr,AUD/JPY
+54,FXCM AUD/JPY,AUD/JPY,FXCM:AUD/JPY,fxcm,Curr,AUD/JPY
+55,Forex.com AUD/JPY,AUD/JPY,FOREX:401484303,forex.com,Curr,AUD/JPY
+56,FXPIG Australian Dollar vs Japanese Yen AUDJPY.spa,AUD/JPY,FXPIG:11,fxpig,Curr,AUD/JPY
+57,PEPPERSTONE Australian Dollar vs Japanese Yen AUDJPY,AUD/JPY,PEPPERSTONE:11,pepperstone,Curr,AUD/JPY
+58,ICMTRADER Australian Dollar vs Japanese Yen AUDJPY,AUD/JPY,ICMTRADER:11,icmtrader,Curr,AUD/JPY
+59,IC MARKETS Australian Dollar vs Japanese Yen AUDJPY,AUD/JPY,IC MARKETS:11,ic markets,Curr,AUD/JPY
+60,OCTAFX Australian Dollar vs Japanese Yen AUDJPY,AUD/JPY,OCTAFX:11,octafx,Curr,AUD/JPY
+61,Forex.com AUD/NOK,AUD/NOK,FOREX:401484304,forex.com,Curr,AUD/NOK
+62,AUD/NZD,AUD/NZD,OANDA:AUD_NZD,oanda,Curr,AUD/NZD
+63,FXCM AUD/NZD,AUD/NZD,FXCM:AUD/NZD,fxcm,Curr,AUD/NZD
+64,Forex.com AUD/NZD,AUD/NZD,FOREX:401484314,forex.com,Curr,AUD/NZD
+65,FXPIG Australian vs New Zealand Dollar AUDNZD.spa,AUD/NZD,FXPIG:20,fxpig,Curr,AUD/NZD
+66,PEPPERSTONE Australian vs New Zealand Dollar AUDNZD,AUD/NZD,PEPPERSTONE:20,pepperstone,Curr,AUD/NZD
+67,ICMTRADER Australian vs New Zealand Dollar AUDNZD,AUD/NZD,ICMTRADER:20,icmtrader,Curr,AUD/NZD
+68,IC MARKETS Australian vs New Zealand Dollar AUDNZD,AUD/NZD,IC MARKETS:20,ic markets,Curr,AUD/NZD
+69,OCTAFX Australian vs New Zealand Dollar AUDNZD,AUD/NZD,OCTAFX:20,octafx,Curr,AUD/NZD
+70,Forex.com AUD/PLN,AUD/PLN,FOREX:401484315,forex.com,Curr,AUD/PLN
+71,FXPIG Australian vs Swedish Krona  AUDSEK.spa,AUD/SEK,FXPIG:63,fxpig,Curr,AUD/SEK
+72,AUD/SGD,AUD/SGD,OANDA:AUD_SGD,oanda,Curr,AUD/SGD
+73,Forex.com AUD/SGD,AUD/SGD,FOREX:401484316,forex.com,Curr,AUD/SGD
+74,FXPIG Australian vs Singapore Dollar AUDSGD.spa,AUD/SGD,FXPIG:64,fxpig,Curr,AUD/SGD
+75,PEPPERSTONE Australian Dollar vs Singapore Dollar AUDSGD,AUD/SGD,PEPPERSTONE:43,pepperstone,Curr,AUD/SGD
+76,IC MARKETS Australian Dollar vs Singapore Dollar AUDSGD,AUD/SGD,IC MARKETS:1001,ic markets,Curr,AUD/SGD
+77,AUD/USD,AUD/USD,OANDA:AUD_USD,oanda,Curr,AUD/USD
+78,FXCM AUD/USD,AUD/USD,FXCM:AUD/USD,fxcm,Curr,AUD/USD
+79,Forex.com AUD/USD,AUD/USD,FOREX:401484317,forex.com,Curr,AUD/USD
+80,FXPIG Australian vs US Dollar AUDUSD.spa,AUD/USD,FXPIG:5,fxpig,Curr,AUD/USD
+81,PEPPERSTONE Australian vs US Dollar AUDUSD,AUD/USD,PEPPERSTONE:5,pepperstone,Curr,AUD/USD
+82,ICMTRADER Australian vs US Dollar AUDUSD,AUD/USD,ICMTRADER:5,icmtrader,Curr,AUD/USD
+83,IC MARKETS Australian vs US Dollar AUDUSD,AUD/USD,IC MARKETS:5,ic markets,Curr,AUD/USD
+84,OCTAFX Australian vs US Dollar AUDUSD,AUD/USD,OCTAFX:5,octafx,Curr,AUD/USD
+85,FXPIG Australian vs South African Rand AUDZAR.spa,AUD/ZAR,FXPIG:65,fxpig,Curr,AUD/ZAR
+86,FXPIG Australian Dollar vs. Japanese Yen AUDJPY.mpa,AUD101/JPY,FXPIG:101,fxpig,Curr,AUD/JPY
+87,FXPIG Australian Dollar vs US Dollar AUDUSD.sfl,AUD172/USD,FXPIG:172,fxpig,Curr,AUD/USD
+88,CAD/CHF,CAD/CHF,OANDA:CAD_CHF,oanda,Curr,CAD/CHF
+89,FXCM CAD/CHF,CAD/CHF,FXCM:CAD/CHF,fxcm,Curr,CAD/CHF
+90,Forex.com CAD/CHF,CAD/CHF,FOREX:401484320,forex.com,Curr,CAD/CHF
+91,FXPIG Canadian Dollar vs Swiss Franc CADCHF.spa,CAD/CHF,FXPIG:27,fxpig,Curr,CAD/CHF
+92,PEPPERSTONE Canadian Dollar vs Swiss Franc CADCHF,CAD/CHF,PEPPERSTONE:27,pepperstone,Curr,CAD/CHF
+93,ICMTRADER Canadian Dollar vs Swiss Franc CADCHF,CAD/CHF,ICMTRADER:27,icmtrader,Curr,CAD/CHF
+94,IC MARKETS Canadian Dollar vs Swiss Franc CADCHF,CAD/CHF,IC MARKETS:27,ic markets,Curr,CAD/CHF
+95,OCTAFX Canadian Dollar vs Swiss Franc CADCHF,CAD/CHF,OCTAFX:27,octafx,Curr,CAD/CHF
+96,FXPIG Canadian Dollar vs Danish Krone CADDKK.spa,CAD/DKK,FXPIG:66,fxpig,Curr,CAD/DKK
+97,CAD/HKD,CAD/HKD,OANDA:CAD_HKD,oanda,Curr,CAD/HKD
+98,FXPIG Canadian Dollar vs Hong Kong Dollar CADHKD.spa,CAD/HKD,FXPIG:67,fxpig,Curr,CAD/HKD
+99,CAD/JPY,CAD/JPY,OANDA:CAD_JPY,oanda,Curr,CAD/JPY
+100,FXCM CAD/JPY,CAD/JPY,FXCM:CAD/JPY,fxcm,Curr,CAD/JPY
+101,Forex.com CAD/JPY,CAD/JPY,FOREX:401484321,forex.com,Curr,CAD/JPY
+102,FXPIG Canadian Dollar vs Japanese Yen CADJPY.spa,CAD/JPY,FXPIG:15,fxpig,Curr,CAD/JPY
+103,PEPPERSTONE Canadian Dollar vs Japanese Yen CADJPY,CAD/JPY,PEPPERSTONE:15,pepperstone,Curr,CAD/JPY
+104,ICMTRADER Canadian Dollar vs Japanese Yen CADJPY,CAD/JPY,ICMTRADER:15,icmtrader,Curr,CAD/JPY
+105,IC MARKETS Canadian Dollar vs Japanese Yen CADJPY,CAD/JPY,IC MARKETS:15,ic markets,Curr,CAD/JPY
+106,OCTAFX Canadian Dollar vs Japanese Yen CADJPY,CAD/JPY,OCTAFX:15,octafx,Curr,CAD/JPY
+107,FXPIG Canadian Dollar vs Mexican Peso CADMXN.spa,CAD/MXN,FXPIG:68,fxpig,Curr,CAD/MXN
+108,Forex.com CAD/NOK,CAD/NOK,FOREX:401484322,forex.com,Curr,CAD/NOK
+109,FXPIG Canadian Dollar vs  Norwegian Krone CADNOK.spa,CAD/NOK,FXPIG:69,fxpig,Curr,CAD/NOK
+110,Forex.com CAD/PLN,CAD/PLN,FOREX:401484323,forex.com,Curr,CAD/PLN
+111,FXPIG Canadian Dollar vs Swedish Krona CADSEK.spa,CAD/SEK,FXPIG:70,fxpig,Curr,CAD/SEK
+112,CAD/SGD,CAD/SGD,OANDA:CAD_SGD,oanda,Curr,CAD/SGD
+113,FXPIG Canadian Dollar vs Singapore Dollar CADSGD.spa,CAD/SGD,FXPIG:71,fxpig,Curr,CAD/SGD
+114,CHF/HKD,CHF/HKD,OANDA:CHF_HKD,oanda,Curr,CHF/HKD
+115,Forex.com CHF/HUF,CHF/HUF,FOREX:401484324,forex.com,Curr,CHF/HUF
+116,CHF/JPY,CHF/JPY,OANDA:CHF_JPY,oanda,Curr,CHF/JPY
+117,FXCM CHF/JPY,CHF/JPY,FXCM:CHF/JPY,fxcm,Curr,CHF/JPY
+118,Forex.com CHF/JPY,CHF/JPY,FOREX:401484325,forex.com,Curr,CHF/JPY
+119,FXPIG Swiss Franc vs Japanese Yen CHFJPY.spa,CHF/JPY,FXPIG:13,fxpig,Curr,CHF/JPY
+120,PEPPERSTONE Swiss Franc vs Japanese Yen CHFJPY,CHF/JPY,PEPPERSTONE:13,pepperstone,Curr,CHF/JPY
+121,ICMTRADER Swiss Franc vs Japanese Yen CHFJPY,CHF/JPY,ICMTRADER:13,icmtrader,Curr,CHF/JPY
+122,IC MARKETS Swiss Franc vs Japanese Yen CHFJPY,CHF/JPY,IC MARKETS:13,ic markets,Curr,CHF/JPY
+123,OCTAFX Swiss Franc vs Japanese Yen CHFJPY,CHF/JPY,OCTAFX:13,octafx,Curr,CHF/JPY
+124,Forex.com CHF/NOK,CHF/NOK,FOREX:401484326,forex.com,Curr,CHF/NOK
+125,FXPIG Swiss Franc vs Norwegian Krone CHFNOK.spa,CHF/NOK,FXPIG:72,fxpig,Curr,CHF/NOK
+126,Forex.com CHF/PLN,CHF/PLN,FOREX:401484327,forex.com,Curr,CHF/PLN
+127,FXPIG Swiss Franc vs Polish Zloty CHFPLN.spa,CHF/PLN,FXPIG:73,fxpig,Curr,CHF/PLN
+128,FXPIG Swiss Franc vs Swedish Krona CHFSEK.spa,CHF/SEK,FXPIG:74,fxpig,Curr,CHF/SEK
+129,FXPIG Swiss Franc vs Singapore Dollar CHFSGD.spa,CHF/SGD,FXPIG:75,fxpig,Curr,CHF/SGD
+130,PEPPERSTONE Swiss Franc vs Singapore Dollar CHFSGD,CHF/SGD,PEPPERSTONE:44,pepperstone,Curr,CHF/SGD
+131,IC MARKETS Swiss Franc vs Singapore Dollar CHFSGD,CHF/SGD,IC MARKETS:1002,ic markets,Curr,CHF/SGD
+132,CHF/ZAR,CHF/ZAR,OANDA:CHF_ZAR,oanda,Curr,CHF/ZAR
+133,FXPIG Swiss Franc vs South African rand CHFZAR.spa,CHF/ZAR,FXPIG:76,fxpig,Curr,CHF/ZAR
+134,Forex.com CNH/JPY,CNH/JPY,FOREX:401484328,forex.com,Curr,CNH/JPY
+135,FXPIG Danish Krone vs Norwegian Krone DKKNOK.spa,DKK/NOK,FXPIG:77,fxpig,Curr,DKK/NOK
+136,FXPIG Danish Krone vs Swedish Krona DKKSEK.spa,DKK/SEK,FXPIG:78,fxpig,Curr,DKK/SEK
+137,EUR/AUD,EUR/AUD,OANDA:EUR_AUD,oanda,Curr,EUR/AUD
+138,FXCM EUR/AUD,EUR/AUD,FXCM:EUR/AUD,fxcm,Curr,EUR/AUD
+139,Forex.com EUR/AUD,EUR/AUD,FOREX:401484329,forex.com,Curr,EUR/AUD
+140,FXPIG Euro vs Australian Dollar EURAUD.spa,EUR/AUD,FXPIG:14,fxpig,Curr,EUR/AUD
+141,PEPPERSTONE Euro vs Australian Dollar EURAUD,EUR/AUD,PEPPERSTONE:14,pepperstone,Curr,EUR/AUD
+142,ICMTRADER Euro vs Australian Dollar EURAUD,EUR/AUD,ICMTRADER:14,icmtrader,Curr,EUR/AUD
+143,IC MARKETS Euro vs Australian Dollar EURAUD,EUR/AUD,IC MARKETS:14,ic markets,Curr,EUR/AUD
+144,OCTAFX Euro vs Australian Dollar EURAUD,EUR/AUD,OCTAFX:14,octafx,Curr,EUR/AUD
+145,EUR/CAD,EUR/CAD,OANDA:EUR_CAD,oanda,Curr,EUR/CAD
+146,FXCM EUR/CAD,EUR/CAD,FXCM:EUR/CAD,fxcm,Curr,EUR/CAD
+147,Forex.com EUR/CAD,EUR/CAD,FOREX:401484330,forex.com,Curr,EUR/CAD
+148,FXPIG Euro vs Canadian Dollar EURCAD.spa,EUR/CAD,FXPIG:17,fxpig,Curr,EUR/CAD
+149,PEPPERSTONE Euro vs Canadian Dollar EURCAD,EUR/CAD,PEPPERSTONE:17,pepperstone,Curr,EUR/CAD
+150,ICMTRADER Euro vs Canadian Dollar EURCAD,EUR/CAD,ICMTRADER:17,icmtrader,Curr,EUR/CAD
+151,IC MARKETS Euro vs Canadian Dollar EURCAD,EUR/CAD,IC MARKETS:17,ic markets,Curr,EUR/CAD
+152,OCTAFX Euro vs Canadian Dollar EURCAD,EUR/CAD,OCTAFX:17,octafx,Curr,EUR/CAD
+153,EUR/CHF,EUR/CHF,OANDA:EUR_CHF,oanda,Curr,EUR/CHF
+154,FXCM EUR/CHF,EUR/CHF,FXCM:EUR/CHF,fxcm,Curr,EUR/CHF
+155,Forex.com EUR/CHF,EUR/CHF,FOREX:401484331,forex.com,Curr,EUR/CHF
+156,FXPIG Euro vs Swiss Franc EURCHF.spa,EUR/CHF,FXPIG:10,fxpig,Curr,EUR/CHF
+157,PEPPERSTONE Euro vs Swiss Franc EURCHF,EUR/CHF,PEPPERSTONE:10,pepperstone,Curr,EUR/CHF
+158,ICMTRADER Euro vs Swiss Franc EURCHF,EUR/CHF,ICMTRADER:10,icmtrader,Curr,EUR/CHF
+159,IC MARKETS Euro vs Swiss Franc EURCHF,EUR/CHF,IC MARKETS:10,ic markets,Curr,EUR/CHF
+160,OCTAFX Euro vs Swiss Franc EURCHF,EUR/CHF,OCTAFX:10,octafx,Curr,EUR/CHF
+161,Forex.com EUR/CNH,EUR/CNH,FOREX:401484332,forex.com,Curr,EUR/CNH
+162,FXPIG Euro vs China Offshore Spot EURCNH.spa,EUR/CNH,FXPIG:79,fxpig,Curr,EUR/CNH
+163,EUR/CZK,EUR/CZK,OANDA:EUR_CZK,oanda,Curr,EUR/CZK
+164,Forex.com EUR/CZK,EUR/CZK,FOREX:401484333,forex.com,Curr,EUR/CZK
+165,FXPIG Euro vs Czech Koruna EURCZK.spa,EUR/CZK,FXPIG:55,fxpig,Curr,EUR/CZK
+166,PEPPERSTONE Euro vs Czech Koruna EURCZK,EUR/CZK,PEPPERSTONE:45,pepperstone,Curr,EUR/CZK
+167,EUR/DKK,EUR/DKK,OANDA:EUR_DKK,oanda,Curr,EUR/DKK
+168,Forex.com EUR/DKK,EUR/DKK,FOREX:401484334,forex.com,Curr,EUR/DKK
+169,FXPIG Euro vs Danish Krone EURDKK.spa,EUR/DKK,FXPIG:57,fxpig,Curr,EUR/DKK
+170,IC MARKETS Euro vs Danish Krone EURDKK,EUR/DKK,IC MARKETS:1003,ic markets,Curr,EUR/DKK
+171,EUR/GBP,EUR/GBP,OANDA:EUR_GBP,oanda,Curr,EUR/GBP
+172,FXCM EUR/GBP,EUR/GBP,FXCM:EUR/GBP,fxcm,Curr,EUR/GBP
+173,Forex.com EUR/GBP,EUR/GBP,FOREX:401484335,forex.com,Curr,EUR/GBP
+174,FXPIG Euro vs British Pound EURGBP.spa,EUR/GBP,FXPIG:9,fxpig,Curr,EUR/GBP
+175,PEPPERSTONE Euro vs British Pound EURGBP,EUR/GBP,PEPPERSTONE:9,pepperstone,Curr,EUR/GBP
+176,ICMTRADER Euro vs British Pound EURGBP,EUR/GBP,ICMTRADER:9,icmtrader,Curr,EUR/GBP
+177,IC MARKETS Euro vs British Pound EURGBP,EUR/GBP,IC MARKETS:9,ic markets,Curr,EUR/GBP
+178,OCTAFX Euro vs British Pound EURGBP,EUR/GBP,OCTAFX:9,octafx,Curr,EUR/GBP
+179,EUR/HKD,EUR/HKD,OANDA:EUR_HKD,oanda,Curr,EUR/HKD
+180,Forex.com EUR/HKD,EUR/HKD,FOREX:401484336,forex.com,Curr,EUR/HKD
+181,FXPIG Euro vs Hong Kong dollar EURHKD.spa,EUR/HKD,FXPIG:45,fxpig,Curr,EUR/HKD
+182,PEPPERSTONE Euro vs Hong Kong Dollar EURHKD,EUR/HKD,PEPPERSTONE:47,pepperstone,Curr,EUR/HKD
+183,IC MARKETS Euro vs Hong Kong Dollar EURHKD,EUR/HKD,IC MARKETS:1004,ic markets,Curr,EUR/HKD
+184,EUR/HUF,EUR/HUF,OANDA:EUR_HUF,oanda,Curr,EUR/HUF
+185,Forex.com EUR/HUF,EUR/HUF,FOREX:401484337,forex.com,Curr,EUR/HUF
+186,FXPIG Euro vs Hungarian Forint EURHUF.spa,EUR/HUF,FXPIG:34,fxpig,Curr,EUR/HUF
+187,PEPPERSTONE Euro vs Hungarian Forint EURHUF,EUR/HUF,PEPPERSTONE:34,pepperstone,Curr,EUR/HUF
+188,EUR/JPY,EUR/JPY,OANDA:EUR_JPY,oanda,Curr,EUR/JPY
+189,FXCM EUR/JPY,EUR/JPY,FXCM:EUR/JPY,fxcm,Curr,EUR/JPY
+190,Forex.com EUR/JPY,EUR/JPY,FOREX:401484338,forex.com,Curr,EUR/JPY
+191,FXPIG Euro vs Japanese Yen EURJPY.spa,EUR/JPY,FXPIG:3,fxpig,Curr,EUR/JPY
+192,PEPPERSTONE Euro vs Japanese Yen EURJPY,EUR/JPY,PEPPERSTONE:3,pepperstone,Curr,EUR/JPY
+193,ICMTRADER Euro vs Japanese Yen EURJPY,EUR/JPY,ICMTRADER:3,icmtrader,Curr,EUR/JPY
+194,IC MARKETS Euro vs Japanese Yen EURJPY,EUR/JPY,IC MARKETS:3,ic markets,Curr,EUR/JPY
+195,OCTAFX Euro vs Japanese Yen EURJPY,EUR/JPY,OCTAFX:3,octafx,Curr,EUR/JPY
+196,Forex.com EUR/MXN,EUR/MXN,FOREX:401484339,forex.com,Curr,EUR/MXN
+197,FXPIG Euro vs Mexican Peso EURMXN.spa,EUR/MXN,FXPIG:50,fxpig,Curr,EUR/MXN
+198,EUR/NOK,EUR/NOK,OANDA:EUR_NOK,oanda,Curr,EUR/NOK
+199,FXCM EUR/NOK,EUR/NOK,FXCM:EUR/NOK,fxcm,Curr,EUR/NOK
+200,Forex.com EUR/NOK,EUR/NOK,FOREX:401484340,forex.com,Curr,EUR/NOK
+201,FXPIG Euro vs Norwegian Krone EURNOK.spa,EUR/NOK,FXPIG:33,fxpig,Curr,EUR/NOK
+202,PEPPERSTONE Euro vs Norwegian Krone EURNOK,EUR/NOK,PEPPERSTONE:33,pepperstone,Curr,EUR/NOK
+203,IC MARKETS Euro vs Norwegian Krone EURNOK,EUR/NOK,IC MARKETS:33,ic markets,Curr,EUR/NOK
+204,EUR/NZD,EUR/NZD,OANDA:EUR_NZD,oanda,Curr,EUR/NZD
+205,FXCM EUR/NZD,EUR/NZD,FXCM:EUR/NZD,fxcm,Curr,EUR/NZD
+206,Forex.com EUR/NZD,EUR/NZD,FOREX:401484341,forex.com,Curr,EUR/NZD
+207,FXPIG Euro vs New Zealand Dollar EURNZD.spa,EUR/NZD,FXPIG:26,fxpig,Curr,EUR/NZD
+208,PEPPERSTONE Euro vs New Zealand Dollar EURNZD,EUR/NZD,PEPPERSTONE:26,pepperstone,Curr,EUR/NZD
+209,ICMTRADER Euro vs New Zealand Dollar EURNZD,EUR/NZD,ICMTRADER:26,icmtrader,Curr,EUR/NZD
+210,IC MARKETS Euro vs New Zealand Dollar EURNZD,EUR/NZD,IC MARKETS:26,ic markets,Curr,EUR/NZD
+211,OCTAFX Euro vs New Zealand Dollar EURNZD,EUR/NZD,OCTAFX:26,octafx,Curr,EUR/NZD
+212,EUR/PLN,EUR/PLN,OANDA:EUR_PLN,oanda,Curr,EUR/PLN
+213,Forex.com EUR/PLN,EUR/PLN,FOREX:401484342,forex.com,Curr,EUR/PLN
+214,FXPIG Euro vs Polish Zloty EURPLN.spa,EUR/PLN,FXPIG:51,fxpig,Curr,EUR/PLN
+215,PEPPERSTONE Euro vs Polish Zloty EURPLN,EUR/PLN,PEPPERSTONE:48,pepperstone,Curr,EUR/PLN
+216,IC MARKETS Euro vs Polish Zloty EURPLN,EUR/PLN,IC MARKETS:1005,ic markets,Curr,EUR/PLN
+217,Forex.com EUR/RUB,EUR/RUB,FOREX:401484343,forex.com,Curr,EUR/RUB
+218,EUR/SEK,EUR/SEK,OANDA:EUR_SEK,oanda,Curr,EUR/SEK
+219,FXCM EUR/SEK,EUR/SEK,FXCM:EUR/SEK,fxcm,Curr,EUR/SEK
+220,Forex.com EUR/SEK,EUR/SEK,FOREX:401484344,forex.com,Curr,EUR/SEK
+221,FXPIG Euro vs Swedish Krona EURSEK.spa,EUR/SEK,FXPIG:31,fxpig,Curr,EUR/SEK
+222,PEPPERSTONE Euro vs Swedish Krona EURSEK,EUR/SEK,PEPPERSTONE:31,pepperstone,Curr,EUR/SEK
+223,IC MARKETS Euro vs Swedish Krona EURSEK,EUR/SEK,IC MARKETS:31,ic markets,Curr,EUR/SEK
+224,EUR/SGD,EUR/SGD,OANDA:EUR_SGD,oanda,Curr,EUR/SGD
+225,Forex.com EUR/SGD,EUR/SGD,FOREX:401484345,forex.com,Curr,EUR/SGD
+226,FXPIG Eur vs Singapore Dollar EURSGD.spa,EUR/SGD,FXPIG:82,fxpig,Curr,EUR/SGD
+227,PEPPERSTONE Euro vs Singapore Dollar EURSGD,EUR/SGD,PEPPERSTONE:49,pepperstone,Curr,EUR/SGD
+228,ICMTRADER Eur vs Singapore Dollar EURSGD,EUR/SGD,ICMTRADER:82,icmtrader,Curr,EUR/SGD
+229,IC MARKETS Euro vs Singapore Dollar EURSGD,EUR/SGD,IC MARKETS:1006,ic markets,Curr,EUR/SGD
+230,EUR/TRY,EUR/TRY,OANDA:EUR_TRY,oanda,Curr,EUR/TRY
+231,FXCM EUR/TRY,EUR/TRY,FXCM:EUR/TRY,fxcm,Curr,EUR/TRY
+232,Forex.com EUR/TRY,EUR/TRY,FOREX:401484346,forex.com,Curr,EUR/TRY
+233,FXPIG Euro vs Turkish Lira EURTRY.spa,EUR/TRY,FXPIG:44,fxpig,Curr,EUR/TRY
+234,PEPPERSTONE Euro vs Turkish Lira EURTRY,EUR/TRY,PEPPERSTONE:50,pepperstone,Curr,EUR/TRY
+235,ICMTRADER Euro vs Turkish Lira EURTRY,EUR/TRY,ICMTRADER:44,icmtrader,Curr,EUR/TRY
+236,IC MARKETS Euro vs Turkish Lira EURTRY,EUR/TRY,IC MARKETS:1007,ic markets,Curr,EUR/TRY
+237,EUR/USD,EUR/USD,OANDA:EUR_USD,oanda,Curr,EUR/USD
+238,FXCM EUR/USD,EUR/USD,FXCM:EUR/USD,fxcm,Curr,EUR/USD
+239,Forex.com EUR/USD,EUR/USD,FOREX:401484347,forex.com,Curr,EUR/USD
+240,FXPIG Euro vs US Dollar EURUSD.spa,EUR/USD,FXPIG:1,fxpig,Curr,EUR/USD
+241,PEPPERSTONE Euro vs US Dollar EURUSD,EUR/USD,PEPPERSTONE:1,pepperstone,Curr,EUR/USD
+242,ICMTRADER Euro vs US Dollar EURUSD,EUR/USD,ICMTRADER:1,icmtrader,Curr,EUR/USD
+243,IC MARKETS Euro vs US Dollar EURUSD,EUR/USD,IC MARKETS:1,ic markets,Curr,EUR/USD
+244,OCTAFX Euro vs US Dollar EURUSD,EUR/USD,OCTAFX:1,octafx,Curr,EUR/USD
+245,EUR/ZAR,EUR/ZAR,OANDA:EUR_ZAR,oanda,Curr,EUR/ZAR
+246,Forex.com EUR/ZAR,EUR/ZAR,FOREX:401484348,forex.com,Curr,EUR/ZAR
+247,FXPIG Euro vs South African rand EURZAR.spa,EUR/ZAR,FXPIG:46,fxpig,Curr,EUR/ZAR
+248,PEPPERSTONE Euro vs South African Rand EURZAR,EUR/ZAR,PEPPERSTONE:51,pepperstone,Curr,EUR/ZAR
+249,IC MARKETS Euro vs South African Rand EURZAR,EUR/ZAR,IC MARKETS:1008,ic markets,Curr,EUR/ZAR
+250,IC MARKETS Euro vs US Dollar EURUSDt,EUR10023/USD,IC MARKETS:10023,ic markets,Curr,EUR/USD
+251,FXPIG Euro vs Great Britain Pound EURGBP.sfl,EUR183/GBP,FXPIG:183,fxpig,Curr,EUR/GBP
+252,GBP/AUD,GBP/AUD,OANDA:GBP_AUD,oanda,Curr,GBP/AUD
+253,FXCM GBP/AUD,GBP/AUD,FXCM:GBP/AUD,fxcm,Curr,GBP/AUD
+254,Forex.com GBP/AUD,GBP/AUD,FOREX:401484349,forex.com,Curr,GBP/AUD
+255,FXPIG British Pound vs Australian Dollar GBPAUD.spa,GBP/AUD,FXPIG:16,fxpig,Curr,GBP/AUD
+256,PEPPERSTONE British Pound vs Australian Dollar GBPAUD,GBP/AUD,PEPPERSTONE:16,pepperstone,Curr,GBP/AUD
+257,ICMTRADER British Pound vs Australian Dollar GBPAUD,GBP/AUD,ICMTRADER:16,icmtrader,Curr,GBP/AUD
+258,IC MARKETS British Pound vs Australian Dollar GBPAUD,GBP/AUD,IC MARKETS:16,ic markets,Curr,GBP/AUD
+259,OCTAFX British Pound vs Australian Dollar GBPAUD,GBP/AUD,OCTAFX:16,octafx,Curr,GBP/AUD
+260,GBP/CAD,GBP/CAD,OANDA:GBP_CAD,oanda,Curr,GBP/CAD
+261,FXCM GBP/CAD,GBP/CAD,FXCM:GBP/CAD,fxcm,Curr,GBP/CAD
+262,Forex.com GBP/CAD,GBP/CAD,FOREX:401484350,forex.com,Curr,GBP/CAD
+263,FXPIG British Pound vs Canadian Dollar GBPCAD.spa,GBP/CAD,FXPIG:19,fxpig,Curr,GBP/CAD
+264,PEPPERSTONE British Pound vs Canadian Dollar GBPCAD,GBP/CAD,PEPPERSTONE:19,pepperstone,Curr,GBP/CAD
+265,ICMTRADER British Pound vs Canadian Dollar GBPCAD,GBP/CAD,ICMTRADER:19,icmtrader,Curr,GBP/CAD
+266,IC MARKETS British Pound vs Canadian Dollar GBPCAD,GBP/CAD,IC MARKETS:19,ic markets,Curr,GBP/CAD
+267,OCTAFX British Pound vs Canadian Dollar GBPCAD,GBP/CAD,OCTAFX:19,octafx,Curr,GBP/CAD
+268,GBP/CHF,GBP/CHF,OANDA:GBP_CHF,oanda,Curr,GBP/CHF
+269,FXCM GBP/CHF,GBP/CHF,FXCM:GBP/CHF,fxcm,Curr,GBP/CHF
+270,Forex.com GBP/CHF,GBP/CHF,FOREX:401484351,forex.com,Curr,GBP/CHF
+271,FXPIG British Pound vs Swiss Franc GBPCHF.spa,GBP/CHF,FXPIG:40,fxpig,Curr,GBP/CHF
+272,PEPPERSTONE British Pound vs Swiss Franc GBPCHF,GBP/CHF,PEPPERSTONE:40,pepperstone,Curr,GBP/CHF
+273,ICMTRADER British Pound vs Swiss Franc GBPCHF,GBP/CHF,ICMTRADER:40,icmtrader,Curr,GBP/CHF
+274,IC MARKETS British Pound vs Swiss Franc GBPCHF,GBP/CHF,IC MARKETS:40,ic markets,Curr,GBP/CHF
+275,OCTAFX British Pound vs Swiss Franc GBPCHF,GBP/CHF,OCTAFX:40,octafx,Curr,GBP/CHF
+276,Forex.com GBP/DKK,GBP/DKK,FOREX:401484352,forex.com,Curr,GBP/DKK
+277,FXPIG British Pound vs Danish Krone GBPDKK.spa,GBP/DKK,FXPIG:83,fxpig,Curr,GBP/DKK
+278,IC MARKETS British Pound vs Danish Krone GBPDKK,GBP/DKK,IC MARKETS:1009,ic markets,Curr,GBP/DKK
+279,GBP/HKD,GBP/HKD,OANDA:GBP_HKD,oanda,Curr,GBP/HKD
+280,Forex.com GBP/HKD,GBP/HKD,FOREX:401484353,forex.com,Curr,GBP/HKD
+281,GBP/JPY,GBP/JPY,OANDA:GBP_JPY,oanda,Curr,GBP/JPY
+282,FXCM GBP/JPY,GBP/JPY,FXCM:GBP/JPY,fxcm,Curr,GBP/JPY
+283,Forex.com GBP/JPY,GBP/JPY,FOREX:401484385,forex.com,Curr,GBP/JPY
+284,FXPIG British Pound vs Japanese Yen GBPJPY.spa,GBP/JPY,FXPIG:7,fxpig,Curr,GBP/JPY
+285,PEPPERSTONE British Pound vs Japanese Yen GBPJPY,GBP/JPY,PEPPERSTONE:7,pepperstone,Curr,GBP/JPY
+286,ICMTRADER British Pound vs Japanese Yen GBPJPY,GBP/JPY,ICMTRADER:7,icmtrader,Curr,GBP/JPY
+287,IC MARKETS British Pound vs Japanese Yen GBPJPY,GBP/JPY,IC MARKETS:7,ic markets,Curr,GBP/JPY
+288,OCTAFX British Pound vs Japanese Yen GBPJPY,GBP/JPY,OCTAFX:7,octafx,Curr,GBP/JPY
+289,Forex.com GBP/MXN,GBP/MXN,FOREX:401484386,forex.com,Curr,GBP/MXN
+290,Forex.com GBP/NOK,GBP/NOK,FOREX:401484387,forex.com,Curr,GBP/NOK
+291,FXPIG British Pound vs Norwegian Krone GBPNOK.spa,GBP/NOK,FXPIG:37,fxpig,Curr,GBP/NOK
+292,PEPPERSTONE British Pound vs Norwegian Krone GBPNOK,GBP/NOK,PEPPERSTONE:37,pepperstone,Curr,GBP/NOK
+293,IC MARKETS British Pound vs Norwegian Krone GBPNOK,GBP/NOK,IC MARKETS:37,ic markets,Curr,GBP/NOK
+294,GBP/NZD,GBP/NZD,OANDA:GBP_NZD,oanda,Curr,GBP/NZD
+295,FXCM GBP/NZD,GBP/NZD,FXCM:GBP/NZD,fxcm,Curr,GBP/NZD
+296,Forex.com GBP/NZD,GBP/NZD,FOREX:401484388,forex.com,Curr,GBP/NZD
+297,FXPIG British Pound vs New Zealand Dollar  GBPNZD.spa,GBP/NZD,FXPIG:25,fxpig,Curr,GBP/NZD
+298,PEPPERSTONE British Pound vs New Zealand Dollar  GBPNZD,GBP/NZD,PEPPERSTONE:25,pepperstone,Curr,GBP/NZD
+299,ICMTRADER British Pound vs New Zealand Dollar  GBPNZD,GBP/NZD,ICMTRADER:25,icmtrader,Curr,GBP/NZD
+300,IC MARKETS British Pound vs New Zealand Dollar  GBPNZD,GBP/NZD,IC MARKETS:25,ic markets,Curr,GBP/NZD
+301,OCTAFX British Pound vs New Zealand Dollar  GBPNZD,GBP/NZD,OCTAFX:25,octafx,Curr,GBP/NZD
+302,GBP/PLN,GBP/PLN,OANDA:GBP_PLN,oanda,Curr,GBP/PLN
+303,Forex.com GBP/PLN,GBP/PLN,FOREX:401484389,forex.com,Curr,GBP/PLN
+304,FXPIG British Pound vs Polish Zloty GBPPLN.spa,GBP/PLN,FXPIG:62,fxpig,Curr,GBP/PLN
+305,Forex.com GBP/SEK,GBP/SEK,FOREX:401484390,forex.com,Curr,GBP/SEK
+306,FXPIG British Pound vs Swedish Krona GBPSEK.spa,GBP/SEK,FXPIG:61,fxpig,Curr,GBP/SEK
+307,PEPPERSTONE British Pound vs Swedish Krona GBPSEK,GBP/SEK,PEPPERSTONE:53,pepperstone,Curr,GBP/SEK
+308,IC MARKETS British Pound vs Swedish Krona GBPSEK,GBP/SEK,IC MARKETS:1010,ic markets,Curr,GBP/SEK
+309,GBP/SGD,GBP/SGD,OANDA:GBP_SGD,oanda,Curr,GBP/SGD
+310,Forex.com GBP/SGD,GBP/SGD,FOREX:401484391,forex.com,Curr,GBP/SGD
+311,FXPIG Great Britain Pound vs Singapore Dollar GBPSGD.spa,GBP/SGD,FXPIG:32,fxpig,Curr,GBP/SGD
+312,PEPPERSTONE Great Britain Pound vs Singapore Dollar GBPSGD,GBP/SGD,PEPPERSTONE:32,pepperstone,Curr,GBP/SGD
+313,ICMTRADER Great Britain Pound vs Singapore Dollar GBPSGD,GBP/SGD,ICMTRADER:32,icmtrader,Curr,GBP/SGD
+314,IC MARKETS Great Britain Pound vs Singapore Dollar GBPSGD,GBP/SGD,IC MARKETS:32,ic markets,Curr,GBP/SGD
+315,FXPIG British Pound vs Turkish Lira GBPTRY.spa,GBP/TRY,FXPIG:84,fxpig,Curr,GBP/TRY
+316,PEPPERSTONE British Pound vs Turkish Lira GBPTRY,GBP/TRY,PEPPERSTONE:54,pepperstone,Curr,GBP/TRY
+317,IC MARKETS Great Britain Pound vs Turkish Lira GBPTRY,GBP/TRY,IC MARKETS:10031,ic markets,Curr,GBP/TRY
+318,GBP/USD,GBP/USD,OANDA:GBP_USD,oanda,Curr,GBP/USD
+319,FXCM GBP/USD,GBP/USD,FXCM:GBP/USD,fxcm,Curr,GBP/USD
+320,Forex.com GBP/USD,GBP/USD,FOREX:401484392,forex.com,Curr,GBP/USD
+321,FXPIG British Pound vs US Dollar GBPUSD.spa,GBP/USD,FXPIG:2,fxpig,Curr,GBP/USD
+322,PEPPERSTONE British Pound vs US Dollar GBPUSD,GBP/USD,PEPPERSTONE:2,pepperstone,Curr,GBP/USD
+323,ICMTRADER British Pound vs US Dollar GBPUSD,GBP/USD,ICMTRADER:2,icmtrader,Curr,GBP/USD
+324,IC MARKETS British Pound vs US Dollar GBPUSD,GBP/USD,IC MARKETS:2,ic markets,Curr,GBP/USD
+325,OCTAFX British Pound vs US Dollar GBPUSD,GBP/USD,OCTAFX:2,octafx,Curr,GBP/USD
+326,GBP/ZAR,GBP/ZAR,OANDA:GBP_ZAR,oanda,Curr,GBP/ZAR
+327,Forex.com GBP/ZAR,GBP/ZAR,FOREX:401484393,forex.com,Curr,GBP/ZAR
+328,FXPIG British Pound vs South African rand GBPZAR.spa,GBP/ZAR,FXPIG:52,fxpig,Curr,GBP/ZAR
+329,FXPIG Great Britain Pound vs Japanese Yen GBPJPY.sfl,GBP200/JPY,FXPIG:200,fxpig,Curr,GBP/JPY
+330,FXPIG Great Britain Pound vs Norwegian Kroner GBPNOK.sfl,GBP201/NOK,FXPIG:201,fxpig,Curr,GBP/NOK
+331,HKD/JPY,HKD/JPY,OANDA:HKD_JPY,oanda,Curr,HKD/JPY
+332,Forex.com HKD/JPY,HKD/JPY,FOREX:401484394,forex.com,Curr,HKD/JPY
+333,FXPIG Hong Kong Dollar vs Japanese Yen HKDJPY.spa,HKD/JPY,FXPIG:85,fxpig,Curr,HKD/JPY
+334,Forex.com NOK/DKK,NOK/DKK,FOREX:401484395,forex.com,Curr,NOK/DKK
+335,Forex.com NOK/JPY,NOK/JPY,FOREX:401484396,forex.com,Curr,NOK/JPY
+336,FXPIG Norwegian Krone vs Japanese Yen NOKJPY.spa,NOK/JPY,FXPIG:86,fxpig,Curr,NOK/JPY
+337,PEPPERSTONE Norwegian Krone vs Japanese Yen NOKJPY,NOK/JPY,PEPPERSTONE:55,pepperstone,Curr,NOK/JPY
+338,IC MARKETS Norwegian Krone vs Japanese Yen NOKJPY,NOK/JPY,IC MARKETS:1014,ic markets,Curr,NOK/JPY
+339,Forex.com NOK/SEK,NOK/SEK,FOREX:401484397,forex.com,Curr,NOK/SEK
+340,FXPIG Norwegian Krone vs Swedish Krona NOKSEK.spa,NOK/SEK,FXPIG:87,fxpig,Curr,NOK/SEK
+341,PEPPERSTONE Norwegian Krone vs Swedish Krona NOKSEK,NOK/SEK,PEPPERSTONE:56,pepperstone,Curr,NOK/SEK
+342,IC MARKETS Norwegian Krone vs Swedish Krona NOKSEK,NOK/SEK,IC MARKETS:1011,ic markets,Curr,NOK/SEK
+343,NZD/CAD,NZD/CAD,OANDA:NZD_CAD,oanda,Curr,NZD/CAD
+344,FXCM NZD/CAD,NZD/CAD,FXCM:NZD/CAD,fxcm,Curr,NZD/CAD
+345,Forex.com NZD/CAD,NZD/CAD,FOREX:401484398,forex.com,Curr,NZD/CAD
+346,FXPIG New Zealand Dollar vs Canadian Dollar NZDCAD.spa,NZD/CAD,FXPIG:30,fxpig,Curr,NZD/CAD
+347,PEPPERSTONE New Zealand Dollar vs Canadian Dollar NZDCAD,NZD/CAD,PEPPERSTONE:30,pepperstone,Curr,NZD/CAD
+348,ICMTRADER New Zealand Dollar vs Canadian Dollar NZDCAD,NZD/CAD,ICMTRADER:30,icmtrader,Curr,NZD/CAD
+349,IC MARKETS New Zealand Dollar vs Canadian Dollar NZDCAD,NZD/CAD,IC MARKETS:30,ic markets,Curr,NZD/CAD
+350,OCTAFX New Zealand Dollar vs Canadian Dollar NZDCAD,NZD/CAD,OCTAFX:30,octafx,Curr,NZD/CAD
+351,NZD/CHF,NZD/CHF,OANDA:NZD_CHF,oanda,Curr,NZD/CHF
+352,FXCM NZD/CHF,NZD/CHF,FXCM:NZD/CHF,fxcm,Curr,NZD/CHF
+353,Forex.com NZD/CHF,NZD/CHF,FOREX:401484400,forex.com,Curr,NZD/CHF
+354,FXPIG New Zealand Dollar vs Swiss Franc NZDCHF.spa,NZD/CHF,FXPIG:39,fxpig,Curr,NZD/CHF
+355,PEPPERSTONE New Zealand Dollar vs Swiss Franc NZDCHF,NZD/CHF,PEPPERSTONE:39,pepperstone,Curr,NZD/CHF
+356,ICMTRADER New Zealand Dollar vs Swiss Franc NZDCHF,NZD/CHF,ICMTRADER:39,icmtrader,Curr,NZD/CHF
+357,IC MARKETS New Zealand Dollar vs Swiss Franc NZDCHF,NZD/CHF,IC MARKETS:39,ic markets,Curr,NZD/CHF
+358,OCTAFX New Zealand Dollar vs Swiss Franc NZDCHF,NZD/CHF,OCTAFX:39,octafx,Curr,NZD/CHF
+359,NZD/HKD,NZD/HKD,OANDA:NZD_HKD,oanda,Curr,NZD/HKD
+360,NZD/JPY,NZD/JPY,OANDA:NZD_JPY,oanda,Curr,NZD/JPY
+361,FXCM NZD/JPY,NZD/JPY,FXCM:NZD/JPY,fxcm,Curr,NZD/JPY
+362,Forex.com NZD/JPY,NZD/JPY,FOREX:401484401,forex.com,Curr,NZD/JPY
+363,FXPIG New Zealand Dollar vs Japanese Yen NZDJPY.spa,NZD/JPY,FXPIG:21,fxpig,Curr,NZD/JPY
+364,PEPPERSTONE New Zealand Dollar vs Japanese Yen NZDJPY,NZD/JPY,PEPPERSTONE:21,pepperstone,Curr,NZD/JPY
+365,ICMTRADER New Zealand Dollar vs Japanese Yen NZDJPY,NZD/JPY,ICMTRADER:21,icmtrader,Curr,NZD/JPY
+366,IC MARKETS New Zealand Dollar vs Japanese Yen NZDJPY,NZD/JPY,IC MARKETS:21,ic markets,Curr,NZD/JPY
+367,OCTAFX New Zealand Dollar vs Japanese Yen NZDJPY,NZD/JPY,OCTAFX:21,octafx,Curr,NZD/JPY
+368,FXPIG New Zealand Dollar vs Swedish Krona NZDSEK.spa,NZD/SEK,FXPIG:88,fxpig,Curr,NZD/SEK
+369,NZD/SGD,NZD/SGD,OANDA:NZD_SGD,oanda,Curr,NZD/SGD
+370,FXPIG New Zealand Dollar vs Singapore Dollar NZDSGD.spa,NZD/SGD,FXPIG:53,fxpig,Curr,NZD/SGD
+371,NZD/USD,NZD/USD,OANDA:NZD_USD,oanda,Curr,NZD/USD
+372,FXCM NZD/USD,NZD/USD,FXCM:NZD/USD,fxcm,Curr,NZD/USD
+373,Forex.com NZD/USD,NZD/USD,FOREX:401484402,forex.com,Curr,NZD/USD
+374,FXPIG New Zealand Dollar vs US Dollar NZDUSD.spa,NZD/USD,FXPIG:12,fxpig,Curr,NZD/USD
+375,PEPPERSTONE New Zealand Dollar vs US Dollar NZDUSD,NZD/USD,PEPPERSTONE:12,pepperstone,Curr,NZD/USD
+376,ICMTRADER New Zealand Dollar vs US Dollar NZDUSD,NZD/USD,ICMTRADER:12,icmtrader,Curr,NZD/USD
+377,IC MARKETS New Zealand Dollar vs US Dollar NZDUSD,NZD/USD,IC MARKETS:12,ic markets,Curr,NZD/USD
+378,OCTAFX New Zealand Dollar vs US Dollar NZDUSD,NZD/USD,OCTAFX:12,octafx,Curr,NZD/USD
+379,FXPIG New Zealand Dollar vs US Dollar NZDUSD.sfl,NZD216/USD,FXPIG:216,fxpig,Curr,NZD/USD
+380,PEPPERSTONE Swedish Krona vs Japanese Yen SEKJPY,SEK/JPY,PEPPERSTONE:57,pepperstone,Curr,SEK/JPY
+381,IC MARKETS Swedish Krona vs Japanese Yen SEKJPY,SEK/JPY,IC MARKETS:1015,ic markets,Curr,SEK/JPY
+382,SGD/CHF,SGD/CHF,OANDA:SGD_CHF,oanda,Curr,SGD/CHF
+383,SGD/HKD,SGD/HKD,OANDA:SGD_HKD,oanda,Curr,SGD/HKD
+384,Forex.com SGD/HKD,SGD/HKD,FOREX:401484403,forex.com,Curr,SGD/HKD
+385,SGD/JPY,SGD/JPY,OANDA:SGD_JPY,oanda,Curr,SGD/JPY
+386,Forex.com SGD/JPY,SGD/JPY,FOREX:401484404,forex.com,Curr,SGD/JPY
+387,FXPIG Singapore dollar vs Japanese Yen SGDJPY.spa,SGD/JPY,FXPIG:47,fxpig,Curr,SGD/JPY
+388,PEPPERSTONE Singapore Dollar vs Japanese Yen SGDJPY,SGD/JPY,PEPPERSTONE:58,pepperstone,Curr,SGD/JPY
+389,IC MARKETS Singapore Dollar vs Japanese Yen SGDJPY,SGD/JPY,IC MARKETS:1016,ic markets,Curr,SGD/JPY
+390,USD/CAD,USD/CAD,OANDA:USD_CAD,oanda,Curr,USD/CAD
+391,FXCM USD/CAD,USD/CAD,FXCM:USD/CAD,fxcm,Curr,USD/CAD
+392,Forex.com USD/CAD,USD/CAD,FOREX:401484406,forex.com,Curr,USD/CAD
+393,FXPIG US Dollar vs Canadian USDCAD.spa,USD/CAD,FXPIG:8,fxpig,Curr,USD/CAD
+394,PEPPERSTONE US Dollar vs Canadian USDCAD,USD/CAD,PEPPERSTONE:8,pepperstone,Curr,USD/CAD
+395,ICMTRADER US Dollar vs Canadian USDCAD,USD/CAD,ICMTRADER:8,icmtrader,Curr,USD/CAD
+396,IC MARKETS US Dollar vs Canadian USDCAD,USD/CAD,IC MARKETS:8,ic markets,Curr,USD/CAD
+397,OCTAFX US Dollar vs Canadian USDCAD,USD/CAD,OCTAFX:8,octafx,Curr,USD/CAD
+398,USD/CHF,USD/CHF,OANDA:USD_CHF,oanda,Curr,USD/CHF
+399,FXCM USD/CHF,USD/CHF,FXCM:USD/CHF,fxcm,Curr,USD/CHF
+400,Forex.com USD/CHF,USD/CHF,FOREX:401484407,forex.com,Curr,USD/CHF
+401,FXPIG US Dollar vs Swiss Franc USDCHF.spa,USD/CHF,FXPIG:6,fxpig,Curr,USD/CHF
+402,PEPPERSTONE US Dollar vs Swiss Franc USDCHF,USD/CHF,PEPPERSTONE:6,pepperstone,Curr,USD/CHF
+403,ICMTRADER US Dollar vs Swiss Franc USDCHF,USD/CHF,ICMTRADER:6,icmtrader,Curr,USD/CHF
+404,IC MARKETS US Dollar vs Swiss Franc USDCHF,USD/CHF,IC MARKETS:6,ic markets,Curr,USD/CHF
+405,OCTAFX US Dollar vs Swiss Franc USDCHF,USD/CHF,OCTAFX:6,octafx,Curr,USD/CHF
+406,USD/CNH,USD/CNH,OANDA:USD_CNH,oanda,Curr,USD/CNH
+407,FXCM USD/CNH,USD/CNH,FXCM:USD/CNH,fxcm,Curr,USD/CNH
+408,Forex.com USD/CNH,USD/CNH,FOREX:401484408,forex.com,Curr,USD/CNH
+409,FXPIG US Dollar vs China Offshore Spot USDCNH.spa,USD/CNH,FXPIG:60,fxpig,Curr,USD/CNH
+410,PEPPERSTONE US Dollar vs China Offshore Spot USDCNH,USD/CNH,PEPPERSTONE:71,pepperstone,Curr,USD/CNH
+411,ICMTRADER US Dollar vs China Offshore Spot USDCNH,USD/CNH,ICMTRADER:60,icmtrader,Curr,USD/CNH
+412,IC MARKETS US Dollar vs China Offshore Spot USDCNH,USD/CNH,IC MARKETS:1020,ic markets,Curr,USD/CNH
+413,USD/CZK,USD/CZK,OANDA:USD_CZK,oanda,Curr,USD/CZK
+414,Forex.com USD/CZK,USD/CZK,FOREX:401484409,forex.com,Curr,USD/CZK
+415,FXPIG US Dollar vs Czech Koruna USDCZK.spa,USD/CZK,FXPIG:56,fxpig,Curr,USD/CZK
+416,PEPPERSTONE US Dollar vs Czech Koruna USDCZK,USD/CZK,PEPPERSTONE:59,pepperstone,Curr,USD/CZK
+417,IC MARKETS US Dollar vs Czech Koruna USDCZK,USD/CZK,IC MARKETS:1018,ic markets,Curr,USD/CZK
+418,USD/DKK,USD/DKK,OANDA:USD_DKK,oanda,Curr,USD/DKK
+419,Forex.com USD/DKK,USD/DKK,FOREX:401484410,forex.com,Curr,USD/DKK
+420,FXPIG US Dollar vs Danish Krone USDDKK.spa,USD/DKK,FXPIG:36,fxpig,Curr,USD/DKK
+421,IC MARKETS US Dollar vs Danish Krone USDDKK,USD/DKK,IC MARKETS:36,ic markets,Curr,USD/DKK
+422,USD/HKD,USD/HKD,OANDA:USD_HKD,oanda,Curr,USD/HKD
+423,FXCM USD/HKD,USD/HKD,FXCM:USD/HKD,fxcm,Curr,USD/HKD
+424,Forex.com USD/HKD,USD/HKD,FOREX:401484411,forex.com,Curr,USD/HKD
+425,FXPIG US Dollar vs Hong Kong dollar USDHKD.spa,USD/HKD,FXPIG:48,fxpig,Curr,USD/HKD
+426,PEPPERSTONE US Dollar vs Hong Kong Dollar USDHKD,USD/HKD,PEPPERSTONE:60,pepperstone,Curr,USD/HKD
+427,IC MARKETS US Dollar vs Hong Kong dollar USDHKD,USD/HKD,IC MARKETS:1000,ic markets,Curr,USD/HKD
+428,USD/HUF,USD/HUF,OANDA:USD_HUF,oanda,Curr,USD/HUF
+429,Forex.com USD/HUF,USD/HUF,FOREX:401484412,forex.com,Curr,USD/HUF
+430,FXPIG US Dollar vs Hungarian Forint USDHUF.spa,USD/HUF,FXPIG:54,fxpig,Curr,USD/HUF
+431,PEPPERSTONE US Dollar vs Hungarian Forint USDHUF,USD/HUF,PEPPERSTONE:68,pepperstone,Curr,USD/HUF
+432,IC MARKETS US Dollar vs Hungarian Forint USDHUF,USD/HUF,IC MARKETS:1017,ic markets,Curr,USD/HUF
+433,Forex.com USD/ILS,USD/ILS,FOREX:401484413,forex.com,Curr,USD/ILS
+434,USD/INR,USD/INR,OANDA:USD_INR,oanda,Curr,USD/INR
+435,USD/JPY,USD/JPY,OANDA:USD_JPY,oanda,Curr,USD/JPY
+436,FXCM USD/JPY,USD/JPY,FXCM:USD/JPY,fxcm,Curr,USD/JPY
+437,Forex.com USD/JPY,USD/JPY,FOREX:401484414,forex.com,Curr,USD/JPY
+438,FXPIG US Dollar vs Japanese Yen USDJPY.spa,USD/JPY,FXPIG:4,fxpig,Curr,USD/JPY
+439,PEPPERSTONE US Dollar vs Japanese Yen USDJPY,USD/JPY,PEPPERSTONE:4,pepperstone,Curr,USD/JPY
+440,ICMTRADER US Dollar vs Japanese Yen USDJPY,USD/JPY,ICMTRADER:4,icmtrader,Curr,USD/JPY
+441,IC MARKETS US Dollar vs Japanese Yen USDJPY,USD/JPY,IC MARKETS:4,ic markets,Curr,USD/JPY
+442,OCTAFX US Dollar vs Japanese Yen USDJPY,USD/JPY,OCTAFX:4,octafx,Curr,USD/JPY
+443,USD/MXN,USD/MXN,OANDA:USD_MXN,oanda,Curr,USD/MXN
+444,FXCM USD/MXN,USD/MXN,FXCM:USD/MXN,fxcm,Curr,USD/MXN
+445,Forex.com USD/MXN,USD/MXN,FOREX:401484415,forex.com,Curr,USD/MXN
+446,FXPIG US Dollar vs Mexican Peso USDMXN.spa,USD/MXN,FXPIG:24,fxpig,Curr,USD/MXN
+447,PEPPERSTONE US Dollar vs Mexican Peso USDMXN,USD/MXN,PEPPERSTONE:24,pepperstone,Curr,USD/MXN
+448,IC MARKETS US Dollar vs Mexican Peso USDMXN,USD/MXN,IC MARKETS:24,ic markets,Curr,USD/MXN
+449,USD/NOK,USD/NOK,OANDA:USD_NOK,oanda,Curr,USD/NOK
+450,FXCM USD/NOK,USD/NOK,FXCM:USD/NOK,fxcm,Curr,USD/NOK
+451,Forex.com USD/NOK,USD/NOK,FOREX:401484416,forex.com,Curr,USD/NOK
+452,FXPIG US Dollar vs Norwegian Krone USDNOK.spa,USD/NOK,FXPIG:22,fxpig,Curr,USD/NOK
+453,PEPPERSTONE US Dollar vs Norwegian Krone USDNOK,USD/NOK,PEPPERSTONE:22,pepperstone,Curr,USD/NOK
+454,IC MARKETS US Dollar vs Norwegian Krone USDNOK,USD/NOK,IC MARKETS:22,ic markets,Curr,USD/NOK
+455,USD/PLN,USD/PLN,OANDA:USD_PLN,oanda,Curr,USD/PLN
+456,Forex.com USD/PLN,USD/PLN,FOREX:401484417,forex.com,Curr,USD/PLN
+457,FXPIG US Dollar vs Polish Zloty USDPLN.spa,USD/PLN,FXPIG:35,fxpig,Curr,USD/PLN
+458,PEPPERSTONE US Dollar vs Polish Zloty USDPLN,USD/PLN,PEPPERSTONE:35,pepperstone,Curr,USD/PLN
+459,IC MARKETS US Dollar vs Polish Zloty USDPLN,USD/PLN,IC MARKETS:35,ic markets,Curr,USD/PLN
+460,Forex.com USD/RUB,USD/RUB,FOREX:401484418,forex.com,Curr,USD/RUB
+461,PEPPERSTONE US Dollar vs Russian Ruble USDRUB,USD/RUB,PEPPERSTONE:70,pepperstone,Curr,USD/RUB
+462,IC MARKETS US Dollar vs Russian Ruble USDRUB,USD/RUB,IC MARKETS:1019,ic markets,Curr,USD/RUB
+463,USD/SAR,USD/SAR,OANDA:USD_SAR,oanda,Curr,USD/SAR
+464,USD/SEK,USD/SEK,OANDA:USD_SEK,oanda,Curr,USD/SEK
+465,FXCM USD/SEK,USD/SEK,FXCM:USD/SEK,fxcm,Curr,USD/SEK
+466,Forex.com USD/SEK,USD/SEK,FOREX:401484419,forex.com,Curr,USD/SEK
+467,FXPIG US Dollar vs Swedish Krona USDSEK.spa,USD/SEK,FXPIG:29,fxpig,Curr,USD/SEK
+468,PEPPERSTONE US Dollar vs Swedish Krona USDSEK,USD/SEK,PEPPERSTONE:29,pepperstone,Curr,USD/SEK
+469,IC MARKETS US Dollar vs Swedish Krona USDSEK,USD/SEK,IC MARKETS:29,ic markets,Curr,USD/SEK
+470,USD/SGD,USD/SGD,OANDA:USD_SGD,oanda,Curr,USD/SGD
+471,Forex.com USD/SGD,USD/SGD,FOREX:401484420,forex.com,Curr,USD/SGD
+472,FXPIG US Dollar vs Singapore Dollar USDSGD.spa,USD/SGD,FXPIG:28,fxpig,Curr,USD/SGD
+473,PEPPERSTONE US Dollar vs Singapore Dollar USDSGD,USD/SGD,PEPPERSTONE:28,pepperstone,Curr,USD/SGD
+474,ICMTRADER US Dollar vs Singapore Dollar USDSGD,USD/SGD,ICMTRADER:28,icmtrader,Curr,USD/SGD
+475,IC MARKETS US Dollar vs Singapore Dollar USDSGD,USD/SGD,IC MARKETS:28,ic markets,Curr,USD/SGD
+476,USD/THB,USD/THB,OANDA:USD_THB,oanda,Curr,USD/THB
+477,Forex.com USD/THB,USD/THB,FOREX:401484421,forex.com,Curr,USD/THB
+478,IC MARKETS US Dollar vs Thai Bhat USDTHB,USD/THB,IC MARKETS:1026,ic markets,Curr,USD/THB
+479,USD/TRY,USD/TRY,OANDA:USD_TRY,oanda,Curr,USD/TRY
+480,FXCM USD/TRY,USD/TRY,FXCM:USD/TRY,fxcm,Curr,USD/TRY
+481,Forex.com USD/TRY,USD/TRY,FOREX:401484422,forex.com,Curr,USD/TRY
+482,FXPIG US Dollar vs Turkish Lira USDTRY.spa,USD/TRY,FXPIG:43,fxpig,Curr,USD/TRY
+483,PEPPERSTONE US Dollar vs Turkish Lira USDTRY,USD/TRY,PEPPERSTONE:61,pepperstone,Curr,USD/TRY
+484,ICMTRADER US Dollar vs Turkish Lira USDTRY,USD/TRY,ICMTRADER:43,icmtrader,Curr,USD/TRY
+485,IC MARKETS US Dollar vs Turkish Lira USDTRY,USD/TRY,IC MARKETS:1012,ic markets,Curr,USD/TRY
+486,USD/ZAR,USD/ZAR,OANDA:USD_ZAR,oanda,Curr,USD/ZAR
+487,FXCM USD/ZAR,USD/ZAR,FXCM:USD/ZAR,fxcm,Curr,USD/ZAR
+488,Forex.com USD/ZAR,USD/ZAR,FOREX:401484423,forex.com,Curr,USD/ZAR
+489,FXPIG US Dollar vs South African rand USDZAR.spa,USD/ZAR,FXPIG:49,fxpig,Curr,USD/ZAR
+490,PEPPERSTONE US Dollar vs South African Rand USDZAR,USD/ZAR,PEPPERSTONE:62,pepperstone,Curr,USD/ZAR
+491,IC MARKETS US Dollar vs South African Rand USDZAR,USD/ZAR,IC MARKETS:1013,ic markets,Curr,USD/ZAR
+492,ZAR/JPY,ZAR/JPY,OANDA:ZAR_JPY,oanda,Curr,ZAR/JPY
+493,FXCM ZAR/JPY,ZAR/JPY,FXCM:ZAR/JPY,fxcm,Curr,ZAR/JPY
+494,Forex.com ZAR/JPY,ZAR/JPY,FOREX:401484424,forex.com,Curr,ZAR/JPY
+495,FXPIG South African rand vs Japanese Yen ZARJPY.spa,ZAR/JPY,FXPIG:98,fxpig,Curr,ZAR/JPY
+496,PEPPERSTONE South African Rand vs Japanese Yen ZARJPY,ZAR/JPY,PEPPERSTONE:10027,pepperstone,Curr,ZAR/JPY
+497,Natural Gas,NATGAS/USD,OANDA:NATGAS_USD,oanda,Gas,
+498,FXCM NGAS,NGAS,FXCM:NGAS,fxcm,Gas,
+499,PEPPERSTONE Natural Gas vs US Dollar XNGUSD,XNG/USD,PEPPERSTONE:75,pepperstone,Gas,
+500,Australia 200,AU200/AUD,OANDA:AU200_AUD,oanda,Index_future,AUS200
+501,ICMTRADER Australia 200 #AUS200,AUS/AUD,ICMTRADER:102,icmtrader,Index_future,AUS200
+502,FXCM AUS200,AUS200,FXCM:AUS200,fxcm,Index_future,AUS200
+503,PEPPERSTONE Australian S&P/ASX 200 Index AUS200,AUS200/AUD,PEPPERSTONE:10000,pepperstone,Index_future,AUS200
+504,IC MARKETS Australian S&P/ASX 200 Index AUS200,AUS200/AUD,IC MARKETS:10000,ic markets,Index_future,AUS200
+505,FXPIG AUS200 AUS200.spa,AUS200spa/AUD,FXPIG:340,fxpig,Index_future,AUS200
+506,IC MARKETS FTSE China A50 Index CHINA50,CHINA50/USD,IC MARKETS:10025,ic markets,Index_future,CHN50
+507,FXCM CHN50,CHN50,FXCM:CHN50,fxcm,Index_future,CHN50
+508,China A50,CN50/USD,OANDA:CN50_USD,oanda,Index_future,CHN50
+509,PEPPERSTONE China A50 Index CN50,CN50/USD,PEPPERSTONE:10018,pepperstone,Index_future,CHN50
+510,ICMTRADER Germany 30 #Germany30,DAX/EUR,ICMTRADER:101,icmtrader,Index_future,DE30
+511,FXPIG Germany 30 Cash index GER30.sfl,DAX244/EUR,FXPIG:244,fxpig,Index_future,DE30
+512,Germany 30,DE30/EUR,OANDA:DE30_EUR,oanda,Index_future,DE30
+513,PEPPERSTONE German DAX 30 Index GER30,DE30/EUR,PEPPERSTONE:10003,pepperstone,Index_future,DE30
+514,IC MARKETS German DAX 30 Index DE30,DE30/EUR,IC MARKETS:10003,ic markets,Index_future,DE30
+515,FXPIG DE30 DE30.spa,DE30spa/EUR,FXPIG:343,fxpig,Index_future,DE30
+516,FXPIG DJ30 DJ30.spa,DJ30spa/USD,FXPIG:349,fxpig,Index_future,US30
+517,PEPPERSTONE Spanish IBEX 35 Index SPA35,ES35/EUR,PEPPERSTONE:10009,pepperstone,Index_future,ESP35
+518,IC MARKETS Spanish IBEX 35 Index ES35,ES35/EUR,IC MARKETS:10009,ic markets,Index_future,ESP35
+519,FXCM ESP35,ESP35,FXCM:ESP35,fxcm,Index_future,ESP35
+520,Europe 50,EU50/EUR,OANDA:EU50_EUR,oanda,Index_future,STOXX50
+521,FXCM EUSTX50,EUSTX50,FXCM:EUSTX50,fxcm,Index_future,STOXX50
+522,PEPPERSTONE French CAC 40 Index FRA40,F40/EUR,PEPPERSTONE:10002,pepperstone,Index_future,FR40
+523,IC MARKETS French CAC 40 Index F40,F40/EUR,IC MARKETS:10002,ic markets,Index_future,FR40
+524,FXPIG F40 F40.spa,F40spa/EUR,FXPIG:342,fxpig,Index_future,FR40
+525,France 40,FR40/EUR,OANDA:FR40_EUR,oanda,Index_future,FR40
+526,FXCM FRA40,FRA40,FXCM:FRA40,fxcm,Index_future,FR40
+527,FXCM GER30,GER30,FXCM:GER30,fxcm,Index_future,DE30
+528,Hong Kong 33,HK33/HKD,OANDA:HK33_HKD,oanda,Index_future,HK33
+529,PEPPERSTONE Chinese Hang Seng 50 Index HK50,HK50/HKD,PEPPERSTONE:10004,pepperstone,Index_future,HK50
+530,IC MARKETS Chinese Hang Seng 50 Index HK50,HK50/HKD,IC MARKETS:10004,ic markets,Index_future,HK50
+531,FXCM HKG33,HKG33,FXCM:HKG33,fxcm,Index_future,HK33
+532,FXPIG HKG50 HKG50.spa,HKG50spa/HKD,FXPIG:344,fxpig,Index_future,HK50
+533,India 50,IN50/USD,OANDA:IN50_USD,oanda,Index_future,
+534,PEPPERSTONE Italian FTSE MIB Index IT40,IT40/EUR,PEPPERSTONE:10005,pepperstone,Index_future,
+535,IC MARKETS Italian FTSE MIB Index IT40,IT40/EUR,IC MARKETS:10005,ic markets,Index_future,
+536,PEPPERSTONE Japan Nikkei 225 Index JPN225,JP225/JPY,PEPPERSTONE:10006,pepperstone,Index_future,JP225
+537,IC MARKETS Japan Nikkei 225 Index JP225,JP225/JPY,IC MARKETS:10006,ic markets,Index_future,JP225
+538,Japan 225,JP225/USD,OANDA:JP225_USD,oanda,Index_future,
+539,FXCM JPN225,JPN225,FXCM:JPN225,fxcm,Index_future,JP225
+540,FXPIG JPN225 JPN225.spa,JPN225spa/JPY,FXPIG:345,fxpig,Index_future,JP225
+541,FXCM JPYBasket,JPYBasket,FXCM:JPYBasket,fxcm,Index_future,
+542,FXCM NAS100,NAS100,FXCM:NAS100,fxcm,Index_future,NASD100
+543,US Nas 100,NAS100/USD,OANDA:NAS100_USD,oanda,Index_future,NASD100
+544,Netherlands 25,NL25/EUR,OANDA:NL25_EUR,oanda,Index_future,
+545,Singapore 30,SG30/SGD,OANDA:SG30_SGD,oanda,Index_future,
+546,ICMTRADER S&P 500 #US500,SPX/USD,ICMTRADER:107,icmtrader,Index_future,SP500
+547,FXCM SPX500,SPX500,FXCM:SPX500,fxcm,Index_future,SP500
+548,US SPX 500,SPX500/USD,OANDA:SPX500_USD,oanda,Index_future,SP500
+549,PEPPERSTONE EURO STOXX 50 Index EUSTX50,STOXX50/EUR,PEPPERSTONE:10001,pepperstone,Index_future,STOXX50
+550,IC MARKETS EURO STOXX 50 Index STOXX50,STOXX50/EUR,IC MARKETS:10001,ic markets,Index_future,STOXX50
+551,FXPIG STOXX50 STOXX50.spa,STOXX50spa/EUR,FXPIG:341,fxpig,Index_future,STOXX50
+552,Taiwan Index,TWIX/USD,OANDA:TWIX_USD,oanda,Index_future,
+553,FXCM UK100,UK100,FXCM:UK100,fxcm,Index_future,UK100
+554,UK 100,UK100/GBP,OANDA:UK100_GBP,oanda,Index_future,UK100
+555,PEPPERSTONE UK 100 Index UK100,UK100/GBP,PEPPERSTONE:10011,pepperstone,Index_future,UK100
+556,IC MARKETS UK 100 Index UK100,UK100/GBP,IC MARKETS:10011,ic markets,Index_future,UK100
+557,FXPIG UK100 UK100.spa,UK100spa/GBP,FXPIG:346,fxpig,Index_future,UK100
+558,FXCM US2000,US2000,FXCM:US2000,fxcm,Index_future,US2000
+559,US Russ 2000,US2000/USD,OANDA:US2000_USD,oanda,Index_future,US2000
+560,PEPPERSTONE USA Russell 2000 Index US2000,US2000/USD,PEPPERSTONE:10012,pepperstone,Index_future,US2000
+561,IC MARKETS USA Russell 2000 Index US2000,US2000/USD,IC MARKETS:10012,ic markets,Index_future,US2000
+562,FXCM US30,US30,FXCM:US30,fxcm,Index_future,US30
+563,US Wall St 30,US30/USD,OANDA:US30_USD,oanda,Index_future,US30
+564,PEPPERSTONE USA Dow Jones IA Index US30,US30/USD,PEPPERSTONE:10015,pepperstone,Index_future,US30
+565,IC MARKETS USA Dow Jones IA Index US30,US30/USD,IC MARKETS:10015,ic markets,Index_future,US30
+566,PEPPERSTONE USA S&P 500 Index US500,US500/USD,PEPPERSTONE:10013,pepperstone,Index_future,SP500
+567,IC MARKETS USA S&P 500 Index US500,US500/USD,IC MARKETS:10013,ic markets,Index_future,SP500
+568,FXCM USDOLLAR,USDOLLAR,FXCM:USDOLLAR,fxcm,Index_future,
+569,PEPPERSTONE US Dollar Index USDX,USDX/USD,PEPPERSTONE:10019,pepperstone,Index_future,
+570,PEPPERSTONE USA NASDAQ 100 Index NAS100,USTEC/USD,PEPPERSTONE:10014,pepperstone,Index_future,NASD100
+571,IC MARKETS USA NASDAQ 100 Index USTEC,USTEC/USD,IC MARKETS:10014,ic markets,Index_future,NASD100
+572,FXPIG USTEC USTEC.spa,USTECspa/USD,FXPIG:348,fxpig,Index_future,
+573,FXCM Copper,Copper,FXCM:Copper,fxcm,Metal,
+574,Copper,XCU/USD,OANDA:XCU_USD,oanda,Metal,
+575,Brent Crude Oil,BCO/USD,OANDA:BCO_USD,oanda,Oil,
+576,PEPPERSTONE WTI Cash (or Spot) Contract SpotCrude,SpotCrude/USD,PEPPERSTONE:10054,pepperstone,Oil,
+577,FXCM UKOil,UKOil,FXCM:UKOil,fxcm,Oil,
+578,FXPIG UKOIL UKOIL.spa,UKOILspa/USD,FXPIG:339,fxpig,Oil,
+579,FXCM USOil,USOil,FXCM:USOil,fxcm,Oil,
+580,West Texas Oil,WTICO/USD,OANDA:WTICO_USD,oanda,Oil,
+581,FXPIG WTI_OIL WTI_OIL.spa,WTIOILspa/USD,FXPIG:338,fxpig,Oil,
+582,PEPPERSTONE Brent Crude vs US Dollar XBRUSD,XBR/USD,PEPPERSTONE:10016,pepperstone,Oil,
+583,ICMTRADER Brent Crude Oil BRENT,XBR/USD,ICMTRADER:100,icmtrader,Oil,
+584,IC MARKETS Brent Crude Oil XBRUSD,XBR/USD,IC MARKETS:10018,ic markets,Oil,
+585,PEPPERSTONE West Texas Intermediate vs US Dollar XTIUSD,XTI/USD,PEPPERSTONE:10017,pepperstone,Oil,
+586,ICMTRADER WTI Light Crude Oil WTI,XTI/USD,ICMTRADER:99,icmtrader,Oil,
+587,IC MARKETS WTI Light Crude Oil XTIUSD,XTI/USD,IC MARKETS:10019,ic markets,Oil,
+588,FXPIG Palladium vs Euro XPDEUR.spa,XPD/EUR,FXPIG:94,fxpig,Metal,
+589,Palladium,XPD/USD,OANDA:XPD_USD,oanda,Metal,Pallad-USD
+590,FXPIG Palladium  vs US Dollar XPDUSD.spa,XPD/USD,FXPIG:95,fxpig,Metal,Pallad-USD
+591,PEPPERSTONE Palladium vs US Dollar XPDUSD,XPD/USD,PEPPERSTONE:73,pepperstone,Metal,Pallad-USD
+592,IC MARKETS Palladium XPDUSD,XPD/USD,IC MARKETS:10016,ic markets,Metal,Pallad-USD
+593,FXPIG Platinum vs Euro XPTEUR.spa,XPT/EUR,FXPIG:96,fxpig,Metal,
+594,Platinum,XPT/USD,OANDA:XPT_USD,oanda,Metal,Plat-USD
+595,FXPIG Platinum vs US Dollar XPTUSD.spa,XPT/USD,FXPIG:97,fxpig,Metal,Plat-USD
+596,PEPPERSTONE Platinum vs US Dollar XPTUSD,XPT/USD,PEPPERSTONE:74,pepperstone,Metal,Plat-USD
+597,IC MARKETS Platinum XPTUSD,XPT/USD,IC MARKETS:10017,ic markets,Metal,Plat-USD
+598,FXPIG XPTUSD XPTUSD.mpa,XPT325/USD,FXPIG:325,fxpig,Metal,
+599,ICMTRADER  American Airlines,AAL/USD,ICMTRADER:187,icmtrader,Stock_future,
+600,ICMTRADER  American International Group,AIG/USD,ICMTRADER:148,icmtrader,Stock_future,
+601,ICMTRADER  AMC Networks Inc,AMCX/USD,ICMTRADER:160,icmtrader,Stock_future,
+602,ICMTRADER  Amazon,AMZN/USD,ICMTRADER:122,icmtrader,Stock_future,
+603,ICMTRADER  Apple Inc,APPL/USD,ICMTRADER:147,icmtrader,Stock_future,
+604,ICMTRADER  American Express,AXP/USD,ICMTRADER:166,icmtrader,Stock_future,
+605,ICMTRADER  Alibaba,BABA/USD,ICMTRADER:114,icmtrader,Stock_future,
+606,ICMTRADER  Bank of America,BAC/USD,ICMTRADER:159,icmtrader,Stock_future,
+607,ICMTRADER  Blackberry,BB/USD,ICMTRADER:177,icmtrader,Stock_future,
+608,ICMTRADER  Baker Hughes,BHI/USD,ICMTRADER:178,icmtrader,Stock_future,
+609,ICMTRADER  Blackrock,BLK/USD,ICMTRADER:161,icmtrader,Stock_future,
+610,ICMTRADER  Bristol-Myer Squiib,BMY/USD,ICMTRADER:169,icmtrader,Stock_future,
+611,ICMTRADER  Berkshire Hathaway Class B,BRKB/USD,ICMTRADER:179,icmtrader,Stock_future,
+612,ICMTRADER  Citigroup Inc,C/USD,ICMTRADER:149,icmtrader,Stock_future,
+613,ICMTRADER  Caterpillar Inc,CAT/USD,ICMTRADER:150,icmtrader,Stock_future,
+614,ICMTRADER  Coca Cola Ent,CCE/USD,ICMTRADER:180,icmtrader,Stock_future,
+615,ICMTRADER  Cigna Corp,CI/USD,ICMTRADER:189,icmtrader,Stock_future,
+616,ICMTRADER  Colgate-Palmo CL.,CL/USD,ICMTRADER:181,icmtrader,Stock_future,
+617,ICMTRADER  Capital One,COF/USD,ICMTRADER:188,icmtrader,Stock_future,
+618,ICMTRADER  Salesforce,CRM/USD,ICMTRADER:140,icmtrader,Stock_future,
+619,ICMTRADER  Cisco Systems,CSCO/USD,ICMTRADER:123,icmtrader,Stock_future,
+620,ICMTRADER  Chevron,CVX/USD,ICMTRADER:116,icmtrader,Stock_future,
+621,ICMTRADER  Walt Disney Company.,DIS/USD,ICMTRADER:151,icmtrader,Stock_future,
+622,ICMTRADER  Ebay,EBAY/USD,ICMTRADER:124,icmtrader,Stock_future,
+623,ICMTRADER  Estee Lauder,EL/USD,ICMTRADER:190,icmtrader,Stock_future,
+624,FXCM EMBasket,EMBasket,FXCM:EMBasket,fxcm,Stock_future,
+625,ICMTRADER  Expedia,EXPE/USD,ICMTRADER:191,icmtrader,Stock_future,
+626,ICMTRADER  Ford Motors,F/USD,ICMTRADER:113,icmtrader,Stock_future,
+627,ICMTRADER  Facebook,FB/USD,ICMTRADER:164,icmtrader,Stock_future,
+628,ICMTRADER  Fedex,FDX/USD,ICMTRADER:125,icmtrader,Stock_future,
+629,ICMTRADER  General Electric Co,GE/USD,ICMTRADER:155,icmtrader,Stock_future,
+630,ICMTRADER  General Motors,GM/USD,ICMTRADER:194,icmtrader,Stock_future,
+631,ICMTRADER  Google Inc,GOOGL/USD,ICMTRADER:152,icmtrader,Stock_future,
+632,ICMTRADER  Gap,GPS/USD,ICMTRADER:192,icmtrader,Stock_future,
+633,ICMTRADER  Garmin,GRMN/USD,ICMTRADER:193,icmtrader,Stock_future,
+634,ICMTRADER  Goldman Sachs Group,GS/USD,ICMTRADER:127,icmtrader,Stock_future,
+635,ICMTRADER  Goodyear,GT/USD,ICMTRADER:195,icmtrader,Stock_future,
+636,ICMTRADER  Halliburton,HAL/USD,ICMTRADER:128,icmtrader,Stock_future,
+637,ICMTRADER  Hasbro,HAS/USD,ICMTRADER:196,icmtrader,Stock_future,
+638,ICMTRADER  Home Depot,HD/USD,ICMTRADER:130,icmtrader,Stock_future,
+639,ICMTRADER  Herballife,HLF/USD,ICMTRADER:197,icmtrader,Stock_future,
+640,ICMTRADER  Hilton Worldwide Holdings Inc,HLT/USD,ICMTRADER:199,icmtrader,Stock_future,
+641,ICMTRADER  Honda Motor Co,HMC/USD,ICMTRADER:183,icmtrader,Stock_future,
+642,ICMTRADER  Harley-Davidson,HOG/USD,ICMTRADER:129,icmtrader,Stock_future,
+643,ICMTRADER  Honeywell International,HON/USD,ICMTRADER:182,icmtrader,Stock_future,
+644,ICMTRADER  Hewlett Packard Enterprise,HPE/USD,ICMTRADER:198,icmtrader,Stock_future,
+645,ICMTRADER  International Business Machines,IBM/USD,ICMTRADER:154,icmtrader,Stock_future,
+646,ICMTRADER  Intel,INTC/USD,ICMTRADER:118,icmtrader,Stock_future,
+647,ICMTRADER  JD.com,JD/USD,ICMTRADER:200,icmtrader,Stock_future,
+648,ICMTRADER  Johnson&Johnson,JNJ/USD,ICMTRADER:131,icmtrader,Stock_future,
+649,ICMTRADER  Jp Morgan Chase,JPM/USD,ICMTRADER:167,icmtrader,Stock_future,
+650,ICMTRADER  Kellogg,K/USD,ICMTRADER:201,icmtrader,Stock_future,
+651,ICMTRADER  Kimberly Clark,KMB/USD,ICMTRADER:202,icmtrader,Stock_future,
+652,ICMTRADER  Coca Cola,KO/USD,ICMTRADER:115,icmtrader,Stock_future,
+653,PEPPERSTONE Litecoin vs US Dollar Litecoin,Litecoin/USD,PEPPERSTONE:10030,pepperstone,Stock_future,
+654,ICMTRADER  Lockheed Martin,LMT/USD,ICMTRADER:132,icmtrader,Stock_future,
+655,ICMTRADER  LinkedIn Corporation,LNKD/USD,ICMTRADER:184,icmtrader,Stock_future,
+656,FXCM LTC/USD,LTC/USD,FXCM:LTC/USD,fxcm,Stock_future,
+657,ICMTRADER Litecoin LTCUSD,LTC/USD,ICMTRADER:111,icmtrader,Stock_future,
+658,IC MARKETS Litecoin US Dollar LTCUSD,LTC/USD,IC MARKETS:10030,ic markets,Stock_future,
+659,ICMTRADER  Las Vegas Sands,LVS/USD,ICMTRADER:203,icmtrader,Stock_future,
+660,ICMTRADER  Mastercard,MA/USD,ICMTRADER:206,icmtrader,Stock_future,
+661,ICMTRADER  Marriott International,MAR/USD,ICMTRADER:133,icmtrader,Stock_future,
+662,ICMTRADER  Masimo Corp,MASI/USD,ICMTRADER:205,icmtrader,Stock_future,
+663,ICMTRADER  McDonald's,MCD/USD,ICMTRADER:158,icmtrader,Stock_future,
+664,ICMTRADER  Moody,MCO/USD,ICMTRADER:135,icmtrader,Stock_future,
+665,ICMTRADER  Metlife Inc,MET/USD,ICMTRADER:134,icmtrader,Stock_future,
+666,ICMTRADER  Mohawk Industries Inc,MHK/USD,ICMTRADER:207,icmtrader,Stock_future,
+667,ICMTRADER  3M Company,MMM/USD,ICMTRADER:156,icmtrader,Stock_future,
+668,ICMTRADER  Monsanto Co,MON/USD,ICMTRADER:171,icmtrader,Stock_future,
+669,ICMTRADER  Marvell,MRVL/USD,ICMTRADER:204,icmtrader,Stock_future,
+670,ICMTRADER  Morgan Stanley,MS/USD,ICMTRADER:117,icmtrader,Stock_future,
+671,ICMTRADER  MSCI Inc,MSCI/USD,ICMTRADER:209,icmtrader,Stock_future,
+672,ICMTRADER  Microsoft Corporation,MSFT/USD,ICMTRADER:153,icmtrader,Stock_future,
+673,ICMTRADER  Motorola Solutions,MSI/USD,ICMTRADER:208,icmtrader,Stock_future,
+674,ICMTRADER  Micron Technology. Inc.,MU/USD,ICMTRADER:121,icmtrader,Stock_future,
+675,ICMTRADER  Netflix. Inc.,NFLX/USD,ICMTRADER:120,icmtrader,Stock_future,
+676,ICMTRADER  NIKE Inc,NKE/USD,ICMTRADER:136,icmtrader,Stock_future,
+677,ICMTRADER  Northern Trust,NTRS/USD,ICMTRADER:137,icmtrader,Stock_future,
+678,ICMTRADER  NVIDIA Corporation,NVDA/USD,ICMTRADER:119,icmtrader,Stock_future,
+679,ICMTRADER  Oracle,ORCL/USD,ICMTRADER:168,icmtrader,Stock_future,
+680,ICMTRADER  Pepsi Co,PEP/USD,ICMTRADER:210,icmtrader,Stock_future,
+681,ICMTRADER  Pfizer Inc,PFE/USD,ICMTRADER:157,icmtrader,Stock_future,
+682,ICMTRADER  Procter & Gamb,PG/USD,ICMTRADER:138,icmtrader,Stock_future,
+683,ICMTRADER  Prudential Financial,PRU/USD,ICMTRADER:211,icmtrader,Stock_future,
+684,ICMTRADER  Qualcomm,QCOM/USD,ICMTRADER:165,icmtrader,Stock_future,
+685,ICMTRADER  Ferrari,RACE/USD,ICMTRADER:126,icmtrader,Stock_future,
+686,ICMTRADER  Ralph Lauren,RL/USD,ICMTRADER:139,icmtrader,Stock_future,
+687,ICMTRADER  Starbucks,SBUX/USD,ICMTRADER:170,icmtrader,Stock_future,
+688,ICMTRADER  Sirius Satellite Radio,SIRI/USD,ICMTRADER:141,icmtrader,Stock_future,
+689,ICMTRADER  Schlumberger,SLB/USD,ICMTRADER:212,icmtrader,Stock_future,
+690,ICMTRADER  Snap Inc,SNAP/USD,ICMTRADER:185,icmtrader,Stock_future,
+691,ICMTRADER  Sony Corp,SNE/USD,ICMTRADER:214,icmtrader,Stock_future,
+692,ICMTRADER  Seagate Technology,STX/USD,ICMTRADER:213,icmtrader,Stock_future,
+693,ICMTRADER  Sysco,SYY/USD,ICMTRADER:162,icmtrader,Stock_future,
+694,ICMTRADER  At&T,T/USD,ICMTRADER:173,icmtrader,Stock_future,
+695,ICMTRADER  TEVA,TEVA/USD,ICMTRADER:176,icmtrader,Stock_future,
+696,ICMTRADER  Triumph Group Inc,TGI/USD,ICMTRADER:217,icmtrader,Stock_future,
+697,ICMTRADER  Tripadvisor,TRIP/USD,ICMTRADER:216,icmtrader,Stock_future,
+698,ICMTRADER  Travelers,TRV/USD,ICMTRADER:215,icmtrader,Stock_future,
+699,TRY/JPY,TRY/JPY,OANDA:TRY_JPY,oanda,Stock_future,
+700,FXCM TRY/JPY,TRY/JPY,FXCM:TRY/JPY,fxcm,Stock_future,
+701,Forex.com TRY/JPY,TRY/JPY,FOREX:401484405,forex.com,Stock_future,
+702,ICMTRADER  Tesla Motors,TSLA/USD,ICMTRADER:163,icmtrader,Stock_future,
+703,ICMTRADER  Twitter,TWTR/USD,ICMTRADER:174,icmtrader,Stock_future,
+704,ICMTRADER  Time Warner,TWX/USD,ICMTRADER:186,icmtrader,Stock_future,
+705,ICMTRADER  Under Armour,UA/USD,ICMTRADER:142,icmtrader,Stock_future,
+706,ICMTRADER  Visa,V/USD,ICMTRADER:144,icmtrader,Stock_future,
+707,ICMTRADER  Verizon Communications,VZ/USD,ICMTRADER:143,icmtrader,Stock_future,
+708,ICMTRADER  Western Digital Corp,WDC/USD,ICMTRADER:219,icmtrader,Stock_future,
+709,ICMTRADER  Wells Fargo,WFC/USD,ICMTRADER:175,icmtrader,Stock_future,
+710,ICMTRADER  Walmart Stores,WMT/USD,ICMTRADER:218,icmtrader,Stock_future,
+711,ICMTRADER  Western Union,WU/USD,ICMTRADER:145,icmtrader,Stock_future,
+712,ICMTRADER  Wyndham Destinations Inc,WYND/USD,ICMTRADER:220,icmtrader,Stock_future,
+713,ICMTRADER  Wynn Resorts,WYNN/USD,ICMTRADER:221,icmtrader,Stock_future,
+714,ICMTRADER  Exxon Mobil XOM.N,XOM/USD,ICMTRADER:172,icmtrader,Stock_future,
+715,ICMTRADER  Xerox,XRX/USD,ICMTRADER:146,icmtrader,Stock_future,
+716,Silver/AUD,XAG/AUD,OANDA:XAG_AUD,oanda,Metal,
+717,PEPPERSTONE Silver vs Australian Dollar XAGAUD,XAG/AUD,PEPPERSTONE:10058,pepperstone,Metal,
+718,Silver/CAD,XAG/CAD,OANDA:XAG_CAD,oanda,Metal,
+719,Silver/CHF,XAG/CHF,OANDA:XAG_CHF,oanda,Metal,
+720,Silver/EUR,XAG/EUR,OANDA:XAG_EUR,oanda,Metal,XAG/EUR
+721,FXPIG Silver vs Euro XAGEUR.spa,XAG/EUR,FXPIG:92,fxpig,Metal,XAG/EUR
+722,PEPPERSTONE Silver vs Euro XAGEUR,XAG/EUR,PEPPERSTONE:64,pepperstone,Metal,XAG/EUR
+723,IC MARKETS Silver vs Euro XAGEUR,XAG/EUR,IC MARKETS:44,ic markets,Metal,XAG/EUR
+724,Silver/GBP,XAG/GBP,OANDA:XAG_GBP,oanda,Metal,
+725,Silver/HKD,XAG/HKD,OANDA:XAG_HKD,oanda,Metal,
+726,Silver/JPY,XAG/JPY,OANDA:XAG_JPY,oanda,Metal,
+727,Silver/NZD,XAG/NZD,OANDA:XAG_NZD,oanda,Metal,
+728,Silver/SGD,XAG/SGD,OANDA:XAG_SGD,oanda,Metal,
+729,Silver,XAG/USD,OANDA:XAG_USD,oanda,Metal,XAG/USD
+730,FXCM XAG/USD,XAG/USD,FXCM:XAG/USD,fxcm,Metal,XAG/USD
+731,FXPIG Silver vs US Dollar XAGUSD.spa,XAG/USD,FXPIG:42,fxpig,Metal,XAG/USD
+732,PEPPERSTONE Silver vs US Dollar XAGUSD,XAG/USD,PEPPERSTONE:42,pepperstone,Metal,XAG/USD
+733,ICMTRADER Silver vs US Dollar XAGUSD,XAG/USD,ICMTRADER:42,icmtrader,Metal,XAG/USD
+734,IC MARKETS Silver vs US Dollar XAGUSD,XAG/USD,IC MARKETS:42,ic markets,Metal,XAG/USD
+735,OCTAFX Silver vs US Dollar XAGUSD,XAG/USD,OCTAFX:42,octafx,Metal,XAG/USD
+736,Forex.com XAG/USD (per 0.1),XAG/USD (per 0.1),FOREX:401501559,forex.com,Metal,XAG/USD
+737,Gold/AUD,XAU/AUD,OANDA:XAU_AUD,oanda,Metal,
+738,PEPPERSTONE Gold vs AUD XAUAUD,XAU/AUD,PEPPERSTONE:10025,pepperstone,Metal,
+739,Gold/CAD,XAU/CAD,OANDA:XAU_CAD,oanda,Metal,
+740,Gold/CHF,XAU/CHF,OANDA:XAU_CHF,oanda,Metal,
+741,PEPPERSTONE Gold vs Swiss Franc XAUCHF,XAU/CHF,PEPPERSTONE:10056,pepperstone,Metal,
+742,Gold/EUR,XAU/EUR,OANDA:XAU_EUR,oanda,Metal,XAU/EUR
+743,FXPIG Gold vs Euro XAUEUR.spa,XAU/EUR,FXPIG:93,fxpig,Metal,XAU/EUR
+744,PEPPERSTONE Gold vs Euro XAUEUR,XAU/EUR,PEPPERSTONE:63,pepperstone,Metal,XAU/EUR
+745,IC MARKETS Gold vs Euro XAUEUR,XAU/EUR,IC MARKETS:43,ic markets,Metal,XAU/EUR
+746,Gold/GBP,XAU/GBP,OANDA:XAU_GBP,oanda,Metal,
+747,PEPPERSTONE Gold vs Great Britain Pound XAUGBP,XAU/GBP,PEPPERSTONE:10057,pepperstone,Metal,
+748,Gold/HKD,XAU/HKD,OANDA:XAU_HKD,oanda,Metal,
+749,Gold/JPY,XAU/JPY,OANDA:XAU_JPY,oanda,Metal,
+750,Gold/NZD,XAU/NZD,OANDA:XAU_NZD,oanda,Metal,
+751,Gold/SGD,XAU/SGD,OANDA:XAU_SGD,oanda,Metal,
+752,Gold,XAU/USD,OANDA:XAU_USD,oanda,Metal,XAU/USD
+753,FXCM XAU/USD,XAU/USD,FXCM:XAU/USD,fxcm,Metal,XAU/USD
+754,Forex.com XAU/USD,XAU/USD,FOREX:401153870,forex.com,Metal,XAU/USD
+755,FXPIG Gold vs US Dollar XAUUSD.spa,XAU/USD,FXPIG:41,fxpig,Metal,XAU/USD
+756,PEPPERSTONE Gold vs US Dollar XAUUSD,XAU/USD,PEPPERSTONE:41,pepperstone,Metal,XAU/USD
+757,ICMTRADER Gold vs US Dollar XAUUSD,XAU/USD,ICMTRADER:41,icmtrader,Metal,XAU/USD
+758,IC MARKETS Gold vs US Dollar XAUUSD,XAU/USD,IC MARKETS:41,ic markets,Metal,XAU/USD
+759,OCTAFX Gold vs US Dollar XAUUSD,XAU/USD,OCTAFX:41,octafx,Metal,XAU/USD
+760,Gold/Silver,XAU/XAG,OANDA:XAU_XAG,oanda,Metal,
+761,FXPIG Gold vs. US Dollar XAUUSD.mpa,XAU150/USD,FXPIG:150,fxpig,Metal,

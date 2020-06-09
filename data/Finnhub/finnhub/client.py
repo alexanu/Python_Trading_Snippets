@@ -1,43 +1,23 @@
-#   API Documentation: https://finnhub.io/docs/api
-#   Source: https://github.com/s0h3ck/finnhub-api-python-client
-
-
 import requests
-
-class FinnhubAPIException(Exception):
-    
-    def __init__(self, response):
-        self.code = 0
-
-        try:
-            json_response = response.json()
-        except ValueError:
-            self.message = "JSON error message from Finnhub: {}".format(response.text)
-        else:
-            if "error" not in json_response:
-                self.message = "Wrong json format from FinnhubAPI"
-            else:
-                self.message = json_response["error"]
-
-        self.status_code = response.status_code
-        self.response = response
-
-    def __str__(self):
-        return "FinnhubAPIException(status_code: {}): {}".format(self.status_code, self.message)
+import logging
+from pandas.io.json import json_normalize
 
 
-class FinnhubRequestException(Exception):
-
-    def __init__(self, message):
-        self.message = message
-
-    def __str__(self):
-        return "FinnhubRequestException: {}".format(self.message)
-
-
+from finnhub.exceptions import FinnhubAPIException
+from finnhub.exceptions import FinnhubRequestException
 
 class Client:
     API_URL = "https://finnhub.io/api/v1"
+    log = None
+
+    # Most endpoints will have a limit of 60 requests per minute per api key.
+    # However, /scan endpoint have a limit of 10 requests per minute. 
+    # If your limit is exceeded, you will receive a response with status code 429.
+    LAST_HEADERS = None
+
+    # Define a timeout in seconds for every request
+    TIMEOUT_SEC = 5
+
 
     def __init__(self, api_key, requests_params=None):
         self.api_key = api_key
@@ -70,6 +50,7 @@ class Client:
 
         return self._handle_response(response)
 
+
     def _create_api_uri(self, path):
         return "{}/{}".format(self.API_URL, path)
 
@@ -88,8 +69,80 @@ class Client:
     def _get(self, path, **kwargs):
         return self._request_api('get', path, **kwargs)
 
-    def company_profile(self, **params):
+
+###### STOCK FUNDAMENTALS ################
+
+    def company_profile(self, **params): # You can query by symbol, ISIN or CUSIP
         return self._get("stock/profile", data=params)
+
+    def company_profile_base(self, **params): # You can query by symbol, ISIN or CUSIP
+        return self._get("stock/profile2", data=params)
+
+    def executives(self, **params): # list of company's executives and members of the Board
+        return self._get("stock/executive", data=params)
+
+
+    def news(self, **params): # category = "general", "forex", "merge". "minId" for latest news
+        return self._get("news", data=params)
+
+    def company_news(self, **params):
+        return self._get("company-news", data=params)
+
+    def news_sentiment(self, **params):
+        return self._get("news-sentiment", data=params)
+
+    def major(self, **params):
+        return self._get("major-development", data=params)
+
+
+
+    def peers(self, **params):
+        return self._get("stock/peers", data=params)
+
+    def metric(self, **params):
+        return self._get("stock/metric", data=params)
+
+
+
+
+
+
+###### STOCK ESTIMATES ################
+
+
+
+
+###### STOCK PRICE ################
+
+
+
+###### FOREX ################
+
+
+
+###### TECHNICAL ANALYSIS ################
+
+
+
+
+###### ALT DATA ################
+
+    def covid(self):
+        return self._get("covid19/us")
+
+
+
+
+
+###### ECONOMIC ################
+
+
+
+
+
+
+
+
 
     def ceo_compensation(self, **params):
         return self._get("stock/ceo-compensation", data=params)
@@ -106,11 +159,14 @@ class Client:
     def option_chain(self, **params):
         return self._get("stock/option-chain", data=params)
 
-    def peers(self, **params):
-        return self._get("stock/peers", data=params)
 
     def earnings(self, **params):
         return self._get("stock/earnings", data=params)
+
+
+
+
+    
 
     def exchange(self):
         return self._get("stock/exchange")
@@ -154,14 +210,7 @@ class Client:
     def scan_technical_indicator(self, **params):
         return self._get("scan/technical-indicator", data=params)
 
-    def news(self, **params):
-        return self._get("news", data=params)
 
-    def company_news(self, symbol):
-        return self._get("news/{}".format(symbol))
-
-    def news_sentiment(self, **params):
-        return self._get("news-sentiment", data=params)
 
     def merger_country(self):
         return self._get("merger/country")
@@ -181,8 +230,9 @@ class Client:
     def calendar_earnings(self):
         return self._get("calendar/earnings")
 
-    def calendar_ipo(self):
-        return self._get("calendar/ipo")
+    def calendar_ipo(self, **params):
+        return self._get("calendar/ipo", data=params)
 
     def calendar_ico(self):
         return self._get("calendar/ico")
+    
