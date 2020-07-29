@@ -45,6 +45,8 @@ model = clf.fit (training[features], training.label)
 pred_train = model.predict(training[features])
 pred_test = model.predict(testing[features])
 
+#  maximize TP (true-positive, our profitable trades) and minimize FP (false positives, out losing trades)
+# less concerned with TN (true negative) and FN (false negative = missed opportunities, but no loss)
 print(confusion_matrix(training.label, pred_train))
 print(confusion_matrix(testing.label, pred_test))
 
