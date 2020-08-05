@@ -12,16 +12,15 @@ yf.pdr_override() # <== that's all it takes :-)
 
 start_date = dt.datetime(1970, 1, 1)
 end_date = dt.datetime.now() - dt.timedelta(days=1)
-# Read ETF.csv file in order to iterate through all the ETF in our database
-with open('database/ETF.csv') as csvfile:
+
+with open('database/ETF.csv') as csvfile: # get ETF list
     reader = csv.DictReader(csvfile)
-    # For each ETF do the following ... 
-    for row in reader:
+    for row in reader: # For each ETF do the following ... 
         print("Update quotes for ETF ", row['Name'])
 
-        # If a csv file already exist for the current ETF update the quotes in 
-        # latest one. If a csv file does not exist for that ETF download all 
-        # quotes for it.
+        # If a csv file with quotes already exist for the current ETF => update the quotes 
+        # If doesn't exist - download all quotes for it
+        
         csv_file_path = Path("database/quotes/" + row['Ticker'] + ".csv")
         if csv_file_path.exists():
             with open(csv_file_path, "r") as csv_file:
