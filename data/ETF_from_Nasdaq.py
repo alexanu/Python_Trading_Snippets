@@ -11,8 +11,26 @@ from tqdm import tqdm
 
 import matplotlib.pyplot as plt
 
-import config as cfg
-import pf_tools as pf
+
+def get_return(weights: pd.Series, mean_rets: pd.Series) -> float:
+    """
+    Total Portfolio Return given the respective weights
+    """
+    return (weights * mean_rets).sum() * 252
+
+
+def get_std(weights: pd.Series, cov_matrix: pd.DataFrame) -> float:
+    """
+    Portfolio Variance given the respective covariance Matrix
+    """
+    return np.sqrt(np.dot(weights.T, np.dot(cov_matrix, weights))) * np.sqrt(252)
+
+
+def get_sharpe_ratio(pf_return: float, pf_std: float) -> float:
+    """
+    Sharpe ratio assuming risk-free rate is zero
+    """
+    return pf_return / pf_std
 
 
 def clean_colnames(data: pd.DataFrame) -> pd.DataFrame:
@@ -113,8 +131,8 @@ if __name__ == "__main__":
     def obj_func(weights):
         global cov
         global pf_std
-        pf_std = pf.get_std(weights=weights, cov_matrix=cov)
-        pf_ret = pf.get_return(weights=weights, mean_rets=mean_rets)
+        pf_std = get_std(weights=weights, cov_matrix=cov)
+        pf_ret = get_return(weights=weights, mean_rets=mean_rets)
         sr = pf.get_sharpe_ratio(pf_return=pf_ret, pf_std=pf_std)
         return -sr
 
@@ -122,8 +140,8 @@ if __name__ == "__main__":
     print(f"Optimal Portfolio weights by optimization:")
     print(pd.Series(res.x, index=mean_rets.index).round(2))
     print(f"Sharpe: {-res.fun}")
-    print(f"Return: {pf.get_return(res.x, mean_rets)}")
-    print(f"Std: {pf.get_std(res.x, cov)}")
+    print(f"Return: {get_return(res.x, mean_rets)}")
+    print(f"Std: {get_std(res.x, cov)}")
 
     # using Monte Carlo
     results = []
@@ -131,8 +149,8 @@ if __name__ == "__main__":
         rand_nums = np.random.random(size=len(mean_rets))
         rand_weights = rand_nums / rand_nums.sum()
 
-        pf_ret = pf.get_return(weights=rand_weights, mean_rets=mean_rets)
-        pf_std = pf.get_std(weights=rand_weights, cov_matrix=cov)
+        pf_ret = get_return(weights=rand_weights, mean_rets=mean_rets)
+        pf_std = get_std(weights=rand_weights, cov_matrix=cov)
         results.append(dict(zip(mean_rets.index, rand_weights), ret=pf_ret, std=pf_std))
 
     results_df = pd.DataFrame(results)
