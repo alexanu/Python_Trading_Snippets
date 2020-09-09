@@ -603,3 +603,22 @@ def overlap_by_symbol(old_df: pd.DataFrame, new_df: pd.DataFrame, overlap: int):
         return pd.concat([old_df_tail, new_df], sort=True)
     else:
         return pd.concat([old_df.tail(overlap), new_df], sort=True)
+
+
+
+##############################################
+
+dateparse = lambda x: pd.datetime.strptime(x, '%d.%m.%Y %H:%M')
+AAPL = pd.read_csv("D:\\Data\\minute_data\\AAPL.txt", sep='\t', decimal=",", parse_dates={'datetime': ['Date', 'Time']}, date_parser=dateparse)
+
+AAPL.dtypes
+AAPL.count()
+AAPL.isna().mean() # calculate the % of missing values in each row
+AAPL.memory_usage(deep = True) # Show the usage of memory of every column
+AAPL=AAPL.drop(AAPL.columns[[-1]],axis=1) # delete last column
+AAPL.nlargest(20,'Volume')
+AAPL[AAPL.Close - AAPL.Open>5]
+AAPL[AAPL.Open - AAPL.Close.shift()>15] # shows where the diff btw t-1 close and t > smth
+AAPL[(AAPL.nlargest(20,'Volume')) & (AAPL.nlargest(20,'Close'))]
+
+AAPL[(AAPL.Open - AAPL.Close.shift()>15)(AAPL.Close - AAPL.Open>5)] # shows where the diff btw t-1 close and t > smth
