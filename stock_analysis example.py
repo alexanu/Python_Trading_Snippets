@@ -33,8 +33,8 @@ stocks.plot(secondary_y = ["AAPL", "MSFT"], grid = True)
 spyderdat = pd.read_csv("/home/curtis/Downloads/HistoricalQuotes.csv")    # Obviously specific to my system; set to                                                                        # location on your machine
 spyderdat = pd.DataFrame(spyderdat.loc[:, ["open", "high", "low", "close", "close"]]
                         .iloc[1:].as_matrix(),
-                         index=pd.DatetimeIndex(spyderdat.iloc[1:, 0]),
-                         columns=["Open", "High", "Low", "Close", "Adj Close"])
+                        index=pd.DatetimeIndex(spyderdat.iloc[1:, 0]),
+                        columns=["Open", "High", "Low", "Close", "Adj Close"])
             .sort_index()
 spyder = spyderdat.loc[start:end]
 stocks = stocks.join(spyder.loc[:, "Adj Close"])
@@ -82,7 +82,7 @@ apple["Signal"] = np.sign(apple["Regime"] - apple["Regime"].shift(1))
 apple.loc[:, "Regime"].iloc[-1] = regime_orig
 
 # what the prices of the stock is at every buy and every sell?
-pple.loc[apple["Signal"] == 1, "Close"]
+apple.loc[apple["Signal"] == 1, "Close"]
 apple.loc[apple["Signal"] == -1, "Close"]
 
 # Create a DataFrame with trades, 

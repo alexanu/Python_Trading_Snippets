@@ -190,3 +190,29 @@ pct_rtns.cumsum().plot(colormap='jet',title='Markets (simple) cummulative return
 
 
 quandl.get_table('WIKI/PRICES', ticker='JCP')
+
+
+####################################################################################################
+
+# from quandl
+    import quandl
+    start = datetime.datetime(2016,1,1)
+    end = datetime.date.today()
+    
+    apple, microsoft, google = (quandl.get("WIKI/" + s, start_date=start, end_date=end) 
+                                for s in ["AAPL", "MSFT", "GOOG"])
+    
+    stocks = pd.DataFrame({"AAPL": apple["Adj. Close"],
+                        "MSFT": microsoft["Adj. Close"],
+                        "GOOG": google["Adj. Close"]})
+
+    spyderdat = pd.read_csv("/home/curtis/Downloads/HistoricalQuotes.csv") # from http://www.nasdaq.com/symbol/spy/historical
+    spyderdat = pd.DataFrame(spyderdat.loc[:, ["open", "high", "low", "close", "close"]]
+                            .iloc[1:].as_matrix(),
+                            index=pd.DatetimeIndex(spyderdat.iloc[1:, 0]),
+                            columns=["Open", "High", "Low", "Close", "Adj Close"])
+                .sort_index()
+    spyder = spyderdat.loc[start:end]
+    stocks = stocks.join(spyder.loc[:, "Adj Close"])
+                    .rename(columns={"Adj Close": "SPY"})
+

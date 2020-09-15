@@ -1,22 +1,8 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
 
-#==========================================================
-#======================== cADF.py =========================
-#==========================================================
-
-# Purpose
-#----------------------------------------------------------
-# Augmented Dickey-Fuller is a mathematically sound test to determine if a time
-# series is mean reverting or not. It is relatively common knowledge that
-# Equities behave much more like GBMs and therefore the ADF test will prove to
-# be ineffective in creating profitable trading strategies. However it is not
-# unreasonable to inquire whether a portfolio of equities possesses
-# mean-reverting behavior. The simplest combination would be a "pairs trade"
-# with a dollar-neutral long-short pair of equities. In order to determine the
-# optimal hedging ratio of the two time series as well test the 
-# stationarity of the linear combination this program will implement the 
-# Cointegrated Augmented Dickey-Fuller test.
+# Cointegrated Augmented Dickey-Fuller: if a time # series is mean reverting or not. 
+# Portfolio of equities possesses mean-reverting behavior. 
+# The simplest combination would be a "pairs trade" with a dollar-neutral long-short pair of equities. 
+# Find optimal hedging ratio of the two time series + test the stationarity of the linear combination 
 
 import datetime as dt
 import numpy as np
@@ -28,6 +14,17 @@ import pprint
 import statsmodels.tsa.stattools as ts
 
 from pandas.stats.api import ols
+
+from __future__ import print_function
+
+if __name__ == "__main__":
+    import sys
+    ticker = str(sys.argv[1])
+    series = web.DataReader(ticker, "yahoo", dt.datetime(2000,1,1), dt.datetime(2015,1,1))
+    dat = ts.adfuller(series['Adj Close'], 1)
+    print(dat)
+
+
 
 # TODO: take start and end dates as inputs
 def plot_2Price_Series(df, ts1, ts2):
@@ -131,3 +128,42 @@ if __name__ == "__main__":
     # Calculate and output the CADF test on the residuals
     cadf = ts.adfuller(df["res"])
     pprint.pprint(cadf)
+
+
+
+#################################################################################
+import pandas as pd
+from statsmodels.tsa.stattools import adfuller, kpss
+
+def adf_test(series):
+    '''
+    Null Hypothesis: time series is not stationary
+    Alternate Hypothesis: time series is stationary
+   '''
+    adf_test = adfuller(series, autolag='AIC')
+    adf_results = pd.Series(adf_test[0:4], index=['Test Statistic',
+                                                  'p-value',
+                                                  '# of Lags Used',
+                                                  '# of Observations Used'])
+    for key, value in adf_test[4].items():
+        adf_results[f'Critical Value ({key})'] = value
+
+    print('Results of Augmented Dickey-Fuller Test ----')
+    print(adf_results)
+
+
+def kpss_test(series, h0_type='c'):
+    '''
+    Null Hypothesis: time series is stationary
+    Alternate Hypothesis: time series is not stationary
+    When null='c' then we are testing level stationary, when 'ct' trend stationary.
+    '''
+    kpss_test = kpss(series, regression=h0_type)
+    kpss_results = pd.Series(kpss_test[0:3], index=['Test Statistic',
+                                                    'p-value',
+                                                    '# of Lags'])
+    for key, value in kpss_test[3].items():
+        kpss_results[f'Critical Value ({key})'] = value
+
+    print('Results of KPSS Test ----')
+    print(kpss_results)

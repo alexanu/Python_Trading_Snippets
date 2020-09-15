@@ -363,6 +363,26 @@ def get_us_listed_companies():
     return pd.DataFrame(symbols)
 
 
+
+###########################################################################
+
+import re
+from ftplib import FTP
+from io import StringIO
+
+def get_nasdaq_stocks(filename, column):
+    ftp = FTP('ftp.nasdaqtrader.com')
+    ftp.login()
+    ftp.cwd('SymbolDirectory')
+    lines = StringIO()
+    ftp.retrlines('RETR '+filename, lambda x: lines.write(str(x)+'\n'))
+    ftp.quit()
+    lines.seek(0)
+    result = [l.split('|')[column] for l in lines.readlines()]
+    return [l for l in result if re.match(r'^[A-Z]+$', l)]
+
+
+
 # --------------------------------------------------------------------------------------------------------
 
 def get_s_and_p_500():
@@ -561,3 +581,41 @@ def getSpyHoldings(dataDir):
         data['sector'].append(v[3])
       
     return  pd.DataFrame(data)    
+
+
+######################################################################
+
+import quandl
+import os
+
+quandl.ApiConfig.api_key = os.environ["QUANDL_API_KEY"]
+nse = quandl.Database('NSE')
+
+nse_stocks_page = nse.datasets()
+pageCount = 1
+while nse_stocks_page.has_more_results() and pageCount < 7: # restricting the pageCount not to exceed daily call limit
+    for nse_stock in nse_stocks_page:
+        print("{0}\t\t{1}".format(nse_stock.code, nse_stock.name))
+    pageCount = pageCount + 1
+    nse_stocks_page = nse.datasets(params = {"page":pageCount})
+
+
+############################################################################
+# List of ETFs
+
+import urllib2
+import pandas
+
+def ETF_from_YH():
+    response = urllib2.urlopen('http://finance.yahoo.com/etf/lists/?mod_id=mediaquotesetf&tab=tab3&rcnt=50')
+    the_page = response.read()
+    splits = the_page.split('<a href=\\"\/q?s=')
+    etf_symbols = [split.split('\\')[0] for split in splits[1:]]
+    return etf_symbols
+
+def get_ETFSymbols(source):
+    if source.lower() == 'yahoo':
+        return ETF_from_YH()
+    elif source.lower() == 'nasdaq':
+        return pandas.read_csv('http://www.nasdaq.com/investing/etfs/etf-finder-results.aspx?download=Yes')['Symbol'].values
+
