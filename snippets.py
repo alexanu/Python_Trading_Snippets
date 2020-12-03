@@ -1,4 +1,62 @@
 
+import pandas as pd
+
+# load text file from NASDAQs FTP server
+nasdaq_symbols_url = "ftp://ftp.nasdaqtrader.com/SymbolDirectory/nasdaqlisted.txt"
+all_stock_symbols = pd.read_csv(nasdaq_symbols_url, sep="|").rename(columns={x: x.lower().replace(" ", "_") for x in all_stock_symbols})
+all_stock_symbols[all_stock_symbols.etf=="Y"]
+
+
+
+
+https://www.nasdaq.com/market-activity/stocks/hal/dividend-history
+https://www.nasdaq.com/market-activity/stocks/hal/financials
+https://www.nasdaq.com/market-activity/stocks/hal/earnings
+https://www.nasdaq.com/market-activity/stocks/hal/price-earnings-peg-ratios
+https://www.nasdaq.com/market-activity/stocks/hal/revenue-eps
+https://www.nasdaq.com/market-activity/stocks/hal/option-chain
+https://www.nasdaq.com/market-activity/stocks/hal/short-interest
+https://www.nasdaq.com/market-activity/stocks/hal/institutional-holdings
+https://www.nasdaq.com/market-activity/stocks/hal/insider-activity
+
+# ETFs with HAL as top 10 holding
+https://old.nasdaq.com/symbol/hal
+
+https://old.nasdaq.com/symbol/hal/premarket
+https://www.nasdaq.com/market-activity/stocks/hal/pre-market-trades
+https://old.nasdaq.com/symbol/hal/after-hours
+https://www.nasdaq.com/market-activity/stocks/hal/after-hours-trades
+
+
+# Calendars
+https://www.nasdaq.com/market-activity/dividends
+https://www.nasdaq.com/market-activity/earnings
+https://www.nasdaq.com/market-activity/economic-calendar
+https://www.nasdaq.com/market-activity/ipos
+https://www.nasdaq.com/market-activity/ipo-performance
+
+https://www.nasdaq.com/market-activity/stock-splits
+
+
+# Symbol change history:
+https://www.nasdaq.com/market-activity/stocks/symbol-change-history
+
+
+https://www.nasdaq.com/market-activity/unusual-volume
+
+https://www.nasdaq.com/market-activity/nasdaq-52-week-hi-low
+
+
+https://www.nasdaq.com/market-activity/stocks/screener
+https://www.nasdaq.com/market-activity/stocks/screener
+
+
+
+
+
+
+
+
 
 # Combination of Futures and Option names
     future_types = ['m']
