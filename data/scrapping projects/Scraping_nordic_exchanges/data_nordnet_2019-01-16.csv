@@ -1,0 +1,1549 @@
+,company_name,country,list,sector,industry,ticker,market_id,stock_id,search
+0,AarhusKarlshamn,Sverige,Large Cap,Dagligvaror,Livsmedel,AAK,11,36273,AAK AB
+1,ABB,Sverige,Large Cap,Industri,Industrimaskiner,ABB,11,3966,ABB Ltd
+2,Acando,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,ACAN B,11,981,Acando AB ser. B
+3,Active Biotech,Sverige,Small Cap,Hälsovård,Biotech,ACTI,11,877,Active Biotech AB
+4,Addnode,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,ANOD B,11,3887,Addnode Group AB ser. B
+5,Addtech,Sverige,Large Cap,Industri,Industrikomponenter,ADDT B,11,14336,Addtech AB ser. B
+6,Alfa Laval,Sverige,Large Cap,Industri,Industrikomponenter,ALFA,11,18634,Alfa Laval AB
+7,A3 Allmänna IT- och Telekom,Sverige,Small Cap,Telekommunikation,Bredband & Telefoni,ATRE,11,66668,A3 Allmänna IT- och Telekom. AB
+8,Anoto,Sverige,Small Cap,Informationsteknik,Elektronisk Utrustning,ANOT,11,5110,Anoto Group AB
+9,Arise Windpower,Sverige,Small Cap,Kraftförsörjning,Vindkraft,ARISE,11,74570,Arise AB
+10,Assa Abloy,Sverige,Large Cap,Industri,Byggmaterial,ASSA B,11,402,ASSA ABLOY AB ser. B
+11,AstraZeneca,Sverige,Large Cap,Hälsovård,Läkemedel,AZN,11,3524,AstraZeneca PLC
+12,Atlas Copco A,Sverige,Large Cap,Industri,Industrimaskiner,ATCO A,11,45,Atlas Copco AB ser. A
+13,Atrium Ljungberg,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,ATRLJ B,11,1011,Atrium Ljungberg AB ser. B
+14,Autoliv,Sverige,Large Cap,Sällanköpsvaror,Bil & Motor,ALIV SDB,11,47,Autoliv Inc. SDB
+15,Avanza,Sverige,Large Cap,Finans & Fastighet,Nischbanker,AZA,11,988,Avanza Bank Holding AB
+16,Axfood,Sverige,Large Cap,Dagligvaror,Livsmedelsbutiker,AXFO,11,4590,Axfood AB
+17,Bergman & Beving,Sverige,Mid Cap,Industri,Industrikomponenter,BERG B,11,793,Bergman & Beving Aktiebolag ser. B
+18,BE Group,Sverige,Small Cap,Industri,Industrikomponenter,BEGR,11,37309,BE Group AB
+19,Beijer Ref,Sverige,Large Cap,Industri,Installation & VVS,BEIJ B,11,792,Beijer Ref AB ser. B
+20,Beijer Alma,Sverige,Mid Cap,Industri,Industrikomponenter,BEIA B,11,875,Beijer Alma AB ser. B
+21,Beijer Electronics,Sverige,Small Cap,Informationsteknik,Datorer & Hårdvara,BELE,11,5081,Beijer Electronics Group AB
+22,Bergs Timber,Sverige,Small Cap,Material,Skogsbolag,BRG B,11,891,Bergs Timber AB ser. B
+23,Betsson,Sverige,Large Cap,Sällanköpsvaror,Betting & Casino,BETS B,11,5121,Betsson AB ser. B
+24,Bilia,Sverige,Mid Cap,Sällanköpsvaror,Bil & Motor,BILI A,11,794,Bilia AB ser. A
+25,BillerudKorsnäs,Sverige,Large Cap,Material,Skogsbolag,BILL,11,14922,BillerudKorsnäs AB
+26,BioGaia,Sverige,Mid Cap,Dagligvaror,Hälsoprodukter,BIOG B,11,959,BioGaia AB ser. B
+27,Bioinvent,Sverige,Small Cap,Hälsovård,Biotech,BINV,11,13348,BioInvent International AB
+28,Biotage,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,BIOT,11,5209,Biotage AB
+29,Björn Borg,Sverige,Small Cap,Sällanköpsvaror,Kläder & Skor,BORG,11,40286,Björn Borg AB
+30,Boliden,Sverige,Large Cap,Material,Gruv - Industrimetaller,BOL,11,15285,Boliden AB
+31,Bong Ljungdahl,Sverige,Small Cap,Material,Förpackning,BONG,11,892,Bong AB
+32,Brinova,Sverige,Small Cap,Finans & Fastighet,Fastighetsbolag,BRIN B,11,127241,Brinova Fastigheter AB ser. B
+33,BTS Group,Sverige,Mid Cap,Industri,Affärskonsulter,BTS B,11,13288,BTS Group AB ser. B
+34,Bure Equity,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,BURE,11,800,Bure Equity AB
+35,Byggmax,Sverige,Mid Cap,Sällanköpsvaror,Detaljhandel,BMAX,11,75712,Byggmax Group AB
+36,Castellum,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,CAST,11,966,Castellum AB
+37,Catena,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,CATE,11,34362,Catena AB
+38,Qliro Group,Sverige,Mid Cap,Informationsteknik,Betalning & E-handel,QLRO,11,79303,Qliro Group AB
+39,CellaVision,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,CEVI,11,40679,CellaVision AB
+40,Clas Ohlson,Sverige,Mid Cap,Sällanköpsvaror,Detaljhandel,CLAS B,11,4145,Clas Ohlson AB ser. B
+41,Cloetta,Sverige,Mid Cap,Dagligvaror,Livsmedel,CLA B,11,63225,Cloetta AB ser. B
+42,Concordia Maritime,Sverige,Small Cap,Energi,Olja & Gas - Transport,CCOR B,11,971,Concordia Maritime AB ser. B
+43,Consilium,Sverige,Small Cap,Informationsteknik,Säkerhet & Bevakning,CONS B,11,803,Consilium AB ser. B
+44,Corem A,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,CORE A,11,66929,Corem Property Group AB ser. A
+45,CTT Systems,Sverige,Small Cap,Industri,Installation & VVS,CTT,11,3081,CTT Systems AB
+46,Diamyd Medical,Sverige,First North,Hälsovård,Biotech,DMYD B,11,94266,Diamyd Medical AB ser. B
+47,Diös,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,DIOS,11,34271,Diös Fastigheter AB
+48,Doro,Sverige,Small Cap,Sällanköpsvaror,Hemelektronik,DORO,11,896,DORO AB
+49,Duni,Sverige,Mid Cap,Dagligvaror,Hygienprodukter,DUNI,11,49775,Duni AB
+50,Duroc,Sverige,Small Cap,Industri,Industrikomponenter,DURC B,11,4005,Duroc AB ser. B
+51,Eastnine,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,EAST,11,49615,Eastnine AB
+52,Elanders,Sverige,Mid Cap,Sällanköpsvaror,Media & Publicering,ELAN B,11,897,Elanders AB ser. B
+53,Electra Gruppen,Sverige,Small Cap,Sällanköpsvaror,Hemelektronik,ELEC,11,66436,Electra Gruppen AB
+54,Electrolux B,Sverige,Large Cap,Sällanköpsvaror,Hemelektronik,ELUX B,11,81,"Electrolux, AB ser. B"
+55,Elekta,Sverige,Large Cap,Hälsovård,Medicinsk Utrustning,EKTA B,11,806,Elekta AB ser. B
+56,Elos,Sverige,Small Cap,Hälsovård,Medicinsk Utrustning,ELOS B,11,947,Elos Medtech AB ser. B
+57,Enea,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,ENEA,11,1149,Enea AB
+58,Eniro,Sverige,Small Cap,Sällanköpsvaror,Marknadsföring,ENRO,11,11046,Eniro AB
+59,EnQuest,Sverige,Mid Cap,Energi,Olja & Gas - Exploatering,ENQ,11,75073,EnQuest PLC
+60,Ericsson B,Sverige,Large Cap,Informationsteknik,Kommunikation,ERIC B,11,101,"Ericsson, Telefonab. L M ser. B"
+61,Etrion,Sverige,Small Cap,Kraftförsörjning,Solkraft,ETX,11,78547,Etrion Corporation
+62,eWork,Sverige,Small Cap,Informationsteknik,IT-Konsulter,EWRK,11,72798,eWork Group AB
+63,Fabege,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,FABG,11,861,Fabege AB
+64,Fagerhult,Sverige,Mid Cap,Industri,Bygginredning,FAG,11,903,"Fagerhult, AB"
+65,Fast Partner,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,FPAR,11,980,Fast Partner AB
+66,Fast Balder,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,BALD B,11,4212,Fastighets AB Balder ser. B
+67,Feelgood,Sverige,Small Cap,Hälsovård,Hälsovård & Hjälpmedel,FEEL,11,5053,Feelgood Svenska AB
+68,Fenix Outdoor,Sverige,Large Cap,Sällanköpsvaror,Kläder & Skor,FOI B,11,101639,Fenix Outdoor International AG Ser. B
+69,Fingerprint Cards,Sverige,Mid Cap,Informationsteknik,Biometri,FING B,11,4870,Fingerprint Cards AB ser. B
+70,Formpipe Software,Sverige,Small Cap,Informationsteknik,Affärs- & IT-System,FPIP,11,72565,FormPipe Software AB
+71,Getinge,Sverige,Large Cap,Hälsovård,Hälsovård & Hjälpmedel,GETI B,11,812,Getinge AB ser. B
+72,GHP Specialty Care,Sverige,Small Cap,Hälsovård,Sjukhus & Vårdhem,GHP,11,59064,GHP Specialty Care AB
+73,Gunnebo,Sverige,Mid Cap,Industri,Säkerhet,GUNN,11,816,Gunnebo AB
+74,ICA Gruppen,Sverige,Large Cap,Dagligvaror,Livsmedelsbutiker,ICA,11,32443,ICA Gruppen AB
+75,Haldex,Sverige,Mid Cap,Industri,Industrikomponenter,HLDX,11,817,Haldex AB
+76,Havsfrun Investment,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,HAV B,11,990,Havsfrun Investment AB ser. B
+77,Heba,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,HEBA B,11,991,Heba Fastighets AB ser. B
+78,Hennes & Mauritz,Sverige,Large Cap,Sällanköpsvaror,Kläder & Skor,HM B,11,992,"Hennes & Mauritz AB, H & M ser. B"
+79,Hexagon,Sverige,Large Cap,Industri,Mätning & Analys,HEXA B,11,819,Hexagon AB ser. B
+80,Hexpol,Sverige,Large Cap,Material,Kemikalier,HPOL B,11,55907,HEXPOL AB ser. B
+81,HiQ,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,HIQ,11,3540,HiQ International AB
+82,HMS Networks,Sverige,Mid Cap,Informationsteknik,Kommunikation,HMS,11,43302,HMS Networks AB
+83,Holmen B,Sverige,Large Cap,Material,Skogsbolag,HOLM B,11,222,Holmen AB ser. B
+84,Hufvudstaden A,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,HUFV A,11,820,Hufvudstaden AB ser. A
+85,Husqvarna B,Sverige,Large Cap,Sällanköpsvaror,Hemelektronik,HUSQ B,11,34915,Husqvarna AB ser. B
+86,I.A.R Systems,Sverige,Mid Cap,Informationsteknik,Affärs- & IT-System,IAR B,11,2346,I.A.R Systems Group AB ser. B
+87,Image Systems,Sverige,Small Cap,Informationsteknik,Affärs- & IT-System,IS,11,3571,Image Systems AB
+88,Industrivärden C,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,INDU C,11,143,"Industrivärden, AB ser. C"
+89,Indutrade,Sverige,Large Cap,Industri,Industrikomponenter,INDT,11,31308,Indutrade AB
+90,ICTA,Sverige,Small Cap,Industri,Affärskonsulter,ICTA,11,941,ICTA AB
+91,Intrum,Sverige,Large Cap,Finans & Fastighet,Kredit & Finansiering,INTRUM,11,18962,Intrum AB
+92,Investor B,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,INVE B,11,161,Investor AB ser. B
+93,ITAB Shop Concept,Sverige,Mid Cap,Industri,Bygginredning,ITAB B,11,56940,ITAB Shop Concept AB ser. B
+94,JM,Sverige,Large Cap,Industri,Bostadsbyggnation,JM,11,13217,JM AB
+95,Kabe,Sverige,Mid Cap,Sällanköpsvaror,Bil & Motor,KABE B,11,912,KABE Group AB ser. B
+96,KappAhl,Sverige,Mid Cap,Sällanköpsvaror,Kläder & Skor,KAHL,11,33359,KappAhl AB
+97,Karo Pharma,Sverige,Mid Cap,Hälsovård,Biotech,KARO,11,3927,Karo Pharma AB
+98,Kinnevik B,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,KINV B,11,999,Kinnevik AB ser. B
+99,Klövern A,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,KLOV A,11,19459,Klövern AB Ser. A
+100,KnowIT,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,KNOW,11,3219,Knowit AB
+101,Kungsleden,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,KLED,11,3546,Kungsleden AB
+102,Lagercrantz,Sverige,Mid Cap,Industri,Elektroniska komponenter,LAGR B,11,14335,Lagercrantz Group AB ser B
+103,Lammhults Design,Sverige,Small Cap,Industri,Bygginredning,LAMM B,11,1049,Lammhults Design Group AB ser. B
+104,Latour,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,LATO B,11,914,"Latour, Investmentab. ser. B"
+105,Lindab,Sverige,Mid Cap,Industri,Installation & VVS,LIAB,11,37400,Lindab International AB
+106,Loomis,Sverige,Large Cap,Industri,Säkerhet,LOOM B,11,61536,Loomis AB ser. B
+107,Lundbergföretagen,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,LUND B,11,1012,"Lundbergföretagen AB, L E ser. B"
+108,Lundin Mining,Sverige,Large Cap,Material,Gruv - Prospekt & Drift,LUMI,11,27709,Lundin Mining Corporation
+109,Lundin Petroleum,Sverige,Large Cap,Energi,Olja & Gas - Exploatering,LUPE,11,22335,Lundin Petroleum AB
+110,Malmbergs Elektriska,Sverige,Small Cap,Industri,Elektroniska komponenter,MEAB B,11,3223,Malmbergs Elektriska AB ser. B
+111,Medivir,Sverige,Small Cap,Hälsovård,Biotech,MVIR B,11,1020,Medivir AB ser. B
+112,Mekonomen,Sverige,Mid Cap,Sällanköpsvaror,Bil & Motor,MEKO,11,4986,Mekonomen AB
+113,Mycronic,Sverige,Mid Cap,Informationsteknik,Elektronik & Tillverkning,MYCR,11,4714,Mycronic AB
+114,Midsona B,Sverige,Mid Cap,Dagligvaror,Hälsoprodukter,MSON B,11,3922,Midsona AB ser. B
+115,Midway B,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,MIDW B,11,835,Midway Holding AB ser. B
+116,Millicom,Sverige,Large Cap,Telekommunikation,Bredband & Telefoni,MIC SDB,11,156393,Arion Banki hf SDB
+117,Stockwik,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,STWK,11,1007,Stockwik Förvaltning AB
+118,Amasten,Sverige,First North,Finans & Fastighet,Fastighetsbolag,AMAST,11,53228,Amasten Fastighets AB
+119,MQ,Sverige,Small Cap,Sällanköpsvaror,Kläder & Skor,MQ,11,76085,MQ Holding AB
+120,Empir Group,Sverige,Small Cap,Informationsteknik,IT-Konsulter,EMPIR B,11,1023,Empir Group AB ser. B
+121,MTG B,Sverige,Large Cap,Sällanköpsvaror,Media & Publicering,MTG B,11,3599,Modern Times Group MTG AB ser. B
+122,MultiQ,Sverige,Small Cap,Informationsteknik,Datorer & Hårdvara,MULQ,11,4359,MultiQ International AB
+123,NAXS Nordic Access,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,NAXS,11,40342,NAXS AB
+124,NCC B,Sverige,Large Cap,Industri,Byggnation & Infrastruktur,NCC B,11,838,NCC AB ser. B
+125,Nederman,Sverige,Mid Cap,Industri,Installation & VVS,NMAN,11,40347,Nederman Holding AB
+126,NetEnt,Sverige,Large Cap,Sällanköpsvaror,Betting & Casino,NET B,11,3871,Net Insight AB ser. B
+127,Net Insight,Sverige,Mid Cap,Informationsteknik,Kommunikation,NETI B,11,3871,Net Insight AB ser. B
+128,New Wave,Sverige,Mid Cap,Sällanköpsvaror,Kläder & Skor,NEWA B,11,920,New Wave Group AB ser. B
+129,NIBE,Sverige,Large Cap,Industri,Installation & VVS,NIBE B,11,921,NIBE Industrier AB ser. B
+130,Nobia,Sverige,Large Cap,Sällanköpsvaror,Möbler & Inredning,NOBI,11,19095,Nobia AB
+131,Nolato,Sverige,Large Cap,Material,Kemikalier,NOLA B,11,923,Nolato AB ser. B
+132,Nordea Bank,Sverige,Large Cap,Finans & Fastighet,Banker,NDA SE,11,160271,Nordea Bank Abp
+133,NOTE,Sverige,Small Cap,Informationsteknik,Elektronik & Tillverkning,NOTE,11,25319,NOTE AB
+134,Strax,Sverige,Small Cap,Sällanköpsvaror,Fritid & Sport,STRAX,11,5116,Strax AB
+135,Novotek,Sverige,Small Cap,Informationsteknik,Affärs- & IT-System,NTEK B,11,4000,NOVOTEK AB ser. B
+136,Oasmia Pharmaceutical,Sverige,Mid Cap,Hälsovård,Läkemedel,OASM,11,76461,Oasmia Pharmaceutical AB
+137,Odd Molly,Sverige,Small Cap,Sällanköpsvaror,Kläder & Skor,ODD,11,40936,Odd Molly International AB
+138,OEM,Sverige,Mid Cap,Industri,Industrikomponenter,OEM B,11,927,OEM International AB ser. B
+139,Trention,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,TRENT,11,2282,Trention AB
+140,Orexo,Sverige,Mid Cap,Hälsovård,Läkemedel,ORX,11,31885,Orexo AB
+141,Oriflame,Sverige,Large Cap,Dagligvaror,Hygienprodukter,ORI,11,110536,Oriflame Holding AG
+142,Ortivus B,Sverige,Small Cap,Hälsovård,Hälsovård & Hjälpmedel,ORTI B,11,1032,Ortivus AB ser. B
+143,Peab,Sverige,Large Cap,Industri,Byggnation & Infrastruktur,PEAB B,11,928,Peab AB ser. B
+144,Poolia,Sverige,Small Cap,Industri,Bemanning,POOL B,11,3974,Poolia AB ser. B
+145,Precise Biometrics,Sverige,Small Cap,Informationsteknik,Biometri,PREC,11,10751,Precise Biometrics AB
+146,Prevas,Sverige,Small Cap,Informationsteknik,IT-Konsulter,PREV B,11,1039,Prevas AB ser. B
+147,Pricer,Sverige,Small Cap,Informationsteknik,Elektronisk Utrustning,PRIC B,11,1040,Pricer AB ser. B
+148,ProAct IT,Sverige,Mid Cap,Informationsteknik,IT-Konsulter,PACT,11,4003,Proact IT Group AB
+149,Probi,Sverige,Mid Cap,Dagligvaror,Livsmedel,PROB,11,27701,Probi AB
+150,ProfilGruppen,Sverige,Small Cap,Industri,Industrikomponenter,PROF B,11,929,ProfilGruppen AB ser. B
+151,Ratos B,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,RATO B,11,1045,Ratos AB ser. B
+152,RaySearch Laboratories,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,RAY B,11,1063,RaySearch Laboratories AB ser. B
+153,Rejlerkoncernen,Sverige,Small Cap,Industri,Affärskonsulter,REJL B,11,37758,Rejlers AB ser. B
+154,RNB Retail and Brands,Sverige,Small Cap,Sällanköpsvaror,Kläder & Skor,RNBS,11,13467,RNB RETAIL AND BRANDS AB
+155,Radisson Hospitality,Sverige,Mid Cap,Sällanköpsvaror,Hotell & Camping,RADH,11,37352,Radisson Hospitality AB
+156,Rottneros,Sverige,Small Cap,Material,Skogsbolag,RROS,11,930,Rottneros AB
+157,Saab,Sverige,Large Cap,Industri,Militär & Försvar,SAAB B,11,1051,SAAB AB ser. B
+158,Sagax A,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,SAGA A,11,43045,Sagax AB A
+159,Sandvik,Sverige,Large Cap,Industri,Industrimaskiner,SAND,11,4928,Sandvik AB
+160,SAS,Sverige,Mid Cap,Industri,Flygtransport,SAS,11,13557,SAS AB
+161,SCA B,Sverige,Large Cap,Material,Skogsbolag,SCA B,11,323,Svenska Cellulosa AB SCA ser. B
+162,SEB A,Sverige,Large Cap,Finans & Fastighet,Banker,SEB A,11,281,Skandinaviska Enskilda Banken ser. A
+163,Sectra,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,SECT B,11,3083,SECTRA AB ser B
+164,Securitas,Sverige,Large Cap,Industri,Säkerhet,SECU B,11,401,Securitas AB ser. B
+165,Semcon,Sverige,Small Cap,Industri,Affärskonsulter,SEMC,11,1054,Semcon AB
+166,Sensys Gatso,Sverige,Small Cap,Informationsteknik,Säkerhet & Bevakning,SENS,11,12241,Sensys Gatso Group AB
+167,Handelsbanken A,Sverige,Large Cap,Finans & Fastighet,Banker,SHB A,11,340,Svenska Handelsbanken ser. A
+168,SinterCast,Sverige,Small Cap,Industri,Industrikomponenter,SINT,11,1058,SinterCast AB
+169,Skanska,Sverige,Large Cap,Industri,Byggnation & Infrastruktur,SKA B,11,283,Skanska AB ser. B
+170,SKF B,Sverige,Large Cap,Industri,Industrikomponenter,SKF B,11,285,"SKF, AB ser. B"
+171,SkiStar,Sverige,Mid Cap,Sällanköpsvaror,Resor & Nöjen,SKIS B,11,939,SkiStar AB ser. B
+172,Softronic,Sverige,Small Cap,Informationsteknik,IT-Konsulter,SOF B,11,1546,Softronic AB ser. B
+173,SSAB A,Sverige,Large Cap,Material,Gruv - Industrimetaller,SSAB A,11,300,SSAB AB ser. A
+174,Stora Enso R,Sverige,Large Cap,Material,Skogsbolag,STE R,11,2170,Stora Enso Oyj ser. R
+175,Studsvik,Sverige,Small Cap,Industri,Energi & Återvinning,SVIK,11,13094,Studsvik AB
+176,Svedbergs,Sverige,Small Cap,Sällanköpsvaror,Möbler & Inredning,SVED B,11,935,Svedbergs i Dalstorp AB ser. B
+177,Svolder B,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,SVOL B,11,937,Svolder AB ser. B
+178,Sweco B,Sverige,Large Cap,Industri,Affärskonsulter,SWEC B,11,1062,SWECO AB ser. B
+179,Swedbank,Sverige,Large Cap,Finans & Fastighet,Banker,SWED A,11,120,Swedbank AB ser A
+180,Swedish Match,Sverige,Large Cap,Dagligvaror,Tobak,SWMA,11,361,Swedish Match AB
+181,Swedish Orphan Biovitrum,Sverige,Large Cap,Hälsovård,Läkemedel,SOBI,11,36316,Swedish Orphan Biovitrum AB
+182,Swedol,Sverige,Mid Cap,Sällanköpsvaror,Detaljhandel,SWOL B,11,55913,Swedol AB ser. B
+183,Systemair,Sverige,Mid Cap,Industri,Installation & VVS,SYSR,11,43007,Systemair AB
+184,Tele2 B,Sverige,Large Cap,Telekommunikation,Bredband & Telefoni,TEL2 B,11,1027,Tele2 AB ser. B
+185,Telia Company,Sverige,Large Cap,Telekommunikation,Bredband & Telefoni,TELIA,11,5095,Telia Company AB
+186,Tieto,Sverige,Large Cap,Informationsteknik,IT-Konsulter,TIETOS,11,4025,Tieto Corporation
+187,Traction,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,TRAC B,11,4963,Traction AB ser. B
+188,TradeDoubler,Sverige,Small Cap,Sällanköpsvaror,Marknadsföring,TRAD,11,31884,TradeDoubler AB
+189,Viking Supply,Sverige,Small Cap,Industri,Sjöfart & Rederi,VSSAB B,11,964,Viking Supply Ships AB ser. B
+190,Trelleborg,Sverige,Large Cap,Material,Kemikalier,TREL B,11,364,Trelleborg AB ser. B
+191,Agromino,Sverige,Small Cap,Dagligvaror,Jordbruk,AGRO,11,40543,Agromino A/S
+192,Kindred Group,Sverige,Large Cap,Sällanköpsvaror,Betting & Casino,KIND SDB,11,36950,Kindred Group plc
+193,VBG,Sverige,Mid Cap,Industri,Industrikomponenter,VBG B,11,942,VBG GROUP AB ser. B
+194,Venue Retail Group,Sverige,Small Cap,Sällanköpsvaror,Accessoarer,VRG B,11,946,Venue Retail Group AB ser. B
+195,Vitrolife,Sverige,Large Cap,Hälsovård,Medicinsk Utrustning,VITR,11,13469,Vitrolife AB
+196,Volvo B,Sverige,Large Cap,Industri,Industrimaskiner,VOLV B,11,366,"Volvo, AB ser. B"
+197,Vostok New Ventures,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,VNV SDB,11,41044,Vostok New Ventures Ltd
+198,Wallenstam,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,WALL B,11,945,Wallenstam AB ser. B
+199,Wihlborgs,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,WIHL,11,29759,Wihlborgs Fastigheter AB
+200,XANO Industri,Sverige,Mid Cap,Industri,Industrikomponenter,XANO B,11,1074,XANO Industri AB ser. B
+201,ÅF,Sverige,Large Cap,Industri,Affärskonsulter,AF B,11,862,ÅF AB ser. B
+202,Öresund,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,ORES,11,863,"Öresund, Investment AB"
+203,Karolinska Development,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,KDEV,11,81547,Karolinska Development AB ser.B
+204,Boule Diagnostics,Sverige,Small Cap,Hälsovård,Medicinsk Utrustning,BOUL,11,82889,Boule Diagnostics AB
+205,Dedicare,Sverige,Small Cap,Industri,Bemanning,DEDI,11,81878,Dedicare AB ser. B
+206,Moberg Pharma,Sverige,Small Cap,Hälsovård,Läkemedel,MOB,11,79252,Moberg Pharma AB
+207,Concentric,Sverige,Mid Cap,Industri,Industrikomponenter,COIC,11,82656,Concentric AB
+208,Cavotec,Sverige,Mid Cap,Industri,Industrimaskiner,CCC,11,84962,Cavotec SA
+209,Nokia,Sverige,Large Cap,Informationsteknik,Kommunikation,NOKIA SEK,11,39854,Nokia Corporation
+210,Micro Systemation,Sverige,Small Cap,Informationsteknik,Elektronisk Utrustning,MSAB B,11,85846,Micro Systemation AB B
+211,Vitec Software,Sverige,Mid Cap,Informationsteknik,Affärs- & IT-System,VIT B,11,5177,Vitec Software Group AB ser. B
+212,Semafo,Sverige,Mid Cap,Material,Gruv - Guld & Silver,SMF,11,84981,Semafo Inc.
+213,Bulten,Sverige,Mid Cap,Industri,Industrikomponenter,BULTEN,11,82239,Bulten AB
+214,Moment Group,Sverige,Small Cap,Sällanköpsvaror,Resor & Nöjen,MOMENT,11,32720,Moment Group AB
+215,ADDvise Group A,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,ADDV A,11,1449,ADDvise Group AB A
+216,Africa Oil,Sverige,Mid Cap,Energi,Olja & Gas - Exploatering,AOI,11,77948,Africa Oil Corp.
+217,Arctic Minerals,Sverige,First North,Material,Gruv - Guld & Silver,ARCT,11,67373,Arctic Minerals AB
+218,Avensia,Sverige,First North,Informationsteknik,Betalning & E-handel,AVEN,11,5101,Avensia AB
+219,Avtech,Sverige,First North,Informationsteknik,Affärs- & IT-System,AVT B,11,86868,Avtech Sweden AB B
+220,Bredband2,Sverige,First North,Telekommunikation,Bredband & Telefoni,BRE2,11,34627,Bredband2 i Skandinavien AB
+221,C-RAD,Sverige,Small Cap,Hälsovård,Medicinsk Utrustning,CRAD B,11,74313,C-RAD AB ser. B
+222,Catella B,Sverige,Mid Cap,Finans & Fastighet,Kapitalförvaltning,CAT B,11,62559,Catella AB ser. B
+223,Auriant Mining,Sverige,First North,Material,Gruv - Guld & Silver,AUR,11,76848,Auriant Mining AB
+224,Confidence,Sverige,First North,Industri,Säkerhet,CONF,11,85522,Confidence International AB
+225,Creades,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,CRED A,11,86903,Creades AB A
+226,DistIT,Sverige,First North,Informationsteknik,Datorer & Hårdvara,DIST,11,81545,DistIT AB
+227,Diadrom,Sverige,First North,Informationsteknik,IT-Konsulter,DIAH,11,40563,Diadrom Holding AB
+228,Dignitana,Sverige,First North,Hälsovård,Medicinsk Utrustning,DIGN,11,66773,Dignitana AB
+229,Drillcon,Sverige,First North,Material,Gruv - Service,DRIL,11,35729,Drillcon AB
+230,Ellen,Sverige,First North,Hälsovård,Biotech,ELN,11,42472,Ellen AB
+231,Kakel Max,Sverige,First North,Industri,Byggmaterial,KAKEL,11,29381,Kakel Max AB
+232,Endomines,Sverige,Small Cap,Material,Gruv - Guld & Silver,ENDO,11,41059,Endomines AB
+233,Eolus Vind,Sverige,Small Cap,Kraftförsörjning,Vindkraft,EOLU B,11,66174,Eolus Vind AB ser. B
+234,EOS Russia,Sverige,First North,Kraftförsörjning,Elförsörjning,EOS,21,EGSNF,EOS RUSSIA AB
+235,Episurf,Sverige,Small Cap,Hälsovård,Medicinsk Utrustning,EPIS B,11,78419,Episurf Medical AB B
+236,Firefly,Sverige,First North,Informationsteknik,Affärs- & IT-System,FIRE,11,59997,Firefly AB
+237,Wifog,Sverige,First North,Telekommunikation,Bredband & Telefoni,WIFOG,11,67911,Wifog Holding AB
+238,Generic Sweden,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,GENI,11,60626,Generic Sweden AB
+239,Genovis,Sverige,First North,Hälsovård,Biotech,GENO,11,36315,Genovis AB
+240,Binero Group,Sverige,First North,Informationsteknik,Affärs- & IT-System,BINERO,11,41626,Binero Group AB
+241,Götenehus Group,Sverige,First North,Industri,Bostadsbyggnation,GHUS B,11,37306,Götenehus Group AB ser. B
+242,Hansa Biopharma,Sverige,Mid Cap,Hälsovård,Biotech,HNSA,11,43288,Hansa Biopharma AB
+243,Stendörren,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,STEF B,11,80255,Stendörren Fastigheter AB ser. B
+244,Hifab,Sverige,First North,Industri,Affärskonsulter,HIFA B,11,5232,Hifab Group AB ser. B
+245,Impact Coatings,Sverige,First North,Industri,Industrimaskiner,IMPC,11,28041,Impact Coatings AB
+246,Invisio Communications,Sverige,Mid Cap,Informationsteknik,Kommunikation,IVSO,11,34597,Invisio Communications AB
+247,Jays,Sverige,First North,Informationsteknik,Elektronisk Utrustning,JAYS,11,75344,Jays Group AB
+248,JLT Mobile Computers,Sverige,First North,Informationsteknik,Datorer & Hårdvara,JLT,11,21189,JLT Mobile Computers AB
+249,Kancera,Sverige,First North,Hälsovård,Biotech,KAN,11,80745,Kancera AB
+250,Copperstone,Sverige,First North,Material,Gruv - Prospekt & Drift,COPP B,11,38904,Copperstone Resources AB ser. B
+251,Kopy Goldfields,Sverige,First North,Material,Gruv - Guld & Silver,KOPY,11,77457,Kopy Goldfields AB
+252,Lightlab,Sverige,First North,Industri,Elektroniska komponenter,LLSW B,11,63604,LightLab Sweden AB ser. B
+253,Lucara Diamond,Sverige,Mid Cap,Material,Gruv - Ädelstenar,LUC,11,85525,Lucara Diamond Corp
+254,Mackmyra,Sverige,First North,Dagligvaror,Bryggeri,MACK B,11,85847,Mackmyra Svensk Whisky AB B
+255,MedCap,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,MCAP,11,35364,MedCap AB
+256,Modern Ekonomi,Sverige,First North,Industri,Affärskonsulter,ME,11,37031,Modern Ekonomi Sverige Holding AB
+257,Misen Energy,Sverige,First North,Energi,Olja & Gas - Exploatering,MISE,11,40872,Misen Energy AB
+258,NetJobs,Sverige,First North,Industri,Bemanning,NJOB,11,36534,NetJobs Group AB
+259,New Nordic Healthbrands,Sverige,First North,Dagligvaror,Hälsoprodukter,NNH,11,38278,New Nordic Healthbrands AB
+260,Nischer,Sverige,NGM,Finans & Fastighet,Fastighetsbolag,NIS MTF,13,2V0D,Nischer Properties
+261,Online Brands Nordic,Sverige,First North,Sällanköpsvaror,Accessoarer,OBAB,11,40016,Online Brands Nordic AB
+262,OPUS Prodox,Sverige,Mid Cap,Sällanköpsvaror,Bil & Motor,OPUS,11,35920,Opus Group AB
+263,Pallas,Sverige,First North,Industri,Sjöfart & Rederi,PALS B,11,76786,Pallas Group AB ser. B
+264,Sensori,Sverige,NGM,Hälsovård,Medicinsk Utrustning,SORI MTF,13,2Y0A,Sensori
+265,Saxlund,Sverige,First North,Industri,Energi & Återvinning,SAXG,11,32880,Saxlund Group AB
+266,PledPharma,Sverige,First North,Hälsovård,Biotech,PLED,11,81313,PledPharma AB
+267,Precio Fishbone,Sverige,First North,Informationsteknik,IT-Konsulter,PRCO B,11,62455,Precio Fishbone AB ser. B
+268,Precomp Solutions,Sverige,First North,Industri,Industrikomponenter,PCOM B,11,42464,Precomp Solutions AB ser. B
+269,ENLABS,Sverige,First North,Sällanköpsvaror,Betting & Casino,NLAB,11,35508,ENLABS AB
+270,ScandBook,Sverige,First North,Sällanköpsvaror,Media & Publicering,SBOK,11,74901,ScandBook Holding AB
+271,ShaMaran,Sverige,First North,Energi,Olja & Gas - Exploatering,SNM,21,SNMN,SNM GLOBAL HOLDING
+272,SJR,Sverige,First North,Industri,Bemanning,SJR B,11,39303,SJR in Scandinavia AB ser. B
+273,Skåne-möllan,Sverige,First North,Dagligvaror,Livsmedel,SKMO,11,1452,Skåne-möllan AB
+274,Skånska Energi,Sverige,First North,Kraftförsörjning,Elförsörjning,SEAB B,11,85557,Skånska Energi AB B
+275,Allgon,Sverige,First North,Informationsteknik,Kommunikation,ALLG B,11,28738,ALLGON AB ser. B
+276,Stille,Sverige,First North,Hälsovård,Medicinsk Utrustning,STIL,11,32001,Stille AB
+277,TagMaster,Sverige,First North,Informationsteknik,Kommunikation,TAGM B,11,31153,TagMaster AB ser. B
+278,Tethys Oil,Sverige,Mid Cap,Energi,Olja & Gas - Exploatering,TETY,11,24588,Tethys Oil AB
+279,Unlimited Travel Group,Sverige,First North,Sällanköpsvaror,Resor & Nöjen,UTG,11,37471,Unlimited Travel Group AB
+280,Victoria Park A,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,VICP A,11,49803,Victoria Park AB ser. A
+281,Nordic Flanges,Sverige,First North,Industri,Industrikomponenter,NFGAB,11,43353,Nordic Flanges Group AB
+282,WeSC,Sverige,First North,Sällanköpsvaror,Kläder & Skor,WESC,11,55316,WeSC AB
+283,Westpay,Sverige,First North,Industri,Säkerhet,WPAY,11,43370,Westpay AB
+284,Wise Group,Sverige,Small Cap,Industri,Bemanning,WISE,11,40017,Wise Group AB
+285,ZetaDisplay,Sverige,Small Cap,Sällanköpsvaror,Marknadsföring,ZETA,11,81310,ZetaDisplay AB
+286,ALM Equtiy,Sverige,First North,Finans & Fastighet,Fastighetsbolag,ALM,11,88572,ALM Equity AB
+287,Mangold,Sverige,First North,Finans & Fastighet,Kapitalförvaltning,MANG,11,88788,Mangold AB
+288,Platzer,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,PLAZ B,11,98395,Platzer Fastigheter Holding AB ser. B
+289,aXichem,Sverige,First North,Material,Kemikalier,AXIC A,11,80256,aXichem AB ser. A
+290,Sportamore,Sverige,Small Cap,Sällanköpsvaror,Detaljhandel,SPOR,11,90180,Sportamore AB
+291,Nexam,Sverige,First North,Material,Kemikalier,NEXAM,11,93656,Nexam Chemical Holding AB
+292,Xvivo Perfusion,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,XVIVO,11,90126,Xvivo Perfusion AB
+293,Hemfosa,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,HEMF,11,100152,Hemfosa Fastigheter AB
+294,Bufab,Sverige,Mid Cap,Industri,Industrikomponenter,BUFAB,11,99667,Bufab AB
+295,Bactiguard,Sverige,Small Cap,Hälsovård,Medicinsk Utrustning,BACTI B,11,101601,Bactiguard Holding AB ser. B
+296,NGEx Resources,Sverige,Mid Cap,Material,Gruv - Prospekt & Drift,NGQ,11,101618,NGEx Resources Inc
+297,Recipharm,Sverige,Mid Cap,Hälsovård,Läkemedel,RECI B,11,100208,Recipharm AB ser. B
+298,Scandi Standard,Sverige,Mid Cap,Dagligvaror,Livsmedel,SCST,11,101634,Scandi Standard AB
+299,Arctic Paper,Sverige,Small Cap,Material,Skogsbolag,ARP,11,91264,Arctic Paper S.A.
+300,Besqab,Sverige,Mid Cap,Industri,Bostadsbyggnation,BESQ,11,101207,Besqab AB
+301,G5 Entertainment,Sverige,Mid Cap,Sällanköpsvaror,Gaming & Spel,G5EN,11,60158,G5 Entertainment AB
+302,NeuroVive Pharmaceutical,Sverige,Small Cap,Hälsovård,Biotech,NVP,11,58531,NeuroVive Pharmaceutical AB
+303,Oscar Properties,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,OP,11,99753,Oscar Properties Holding AB
+304,Starbreeze B,Sverige,Mid Cap,Sällanköpsvaror,Gaming & Spel,STAR B,52,4109,Star Vault B
+305,Cell Impact,Sverige,First North,Industri,Industrimaskiner,CI B,11,92429,Cell Impact AB ser. B
+306,BIMobject,Sverige,First North,Informationsteknik,Affärs- & IT-System,BIM,11,99204,BIMobject AB
+307,Delarka,Sverige,First North,Finans & Fastighet,Fastighetsbolag,DELARK,11,98836,Delarka Holding AB
+308,Immunicum,Sverige,Small Cap,Hälsovård,Biotech,IMMU,11,93632,Immunicum AB
+309,Polyplank,Sverige,First North,Industri,Energi & Återvinning,POLY,11,87179,Polyplank AB
+310,Fastator,Sverige,First North,Finans & Fastighet,Fastighetsbolag,ABFAST,11,87683,AB Fastator
+311,Ages Industri,Sverige,First North,Industri,Industrikomponenter,AGES B,11,100816,Ages Industri AB ser. B
+312,Brighter,Sverige,First North,Hälsovård,Medicinsk Utrustning,BRIG,11,86375,Brighter AB
+313,Clavister,Sverige,First North,Informationsteknik,Kommunikation,CLAV,11,100970,Clavister Holding AB
+314,Cortus Energy,Sverige,First North,Kraftförsörjning,Bioenergi,CE,11,27960,Cortus Energy AB
+315,Hembla,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,HEM B,52,413U,Sydsvenska Hem
+316,Dome Energy,Sverige,First North,Energi,Olja & Gas - Exploatering,DOME,11,79783,Dome Energy AB
+317,Doxa,Sverige,First North,Hälsovård,Biotech,DOXA,11,100241,Doxa AB
+318,Hanza,Sverige,First North,Industri,Affärskonsulter,HANZA,11,100972,Hanza Holding AB
+319,Heliospectra,Sverige,First North,Informationsteknik,Elektronisk Utrustning,HELIO,11,101607,Heliospectra AB
+320,Hexatronic,Sverige,Mid Cap,Industri,Elektroniska komponenter,HTRO,11,82816,Hexatronic Group AB
+321,Kallebäck Property,Sverige,First North,Finans & Fastighet,Fastighetsbolag,KAPIAB,11,100207,Kallebäck Property Invest AB
+322,Kambi,Sverige,First North,Sällanköpsvaror,Betting & Casino,KAMBI,11,101199,Kambi Group Plc
+323,Kentima,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,KENH,11,94870,Kentima Holding AB
+324,Mavshack,Sverige,First North,Sällanköpsvaror,Media & Publicering,MAV,11,58547,Mavshack AB
+325,Irisity,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,IRIS,11,97085,Irisity AB
+326,myFC Holding,Sverige,First North,Kraftförsörjning,Förnybarenergi,MYFC,11,101187,myFC Holding AB
+327,New Equity Venture,Sverige,Spotlight,Finans & Fastighet,Investmentbolag,NEVI B,52,412R,New Equity Venture International B
+328,Nicoccino,Sverige,First North,Dagligvaror,Tobak,NICO,11,101773,Nicoccino Holding AB
+329,Clemondo,Sverige,First North,Material,Kemikalier,CLEM,11,98835,Clemondo Group AB
+330,ScandiDos,Sverige,First North,Hälsovård,Medicinsk Utrustning,SDOS,11,100380,ScandiDos AB
+331,Scandinavian Enviro,Sverige,First North,Industri,Energi & Återvinning,SES,11,101603,Scandinavian Enviro Systems AB
+332,Advenica,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,ADVE,11,102777,Advenica AB
+333,myTaste,Sverige,First North,Informationsteknik,Internettjänster,TASTE,11,71541,myTaste AB
+334,LIDDS,Sverige,First North,Hälsovård,Biotech,LIDDS,11,101904,LIDDS AB
+335,DDM Holding,Sverige,First North,Finans & Fastighet,Kredit & Finansiering,DDM,11,102079,DDM Holding AG
+336,Inwido,Sverige,Mid Cap,Industri,Byggmaterial,INWI,11,102786,Inwido AB
+337,Cinnober,Sverige,First North,Informationsteknik,Affärs- & IT-System,CINN,11,102935,Cinnober Financial Technology AB
+338,Gränges,Sverige,Mid Cap,Industri,Industrikomponenter,GRNG,11,103110,Gränges AB
+339,GWS Production,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,GWS,11,103191,GWS Production AB
+340,Thule,Sverige,Large Cap,Sällanköpsvaror,Bil & Motor,THULE,11,104058,Thule Group AB
+341,Sprint Bioscience,Sverige,First North,Hälsovård,Biotech,SPRINT,11,103613,Sprint Bioscience AB
+342,Nexstim,Sverige,First North,Hälsovård,Medicinsk Utrustning,NXTMS,11,103571,Nexstim Oyj
+343,Bayn Europe,Sverige,First North,Dagligvaror,Livsmedel,BAYN,11,103618,Bayn Europe AB
+344,Papilly,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,PAPI,11,101907,Papilly AB
+345,Arcoma,Sverige,First North,Hälsovård,Medicinsk Utrustning,ARCOMA,11,103617,Arcoma AB
+346,PowerCell,Sverige,First North,Kraftförsörjning,Förnybarenergi,PCELL,11,105121,PowerCell Sweden AB
+347,Christian Berner Tech,Sverige,Small Cap,Industri,Industrikomponenter,CBTT B,11,103391,Christian Berner Tech Trade AB ser. B
+348,Absolent,Sverige,First North,Industri,Energi & Återvinning,ABSO,11,103171,Absolent Group AB
+349,Samhällsbyggnadsbolag B,Sverige,First North,Finans & Fastighet,Fastighetsbolag,SBB B,11,103614,Samhällsbyggnadsbo. i Norden AB ser. B
+350,Italeaf,Sverige,First North,Finans & Fastighet,Investmentbolag,ITAL SDB,11,102704,Italeaf S.p.A SDB
+351,Lifco,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,LIFCO B,11,103930,Lifco AB ser.B
+352,NP3,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,NP3,11,104592,NP3 Fastigheter AB
+353,AHA World,Sverige,Spotlight,Sällanköpsvaror,Betting & Casino,AHA,52,4129,ahaWorld
+354,Alteco Medical,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,ALTE,52,4120,Alteco
+355,Ambia Trading,Sverige,Spotlight,Industri,Elektroniska komponenter,AMBI,52,4123,Ambia
+356,Axkid,Sverige,Spotlight,Sällanköpsvaror,Bil & Motor,AXKID,52,412B,Axkid
+357,BrainCool,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,BRAIN,52,4125,BrainCool
+358,C Security,Sverige,Spotlight,Informationsteknik,Säkerhet & Bevakning,CSEC,52,412D,C Security
+359,DexTech Medical,Sverige,Spotlight,Hälsovård,Biotech,DEX,52,411L,DexTech Medical
+360,Igrene,Sverige,Spotlight,Energi,Olja & Gas - Exploatering,ABI,52,4128,Igrene
+361,RootFruit,Sverige,Spotlight,Dagligvaror,Livsmedel,ROOT,52,412M,Rootfruit
+362,Sealwacs,Sverige,Spotlight,Informationsteknik,Elektronisk Utrustning,SEAL,21,FUJSF,FUJI SEAL INTL INC
+363,Zenicor Medical,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,ZENI,52,412N,Zenicor
+364,Gabather,Sverige,First North,Hälsovård,Biotech,GABA,11,153739,Gabather AB
+365,Follicum,Sverige,Spotlight,Hälsovård,Biotech,FOLLI,52,412P,Follicum
+366,Oboya Horticulture,Sverige,First North,Material,Förpackning,OBOYA B,11,147128,Oboya Horticulture Industries AB ser. B
+367,Precisionsmetall,Sverige,Spotlight,Industri,Industrikomponenter,PREMET,52,412S,Precisionsmetall Group
+368,Real Heart,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,HEART,52,412K,Real Heart
+369,Greater Than,Sverige,First North,Industri,Mätning & Analys,GREAT,11,101192,Greater Than AB
+370,Ecoclime Comfort Ceilings,Sverige,Spotlight,Industri,Energi & Återvinning,ECC,52,411V,Ecoclime
+371,QBNK,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,QBNK,52,412A,QBank
+372,Phase Holographic,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,PHI,52,411X,Phase Holographic
+373,Emotra,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,EMOT,52,411N,Emotra
+374,Envirologic,Sverige,Spotlight,Industri,Industrimaskiner,ENVI B,52,411F,Envirologic B
+375,EQL Pharma,Sverige,Spotlight,Hälsovård,Läkemedel,EQL,52,411U,EQL Pharma
+376,Tourn,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,TOURN,52,411Y,Tourn International
+377,Josab Water Solutions,Sverige,Spotlight,Industri,Energi & Återvinning,JOSA,52,411P,Josab Water Solutions
+378,Storytel,Sverige,First North,Sällanköpsvaror,Media & Publicering,STORY B,11,164292,Storytel AB ser. B
+379,Motion Display,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,MODI,52,4124,Motion Display
+380,OptiFreeze,Sverige,Spotlight,Dagligvaror,Jordbruk,OPTI,52,4126,OptiFreeze
+381,Ortoma,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,ORT B,52,4121,Ortoma B
+382,PromikBook,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,PB,52,4122,PromikBook
+383,ProstaLund,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,PLUN,52,411R,ProstaLund
+384,Saniona,Sverige,Small Cap,Hälsovård,Biotech,SANION,11,100428,Saniona AB
+385,Serstech,Sverige,First North,Industri,Mätning & Analys,SERT,11,96216,Serstech AB
+386,SyntheticMR,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,SYNT,52,411T,SyntheticMR
+387,RLS Global,Sverige,First North,Hälsovård,Läkemedel,RLS,11,87701,RLS Global AB
+388,A1M Pharma,Sverige,First North,Hälsovård,Biotech,A1M,11,93181,A1M Pharma AB
+389,Enzymatica,Sverige,First North,Dagligvaror,Hälsoprodukter,ENZY,11,82655,Enzymatica AB
+390,Spago Nanomedical,Sverige,Spotlight,Hälsovård,Biotech,SPAG,52,411J,Spago
+391,Mr Green & Co,Sverige,Mid Cap,Sällanköpsvaror,Betting & Casino,MRG,11,94882,Mr Green & Co AB
+392,Sivers IMA,Sverige,First North,Informationsteknik,Elektronik & Tillverkning,SIVE,11,146655,Sivers IMA Holding AB
+393,Safe at Sea,Sverige,Spotlight,Industri,Industrimaskiner,SAFE,52,410B,Safe at Sea
+394,Recyctec,Sverige,Spotlight,Industri,Energi & Återvinning,RECY B,52,411G,Recyctec B
+395,Angler Gaming,Sverige,Spotlight,Sällanköpsvaror,Betting & Casino,ANGL,52,411E,Angler Gaming
+396,Beowulf Mining,Sverige,Spotlight,Material,Gruv - Prospekt & Drift,BEO SDB,52,410G,Beowulf Mining SDB
+397,Peptonic Medical,Sverige,Spotlight,Hälsovård,Biotech,PMED,52,412C,Peptonic Medical
+398,Red Reserve,Sverige,Spotlight,Sällanköpsvaror,Gaming & Spel,REDR,52,410E,Red Reserve Entertainment
+399,ECOMB,Sverige,Spotlight,Industri,Energi & Återvinning,ECOM,52,4115,ECOMB
+400,EcoRub,Sverige,Spotlight,Industri,Energi & Återvinning,ECO B,52,410X,EcoRub B
+401,Alphahelix,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,ALPH,52,40YX,AlphaHelix
+402,Amnode,Sverige,Spotlight,Industri,Industrikomponenter,AMNO,52,410L,Amnode
+403,Amhult 2,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,AMH2 B,52,40YQ,Amhult 2 B
+404,Umida Group,Sverige,Spotlight,Dagligvaror,Bryggeri,UMIDA B,52,4116,Umida B
+405,AQ Group,Sverige,Mid Cap,Industri,Industrikomponenter,AQ,11,13236,AQ Group AB
+406,AroCell,Sverige,First North,Hälsovård,Biotech,AROC,11,82338,AroCell AB (publ)
+407,Archelon,Sverige,NGM,Material,Gruv - Prospekt & Drift,ALON MTF B,13,3PHD,Archelon B
+408,Botnia Exploration,Sverige,First North,Material,Gruv - Prospekt & Drift,BOTX,11,147133,Botnia Exploration Holding AB
+409,EasyFill,Sverige,Spotlight,Industri,Bygginredning,EASY B,52,4106,EasyFill B
+410,European institute,Sverige,Spotlight,Hälsovård,Biotech,EURI B,52,410M,European Institute of Science B
+411,Gullberg & Jansson,Sverige,Spotlight,Industri,Energi & Återvinning,GJAB,52,411D,Gullberg & Jansson
+412,Challenger Mobile,Sverige,Spotlight,Telekommunikation,Telekomtjänster,CHAL B,52,410Y,Challenger Mobile B
+413,Eurocon,Sverige,Spotlight,Informationsteknik,IT-Konsulter,EURO,52,410D,Eurocon Consulting
+414,Slottsviken B,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,SLOTT B,52,40YK,Slottsviken B
+415,Deflamo,Sverige,First North,Material,Kemikalier,DEFL B,11,60687,Deflamo AB ser. B
+416,Smart Energy,Sverige,NGM,Energi,Olja & Gas - Försäljning,SEGR MTF,13,43EE,Smart Energy Sweden Group
+417,Bahnhof,Sverige,Spotlight,Telekommunikation,Bredband & Telefoni,BAHN B,52,410C,Bahnhof B
+418,Clinical Laserthermia,Sverige,First North,Hälsovård,Medicinsk Utrustning,CLS B,11,65182,Clinical Laserthermia Systems AB ser. B
+419,Jojka Communications,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,JOJK,52,4107,Jojka
+420,Latvian Forest,Sverige,Spotlight,Material,Skogsbolag,LATF B,52,411A,Latvian Forest B
+421,Medfield,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,MEDF,52,411C,Medfield
+422,Net Gaming Europe,Sverige,First North,Sällanköpsvaror,Betting & Casino,NETG,11,156878,Net Gaming Europe AB
+423,TiksPac,Sverige,Spotlight,Industri,Energi & Återvinning,TIKS,52,411Q,TiksPac
+424,Wonderful Times,Sverige,Spotlight,Sällanköpsvaror,Fritid & Sport,WTG,52,410H,Wonderful Times Group
+425,MediRätt,Sverige,First North,Hälsovård,Medicinsk Utrustning,MEDR B,11,81251,MediRätt AB ser. B
+426,Miris,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,MIR,52,40YV,Miris Holding
+427,Consensus,Sverige,Spotlight,Finans & Fastighet,Kapitalförvaltning,CAM B,52,410N,Consensus B
+428,SensoDetect,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,SDET,52,410S,SensoDetect
+429,Cherry,Sverige,Mid Cap,Sällanköpsvaror,Betting & Casino,CHER B,11,36291,Cherry AB ser. B
+430,HomeMaid,Sverige,Spotlight,Sällanköpsvaror,Konsumentservice,HOME B,52,40YT,HomeMaid B
+431,IDL Biotech,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,IDL B,52,40YL,IDL Biotech B
+432,MedicPen,Sverige,Spotlight,Hälsovård,Hälsovård & Hjälpmedel,MPEN,52,4100,MedicPen
+433,NGS,Sverige,Small Cap,Industri,Bemanning,NGS,11,122588,NGS Group AB
+434,Transferator A,Sverige,Spotlight,Finans & Fastighet,Investmentbolag,TRAN A,52,4104,Transferator A
+435,Everysport Media,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,EVERY A,52,410P,Everysport A
+436,Exalt,Sverige,Spotlight,Telekommunikation,Telekomtjänster,EXALT,52,40YU,Exalt
+437,True Heading,Sverige,Spotlight,Industri,Affärskonsulter,TRUE B,52,410U,True Heading B
+438,Respiratorius,Sverige,Spotlight,Hälsovård,Biotech,RESP,52,411B,Respiratorius
+439,Eurocine Vaccines,Sverige,Spotlight,Hälsovård,Biotech,EUCI,52,4102,Eurocine Vaccines
+440,Future Gaming,Sverige,Spotlight,Sällanköpsvaror,Betting & Casino,FGG,52,410Q,Future Gaming Group
+441,WntResearch,Sverige,Spotlight,Hälsovård,Biotech,WNT,52,4111,WntResearch
+442,Vindico Security,Sverige,Spotlight,Informationsteknik,Säkerhet & Bevakning,VSEC,52,4118,Vindico Group
+443,PharmaLundensis,Sverige,Spotlight,Hälsovård,Biotech,PHAL,52,4110,PharmaLundensis
+444,Arbona B,Sverige,NGM,Finans & Fastighet,Investmentbolag,ARBO MTF B,13,2M7P,Arbona B
+445,Star Vault,Sverige,Spotlight,Sällanköpsvaror,Gaming & Spel,STVA B,52,4109,Star Vault B
+446,Railcare,Sverige,Small Cap,Industri,Stödtjänster & Service,RAIL,11,153508,Railcare Group AB
+447,NFO Drives,Sverige,Spotlight,Industri,Energi & Återvinning,NFO,52,411S,NFO Drives
+448,Lovisagruvan,Sverige,Spotlight,Material,Gruv - Prospekt & Drift,LOVI,52,410A,Lovisagruvan
+449,FX International,Sverige,Spotlight,Finans & Fastighet,Kapitalförvaltning,FXI,52,4117,FX International
+450,Genesis IT,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,GENE,52,4113,Genesis IT
+451,Novus,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,NOVU,52,4105,Novus Group
+452,Arc Aroma Pure,Sverige,First North,Industri,Energi & Återvinning,AAP B,11,93180,Arc Aroma Pure AB ser. B
+453,Taurus Energy,Sverige,Spotlight,Kraftförsörjning,Bioenergi,TAUR B,52,40YN,Taurus Energy B
+454,QuiaPEG,Sverige,Spotlight,Hälsovård,Läkemedel,QUIA,52,40YR,QuiaPEG Pharmaceuticals
+455,Parans Solar,Sverige,Spotlight,Kraftförsörjning,Solkraft,PARA,52,410V,Parans Solar Lighting
+456,Micropos Medical,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,MPOS,52,410T,Micropos Medical
+457,Klick Data,Sverige,Spotlight,Industri,Utbildning,KLIC B,52,40YP,Klick Data B
+458,Senzime,Sverige,First North,Hälsovård,Medicinsk Utrustning,SEZI,11,56147,Senzime AB
+459,Kopparbergs,Sverige,NGM,Dagligvaror,Bryggeri,KOBR MTF B,13,KKY,Kopparbergs B
+460,Crown Energy,Sverige,NGM,Energi,Olja & Gas - Exploatering,CRWN,13,1DHN,Crown Energy
+461,Sotkamo Silver,Sverige,NGM,Material,Gruv - Guld & Silver,SOSI,13,85,Sotkamo Silver
+462,Lifeassays,Sverige,NGM,Hälsovård,Medicinsk Utrustning,LIFE B,13,3M,LifeAssays B
+463,Sveriges Bostadsrättscentrum,Sverige,NGM,Finans & Fastighet,Fastighetsbolag,SBC,13,7YF,SBC Sveriges BostadsrättsCentrum
+464,MedicaNatumin,Sverige,NGM,Dagligvaror,Hälsoprodukter,MEDNA MTF,13,F5T,MedicaNatumin
+465,LC-Tec,Sverige,NGM,Informationsteknik,Datorer & Hårdvara,LCT MTF,13,6G,LC-Tec Holding
+466,Glycorex Transplantation,Sverige,NGM,Hälsovård,Medicinsk Utrustning,GTAB B,13,2E,Glycorex Transplantation B
+467,AIK Fotboll,Sverige,NGM,Sällanköpsvaror,Fritid & Sport,AIK B,13,2X7,AIK Fotboll B
+468,Paynova,Sverige,NGM,Informationsteknik,Betalning & E-handel,PAY,13,86,Paynova
+469,Guideline Geo,Sverige,NGM,Material,Gruv - Service,GGEO,13,20E,Guideline Geo
+470,Obducat,Sverige,NGM,Informationsteknik,Elektronik & Tillverkning,OBDU B,13,J,Obducat B
+471,Metallvärden,Sverige,NGM,Industri,Energi & Återvinning,METV MTF,13,9XX,Metallvärden i Sverige
+472,Advanced Stabilized Tech,Sverige,NGM,Informationsteknik,Kommunikation,ASTG MTF B,13,4A4N,Advanced Stabilized Technologies Group B
+473,Hedera,Sverige,First North,Industri,Bemanning,HEGR,11,117665,Hedera Group AB
+474,Briox,Sverige,NGM,Informationsteknik,Affärs- & IT-System,BRIX MTF,13,U1A,Briox
+475,Free2Move,Sverige,NGM,Telekommunikation,Telekomtjänster,F2M MTF,13,5CD,Free2move Holding
+476,LightAir,Sverige,NGM,Industri,Installation & VVS,LAIR MTF,13,8JK,LightAir
+477,Fortnox,Sverige,NGM,Informationsteknik,Affärs- & IT-System,FNOX MTF,13,5VR,Fortnox
+478,Mertiva,Sverige,NGM,Hälsovård,Biotech,MERT MTF A,13,1M0C,Mertiva A
+479,MVV Holding,Sverige,NGM,Industri,Affärskonsulter,MVV MTF B,13,7QY,MVV Holding B
+480,Exeotech Invest,Sverige,NGM,Finans & Fastighet,Investmentbolag,ETIN MTF,13,VY4,ExeoTech Invest
+481,Zinzino,Sverige,First North,Dagligvaror,Hälsoprodukter,ZZ B,11,77836,Zinzino AB Ser. B
+482,Lundin Gold,Sverige,Mid Cap,Material,Gruv - Guld & Silver,LUG,11,105183,Lundin Gold Inc.
+483,Eltel,Sverige,Mid Cap,Industri,Installation & VVS,ELTEL,11,106028,Eltel AB
+484,Ahlstrom-Munksjö,Sverige,Large Cap,Material,Skogsbolag,AM1S,11,104597,Ahlstrom-Munksjö Oyj
+485,Byggmästare AJ Ahlström,Sverige,First North,Finans & Fastighet,Fastighetsbolag,AJA B,11,105147,Byggmästare Anders J Ahlström Holding AB
+486,Intuitive Aerial,Sverige,First North,Sällanköpsvaror,Media & Publicering,INTU,11,105287,Intuitive Aerial AB
+487,Saltängen Property,Sverige,First North,Finans & Fastighet,Fastighetsbolag,SAPIAB,11,105300,Saltängen Property Invest AB
+488,Verisec,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,VERI,11,104860,Verisec AB
+489,Dustin Group,Sverige,Mid Cap,Informationsteknik,Datorer & Hårdvara,DUST,11,106202,Dustin Group AB
+490,Lexington,Sverige,First North,Sällanköpsvaror,Kläder & Skor,LEX,11,106153,The Lexington Company AB
+491,Karessa Pharma,Sverige,First North,Hälsovård,Biotech,KARE,11,106031,Karessa Pharma Holding AB
+492,OrganoClick,Sverige,First North,Material,Kemikalier,ORGC,11,106253,OrganoClick AB
+493,Torslanda Property,Sverige,First North,Finans & Fastighet,Fastighetsbolag,TORSAB,11,105564,Torslanda Property Investment AB
+494,Acrinova,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,ACRI,52,412V,Acrinova
+495,Corem Pref,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,CORE PREF,11,74282,Corem Property Group AB Pref
+496,Eniro pref,Sverige,Small Cap,Sällanköpsvaror,Marknadsföring,ENRO PREF,11,88768,Eniro AB pref
+497,Fast Partner Pref,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,FPAR PREF,11,94771,Fast Partner AB Pref
+498,Klövern Pref,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,KLOV PREF,11,86345,Klövern AB pref
+499,Amasten Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,AMAST PREF,11,101778,Amasten Fastighets AB Pref
+500,Sagax Pref,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,SAGA PREF,11,43046,Sagax AB pref
+501,Victoria Park Pref,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,VICP PREF,11,95710,Victoria Park AB Pref
+502,ALM Equity Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,ALM PREF,11,88573,ALM Equity AB Pref
+503,Oscar P. Pref,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,OP PREF,11,109238,Oscar Properties Holding AB PREF
+504,Hemfosa Pref,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,HEMF PREF,11,104593,Hemfosa Fastigheter Pref AB
+505,Prime Living Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,PRIME PREF B,11,105127,Prime Living AB Pref ser. B
+506,Sdiptech Pref,Sverige,First North,Industri,Installation & VVS,SDIP PREF,11,106736,Sdiptech AB Pref
+507,Akelius R. Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,AKEL PREF,11,101200,Akelius Residential AB Pref
+508,Tobin P. Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,TOBIN PREF,11,104981,Tobin Properties AB Pref
+509,Omx Sthlm 30,Sverige,Index,-,-,OMXS30,11,402,ASSA ABLOY AB ser. B
+510,Omx Sthlm 30 GI,Sverige,Index,-,-,OMXS30GI,11,402,ASSA ABLOY AB ser. B
+511,Omx Sthlm All,Sverige,Index,-,-,OMXSPI,11,402,ASSA ABLOY AB ser. B
+512,Omx Sthlm All GI,Sverige,Index,-,-,OMXSGI,11,402,ASSA ABLOY AB ser. B
+513,Omx Sthlm 50 EW,Sverige,Index,-,-,OMXS50EW,11,402,ASSA ABLOY AB ser. B
+514,Omx Sthlm 60 GI,Sverige,Index,-,-,OMXS60,11,402,ASSA ABLOY AB ser. B
+515,Omx Sthlm 60,Sverige,Index,-,-,OMXS60PI,11,402,ASSA ABLOY AB ser. B
+516,Omx Sthlm Large Cap,Sverige,Index,-,-,OMXSLCPI,11,402,ASSA ABLOY AB ser. B
+517,Omx Sthlm Mid Cap,Sverige,Index,-,-,OMXSMCPI,11,402,ASSA ABLOY AB ser. B
+518,Omx Sthlm Small Cap,Sverige,Index,-,-,OMXSSCPI,11,402,ASSA ABLOY AB ser. B
+519,Omx Sthlm Oil&Gas,Sverige,Index,-,-,SX0001PI,11,402,ASSA ABLOY AB ser. B
+520,Omx Sthlm Materials,Sverige,Index,-,-,SX1000PI,11,402,ASSA ABLOY AB ser. B
+521,Omx Sthlm Industrial,Sverige,Index,-,-,SX2000PI,11,402,ASSA ABLOY AB ser. B
+522,Omx Sthlm Consumer,Sverige,Index,-,-,SX3000PI,11,402,ASSA ABLOY AB ser. B
+523,Omx Sthlm Health,Sverige,Index,-,-,SX4000PI,11,402,ASSA ABLOY AB ser. B
+524,Omx Sthlm Services,Sverige,Index,-,-,SX5000PI,11,402,ASSA ABLOY AB ser. B
+525,Omx Sthlm Telecom,Sverige,Index,-,-,SX6000PI,11,402,ASSA ABLOY AB ser. B
+526,Omx Sthlm Utilities,Sverige,Index,-,-,SX7000PI,11,402,ASSA ABLOY AB ser. B
+527,Omx Sthlm Financials,Sverige,Index,-,-,SX8000PI,11,402,ASSA ABLOY AB ser. B
+528,Omx Sthlm Technology,Sverige,Index,-,-,SX9000PI,11,402,ASSA ABLOY AB ser. B
+529,Omx Helsi 25,Finland,Index,-,-,OMXH25,11,153223,Bygghemma Group First AB
+530,Omx Helsi 15,Finland,Index,-,-,OMXH15,11,153223,Bygghemma Group First AB
+531,Omx Helsi All,Finland,Index,-,-,OMXHPI,11,153223,Bygghemma Group First AB
+532,Omx Helsi All GI,Finland,Index,-,-,OMXHGI,11,153223,Bygghemma Group First AB
+533,Omx Helsi Large Cap,Finland,Index,-,-,OMXHLCPI,11,153223,Bygghemma Group First AB
+534,Omx Helsi Mid Cap,Finland,Index,-,-,OMXHMCPI,11,153223,Bygghemma Group First AB
+535,Omx Helsi Small Cap,Finland,Index,-,-,OMXHSCPI,11,153223,Bygghemma Group First AB
+536,Omx Helsi Oil&Gas,Finland,Index,-,-,HX0001PI,11,153223,Bygghemma Group First AB
+537,Omx Helsi Materials,Finland,Index,-,-,HX1000PI,11,153223,Bygghemma Group First AB
+538,Omx Helsi Industrial,Finland,Index,-,-,HX2000PI,11,153223,Bygghemma Group First AB
+539,Omx Helsi Consumer,Finland,Index,-,-,HX3000PI,11,153223,Bygghemma Group First AB
+540,Omx Helsi Health,Finland,Index,-,-,HX4000PI,11,153223,Bygghemma Group First AB
+541,Omx Helsi Services,Finland,Index,-,-,HX5000PI,11,153223,Bygghemma Group First AB
+542,Omx Helsi Telecom,Finland,Index,-,-,HX6000PI,11,153223,Bygghemma Group First AB
+543,Omx Helsi Utilities,Finland,Index,-,-,HX7000PI,11,153223,Bygghemma Group First AB
+544,Omx Helsi Financials,Finland,Index,-,-,HX8000PI,11,153223,Bygghemma Group First AB
+545,Omx Helsi Technology,Finland,Index,-,-,HX9000PI,11,153223,Bygghemma Group First AB
+546,Amer Sports,Finland,Large Cap,Sällanköpsvaror,Detaljhandel,AMEAS,24,24235,Amer Sports Corporation
+547,Cargotec,Finland,Large Cap,Industri,Tåg- & Lastbilstransport,CGCBV,24,29983,Cargotec Oyj
+548,Citycon,Finland,Large Cap,Finans & Fastighet,Fastighetsbolag,CTY1S,24,24249,Citycon Oyj
+549,Elisa,Finland,Large Cap,Telekommunikation,Bredband & Telefoni,ELISA,24,24254,Elisa Corporation
+550,Fiskars,Finland,Large Cap,Sällanköpsvaror,Hemelektronik,FSKRS,24,24267,Fiskars Corporation
+551,Fortum,Finland,Large Cap,Kraftförsörjning,Elförsörjning,FORTUM,24,24271,Fortum Corporation
+552,Huhtamäki,Finland,Large Cap,Material,Förpackning,HUH1V,24,24276,Huhtamäki Oyj
+553,Kemira,Finland,Large Cap,Material,Kemikalier,KEMIRA,24,24292,Kemira Oyj
+554,Kesko B,Finland,Large Cap,Dagligvaror,Livsmedelsbutiker,KESKOB,24,24288,Kesko Corporation B
+555,KONE,Finland,Large Cap,Industri,Installation & VVS,KNEBV,24,29981,KONE Corporation
+556,Konecranes,Finland,Large Cap,Industri,Industrimaskiner,KCR,24,24284,Konecranes Plc
+557,Metso,Finland,Large Cap,Industri,Industrikomponenter,METSO,24,24302,Metso Corporation
+558,Neste,Finland,Large Cap,Energi,Olja & Gas - Försäljning,NESTE,24,29375,Neste Corporation
+559,Nokia Oyj,Finland,Large Cap,Informationsteknik,Kommunikation,NOKIA,24,24311,Nokia Corporation
+560,Nokian Renkaat,Finland,Large Cap,Sällanköpsvaror,Bil & Motor,NRE1V,24,24312,Nokian Tyres Plc
+561,Nordea Bank,Finland,Large Cap,Finans & Fastighet,Banker,NDA FI,24,150235,Nordea Bank Abp
+562,Orion B,Finland,Large Cap,Hälsovård,Läkemedel,ORNBV,24,35363,Orion Corporation B
+563,Outokumpu,Finland,Large Cap,Material,Gruv - Industrimetaller,OUT1V,24,24321,Outokumpu Oyj
+564,Outotec,Finland,Mid Cap,Material,Gruv - Industrimetaller,OTE1V,24,36695,Outotec Oyj
+565,Sampo,Finland,Large Cap,Finans & Fastighet,Försäkring,SAMPO,24,24346,Sampo Plc A
+566,Sanoma,Finland,Large Cap,Sällanköpsvaror,Media & Publicering,SAA1V,24,24366,Sanoma Corporation
+567,SSAB B Oyj,Finland,Large Cap,Material,Gruv - Industrimetaller,SSABBH,24,102050,SSAB AB ser. B
+568,Stora Enso R Oyj,Finland,Large Cap,Material,Skogsbolag,STERV,24,24360,Stora Enso Oyj R
+569,Telia Company oyj,Finland,Large Cap,Telekommunikation,Bredband & Telefoni,TELIA1,24,24381,Telia Company AB
+570,Tieto Oyj,Finland,Large Cap,Informationsteknik,IT-Konsulter,TIETO,11,4025,Tieto Corporation
+571,UPM-Kymmene,Finland,Large Cap,Material,Skogsbolag,UPM,24,24386,UPM-Kymmene Corporation
+572,Valmet,Finland,Large Cap,Industri,Industrimaskiner,VALMT,24,98819,Valmet Corporation
+573,Wärtsilä,Finland,Large Cap,Kraftförsörjning,Elförsörjning,WRT1V,24,24394,Wärtsilä Corporation
+574,YIT,Finland,Large Cap,Industri,Byggnation & Infrastruktur,YIT,24,24397,YIT Corporation
+575,Basware,Finland,Mid Cap,Informationsteknik,Affärs- & IT-System,BAS1V,24,24238,Basware Corporation
+576,Aktia Bank Abp,Finland,Mid Cap,Finans & Fastighet,Banker,AKTIA,24,69423,Aktia Bank Plc
+577,Caverion,Finland,Mid Cap,Industri,Affärskonsulter,CAV1V,24,94874,Caverion Oyj
+578,Oriola B,Finland,Mid Cap,Dagligvaror,Apotek,OKDBV,24,35366,Oriola Corporation B
+579,Ahlstrom-Munksjö Oyj,Finland,Large Cap,Material,Skogsbolag,AM1,24,94459,Ahlstrom-Munksjö Oyj
+580,Atria,Finland,Mid Cap,Dagligvaror,Livsmedel,ATRAV,24,24237,Atria Plc A
+581,Hancap Pref,Sverige,First North,Industri,Byggmaterial,HANC PREF A,11,108039,Hancap AB Pref A
+582,K2A Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,K2A PREF,11,107160,K2A Knaust & Andersson Fastigheter  Pref
+583,Volati Pref,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,VOLO PREF,11,110084,Volati AB Pref
+584,Aspo,Finland,Mid Cap,Material,Kemikalier,ASPO,24,24236,Aspo Plc
+585,Alma Media,Finland,Mid Cap,Sällanköpsvaror,Media & Publicering,ALMA,24,29471,Alma Media Corporation
+586,Cramo,Finland,Mid Cap,Industri,Installation & VVS,CRA1V,24,24337,Cramo Oyj
+587,Bittium,Finland,Mid Cap,Informationsteknik,Kommunikation,BITTI,24,24251,Bittium Corporation
+588,Finnair,Finland,Large Cap,Industri,Flygtransport,FIA1S,24,24266,Finnair Oyj
+589,F-Secure,Finland,Mid Cap,Informationsteknik,Säkerhet & Bevakning,FSC1V,24,24270,F-Secure Corporation
+590,Lassila & Tikanoja,Finland,Mid Cap,Industri,Energi & Återvinning,LAT1V,24,24297,Lassila & Tikanoja Plc
+591,HKScan,Finland,Mid Cap,Dagligvaror,Livsmedel,HKSAV,24,24273,HKScan Oyj  A
+592,Metsä Board B,Finland,Large Cap,Material,Skogsbolag,METSB,24,24307,Metsä Board Oyj B
+593,Olvi,Finland,Mid Cap,Dagligvaror,Bryggeri,OLVAS,24,24317,Olvi Plc A
+594,Ponsse 1,Finland,Mid Cap,Industri,Industrimaskiner,PON1V,24,24332,Ponsse Oyj 1
+595,Pöyry,Finland,Mid Cap,Industri,Affärskonsulter,POY1V,24,24281,Pöyry PLC
+596,Raisio,Finland,Mid Cap,Dagligvaror,Livsmedel,RAIKV,24,24335,Raisio Plc K
+597,Rapala,Finland,Small Cap,Sällanköpsvaror,Fritid & Sport,RAP1V,24,24338,Rapala VMC Corporation
+598,Ramirent,Finland,Mid Cap,Industri,Installation & VVS,RMR1V,11,153223,Bygghemma Group First AB
+599,SRV Yhtiöt,Finland,Mid Cap,Industri,Byggnation & Infrastruktur,SRV1V,24,40925,SRV Group Plc
+600,Stockmann B,Finland,Mid Cap,Sällanköpsvaror,Detaljhandel,STCBV,24,24363,Stockmann Plc B
+601,Tikkurila,Finland,Mid Cap,Material,Kemikalier,TIK1V,24,74551,Tikkurila Oyj
+602,Technopolis,Finland,Mid Cap,Finans & Fastighet,Fastighetsbolag,TPS1V,24,24371,Technopolis Plc
+603,Uponor,Finland,Large Cap,Industri,Installation & VVS,UPONOR,24,24385,Uponor Oyj
+604,Vaisala,Finland,Mid Cap,Industri,Mätning & Analys,VAIAS,24,24388,Vaisala Corporation A
+605,Viking Line,Finland,Mid Cap,Industri,Sjöfart & Rederi,VIK1V,24,24389,Viking Line Abp
+606,Pandox,Sverige,Large Cap,Sällanköpsvaror,Hotell & Camping,PNDX B,11,110533,Pandox AB ser. B
+607,Alimak,Sverige,Mid Cap,Industri,Installation & VVS,ALIG,11,110204,Alimak Group AB
+608,Collector,Sverige,Mid Cap,Finans & Fastighet,Kredit & Finansiering,COLL,11,110079,Collector AB
+609,Coor Service Management,Sverige,Mid Cap,Industri,Stödtjänster & Service,COOR,11,110382,Coor Service Management Holding AB
+610,Hoist Finance,Sverige,Mid Cap,Finans & Fastighet,Kredit & Finansiering,HOFI,11,107904,Hoist Finance AB
+611,Nobina,Sverige,Mid Cap,Industri,Tåg- & Lastbilstransport,NOBINA,11,110535,Nobina AB
+612,Tobii,Sverige,Mid Cap,Informationsteknik,Biometri,TOBII,11,108332,Tobii AB
+613,Troax Group,Sverige,Mid Cap,Industri,Installation & VVS,TROAX,11,107899,Troax Group AB
+614,Cantargia,Sverige,Small Cap,Hälsovård,Biotech,CANTA,11,107644,Cantargia AB
+615,Corline Biomedical,Sverige,First North,Hälsovård,Läkemedel,CLBIO,11,110074,Corline Biomedical AB
+616,Evolution Gaming,Sverige,Large Cap,Sällanköpsvaror,Betting & Casino,EVO,11,107867,Evolution Gaming Group AB
+617,Gaming Corps,Sverige,First North,Sällanköpsvaror,Gaming & Spel,GCOR,11,110080,Gaming Corps AB
+618,Heimstaden Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,HEIM PREF,11,110093,Heimstaden AB Pref
+619,Hövding,Sverige,First North,Sällanköpsvaror,Fritid & Sport,HOVD,11,110530,Hövding Sverige AB
+620,Inission,Sverige,First North,Informationsteknik,Elektronisk Utrustning,INISS B,11,110377,Inission AB ser. B
+621,Kontigo Care,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,KONT,11,110540,Kontigo Care AB
+622,Magnolia,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,MAG,11,146957,MAG Interactive AB
+623,Nilörngruppen,Sverige,Small Cap,Material,Förpackning,NIL B,11,110376,Nilörngruppen AB ser. B
+624,Pegroco Pref,Sverige,First North,Finans & Fastighet,Investmentbolag,PEGRO PREF,11,110545,Pegroco Invest AB Pref
+625,Prime Living,Sverige,First North,Finans & Fastighet,Fastighetsbolag,PRIME,11,110385,Prime Living AB
+626,SavoSolar,Sverige,First North,Kraftförsörjning,Solkraft,SAVOS,11,108026,Savosolar Plc
+627,Scibase,Sverige,First North,Hälsovård,Medicinsk Utrustning,SCIB,11,110073,Scibase Holding AB
+628,SolTech Energy,Sverige,First North,Kraftförsörjning,Solkraft,SOLT,11,110738,SolTech Energy Sweden AB
+629,Spiffbet,Sverige,First North,Sällanköpsvaror,Betting & Casino,SPIFF,11,108517,Spiffbet AB
+630,TargetEveryOne,Sverige,First North,Sällanköpsvaror,Marknadsföring,TEONE,11,110094,TargetEveryOne AB
+631,SaltX Technology,Sverige,First North,Industri,Energi & Återvinning,SALT B,11,108329,SaltX Technology Holding AB ser. B
+632,Aptahem,Sverige,Spotlight,Hälsovård,Biotech,APTA,52,4131,Aptahem
+633,Cline Scientific,Sverige,Spotlight,Hälsovård,Biotech,CLINE B,52,412T,Cline Scientific B
+634,CombiGene,Sverige,First North,Hälsovård,Biotech,COMBI,11,165139,Combigene AB
+635,Idogen,Sverige,Spotlight,Hälsovård,Biotech,IDOGEN,52,4134,Idogen
+636,Nanexa,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,NANEXA,52,4137,Nanexa
+637,Orezone,Sverige,Spotlight,Material,Gruv - Prospekt & Drift,ORE,11,160324,Nordic Iron Ore AB
+638,Pharmacolog,Sverige,First North,Hälsovård,Medicinsk Utrustning,PHLOG B,11,155215,Pharmacolog i Uppsala AB ser. B
+639,Redsense Medical,Sverige,First North,Hälsovård,Medicinsk Utrustning,REDS,11,110532,Redsense Medical AB
+640,Transtema,Sverige,First North,Telekommunikation,Telekomtjänster,TRANS,11,109528,Transtema Group AB
+641,Vibrosense Dynamics,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,VSD B,52,412U,VibroSense Dynamics B
+642,Bonäsudden,Sverige,First North,Finans & Fastighet,Fastighetsbolag,BONAS,11,110781,Bonäsudden Holding AB
+643,IVISYS,Sverige,First North,Informationsteknik,Elektronisk Utrustning,IVISYS,11,108037,IVISYS AB
+644,Link Prop,Sverige,First North,Finans & Fastighet,Fastighetsbolag,LINKAB,11,110776,Link Prop Investment AB
+645,Asiakastieto,Finland,Mid Cap,Industri,Mätning & Analys,ATG1V,24,107645,Asiakastieto Group Oyj
+646,Pihlajalinna,Finland,Mid Cap,Hälsovård,Sjukhus & Vårdhem,PIHLIS,24,109978,Pihlajalinna Oyj
+647,Insplorion,Sverige,Spotlight,Industri,Mätning & Analys,INSP,52,4136,Insplorion
+648,SpectraCure,Sverige,First North,Hälsovård,Medicinsk Utrustning,SPEC,11,164161,SpectraCure AB
+649,Endomines Oyj,Finland,Small Cap,Material,Gruv - Guld & Silver,ENDOM,24,94144,Endomines AB
+650,Sotkamo Silver Oyj,Finland,Small Cap,Material,Gruv - Guld & Silver,SOSI1,24,88956,Sotkamo Silver AB
+651,Saga Furs,Finland,Small Cap,Sällanköpsvaror,Kläder & Skor,SAGCV,24,24384,Saga Furs Oyj C
+652,Neo Industrial,Finland,Small Cap,Industri,Industrikomponenter,NEO1V,24,24309,Neo Industrial Oyj
+653,Valoe,Finland,Small Cap,Kraftförsörjning,Solkraft,VALOE,24,24329,Valoe Oyj
+654,Apetit,Finland,Small Cap,Dagligvaror,Livsmedel,APETIT,24,24300,Apetit Plc
+655,Afarak,Finland,Mid Cap,Material,Gruv - Industrimetaller,AFAGR,24,24343,Afarak Group Plc
+656,Aspocomp,Finland,Small Cap,Informationsteknik,Elektronik & Tillverkning,ACG1V,24,24228,Aspocomp Group Plc
+657,CapMan,Finland,Mid Cap,Finans & Fastighet,Investmentbolag,CAPMAN,24,24246,CapMan Plc
+658,Componenta,Finland,Small Cap,Industri,Industrikomponenter,CTH1V,24,24247,Componenta Corporation
+659,Digia,Finland,Small Cap,Informationsteknik,IT-Konsulter,DIGIA,24,24367,Digia Plc
+660,Dovre,Finland,Small Cap,Industri,Affärskonsulter,DOV1V,24,24325,Dovre Group Plc
+661,Efore,Finland,Small Cap,Industri,Elektroniska komponenter,EFO1V,24,24252,Efore Plc
+662,eQ Oyj,Finland,Mid Cap,Finans & Fastighet,Kapitalförvaltning,EQV1V,24,24234,eQ Oyj
+663,Etteplan,Finland,Mid Cap,Industri,Affärskonsulter,ETTE,24,24262,Etteplan Oyj
+664,Suominen,Finland,Mid Cap,Dagligvaror,Hygienprodukter,SUY1V,24,24364,Suominen Oyj
+665,Solteq,Finland,Small Cap,Informationsteknik,IT-Konsulter,SOLTEQ,24,24354,Solteq Oyj
+666,Exel Composites,Finland,Small Cap,Industri,Industrikomponenter,EXL1V,24,24265,Exel Composites Plc
+667,Glaston,Finland,Small Cap,Industri,Byggmaterial,GLA1V,24,24293,Glaston  Corporation
+668,Innofactor,Finland,Small Cap,Informationsteknik,Affärs- & IT-System,IFA1V,24,24378,Innofactor Plc
+669,SSH Communications,Finland,Small Cap,Informationsteknik,Säkerhet & Bevakning,SSH1V,24,24357,SSH Communications Security Oyj
+670,Ålandsbanken B,Finland,Mid Cap,Finans & Fastighet,Banker,ALBBV,24,24230,Bank of Åland Plc B
+671,Raute,Finland,Small Cap,Industri,Industrimaskiner,RAUTE,24,24344,Raute Corporation A
+672,Biohit,Finland,Small Cap,Hälsovård,Hälsovård & Hjälpmedel,BIOBV,24,24241,Biohit Oyj B
+673,QPR Software,Finland,Small Cap,Informationsteknik,Affärs- & IT-System,QPR1V,24,24334,QPR Software Plc
+674,Elecster,Finland,Small Cap,Industri,Industrimaskiner,ELEAV,24,24253,Elecster Oyj A
+675,Honkarakenne,Finland,Small Cap,Industri,Bostadsbyggnation,HONBS,24,24274,Honkarakenne Oyj B
+676,Ilkka-Yhtymä 2,Finland,Small Cap,Sällanköpsvaror,Media & Publicering,ILK2S,24,24278,Ilkka-Yhtymä Oyj 2
+677,Incap,Finland,Small Cap,Industri,Industrimaskiner,ICP1V,24,24279,Incap Corporation
+678,Digitalist Group,Finland,Small Cap,Informationsteknik,IT-Konsulter,DIGIGR,24,24377,Digitalist Group Plc
+679,Oravo,Finland,Small Cap,Finans & Fastighet,Fastighet - REIT,OVARO,24,97068,Ovaro Kiinteistösijoitus Oyj
+680,Marimekko,Finland,Small Cap,Sällanköpsvaror,Kläder & Skor,MMO1V,24,24304,Marimekko Corporation
+681,Martela,Finland,Small Cap,Industri,Bygginredning,MARAS,24,24301,Martela Oyj A
+682,Nurminen Logistics,Finland,Small Cap,Industri,Tåg- & Lastbilstransport,NLG1V,24,24283,Nurminen Logistics Plc
+683,Keskisuomalainen,Finland,Small Cap,Sällanköpsvaror,Media & Publicering,KSLAV,24,24294,Keskisuomalainen Oyj A
+684,Kesla,Finland,Small Cap,Industri,Industrimaskiner,KELAS,24,24286,Kesla Oyj A
+685,Pohjois-Karjalan,Finland,Small Cap,Sällanköpsvaror,Media & Publicering,PKK1V,24,24327,Pohjois-Karjalan Kirjapaino Oyj
+686,Revenio,Finland,Mid Cap,Hälsovård,Medicinsk Utrustning,REG1V,24,24250,Revenio Group Corporation
+687,Sievi Capital,Finland,Small Cap,Finans & Fastighet,Investmentbolag,SIEVI,24,24348,Sievi Capital plc
+688,Soprano,Finland,Small Cap,Industri,Utbildning,SOPRA,24,49534,Soprano Oyj
+689,Investors House,Finland,Small Cap,Finans & Fastighet,Fastighetsbolag,INVEST,24,24358,Investors House Oyj
+690,Trainers House,Finland,Small Cap,Industri,Utbildning,TRH1V,24,24347,Trainers  House Plc
+691,Uutechnic,Finland,Small Cap,Industri,Industrimaskiner,UUTEC,24,24391,Plc Uutechnic Group Oyj
+692,Yleiselektroniikka,Finland,Small Cap,Industri,Elektroniska komponenter,YLEPS,11,153223,Bygghemma Group First AB
+693,NoHo Partners,Finland,Small Cap,Sällanköpsvaror,Restaurang & Café,NOHO,24,98247,NoHo Partners Oyj
+694,Panostaja,Finland,Small Cap,Finans & Fastighet,Investmentbolag,PNA1V,24,24324,Panostaja Oyj
+695,Scanfil,Finland,Mid Cap,Informationsteknik,Elektronik & Tillverkning,SCANFL,24,86230,Scanfil Plc
+696,Tecnotree,Finland,Small Cap,Informationsteknik,Affärs- & IT-System,TEM1V,24,24373,Tecnotree Corporation
+697,Teleste,Finland,Small Cap,Informationsteknik,Kommunikation,TLT1V,24,24372,Teleste Corporation
+698,Tulikivi,Finland,Small Cap,Sällanköpsvaror,Möbler & Inredning,TULAV,24,24383,Tulikivi Oyj A
+699,Wulff-Yhtiöt,Finland,Small Cap,Industri,Bygginredning,WUF1V,24,24239,Wulff Group Plc
+700,OMX Copen 20,Danmark,Index,-,-,OMXC20,11,156147,Better Collective A/S
+701,OMX Copen 20 GI,Danmark,Index,-,-,OMXC20GI,11,156147,Better Collective A/S
+702,OMX Copen All,Danmark,Index,-,-,OMXCPI,11,156147,Better Collective A/S
+703,OMX Copen All GI,Danmark,Index,-,-,OMXCGI,11,156147,Better Collective A/S
+704,OMX Copen Large C,Danmark,Index,-,-,OMXCLCPI,11,156147,Better Collective A/S
+705,OMX Copen Mid C,Danmark,Index,-,-,OMXCMCPI,11,156147,Better Collective A/S
+706,OMX Copen Small C,Danmark,Index,-,-,OMXCSCPI,11,156147,Better Collective A/S
+707,OMX Copen Oil&Gas,Danmark,Index,-,-,CX0001PI,11,156147,Better Collective A/S
+708,OMX Copen Industrial,Danmark,Index,-,-,CX2000PI,11,156147,Better Collective A/S
+709,OMX Copen Goods,Danmark,Index,-,-,CX3000PI,11,156147,Better Collective A/S
+710,OMX Copen Health,Danmark,Index,-,-,CX4000PI,11,156147,Better Collective A/S
+711,OMX Copen Sercives,Danmark,Index,-,-,CX5000PI,11,156147,Better Collective A/S
+712,OMX Copen Telecom,Danmark,Index,-,-,CX6000PI,11,156147,Better Collective A/S
+713,OMX Copen Utilities,Danmark,Index,-,-,CX7000PI,11,156147,Better Collective A/S
+714,OMX Copen Financials,Danmark,Index,-,-,CX8000PI,11,156147,Better Collective A/S
+715,OMX Copen Technology,Danmark,Index,-,-,CX9000PI,11,156147,Better Collective A/S
+716,OB Oslo 25,Norge,Index,-,-,OSEBX,11,19095,Nobia AB
+717,OB Oslo 25 GI,Norge,Index,-,-,OBX,11,19095,Nobia AB
+718,OB Oslo All,Norge,Index,-,-,OSEAX,11,19095,Nobia AB
+719,OB Axess All,Norge,Index,-,-,OAAX,11,19095,Nobia AB
+720,OB Oslo Oil&Gas,Norge,Index,-,-,OSE10GI,11,19095,Nobia AB
+721,OB Oslo Industrial,Norge,Index,-,-,OSE20GI,11,19095,Nobia AB
+722,OB Oslo Staples,Norge,Index,-,-,OSE30GI,11,19095,Nobia AB
+723,OB Oslo Health,Norge,Index,-,-,OSE35GI,11,19095,Nobia AB
+724,OB Oslo Consumer,Norge,Index,-,-,OSE25GI,11,19095,Nobia AB
+725,OB Oslo Utilities,Norge,Index,-,-,OSE55GI,11,19095,Nobia AB
+726,OB Oslo Financials,Norge,Index,-,-,OSE40GI,11,19095,Nobia AB
+727,OB Oslo Technology,Norge,Index,-,-,OSE45GI,11,19095,Nobia AB
+728,Vostok Emerging,Sverige,First North,Finans & Fastighet,Investmentbolag,VEMF SDB,11,110742,Vostok Emerging Finance Ltd
+729,Ahola Transport,Finland,First North,Industri,Tåg- & Lastbilstransport,AHOLA,24,120265,Oyj Ahola Transport Abp ser. A
+730,Double Bond Pharma,Sverige,Spotlight,Hälsovård,Biotech,DBP B,52,413A,Double Bond Pharmaceutical B
+731,Hybricon,Sverige,Spotlight,Industri,Tåg- & Lastbilstransport,HYCO,52,4135,Hybricon
+732,Oncology Venture,Sverige,First North,Hälsovård,Biotech,OV,21,VNKEF,VANKE PROPERTY (OV
+733,Swemet,Sverige,NGM,Industri,Elektroniska komponenter,SWEM MTF B,13,2JM1,Swemet B
+734,Footway Pref,Sverige,First North,Sällanköpsvaror,Kläder & Skor,FOOT PREF,11,110741,Footway Group AB Pref
+735,Aker Solutions,Norge,OBX,Energi,Olja & Gas - Service,AKSO,15,1301283,Aker Solutions
+736,BW LPG,Norge,OB Match,Energi,Olja & Gas - Transport,BWLPG,15,1300695,BW LPG
+737,Aker BP,Norge,OBX,Energi,Olja & Gas - Exploatering,AKERBP,15,66985,Aker BP
+738,DNB,Norge,OBX,Finans & Fastighet,Banker,DNB,15,6059,DNB
+739,DNO,Norge,OBX,Energi,Olja & Gas - Exploatering,DNO,15,6065,DNO
+740,A.P. Moller Maersk B,Danmark,Large Cap,Industri,Sjöfart & Rederi,MAERSK B,14,3201,A.P. Møller - Mærsk B A/S
+741,Carlsberg B,Danmark,Large Cap,Dagligvaror,Bryggeri,CARL B,14,1596,Carlsberg B A/S
+742,Chr Hansen,Danmark,Large Cap,Dagligvaror,Livsmedel,CHR,14,75663,Chr. Hansen Holding A/S
+743,Coloplast,Danmark,Large Cap,Hälsovård,Medicinsk Utrustning,COLO B,14,3203,Coloplast B A/S
+744,Danske Bank,Danmark,Large Cap,Finans & Fastighet,Banker,DANSKE,14,1586,Danske Bank A/S
+745,Dolphin Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,DDASA,15,27721,Dolphin Drilling
+746,Frontline,Norge,OB Match,Energi,Olja & Gas - Transport,FRO,15,38027,Frontline
+747,Gjensidige Forsikring,Norge,OBX,Finans & Fastighet,Försäkring,GJF,15,1249975,Gjensidige Forsikring
+748,Mowi,Norge,OBX,Dagligvaror,Fiskodling,MOWI,15,16258,Mowi
+749,Nordic Semiconductor,Norge,OB Match,Informationsteknik,Elektronik & Tillverkning,NOD,15,16511,Nordic Semiconductor
+750,DSV,Danmark,Large Cap,Industri,Tåg- & Lastbilstransport,DSV,14,3415,DSV A/S
+751,FLSmidth & Co.,Danmark,Large Cap,Industri,Byggmaterial,FLS,14,3207,FLSmidth & Co. A/S
+752,G4S,Danmark,Large Cap,Industri,Säkerhet,G4S,14,25634,G4S plc
+753,Genmab,Danmark,Large Cap,Hälsovård,Biotech,GEN,14,11143,Genmab A/S
+754,GN Store Nord,Danmark,Large Cap,Hälsovård,Medicinsk Utrustning,GN,14,3205,GN Store Nord A/S
+755,Equinor,Norge,OBX,Energi,Olja & Gas - Försäljning,EQNR,15,15578,Equinor
+756,Kotipizza,Finland,Small Cap,Sällanköpsvaror,Restaurang & Café,PIZZA,24,110083,Kotipizza Group Oyj
+757,Novo Nordisk,Danmark,Large Cap,Hälsovård,Läkemedel,NOVO B,14,1158,Novo Nordisk B A/S
+758,Capacent,Sverige,First North,Industri,Affärskonsulter,CAPAC,11,113748,Capacent Holding AB
+759,CLX Communications,Sverige,Mid Cap,Informationsteknik,Kommunikation,CLX,21,CLCMF,CLX COMMUNICATIONS
+760,Bravida,Sverige,Large Cap,Industri,Installation & VVS,BRAV,11,113960,Bravida Holding AB
+761,Dometic,Sverige,Large Cap,Sällanköpsvaror,Bil & Motor,DOM,11,115619,Dometic Group AB
+762,Klaria Pharma,Sverige,First North,Hälsovård,Biotech,KLAR,11,114250,Klaria Pharma Holding AB
+763,MoxieTech,Sverige,First North,Industri,Bemanning,MOXI,11,115943,MoxieTech Group AB
+764,Minesto,Sverige,First North,Kraftförsörjning,Förnybarenergi,MINEST,11,114883,Minesto AB
+765,Photocat,Sverige,First North,Industri,Installation & VVS,PCAT,11,115935,Photocat A/S
+766,Waystream,Sverige,First North,Informationsteknik,Kommunikation,WAYS,11,115386,Waystream Holding AB
+767,Alzinova,Sverige,Spotlight,Hälsovård,Biotech,ALZ,52,413E,Alzinova
+768,Hamlet Pharma,Sverige,Spotlight,Hälsovård,Biotech,HAMLET,52,413D,Hamlet Pharma
+769,Nanologica,Sverige,Spotlight,Hälsovård,Biotech,NICA,52,413C,Nanologica
+770,PExA,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,PEXA B,52,413B,PExA
+771,Attendo,Sverige,Large Cap,Hälsovård,Sjukhus & Vårdhem,ATT,11,115956,Attendo AB
+772,Camurus,Sverige,Mid Cap,Hälsovård,Läkemedel,CAMX,11,115961,Camurus AB
+773,Scandic Hotels,Sverige,Mid Cap,Sällanköpsvaror,Hotell & Camping,SHOT,11,115964,Scandic Hotels Group AB
+774,AdCityMedia,Sverige,First North,Sällanköpsvaror,Marknadsföring,ACM,11,116111,AdCityMedia AB
+775,Immunovia,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,IMMNOV,11,115966,Immunovia AB
+776,Nilsson Special Vehicles,Sverige,First North,Sällanköpsvaror,Bil & Motor,NILS,11,116628,Nilsson Special Vehicles AB
+777,Stillfront,Sverige,First North,Sällanköpsvaror,Gaming & Spel,SF,11,116312,Stillfront Group AB
+778,TC TECH,Sverige,First North,Industri,Industrimaskiner,TCT,11,115953,TC TECH Sweden AB
+779,Vicore Pharma,Sverige,First North,Hälsovård,Läkemedel,VICO,11,116629,Vicore Pharma Holding AB
+780,Zenergy,Sverige,Spotlight,Industri,Bostadsbyggnation,ZENZIP B,52,413F,Zenergy B
+781,Evli Pankki,Finland,Mid Cap,Finans & Fastighet,Nischbanker,EVLI,24,115614,Evli Pankki Oyj
+782,Consti Yhtiöt,Finland,Small Cap,Industri,Byggnation & Infrastruktur,CONSTI,24,115965,Consti Yhtiöt Oyj
+783,Genova Property Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,GPG PREF,11,116646,Genova Property Group AB Pref
+784,Nuevolution,Sverige,Small Cap,Hälsovård,Biotech,NUE,11,116423,Nuevolution AB
+785,IMINT,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,IMINT,52,413H,IMINT Image Intelligence
+786,Toleranzia,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,TOL,52,413G,Toleranzia
+787,Prebona,Sverige,Spotlight,Hälsovård,Läkemedel,PREBON,52,413N,Prebona
+788,QuickCool,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,QUICK,52,413J,QuickCool
+789,Implementa Sol,Sverige,NGM,Kraftförsörjning,Solkraft,IMSOL MTF B,13,2UXP,Implementa Sol B
+790,Pandora,Danmark,Large Cap,Sällanköpsvaror,Accessoarer,PNDORA,14,77855,Pandora A/S
+791,Vestas Wind Systems,Danmark,Large Cap,Kraftförsörjning,Vindkraft,VWS,14,3258,Vestas Wind Systems A/S
+792,Royal UNIBREW,Danmark,Large Cap,Dagligvaror,Bryggeri,RBREW,14,3273,Royal UNIBREW A/S
+793,Lundbeck,Danmark,Large Cap,Hälsovård,Läkemedel,LUN,14,3853,H. Lundbeck A/S
+794,Nordea Bank,Danmark,Large Cap,Finans & Fastighet,Banker,NDA DK,14,160272,Nordea Bank Abp
+795,Orkla,Norge,OBX,Dagligvaror,Livsmedel,ORK,15,6214,Orkla
+796,Yara International,Norge,OBX,Material,Kemikalier,YAR,15,56559,Yara International
+797,ISS,Danmark,Large Cap,Industri,Stödtjänster & Service,ISS,14,80901,ISS A/S
+798,Jyske Bank,Danmark,Large Cap,Finans & Fastighet,Banker,JYSK,14,1587,Jyske Bank A/S
+799,Kobenhavns Lufthavne,Danmark,Large Cap,Industri,Flygtransport,KBHL,14,3195,Københavns Lufthavne A/S
+800,Novozymes,Danmark,Large Cap,Material,Kemikalier,NZYM B,14,11273,Novozymes B A/S
+801,DalsSpira Mejeri,Sverige,Spotlight,Dagligvaror,Jordbruk,SPIRA,52,413K,Dalsspira Mejeri
+802,Rockwool B,Danmark,Large Cap,Industri,Byggmaterial,ROCK B,14,3456,Rockwool International B A/S
+803,Sydbank,Danmark,Large Cap,Finans & Fastighet,Banker,SYDB,14,3366,Sydbank A/S
+804,Topdanmark,Danmark,Large Cap,Finans & Fastighet,Försäkring,TOP,21,DKTS,TOP SHELF BRANDS H
+805,Tryg,Danmark,Large Cap,Finans & Fastighet,Försäkring,TRYG,14,31315,Tryg A/S
+806,William Demant,Danmark,Large Cap,Hälsovård,Medicinsk Utrustning,WDH,14,3247,William Demant Holding A/S
+807,Norsk Hydro,Norge,OBX,Material,Gruv - Industrimetaller,NHY,15,6180,Norsk Hydro
+808,Norwegian Air Shuttle,Norge,OBX,Industri,Flygtransport,NAS,15,55463,Norwegian Air Shuttle
+809,Otello,Norge,OB Match,Informationsteknik,Internettjänster,OTELLO,15,56454,Otello Corporation
+810,Petroleum Geo-Services,Norge,OBX,Energi,Olja & Gas - Service,PGS,15,6220,Petroleum Geo-Services
+811,REC Silicon,Norge,OB Match,Kraftförsörjning,Solkraft,REC,15,61696,REC Silicon
+812,Schibsted A,Norge,OBX,Sällanköpsvaror,Media & Publicering,SCHA,15,6240,Schibsted ser. A
+813,Seadrill,Norge,OB Match,Energi,Olja & Gas - Borrning,SDRL,15,1304153,Seadrill
+814,Storebrand,Norge,OBX,Finans & Fastighet,Försäkring,STB,15,6288,Storebrand
+815,Subsea7,Norge,OBX,Energi,Olja & Gas - Service,SUBC,15,25289,Subsea 7
+816,Telenor,Norge,OBX,Telekommunikation,Bredband & Telefoni,TEL,15,47454,Telenor
+817,TGS-NOPEC,Norge,OBX,Energi,Olja & Gas - Service,TGS,15,28494,TGS-NOPEC Geophysical Company
+818,Avance Gas,Norge,OB Match,Energi,Olja & Gas - Transport,AVANCE,15,1300995,Avance Gas Holding
+819,Bakkafrost,Norge,OBX,Dagligvaror,Fiskodling,BAKKA,15,81451,Bakkafrost
+820,Raybased,Sverige,Spotlight,Informationsteknik,Säkerhet & Bevakning,RBASE,52,413L,Raybased
+821,FastOut Int.,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,FOUT,52,413P,Fastout Int
+822,Sleepo,Sverige,Spotlight,Sällanköpsvaror,Möbler & Inredning,SLEEP,52,413M,Sleepo
+823,NEXT Biometrics,Norge,OB Match,Informationsteknik,Biometri,NEXT,15,1301145,NEXT Biometrics Group
+824,Zalaris,Norge,OB Match,Informationsteknik,Affärs- & IT-System,ZAL,15,1301140,Zalaris
+825,NattoPharma,Norge,Oslo Axess,Hälsovård,Läkemedel,NATTO,15,68905,NattoPharma
+826,Medistim,Norge,OB Standard,Hälsovård,Medicinsk Utrustning,MEDI,15,57018,Medistim
+827,Matas,Danmark,Mid Cap,Dagligvaror,Hygienprodukter,MATAS,21,MAASF,MATAS AS
+828,FirstFarms,Danmark,Small Cap,Dagligvaror,Jordbruk,FFARMS,14,37192,FirstFarms A/S
+829,Sino Agro Food,Norge,Merkur Market,Dagligvaror,Fiskodling,SIAF-ME,49,1302212,Sino Agro Food
+830,Esoft Systems,Danmark,First North,Sällanköpsvaror,Marknadsföring,ESOFT,14,39339,esoft systems A/S
+831,Detection,Finland,First North,Hälsovård,Medicinsk Utrustning,DETEC,24,106636,Detection Technology Oyj
+832,Xbrane Biopharma,Sverige,First North,Hälsovård,Biotech,XBRANE,11,118813,Xbrane Biopharma AB
+833,Catena Media,Sverige,Mid Cap,Sällanköpsvaror,Betting & Casino,CTM,11,119018,Catena Media P.L.C
+834,Sjöstrand Coffee,Sverige,Spotlight,Sällanköpsvaror,Hemelektronik,SCC B,52,413Q,Sjöstrand Coffee B
+835,Invent Medic,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,IMS,52,413R,Invent Medic
+836,Loudspring Oyj,Finland,First North,Finans & Fastighet,Investmentbolag,LOUD,24,100780,Loudspring Plc
+837,EAB Group,Finland,First North,Finans & Fastighet,Kapitalförvaltning,EABGB,24,114441,EAB Group Oyj
+838,FIT Biotech,Finland,First North,Hälsovård,Biotech,FITBIO,24,109536,FIT Biotech Oy
+839,Herantis Pharma,Finland,First North,Hälsovård,Biotech,HRTIS,24,100804,Herantis Pharma Oyj
+840,Nexstim Oyj,Finland,First North,Hälsovård,Medicinsk Utrustning,NXTMH,24,103570,Nexstim Oyj
+841,Nixu,Finland,Small Cap,Informationsteknik,Säkerhet & Bevakning,NIXU,24,103926,Nixu Oyj
+842,Piippo,Finland,First North,Material,Förpackning,PIIPPO,24,106258,Piippo Oyj
+843,Robit,Finland,Small Cap,Industri,Industrikomponenter,ROBIT,24,108858,Robit Oyj
+844,SavoSolar Oyj,Finland,First North,Kraftförsörjning,Solkraft,SAVOH,24,108330,Savosolar Plc
+845,Siili Solutions,Finland,Small Cap,Informationsteknik,Affärs- & IT-System,SIILI,24,90227,Siili Solutions Oyj
+846,Taaleri,Finland,Mid Cap,Finans & Fastighet,Kapitalförvaltning,TAALA,24,93664,Taaleri Oyj
+847,Talenom,Finland,Small Cap,Industri,Affärskonsulter,TNOM,24,109537,Talenom Oyj
+848,United Bankers,Finland,First North,Finans & Fastighet,Kapitalförvaltning,UNIAV,24,103563,United Bankers Oyj
+849,Verkkokauppa.com,Finland,First North,Sällanköpsvaror,Detaljhandel,VERK,24,100175,Verkkokauppa.com Oyj
+850,XXL,Norge,OB Match,Sällanköpsvaror,Detaljhandel,XXL,15,1301298,XXL
+851,LeoVegas,Sverige,Mid Cap,Sällanköpsvaror,Betting & Casino,LEO,11,120184,LeoVegas AB
+852,Insr Insurance,Norge,OB Match,Finans & Fastighet,Försäkring,INSR,15,1300977,Insr Insurance Group
+853,Bonheur,Norge,OB Match,Energi,Olja & Gas - Borrning,BON,15,6037,Bonheur
+854,Protector,Norge,OB Match,Finans & Fastighet,Försäkring,PROTCT,15,65045,Protector Forsikring
+855,Thin Film,Norge,OB Match,Informationsteknik,Elektronik & Tillverkning,THIN,15,68907,Thin Film Electronics
+856,AF Gruppen,Norge,OB Match,Industri,Byggnation & Infrastruktur,AFG,15,27028,AF Gruppen
+857,Humana,Sverige,Mid Cap,Hälsovård,Sjukhus & Vårdhem,HUM,11,120363,Humana AB
+858,GARO,Sverige,Mid Cap,Industri,Elektroniska komponenter,GARO,11,119990,Garo AB
+859,Dividend Sweden,Sverige,NGM,Finans & Fastighet,Investmentbolag,DIVI MTF B,13,33RG,Dividend Sweden B
+860,RhoVac,Sverige,Spotlight,Hälsovård,Biotech,RHOVAC,52,413S,RhoVac
+861,Polygiene,Sverige,First North,Sällanköpsvaror,Kläder & Skor,POLYG,11,119989,Polygiene AB
+862,AddLife,Sverige,Mid Cap,Hälsovård,Biotech,ALIF B,11,120190,AddLife AB ser. B
+863,Ocean Yield,Norge,OB Match,Energi,Olja & Gas - Transport,OCY,15,1300504,Ocean Yield
+864,Kvaerner,Norge,OB Match,Energi,Olja & Gas - Service,KVAER,15,1251131,Kværner
+865,StrongPoint,Norge,OB Match,Industri,Säkerhet,STRONG,15,48772,StrongPoint
+866,Atea,Norge,OB Match,Informationsteknik,IT-Konsulter,ATEA,15,6157,Atea
+867,Wallenius Wilhelmsen,Norge,OB Match,Industri,Sjöfart & Rederi,WWL,11,19095,Nobia AB
+868,Stolt-Nielsen,Norge,OB Match,Industri,Sjöfart & Rederi,SNI,15,16466,Stolt-Nielsen
+869,Tomra Systems,Norge,OB Match,Industri,Energi & Återvinning,TOM,15,6282,Tomra Systems
+870,Veidekke,Norge,OB Match,Industri,Byggnation & Infrastruktur,VEI,15,6296,Veidekke
+871,Kongsberg Gruppen,Norge,OB Match,Industri,Militär & Försvar,KOG,15,6177,Kongsberg Gruppen
+872,SalMar,Norge,OBX,Dagligvaror,Fiskodling,SALM,15,65055,SalMar
+873,Napatech,Norge,OB Match,Informationsteknik,Kommunikation,NAPA,15,1300730,Napatech
+874,Bang & Olufsen,Danmark,Mid Cap,Sällanköpsvaror,Hemelektronik,BO,14,3202,Bang & Olufsen Holding A/S
+875,IC Group,Danmark,Mid Cap,Sällanköpsvaror,Kläder & Skor,IC,14,3282,IC Group A/S
+876,Flugger,Danmark,Small Cap,Material,Kemikalier,FLUG B,14,3315,Flügger group A/S B
+877,Roblon,Danmark,Small Cap,Material,Kemikalier,RBLN B,14,3452,Roblon B A/S
+878,Xintela,Sverige,First North,Hälsovård,Biotech,XINT,11,120379,Xintela AB
+879,ABG Sundal Collier,Norge,OB Match,Finans & Fastighet,Nischbanker,ASC,15,6085,ABG Sundal Collier Holding
+880,Hiddn Solutions,Norge,OB Match,Informationsteknik,Säkerhet & Bevakning,HIDDN,15,49006,Hiddn Solutions
+881,Akastor,Norge,OB Match,Energi,Olja & Gas - Service,AKA,15,56655,Akastor
+882,Aker,Norge,OBX,Finans & Fastighet,Investmentbolag,AKER,15,57522,Aker
+883,AKVA Group,Norge,OB Match,Dagligvaror,Fiskodling,AKVA,15,63319,AKVA Group
+884,American Shipping,Norge,OB Match,Industri,Sjöfart & Rederi,AMSC,15,59576,American Shipping Company
+885,Aqualis,Norge,OB Match,Energi,Olja & Gas - Service,AQUA,15,68900,Aqua Bio Technology
+886,Archer,Norge,OB Match,Energi,Olja & Gas - Borrning,ARCHER,15,1249973,Archer
+887,Austevoll Seafood,Norge,OB Match,Dagligvaror,Fiskodling,AUSS,15,63004,Austevoll Seafood
+888,Avocet Mining,Norge,OB Standard,Material,Gruv - Guld & Silver,AVM,15,1249085,Avocet Mining PLC
+889,Belships,Norge,OB Standard,Industri,Sjöfart & Rederi,BEL,15,6026,Belships
+890,Solon Eiendom,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,SOLON,15,45901,Solon Eiendom
+891,Biotec Pharmacon,Norge,OB Match,Hälsovård,Biotech,BIOTEC,15,60209,Biotec Pharmacon
+892,Techstep,Norge,OB Match,Informationsteknik,Affärs- & IT-System,TECH,26,NBL.P,NOBELIUM TECH CORP
+893,Wilh. Wilhelmsen B,Norge,OB Match,Industri,Sjöfart & Rederi,WWIB,15,6311,Wilh. Wilhelmsen Holding ser. B
+894,Borgestad,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,BOR,15,6038,Borgestad
+895,Borregaard,Norge,OB Match,Material,Kemikalier,BRG,15,1270371,Borregaard
+896,BW Offshore Limited,Norge,OBX,Energi,Olja & Gas - Service,BWO,15,61979,BW Offshore Limited
+897,ContextVision,Norge,OB Match,Hälsovård,Medicinsk Utrustning,COV,15,23281,ContextVision
+898,Simris Alg,Sverige,First North,Dagligvaror,Hälsoprodukter,SIMRIS B,11,121365,Simris Alg AB ser. B
+899,DOF,Norge,OB Match,Energi,Olja & Gas - Service,DOF,15,46930,DOF
+900,Eidesvik Offshore,Norge,OB Match,Industri,Sjöfart & Rederi,EIOF,15,59496,Eidesvik Offshore
+901,Electromagnetic Geoservices,Norge,OB Match,Energi,Olja & Gas - Service,EMGS,15,64806,Electromagnetic Geoservices
+902,Entra,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,ENTRA,15,1301320,Entra
+903,Funcom,Norge,OB Match,Sällanköpsvaror,Gaming & Spel,FUNCOM,15,60667,Funcom
+904,Gaming Innovation,Norge,OB Match,Sällanköpsvaror,Betting & Casino,GIG,15,58337,Gaming Innovation Group
+905,Golden Ocean,Norge,OBX,Industri,Sjöfart & Rederi,GOGL,15,1301610,Golden Ocean Group
+906,Goodtech,Norge,OB Standard,Industri,Affärskonsulter,GOD,15,6105,Goodtech
+907,Grieg Seafood,Norge,OBX,Dagligvaror,Fiskodling,GSF,15,65259,Grieg Seafood
+908,Havila Shipping,Norge,OB Match,Energi,Olja & Gas - Service,HAVI,15,59268,Havila Shipping
+909,Hexagon Composites,Norge,OB Match,Material,Förpackning,HEX,15,17151,Hexagon Composites
+910,Höegh LNG,Norge,OB Match,Energi,Olja & Gas - Transport,HLNG,15,1251127,Höegh LNG Holdings
+911,IDEX,Norge,OB Match,Informationsteknik,Biometri,IDEX,15,81220,IDEX
+912,InterOil Exploration,Norge,OB Match,Energi,Olja & Gas - Exploatering,IOX,15,62361,InterOil Exploration and Production
+913,Element,Norge,OB Match,Material,Gruv - Prospekt & Drift,ELE,15,63613,Element
+914,Jinhui Shipping,Norge,OB Match,Industri,Sjöfart & Rederi,JIN,21,JWHI,JIN WAN HONG INTL
+915,Kongsberg Automotive,Norge,OB Match,Industri,Industrikomponenter,KOA,15,59485,Kongsberg Automotive
+916,Infant Bacterial,Sverige,Mid Cap,Hälsovård,Läkemedel,IBT B,11,120381,Infant Bacterial Therapeutics AB ser. B
+917,Sydsvenska Hem,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,SYDSV,52,413U,Sydsvenska Hem
+918,Suomen Hoivatilat,Finland,Mid Cap,Finans & Fastighet,Fastighetsbolag,HOIVA,24,119806,Suomen Hoivatilat Oyj
+919,Plejd,Sverige,Spotlight,Industri,Elektroniska komponenter,PLEJD,52,413T,Plejd
+920,Vadsbo SwitchTech,Sverige,Spotlight,Industri,Elektroniska komponenter,VADS,52,413X,Vadsbo Switchtech
+921,Litium,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,LITI,52,413V,Litium
+922,Nepa,Sverige,First North,Informationsteknik,Affärs- & IT-System,NEPA,11,121153,Nepa AB
+923,Resurs Holding,Sverige,Large Cap,Finans & Fastighet,Kredit & Finansiering,RESURS,11,121360,Resurs Holding AB
+924,Leroy Seafood,Norge,OBX,Dagligvaror,Fiskodling,LSG,15,51529,Lerøy Seafood Group
+925,Multiconsult,Norge,OB Match,Industri,Affärskonsulter,MULTI,15,1301887,Multiconsult
+926,Navamedic,Norge,OB Match,Hälsovård,Läkemedel,NAVA,15,61513,Navamedic
+927,NEL,Norge,OBX,Kraftförsörjning,Förnybarenergi,NEL,15,57456,NEL
+928,NextGenTel,Norge,OB Standard,Telekommunikation,Telekomtjänster,NGT,15,61983,NextGenTel Holding
+929,Axactor,Norge,OB Match,Finans & Fastighet,Kredit & Finansiering,AXA,15,28597,Axactor
+930,Nordic Nanovector,Norge,OB Match,Hälsovård,Biotech,NANO,15,1301592,Nordic Nanovector
+931,Norway Royal Salmon,Norge,OB Match,Dagligvaror,Fiskodling,NRS,15,1250275,Norway Royal Salmon
+932,Norwegian Energy,Norge,OB Match,Energi,Olja & Gas - Exploatering,NOR,15,68236,Norwegian Energy Company
+933,Norwegian Property,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,NPRO,15,63318,Norwegian Property
+934,NRC Group,Norge,OB Match,Industri,Byggnation & Infrastruktur,NRC,15,6034,NRC Group
+935,Odfjell B,Norge,OB Match,Industri,Sjöfart & Rederi,ODFB,15,6270,Odfjell ser. B
+936,Odfjell Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,ODL,15,1300591,Odfjell Drilling
+937,Olav Thon,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,OLT,15,6212,Olav Thon Eiendomsselskap
+938,Panoro Energy,Norge,OB Match,Energi,Olja & Gas - Exploatering,PEN,52,4147,Pen Concept
+939,Petrolia,Norge,OB Standard,Energi,Olja & Gas - Service,PDR,11,19095,Nobia AB
+940,Photocure,Norge,OB Match,Hälsovård,Läkemedel,PHO,15,46096,Photocure
+941,Polarcus,Norge,OB Match,Energi,Olja & Gas - Service,PLCS,15,79256,Polarcus
+942,Prosafe,Norge,OB Match,Energi,Olja & Gas - Service,PRS,17,PRS,"Prudential Financial, Inc. 5.625% Junior Subordinated Notes due 2058"
+943,Q-Free,Norge,OB Standard,Informationsteknik,Kommunikation,QFR,15,51098,Q-Free
+944,Questerre Energy,Norge,OB Match,Energi,Olja & Gas - Exploatering,QEC,15,59363,Questerre Energy Corporation
+945,SAS Nok,Norge,OB Match,Industri,Flygtransport,SAS NOK,15,48943,SAS AB
+946,Incus Investor,Norge,OB Standard,Finans & Fastighet,Investmentbolag,INC,15,16226,Incus Investor
+947,Scatec Solar,Norge,OB Match,Kraftförsörjning,Solkraft,SSO,15,1301292,Scatec Solar
+948,Selvaag Bolig,Norge,OB Match,Finans & Fastighet,Fastighetsbolag,SBO,15,1267552,Selvaag Bolig
+949,SeaBird Exploration,Norge,OB Match,Energi,Olja & Gas - Service,SBX,15,61088,SeaBird Exploration
+950,Magnora,Norge,OB Standard,Energi,Olja & Gas - Service,MGN,15,58030,Magnora
+951,Siem Offshore,Norge,OB Standard,Energi,Olja & Gas - Service,SIOFF,15,60065,Siem Offshore
+952,Solstad Offshore,Norge,OB Match,Energi,Olja & Gas - Transport,SOFF,15,27953,Solstad Offshore
+953,SpareBank,Norge,OB Match,Finans & Fastighet,Banker,SRBANK,15,1264688,SpareBank 1 SR-Bank
+954,Spectrum,Norge,OB Match,Energi,Olja & Gas - Service,SPU,15,71330,Spectrum
+955,Storm Real Estate,Norge,OB Standard,Finans & Fastighet,Fastighetsbolag,STORM,15,1249133,Storm Real Estate
+956,Team Tankers,Norge,OB Standard,Industri,Sjöfart & Rederi,TEAM,17,TISI,"Team, Inc."
+957,TTS Group,Norge,OB Standard,Industri,Sjöfart & Rederi,TTS,15,15900,TTS Group
+958,Wentworth Resources,Norge,OB Match,Energi,Olja & Gas - Exploatering,WRL,11,19095,Nobia AB
+959,Voss Veksel Landmandsbank,Norge,OB Match,Finans & Fastighet,Banker,VVL,15,6306,Voss Veksel- og Landmandsbank
+960,Apptix,Norge,OB Match,Informationsteknik,Affärs- & IT-System,APP,15,51128,Apptix
+961,Arendals Fossekompani,Norge,OB Match,Kraftförsörjning,Elförsörjning,AFK,15,6006,Arendals Fossekompani
+962,Asetek,Norge,OB Match,Informationsteknik,Datorer & Hårdvara,ASETEK,15,1300289,Asetek
+963,Atlantic Petroleum,Norge,OB Standard,Energi,Olja & Gas - Exploatering,ATLA NOK,15,1300746,Atlantic Petroleum
+964,Bergen Group,Norge,OB Match,Industri,Sjöfart & Rederi,BERGEN,15,70904,Bergen Group
+965,Bouvet,Norge,OB Match,Informationsteknik,IT-Konsulter,BOUVET,15,65052,Bouvet
+966,Byggma,Norge,OB Standard,Industri,Byggmaterial,BMA,15,26940,Byggma
+967,Data Respons,Norge,OB Match,Informationsteknik,IT-Konsulter,DAT,15,28775,Data Respons
+968,EMAS Offshore,Norge,OB Standard,Energi,Olja & Gas - Service,EMAS,15,67405,EMAS Offshore
+969,Europris,Norge,OB Match,Dagligvaror,Livsmedelsbutiker,EPR,15,1301946,Europris
+970,Paradox Interactive,Sverige,First North,Sällanköpsvaror,Gaming & Spel,PDX,11,123234,Paradox Interactive AB
+971,GC Rieber Shipping,Norge,OB Standard,Industri,Sjöfart & Rederi,RISH,15,58609,GC Rieber Shipping
+972,Gyldendal,Norge,OB Standard,Sällanköpsvaror,Media & Publicering,GYL,15,6108,Gyldendal
+973,Havyard Group,Norge,OB Match,Industri,Sjöfart & Rederi,HYARD,15,1301163,Havyard Group
+974,Itera,Norge,OB Match,Informationsteknik,IT-Konsulter,ITE,15,39773,Itera
+975,Kid,Norge,OB Match,Sällanköpsvaror,Möbler & Inredning,KID,15,1302115,Kid
+976,Kitron,Norge,OB Match,Industri,Elektroniska komponenter,KIT,15,29719,Kitron
+977,Oceanteam,Norge,OB Match,Energi,Olja & Gas - Transport,OTS,15,63829,Oceanteam
+978,NTS,Norge,OB Standard,Industri,Sjöfart & Rederi,NTS,15,6169,NTS
+979,Polaris Media,Norge,OB Standard,Sällanköpsvaror,Media & Publicering,POL,15,73803,Polaris Media
+980,RAK Petroleum,Norge,OB Match,Energi,Olja & Gas - Exploatering,RAKP,15,1301358,RAK Petroleum
+981,Reach Subsea,Norge,OB Match,Energi,Olja & Gas - Service,REACH,15,6195,Reach Subsea
+982,Sbanken,Norge,OB Match,Finans & Fastighet,Nischbanker,SBANK,15,1302111,Sbanken
+983,The Scottish Salmon,Norge,OB Match,Dagligvaror,Fiskodling,SSC,15,81453,The Scottish Salmon Company
+984,Wilson,Norge,OB Standard,Industri,Sjöfart & Rederi,WILS,15,58630,Wilson
+985,African Petroleum,Norge,Oslo Axess,Energi,Olja & Gas - Exploatering,APCL,15,1301079,African Petroleum Corporation
+986,Aqua Bio Technology,Norge,Oslo Axess,Dagligvaror,Hälsoprodukter,ABT,15,68900,Aqua Bio Technology
+987,Awilco Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,AWDR,15,1250770,Awilco Drilling
+988,Awilco LNG,Norge,Oslo Axess,Energi,Olja & Gas - Transport,ALNG,15,1251293,Awilco LNG
+989,Hunter Group,Norge,Oslo Axess,Energi,Olja & Gas - Service,HUNT,15,65258,Hunter Group
+990,Cxense,Norge,OB Match,Informationsteknik,Affärs- & IT-System,CXENSE,15,1301162,Cxense
+991,EAM Solar,Norge,Oslo Axess,Kraftförsörjning,Solkraft,EAM,15,1300298,EAM Solar
+992,Hofseth BioCare,Norge,Oslo Axess,Dagligvaror,Hälsoprodukter,HBC,15,1258882,Hofseth BioCare
+993,FLEX LNG,Norge,OB Match,Energi,Olja & Gas - Exploatering,FLNG,15,79729,FLEX LNG
+994,5th Planet Games,Norge,Oslo Axess,Sällanköpsvaror,Gaming & Spel,FIVEPG,15,1301972,5th Planet Games
+995,Magseis Fairfield,Norge,OB Match,Energi,Olja & Gas - Service,MSEIS,15,1301093,Magseis Fairfield
+996,Nordic Mining,Norge,Oslo Axess,Material,Gruv - Prospekt & Drift,NOM,4,AZU,"EBRO FOODS NOM. EO -,60"
+997,North Energy,Norge,Oslo Axess,Energi,Olja & Gas - Exploatering,NORTH,15,81219,North Energy
+998,PCI Biotech,Norge,OB Match,Hälsovård,Biotech,PCIB,15,71329,PCI Biotech Holding
+999,Philly Shipyard,Norge,Oslo Axess,Industri,Sjöfart & Rederi,PHLY,15,68945,Philly Shipyard
+1000,Pioneer Property Pref,Norge,Oslo Axess,Finans & Fastighet,Fastighetsbolag,PPG PREF,15,1301947,Pioneer Property Group
+1001,RomReal,Norge,Oslo Axess,Finans & Fastighet,Fastighetsbolag,ROM,17,HRC,Hill-Rom Holdings Inc
+1002,S.D. Standard Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,SDSD,15,1250271,S.D. Standard Drilling
+1003,Saga Tankers,Norge,Oslo Axess,Energi,Olja & Gas - Transport,SAGA,15,1249132,Saga Tankers
+1004,Scanship,Norge,Oslo Axess,Industri,Energi & Återvinning,SSHIP,15,1300985,Scanship Holding
+1005,Vistin Pharma,Norge,OB Match,Hälsovård,Läkemedel,VISTIN,15,1301918,Vistin Pharma
+1006,Aasen Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,AASB-ME,49,1302210,Aasen Sparebank
+1007,Atlantic Lumpus,Norge,Merkur Market,Dagligvaror,Fiskodling,ATLU-ME,49,1302209,Atlantic Lumpus
+1008,Black Sea Property,Norge,Merkur Market,Finans & Fastighet,Fastighetsbolag,BSP-ME,49,1302211,Black Sea Property
+1009,Induct,Norge,Merkur Market,Informationsteknik,Affärs- & IT-System,INDUCT-ME,49,1302213,Induct
+1010,WR Entertainment,Norge,Merkur Market,Sällanköpsvaror,Media & Publicering,WRE-ME,49,1302215,WR Entertainment
+1011,ALK-Abello,Danmark,Large Cap,Hälsovård,Läkemedel,ALK B,14,32679,ALK-Abelló B A/S
+1012,Alm. Brand,Danmark,Large Cap,Finans & Fastighet,Försäkring,ALMB,14,3340,Alm. Brand A/S
+1013,Ambu,Danmark,Large Cap,Hälsovård,Medicinsk Utrustning,AMBU B,14,3331,Ambu A/S
+1014,Bavarian Nordic,Danmark,Mid Cap,Hälsovård,Biotech,BAVA,14,3333,Bavarian Nordic A/S
+1015,DS Norden,Danmark,Mid Cap,Industri,Sjöfart & Rederi,DNORD,14,3293,D/S Norden
+1016,DFDS,Danmark,Large Cap,Industri,Sjöfart & Rederi,DFDS,21,DFDDF,DFDS AS
+1017,Athena Investments,Danmark,Small Cap,Kraftförsörjning,Förnybarenergi,ATHENA,14,3343,Athena Investments A/S
+1018,Jeudan,Danmark,Large Cap,Finans & Fastighet,Fastighetsbolag,JDAN,14,3327,Jeudan A/S
+1019,Jutlander Bank,Danmark,Mid Cap,Finans & Fastighet,Banker,JUTBK,14,36732,Jutlander Bank A/S
+1020,NKT Holding,Danmark,Mid Cap,Industri,Elektroniska komponenter,NKT,14,3478,NKT A/S
+1021,NNIT,Danmark,Mid Cap,Informationsteknik,IT-Konsulter,NNIT,14,106330,NNIT A/S
+1022,Onxeo,Danmark,Small Cap,Hälsovård,Läkemedel,ONXEO,21,OXNXF,ONXEO
+1023,Per Aarsleff,Danmark,Mid Cap,Industri,Byggnation & Infrastruktur,PAAL B,14,3272,Per Aarsleff Holding A/S B
+1024,Ringkjobing Landbobank,Danmark,Large Cap,Finans & Fastighet,Banker,RILBA,14,3292,Ringkjøbing Landbobank A/S
+1025,SAS ddk,Danmark,Mid Cap,Industri,Flygtransport,SAS DKK,14,13584,SAS AB
+1026,Schouw & Co.,Danmark,Large Cap,Industri,Industrikomponenter,SCHO,14,3259,Schouw & Co. A/S
+1027,SimCorp,Danmark,Large Cap,Informationsteknik,Affärs- & IT-System,SIM,14,4806,SimCorp A/S
+1028,Solar,Danmark,Mid Cap,Industri,Affärskonsulter,SOLAR B,14,3431,Solar B A/S
+1029,Sparekassen Sjaelland,Danmark,Mid Cap,Finans & Fastighet,Banker,SPKSJF,14,115948,Sparekassen Sjælland-Fyn A/S
+1030,Tivoli,Danmark,Mid Cap,Sällanköpsvaror,Resor & Nöjen,TIV,14,3440,Tivoli A/S
+1031,Spar Nord Bank,Danmark,Large Cap,Finans & Fastighet,Banker,SPNO,14,3260,Spar Nord Bank A/S
+1032,United Int. Enterprises,Danmark,Mid Cap,Dagligvaror,Jordbruk,UIE,14,3441,United International Enterprises Ltd
+1033,Veloxis Pharmaceuticals,Danmark,Mid Cap,Hälsovård,Biotech,VELO,14,36992,Veloxis Pharmaceuticals A/S
+1034,Zealand Pharma,Danmark,Mid Cap,Hälsovård,Biotech,ZEAL,14,78587,Zealand Pharma A/S
+1035,Össur,Danmark,Large Cap,Hälsovård,Medicinsk Utrustning,OSSR,14,68620,Össur hf.
+1036,AaB,Danmark,Small Cap,Sällanköpsvaror,Fritid & Sport,AAB,14,3307,Aalborg Boldspilklub A/S
+1037,AGF B,Danmark,Small Cap,Sällanköpsvaror,Fritid & Sport,AGF B,14,3393,AGF A/S B
+1038,Admiral Capital,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,ADMCAP B,14,37107,Admiral Capital A/S B
+1039,Andersen & Martini,Danmark,Small Cap,Sällanköpsvaror,Bil & Motor,AM B,14,3396,Andersen & Martini B A/S
+1040,Arkil Holding,Danmark,Small Cap,Industri,Byggnation & Infrastruktur,ARKIL B,14,3332,Arkil Holding B A/S
+1041,Atlantic Petroleum ddk,Danmark,Small Cap,Energi,Olja & Gas - Exploatering,ATLA DKK,14,36661,Atlantic Petroleum P/F
+1042,BankNordik,Danmark,Mid Cap,Finans & Fastighet,Banker,BNORDIK CSE,14,40854,BankNordik P/F
+1043,BioPorto,Danmark,Small Cap,Hälsovård,Biotech,BIOPOR,14,3433,BioPorto A/S
+1044,Blue Vision,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,BLVIS A,14,21613,Blue Vision A/S A
+1045,Brd. Klee,Danmark,Small Cap,Industri,Industrikomponenter,KLEE B,14,3420,Brd. Klee B A/S
+1046,Brdr. A&O Johansen,Danmark,Small Cap,Industri,Installation & VVS,AOJ P,14,3419,Brdr. A & O Johansen præf. A/S
+1047,Brdr. Hartmann,Danmark,Mid Cap,Material,Förpackning,HART,14,3352,Brdr.Hartmann A/S
+1048,Brondby IF,Danmark,Small Cap,Sällanköpsvaror,Fritid & Sport,BIF,14,3399,Brøndbyernes IF Fodbold A/S
+1049,cBrain,Danmark,Small Cap,Informationsteknik,Affärs- & IT-System,CBRAIN,14,33039,cBrain A/S
+1050,ChemoMetec,Danmark,Small Cap,Hälsovård,Medicinsk Utrustning,CHEMM,14,37367,ChemoMetec A/S
+1051,Columbus,Danmark,Mid Cap,Informationsteknik,Affärs- & IT-System,COLUM,14,3248,Columbus A/S
+1052,Copenhagen Capital,Danmark,Small Cap,Finans & Fastighet,Fastighet - REIT,CPHCAP ST,14,43432,Copenhagen Capital A/S Stam
+1053,Danske Andelskassers,Danmark,Small Cap,Finans & Fastighet,Nischbanker,DAB,14,82609,Danske Andelskassers Bank A/S
+1054,Dantax,Danmark,Small Cap,Sällanköpsvaror,Hemelektronik,DANT,14,3412,Dantax A/S
+1055,Djurslands Bank,Danmark,Small Cap,Finans & Fastighet,Banker,DJUR,14,3186,Djurslands Bank A/S
+1056,DLH,Danmark,Small Cap,Industri,Byggmaterial,DLH,14,3414,DLH A/S
+1057,Egetaepper,Danmark,Small Cap,Sällanköpsvaror,Möbler & Inredning,EGE B,14,3348,Egetæpper B A/S
+1058,Erria,Danmark,First North,Industri,Sjöfart & Rederi,ERRIA,14,49569,Erria A/S
+1059,Boliga Gruppen,Danmark,Small Cap,Industri,Mätning & Analys,BOLIGA,14,40699,Boliga Gruppen A/S
+1060,F.E. Bording,Danmark,Small Cap,Industri,Affärskonsulter,BORD B,14,3338,F.E. Bording B A/S
+1061,Fast Ejendom,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,FED,14,98410,Fast Ejendom Danmark A/S
+1062,Fynske Bank,Danmark,Small Cap,Finans & Fastighet,Banker,FYNBK,14,14651,Fynske Bank A/S
+1063,Gabriel Holding,Danmark,Small Cap,Sällanköpsvaror,Möbler & Inredning,GABR,14,3317,Gabriel Holding A/S
+1064,German High Street,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,GERHSP,14,42233,German High Street Properties A/S
+1065,Glunz & Jensen,Danmark,Small Cap,Industri,Industrimaskiner,GJ,14,3318,Glunz & Jensen Holding A/S
+1066,Grönlandsbanken,Danmark,Small Cap,Finans & Fastighet,Banker,GRLA,14,3210,Grønlandsbanken A/S
+1067,Gyldendal B,Danmark,Small Cap,Sällanköpsvaror,Media & Publicering,GYLD B,14,3283,Gyldendal B A/S
+1068,HH International,Danmark,Mid Cap,Industri,Byggmaterial,HH,14,3284,H+H International A/S
+1069,Harboes Bryggeri,Danmark,Small Cap,Dagligvaror,Bryggeri,HARB B,14,3351,Harboes Bryggeri B A/S
+1070,Hvidbjerg Bank,Danmark,Small Cap,Finans & Fastighet,Banker,HVID,14,3212,Hvidbjerg Bank A/S
+1071,Hojgaard B,Danmark,Small Cap,Industri,Byggnation & Infrastruktur,HOEJ B,14,3360,Højgaard Holding B A/S
+1072,InterMail,Danmark,Small Cap,Material,Förpackning,IMAIL,14,3473,InterMail A/S
+1073,Kreditbanken,Danmark,Small Cap,Finans & Fastighet,Banker,KRE,14,3389,Kreditbanken A/S
+1074,Lollands Bank,Danmark,Small Cap,Finans & Fastighet,Banker,LOLB,14,3489,Lollands Bank A/S
+1075,Luxor,Danmark,Small Cap,Finans & Fastighet,Investmentbolag,LUXOR B,14,3446,Luxor B A/S
+1076,Lån og Spar Bank,Danmark,Mid Cap,Finans & Fastighet,Nischbanker,LASP,14,3490,Lån og Spar Bank A/S
+1077,Migatronic,Danmark,Small Cap,Industri,Industrimaskiner,MIGA B,14,3477,Migatronic B A/S
+1078,Monberg & Thorsen,Danmark,Small Cap,Industri,Byggnation & Infrastruktur,MT B,14,3479,Monberg. & Thorsen B A/S
+1079,Mons Bank,Danmark,Small Cap,Finans & Fastighet,Banker,MNBA,14,3251,Møns Bank A/S
+1080,NeuroSearch,Danmark,Small Cap,Hälsovård,Biotech,NEUR,14,3476,NeuroSearch A/S
+1081,NewCap Holding,Danmark,Small Cap,Finans & Fastighet,Kapitalförvaltning,NEWCAP,14,3326,Newcap Holding A/S
+1082,Nordfyns Bank,Danmark,Small Cap,Finans & Fastighet,Banker,NRDF,14,3265,Nordfyns Bank A/S
+1083,Nordic Shipholding,Danmark,Small Cap,Energi,Olja & Gas - Transport,NORDIC,11,123243,Nordic Waterproofing Holding A/S
+1084,Park Street Nordicom,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,PSNRDC A,14,3261,Park Street Nordicom A/S A
+1085,North Media,Danmark,Small Cap,Sällanköpsvaror,Media & Publicering,NORTHM,14,3428,North Media A/S
+1086,NTR Holding,Danmark,Small Cap,Industri,Elektroniska komponenter,NTR B,14,3480,NTR Holding B A/S
+1087,PARKEN Sport,Danmark,Small Cap,Sällanköpsvaror,Fritid & Sport,PARKEN,14,3422,PARKEN Sport & Entertainment A/S
+1088,Prime Office,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,PRIMOF,14,55880,Prime Office A/S
+1089,Rias,Danmark,Small Cap,Material,Kemikalier,RIAS B,14,3434,Rias B A/S
+1090,RTX,Danmark,Mid Cap,Informationsteknik,Kommunikation,RTX,14,5090,RTX A/S
+1091,Salling Bank,Danmark,Small Cap,Finans & Fastighet,Banker,SALB,14,3300,Salling Bank A/S
+1092,Sanistål,Danmark,Small Cap,Industri,Installation & VVS,SANI,14,3435,Sanistål A/S
+1093,Santa Fe Group,Danmark,Small Cap,Industri,Affärskonsulter,SFG,14,3305,Santa Fe Group A/S
+1094,Scandinavian Brake,Danmark,Small Cap,Industri,Industrikomponenter,SBS,21,SBSOF,SBS HOLDINGS INC NPV
+1095,Scandinavian Private,Danmark,Small Cap,Finans & Fastighet,Investmentbolag,SPEAS,14,38146,Scandinavian Private Equity
+1096,Silkeborg IF,Danmark,Small Cap,Sällanköpsvaror,Fritid & Sport,SIF,14,3285,Silkeborg IF Invest A/S
+1097,SKAKO,Danmark,Small Cap,Industri,Industrimaskiner,SKAKO,14,3254,SKAKO A/S
+1098,Skjern Bank,Danmark,Small Cap,Finans & Fastighet,Banker,SKJE,14,3301,Skjern Bank A/S
+1099,Small Cap Danmark,Danmark,Small Cap,Finans & Fastighet,Investmentbolag,SCD,14,3378,Small Cap Danmark A/S
+1100,SP Group,Danmark,Mid Cap,Material,Kemikalier,SPG,14,3358,SP Group A/S
+1101,Rovsing,Danmark,Small Cap,Informationsteknik,Rymd- & Satellitteknik,ROV,14,36995,Rovsing A/S
+1102,Strategic Investments,Danmark,Small Cap,Finans & Fastighet,Investmentbolag,STRINV,14,12275,Strategic Investments A/S
+1103,TK Development,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,TKDV,14,3484,TK Development A/S
+1104,Cemat,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,CEMAT,14,3485,Cemat A/S
+1105,TORM,Danmark,Mid Cap,Energi,Olja & Gas - Transport,TRMD A,14,120191,TORM plc A
+1106,Totalbanken,Danmark,Small Cap,Finans & Fastighet,Banker,TOTA,14,3370,Totalbanken A/S
+1107,Vestjysk Bank,Danmark,Mid Cap,Finans & Fastighet,Banker,VJBA,14,3271,Vestjysk Bank A/S
+1108,Victoria Properties,Danmark,Small Cap,Finans & Fastighet,Fastighetsbolag,VIPRO,14,3486,Victoria Properties A/S
+1109,EgnsINVEST,Danmark,First North,Finans & Fastighet,Fastighetsbolag,EGNETY,14,54490,"EgnsINVEST Ejd., Tyskland A/S"
+1110,Enalyzer,Danmark,First North,Informationsteknik,Affärs- & IT-System,ENALYZ,14,38351,Enalyzer A/S
+1111,FastPassCorp,Danmark,First North,Informationsteknik,Säkerhet & Bevakning,FASTPC,14,43080,FastPassCorp A/S
+1112,Jobindex,Danmark,First North,Industri,Bemanning,JOBNDX,14,41392,Jobindex A/S
+1113,WIRTEK,Danmark,First North,Informationsteknik,Affärs- & IT-System,WIRTEK,14,34955,WirTek A/S
+1114,Tokmanni Group,Finland,Mid Cap,Sällanköpsvaror,Detaljhandel,TOKMAN,24,121161,Tokmanni Group Oyj
+1115,Lehto Group,Finland,Mid Cap,Industri,Bostadsbyggnation,LEHTO,24,121152,Lehto Group Oyj
+1116,Qt Group,Finland,Small Cap,Informationsteknik,Affärs- & IT-System,QTCOM,24,121457,Qt Group Oyj
+1117,Real Holding,Sverige,NGM,Finans & Fastighet,Fastighetsbolag,REAL MTF B,13,365Y,Real Holding i Sverige B
+1118,Talkpool,Sverige,First North,Telekommunikation,Telekomtjänster,TALK,21,TLKTF,TALK TALK TELECOM
+1119,Lauritz,Sverige,First North,Informationsteknik,Internettjänster,LAUR,11,123678,Lauritz.com Group A/S
+1120,Provide IT,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,PROVIT,52,4143,Provide IT
+1121,Swedencare,Sverige,First North,Hälsovård,Medicinsk Utrustning,SECARE,11,123400,Swedencare AB
+1122,B3 Consulting,Sverige,Small Cap,Informationsteknik,IT-Konsulter,B3,11,123339,B3 Consulting Group AB
+1123,Bosjö Fastigheter,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,BOSJO,52,4146,Bosjö Fastigheter
+1124,Clean Motion,Sverige,First North,Sällanköpsvaror,Bil & Motor,CLEMO,11,122709,Clean Motion AB
+1125,FrontOffice Nordic,Sverige,NGM,Finans & Fastighet,Investmentbolag,FRNT MTF B,13,37HJ,FrontOffice Nordic B
+1126,SynAct Pharma,Sverige,Spotlight,Hälsovård,Biotech,SYNACT,52,4144,SynAct
+1127,Alelion Energy,Sverige,First North,Industri,Industrikomponenter,ALELIO,11,123692,Alelion Energy Systems AB
+1128,BrandBee,Sverige,Spotlight,Informationsteknik,Internettjänster,BRANDB,52,4145,BrandBee
+1129,TF Bank,Sverige,Mid Cap,Finans & Fastighet,Kredit & Finansiering,TFBANK,11,123340,TF Bank AB
+1130,Nordic Waterproofing,Sverige,Mid Cap,Industri,Byggmaterial,NWG,11,123243,Nordic Waterproofing Holding A/S
+1131,AcadeMedia,Sverige,Mid Cap,Industri,Utbildning,ACAD,11,123363,AcadeMedia AB
+1132,Orsted,Danmark,Large Cap,Kraftförsörjning,Vindkraft,ORSTED,21,DOGEF,ORSTED A/S
+1133,Bonava B,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,BONAV B,11,122975,Bonava AB ser. B
+1134,PiezoMotor,Sverige,First North,Industri,Elektroniska komponenter,PIEZO,11,123299,PiezoMotor Uppsala AB
+1135,Cyxone,Sverige,First North,Hälsovård,Biotech,CYXO,11,123240,Cyxone AB
+1136,Oscar Properties Pref B,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,OP PREFB,11,121882,Oscar Properties Holding AB PREFB
+1137,Loudspring,Sverige,First North,Finans & Fastighet,Investmentbolag,LOUDS,11,120778,Loudspring Plc
+1138,Enorama Pharma,Sverige,First North,Hälsovård,Läkemedel,ERMA,11,123302,Enorama Pharma AB
+1139,Pantaluren,Sverige,NGM,Sällanköpsvaror,Hemelektronik,PANT MTF,13,37TH,Pantaluren Group
+1140,The Marketing Group,Sverige,First North,Sällanköpsvaror,Marknadsföring,TMG,11,122959,The Marketing Group plc
+1141,GomSpace,Sverige,First North,Informationsteknik,Rymd- & Satellitteknik,GOMX,11,123579,GomSpace Group AB
+1142,Redwood Pharma,Sverige,Spotlight,Hälsovård,Läkemedel,REDW,52,4142,Redwood Pharma
+1143,Shortcut Media,Sverige,Spotlight,Sällanköpsvaror,Marknadsföring,SMG,52,413Y,Shortcut Media
+1144,Absolicon,Sverige,Spotlight,Kraftförsörjning,Solkraft,ABSL,52,4141,Absolicon
+1145,Cereno Scientific,Sverige,Spotlight,Hälsovård,Läkemedel,CRNO B,52,4140,Cereno Scientific B
+1146,Privanet,Finland,First North,Finans & Fastighet,Kredit & Finansiering,PRIVA,24,122403,Privanet Group Oyj
+1147,Pareto Bank,Norge,OB Match,Finans & Fastighet,Nischbanker,PARB,15,1302433,Pareto Bank
+1148,Treasure,Norge,OB Match,Finans & Fastighet,Kapitalförvaltning,TRE,15,1302445,Treasure
+1149,Norwegian Finans,Norge,OB Match,Finans & Fastighet,Nischbanker,NOFI,15,1302477,Norwegian Finans Holding
+1150,Avidly,Finland,First North,Sällanköpsvaror,Marknadsföring,AVIDLY,24,50486,Avidly Oyj
+1151,B2Holding,Norge,OB Match,Finans & Fastighet,Kredit & Finansiering,B2H,15,1302448,B2Holding
+1152,Aega,Norge,Oslo Axess,Kraftförsörjning,Solkraft,AEGA,15,1251504,Aega
+1153,Scandinavian Tobacco,Danmark,Large Cap,Dagligvaror,Tobak,STG,14,118442,Scandinavian Tobacco Group A/S
+1154,MaxFast Properties,Sverige,First North,Finans & Fastighet,Fastighetsbolag,MAXF,11,123717,MaxFastigheter i Sverige AB
+1155,Quartiers Properties Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,QUART PREF,11,139716,Quartiers Properties AB Pref
+1156,Gold Town Games,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,GTG MTF,13,3AJN,Gold Town Games
+1157,Targovax,Norge,OB Match,Hälsovård,Biotech,TRVX,15,1302524,Targovax
+1158,Uni-Light LED,Sverige,NGM,Industri,Elektroniska komponenter,ULED MTF,13,3B0P,Uni-light LED
+1159,Maha Energy,Sverige,First North,Energi,Olja & Gas - Service,MAHA A,11,124631,Maha Energy AB
+1160,ExpreS2ion Biotech,Sverige,First North,Hälsovård,Biotech,EXPRS2,11,125185,ExpreS2ion Biotech Holding AB
+1161,PEN Concept,Sverige,Spotlight,Industri,Bygginredning,PENCON,52,4147,Pen Concept
+1162,Flowscape,Sverige,Spotlight,Informationsteknik,Säkerhet & Bevakning,FLOWS,52,412E,Flowscape
+1163,Alcadon Group,Sverige,First North,Industri,Elektroniska komponenter,ALCA,11,126683,Alcadon Group AB
+1164,Engelska Skolan,Sverige,Mid Cap,Industri,Utbildning,ENG,11,126934,Internationella Engelska Skolan i Sve AB
+1165,Eyeonid,Sverige,NGM,Informationsteknik,Biometri,EOID MTF,13,3EBY,Eyeonid Group
+1166,Filo Mining,Sverige,First North,Material,Gruv - Prospekt & Drift,FIL,11,126319,Filo Mining Corp
+1167,Sustainable Energy,Sverige,NGM,Industri,Installation & VVS,SUST MTF,13,3BDR,Sustainable Energy Solutions Sweden Holding
+1168,Three Gates,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,GATE MTF,13,3E5E,Three Gates
+1169,WilLak,Sverige,NGM,Industri,Byggmaterial,WIL MTF,13,3ECD,WilLak
+1170,Cyber Security 1,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,CYB1,11,126905,Cyber Security 1 AB
+1171,Mälaråsen,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,MALAR,52,414A,Mälaråsen
+1172,Solnaberg,Sverige,First North,Finans & Fastighet,Fastighetsbolag,SOLNA,11,128129,Solnaberg Property AB
+1173,FRISQ,Sverige,First North,Informationsteknik,Affärs- & IT-System,FRISQ,11,127937,FRISQ Holding AB
+1174,Ahlsell,Sverige,Large Cap,Industri,Installation & VVS,AHSL,11,128388,Ahlsell AB
+1175,Vincit,Finland,First North,Informationsteknik,Affärs- & IT-System,VINCIT,24,127211,Vincit Oyj
+1176,Gasporox,Sverige,First North,Industri,Mätning & Analys,GPX,11,128307,Gasporox AB
+1177,Tobin Properties,Sverige,First North,Finans & Fastighet,Fastighetsbolag,TOBIN,11,128463,Tobin Properties AB
+1178,THQ Nordic,Sverige,First North,Sällanköpsvaror,Gaming & Spel,THQN B,11,128651,THQ Nordic AB ser. B
+1179,ZetaDisplay Pref,Sverige,First North,Sällanköpsvaror,Marknadsföring,ZETA PREF,11,128461,ZetaDisplay AB Pref
+1180,Cellink,Sverige,First North,Hälsovård,Medicinsk Utrustning,CLNK B,11,128490,CELLINK AB ser. B
+1181,Serneke,Sverige,Mid Cap,Industri,Byggnation & Infrastruktur,SRNKE B,11,129023,Serneke Group AB B
+1182,Volati,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,VOLO,11,129150,Volati AB
+1183,Byggpartner,Sverige,First North,Industri,Byggnation & Infrastruktur,BYGGP,11,129518,ByggPartner i Dalarna Holding AB
+1184,Edgeware,Sverige,Small Cap,Informationsteknik,Kommunikation,EDGE,11,129609,Edgeware AB
+1185,Arcus,Norge,OB Match,Dagligvaror,Bryggeri,ARCUS,15,1302776,Arcus
+1186,Crunchfish,Sverige,First North,Informationsteknik,Biometri,CFISH,11,128641,Crunchfish AB
+1187,Gapwaves,Sverige,First North,Informationsteknik,Kommunikation,GAPW B,11,128818,Gapwaves AB B
+1188,InDex Pharmaceuticals,Sverige,First North,Hälsovård,Läkemedel,INDEX,11,127479,InDex Pharmaceuticals Holding AB
+1189,Alligator Bioscience,Sverige,Mid Cap,Hälsovård,Biotech,ATORX,11,129022,Alligator Bioscience AB
+1190,Ripasso Energy,Sverige,NGM,Kraftförsörjning,Solkraft,RISE MTF,13,3HJN,Ripasso Energy
+1191,DNA,Finland,Large Cap,Telekommunikation,Bredband & Telefoni,DNA,24,129110,DNA Oyj
+1192,AdderaCare,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,ADDERA,11,129533,AdderaCare AB
+1193,ChemoTech,Sverige,First North,Hälsovård,Medicinsk Utrustning,CMOTEC B,11,129569,Scandinavian ChemoTech AB B
+1194,Smart Eye,Sverige,First North,Informationsteknik,Biometri,SEYE,11,128635,Smart Eye AB
+1195,Heeros,Finland,First North,Informationsteknik,IT-Konsulter,HEEROS,24,127231,Heeros Oyj
+1196,Finepart,Sverige,Spotlight,Industri,Industrimaskiner,FINE,52,414B,Finepart
+1197,Transiro,Sverige,NGM,Informationsteknik,Affärs- & IT-System,TIRO MTF,13,3J27,Transiro Int.
+1198,Nickel Mountain,Sverige,NGM,Material,Gruv - Prospekt & Drift,NICK MTF,13,3JDK,Nickel Mountain Resources
+1199,Aino Health,Sverige,First North,Industri,Stödtjänster & Service,AINO,11,130478,Aino Health AB
+1200,AppSpotr,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,APTR,52,414D,AppSpotr
+1201,Acarix,Sverige,First North,Hälsovård,Medicinsk Utrustning,ACARIX,11,130710,Acarix AB
+1202,ÅAC Microtec,Sverige,First North,Informationsteknik,Rymd- & Satellitteknik,AAC,11,130711,ÅAC Microtec AB
+1203,SeaTwirl,Sverige,First North,Kraftförsörjning,Vindkraft,STW,11,130457,SeaTwirl AB
+1204,Svenska Aerogel,Sverige,First North,Material,Kemikalier,AERO,11,130818,Svenska Aerogel Holding AB
+1205,Curando Nordic,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,CUR,11,131080,Curando Nordic AB
+1206,AcouSort,Sverige,Spotlight,Hälsovård,Biotech,ACOU,52,414C,AcouSort
+1207,MultiDocker,Sverige,NGM,Industri,Industrimaskiner,MULT MTF,13,3K33,MultiDocker Cargo Handling
+1208,Effnetplattformen Dividend,Sverige,First North,Informationsteknik,Kommunikation,EFFP,11,131602,Effnetplattformen AB
+1209,Spiltan,Sverige,Pepins Market,Finans & Fastighet,Investmentbolag,SPILTAN,11,402,ASSA ABLOY AB ser. B
+1210,Oncopeptides,Sverige,Mid Cap,Hälsovård,Biotech,ONCO,11,133615,Oncopeptides AB
+1211,Hemcheck Sweden,Sverige,First North,Hälsovård,Medicinsk Utrustning,HEMC,11,135098,Hemcheck Sweden AB
+1212,Hoylu,Sverige,First North,Informationsteknik,Affärs- & IT-System,HOYLU,11,133092,Hoylu AB
+1213,IRLAB Therapeutics,Sverige,First North,Hälsovård,Läkemedel,IRLAB A,11,132776,IRLAB Therapeutics AB ser. A
+1214,Aerowash,Sverige,Spotlight,Industri,Stödtjänster & Service,AERW B,52,414J,Aerowash B
+1215,Initiator Pharma,Sverige,Spotlight,Hälsovård,Biotech,INIT,4,IXX,INIT INNOVATION O.N.
+1216,MenuCard,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,MENU B,52,4148,MenuCard B
+1217,Chordate Medical,Sverige,NGM,Hälsovård,Medicinsk Utrustning,CMH MTF,13,3MCM,Chordate Medical Holding
+1218,Samtrygg,Sverige,NGM,Sällanköpsvaror,Konsumentservice,SAMT MTF B,13,3N6P,Samtrygg Group B
+1219,SARSYS-ASFT,Sverige,NGM,Industri,Mätning & Analys,SARS MTF,13,3M8Q,SARSYS-ASFT
+1220,Spintso International,Sverige,NGM,Sällanköpsvaror,Fritid & Sport,SPIN MTF,13,3M8R,Spintso International
+1221,Svenska Bostadsfonden 14A,Sverige,NGM,Finans & Fastighet,Fastighet - REIT,SB14 A,52,410P,Everysport A
+1222,Ambea,Sverige,Mid Cap,Hälsovård,Sjukhus & Vårdhem,AMBEA,11,135504,Ambea AB
+1223,Acosense,Sverige,Spotlight,Industri,Mätning & Analys,ACOS,52,414F,Acosense
+1224,Mips,Sverige,Mid Cap,Sällanköpsvaror,Fritid & Sport,MIPS,11,135088,Mips AB
+1225,ChromoGenics,Sverige,First North,Industri,Byggmaterial,CHRO,11,135174,ChromoGenics AB
+1226,Xavitech,Sverige,NGM,Industri,Elektroniska komponenter,XAVI MTF B,13,3NT2,Xavitech B
+1227,Prolight Diagnostics,Sverige,NGM,Hälsovård,Biotech,PRLD MTF,13,3NT5,Prolight Diagnostics
+1228,FM Mattsson,Sverige,Small Cap,Industri,Installation & VVS,FMM B,11,136221,"FM Mattsson Mora Group AB, ser. B"
+1229,Actic Group,Sverige,Small Cap,Sällanköpsvaror,Resor & Nöjen,ATIC,11,135947,Actic Group AB
+1230,SSM Holding,Sverige,Small Cap,Finans & Fastighet,Fastighetsbolag,SSM,11,135659,SSM Holding AB
+1231,Next Games,Finland,First North,Sällanköpsvaror,Gaming & Spel,NXTGMS,24,135089,Next Games Oyj
+1232,Biovica,Sverige,First North,Hälsovård,Biotech,BIOVIC B,11,135531,Biovica International AB ser. B
+1233,Camanio Care,Sverige,Spotlight,Hälsovård,Hälsovård & Hjälpmedel,CARE,52,414H,Camanio Care
+1234,Unibap,Sverige,First North,Informationsteknik,Affärs- & IT-System,UNIBAP,11,135385,Unibap AB
+1235,EatGood,Sverige,Spotlight,Industri,Industrimaskiner,EATG,52,414G,EatGood
+1236,Sonetel,Sverige,First North,Informationsteknik,Kommunikation,SONE,11,136229,Sonetel AB
+1237,Isofol Medical,Sverige,First North,Hälsovård,Läkemedel,ISOFOL,11,135681,Isofol Medical AB
+1238,Tangiamo Touch,Sverige,First North,Informationsteknik,Datorer & Hårdvara,TANGI,11,135872,Tangiamo Touch Technology AB
+1239,Intervacc,Sverige,First North,Hälsovård,Biotech,IVACC,11,135675,Intervacc AB
+1240,Instalco,Sverige,Mid Cap,Industri,Installation & VVS,INSTAL,11,137177,Instalco Intressenter AB
+1241,Sdiptech,Sverige,First North,Industri,Installation & VVS,SDIP B,11,137416,Sdiptech AB ser. B
+1242,Munters,Sverige,Large Cap,Industri,Installation & VVS,MTRS,11,137814,Munters Group AB
+1243,CloudRepublic,Sverige,NGM,Informationsteknik,IT-Konsulter,CLDR MTF B,13,3RLL,CloudRepublic B
+1244,SECITS Holding,Sverige,First North,Informationsteknik,Säkerhet & Bevakning,SECI,11,137562,SECITS Holding AB
+1245,Rentunder,Sverige,NGM,Industri,Industrimaskiner,RENT MTF,13,3R03,Rentunder Holding
+1246,International Petroleum,Sverige,Mid Cap,Energi,Olja & Gas - Exploatering,IPCO,11,136295,International Petroleum Corporation
+1247,Matra Petroleum,Sverige,First North,Energi,Olja & Gas - Exploatering,MATRA,11,136267,Matra Petroleum AB
+1248,Mantex,Sverige,First North,Industri,Mätning & Analys,MANTEX,11,136007,Mantex AB
+1249,Annexin,Sverige,First North,Hälsovård,Biotech,ANNX,11,136293,Annexin Pharmaceuticals AB
+1250,Logistea,Sverige,First North,Finans & Fastighet,Fastighetsbolag,LOG,11,137145,Logistea AB
+1251,Bråviken Logistik,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,BRALOG,52,414U,Bråviken
+1252,Bambuser,Sverige,First North,Informationsteknik,Internettjänster,BUSER,11,136907,Bambuser AB
+1253,AcuCort,Sverige,Spotlight,Hälsovård,Läkemedel,ACUC,52,414M,AcuCort
+1254,XMReality,Sverige,First North,Informationsteknik,Affärs- & IT-System,XMR,11,136337,XMReality AB
+1255,Compare-IT,Sverige,Spotlight,Informationsteknik,Säkerhet & Bevakning,COMPIT,52,414L,Compare-IT
+1256,Karlbergsvägen 77 Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,KV77 PREF,11,135680,Karlbergsvägen 77 Fastighets AB Pref
+1257,Integrum,Sverige,First North,Hälsovård,Medicinsk Utrustning,INTEG B,11,137572,Integrum AB ser. B
+1258,ISR Holding,Sverige,First North,Hälsovård,Biotech,ISR,11,135384,ISR Immune System Regulation Holding AB
+1259,Bioservo Technologies,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,BIOS,11,138312,Bioservo Technologies AB
+1260,MobiPlus,Sverige,Spotlight,Telekommunikation,Telekomtjänster,MPLUS,52,414N,MobiPlus
+1261,Medicover,Sverige,Mid Cap,Hälsovård,Sjukhus & Vårdhem,MCOV B,11,138158,Medicover AB ser. B
+1262,Abelco Investment,Sverige,NGM,Finans & Fastighet,Investmentbolag,ABIG MTF,13,3SJQ,Abelco Investment Group
+1263,TerraNet,Sverige,First North,Telekommunikation,Telekomtjänster,TERRNT B,11,138523,TerraNet Holding AB ser. B
+1264,Boozt,Sverige,Mid Cap,Sällanköpsvaror,Kläder & Skor,BOOZT,11,138479,Boozt AB
+1265,Net Trading Group,Sverige,NGM,Dagligvaror,Livsmedel,NTGR MTF,13,3T0L,Net Trading Group NTG
+1266,Zaplox,Sverige,First North,Informationsteknik,Affärs- & IT-System,ZAPLOX,11,139106,Zaplox AB
+1267,TCECUR,Sverige,First North,Informationsteknik,Biometri,TCC,11,139136,TCECUR Sweden AB
+1268,Ayima,Sverige,First North,Sällanköpsvaror,Marknadsföring,AYIMA B,11,159313,Ayima Group AB ser. B
+1269,Nexar Group,Sverige,NGM,Sällanköpsvaror,Media & Publicering,NXAR MTF,13,3S5C,Nexar Group
+1270,Paxman,Sverige,First North,Hälsovård,Medicinsk Utrustning,PAX,11,139105,Paxman AB
+1271,Essity B,Sverige,Large Cap,Dagligvaror,Hygienprodukter,ESSITY B,11,139301,Essity AB ser. B
+1272,Enersize,Sverige,First North,Informationsteknik,Affärs- & IT-System,ENERS,11,139583,Enersize Oyj
+1273,Preservia Pref,Sverige,NGM,Finans & Fastighet,Fastighetsbolag,PHYR MTF PREF,13,3T2T,Preservia Hyresfastigheter PREF
+1274,Aspire Global,Sverige,First North,Sällanköpsvaror,Betting & Casino,ASPIRE,11,140260,Aspire Global plc
+1275,Bonesupport,Sverige,Small Cap,Hälsovård,Biotech,BONEX,11,139748,BONESUPPORT HOLDING AB
+1276,Cimco Marine,Sverige,First North,Sällanköpsvaror,Bil & Motor,CIMCO,11,140144,Cimco Marine AB
+1277,iApotek,Sverige,Spotlight,Dagligvaror,Apotek,IAPO,52,414T,iApotek
+1278,Momentum Group,Sverige,Mid Cap,Industri,Industrikomponenter,MMGR B,11,139749,Momentum Group AB ser. B
+1279,Peckas Naturodlingar,Sverige,NGM,Dagligvaror,Jordbruk,PEKA MTF B,13,3TX3,Peckas Naturodlingar B
+1280,Nitro Games,Sverige,First North,Sällanköpsvaror,Gaming & Spel,NITRO,11,139711,Nitro Games Oyj
+1281,Urb-it,Sverige,First North,Sällanköpsvaror,Konsumentservice,URBIT,11,140232,Urb-it AB
+1282,OmniCar,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,OMNI,52,414V,OmniCar
+1283,Netmore,Sverige,First North,Telekommunikation,Telekomtjänster,NETM B,11,140998,Netmore Group AB ser. B
+1284,NextCell Pharma,Sverige,Spotlight,Hälsovård,Biotech,NXTCL,52,414S,NextCell
+1285,Panion Animal Health,Sverige,Spotlight,Hälsovård,Biotech,PANION,52,414X,Panion
+1286,Promore Pharma,Sverige,First North,Hälsovård,Biotech,PROMO,11,140251,Promore Pharma AB
+1287,Realfiction,Sverige,First North,Sällanköpsvaror,Marknadsföring,REALFI,11,140782,Realfiction Holding AB
+1288,Sedana Medical,Sverige,First North,Hälsovård,Medicinsk Utrustning,SEDANA,11,139763,Sedana Medical AB
+1289,Sensec Holding,Sverige,NGM,Informationsteknik,Säkerhet & Bevakning,SECS MTF,13,3TU9,Sensec Holding
+1290,Surgical Science,Sverige,First North,Hälsovård,Medicinsk Utrustning,SUS,11,139699,Surgical Science Sweden AB
+1291,Trianon,Sverige,First North,Finans & Fastighet,Fastighetsbolag,TRIAN B,11,139762,Fastighets AB Trianon ser. B
+1292,News55,Sverige,NGM,Sällanköpsvaror,Media & Publicering,N55 MTF,13,3UU7,News55
+1293,Seamless Distribution Systems,Sverige,First North,Informationsteknik,Betalning & E-handel,SDS,11,139775,Seamless Distribution Systems AB
+1294,Rovio,Finland,Mid Cap,Sällanköpsvaror,Gaming & Spel,ROVIO,21,ROVVF,ROVIO ENTERTAINMEN
+1295,Infront,Norge,OB Standard,Industri,Mätning & Analys,INFRNT,15,1303390,Infront
+1296,Balco Group,Sverige,Small Cap,Industri,Byggmaterial,BALCO,11,144569,Balco Group AB
+1297,Enrad,Sverige,Spotlight,Industri,Installation & VVS,ENRAD,52,414R,Enrad
+1298,Quartiers Properties,Sverige,First North,Finans & Fastighet,Fastighetsbolag,QUART,11,139717,Quartiers Properties AB
+1299,Obducat Pref,Sverige,NGM,Informationsteknik,Elektronik & Tillverkning,OBDU PREF B,13,3KNF,Obducat PREF B
+1300,Inhalation Sciences,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,ISAB,52,414Y,Inhalation Sciences
+1301,SenzaGen,Sverige,First North,Hälsovård,Biotech,SENZA,11,144080,SenzaGen AB
+1302,Xspray Pharma,Sverige,First North,Hälsovård,Biotech,XSPRAY,11,144229,Xspray Pharma AB
+1303,Silmäasema,Finland,Small Cap,Sällanköpsvaror,Accessoarer,SILMA,24,138379,Silmäasema Oyj
+1304,Fondia,Finland,First North,Industri,Affärskonsulter,FONDIA,24,135505,Fondia Oyj
+1305,Kamux,Finland,Mid Cap,Sällanköpsvaror,Bil & Motor,KAMUX,24,136667,Kamux Corporation
+1306,Remedy Entertainment,Finland,First North,Sällanköpsvaror,Gaming & Spel,REMEDY,24,137987,Remedy Entertainment Oyj
+1307,GreenMobility,Danmark,First North,Sällanköpsvaror,Konsumentservice,GREENM,14,138514,GreenMobility A/S
+1308,Conferize,Danmark,First North,Informationsteknik,Internettjänster,CONFRZ,14,138515,Conferize A/S
+1309,Borr Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,BDRILL,15,1303306,Borr Drilling
+1310,BerGenBio,Norge,OB Match,Hälsovård,Biotech,BGBIO,15,1303054,BerGenBio
+1311,EVRY,Norge,OB Match,Informationsteknik,Affärs- & IT-System,EVRY,15,1303207,EVRY
+1312,Fjord1,Norge,OB Match,Industri,Sjöfart & Rederi,FJORD,15,1303125,Fjord1
+1313,Songa Bulk,Norge,Oslo Axess,Industri,Sjöfart & Rederi,SBULK,15,1302814,Songa Bulk
+1314,BioArctic,Sverige,Mid Cap,Hälsovård,Biotech,BIOA B,11,144602,BioArctic AB ser. B
+1315,Fram Skandinavien,Sverige,First North,Informationsteknik,Affärs- & IT-System,FRAM B,11,144741,Fram Skandinavien AB ser. B
+1316,Handicare,Sverige,Mid Cap,Hälsovård,Hälsovård & Hjälpmedel,HANDI,11,144603,Handicare Group AB
+1317,Nilfisk,Danmark,Large Cap,Industri,Industrimaskiner,NLFSK,14,144340,Nilfisk Holding A/S
+1318,Climeon,Sverige,First North,Industri,Energi & Återvinning,CLIME B,11,144743,Climeon AB ser. B
+1319,Qiiwi Interactive,Sverige,Spotlight,Sällanköpsvaror,Gaming & Spel,QIIWI,52,4150,Qiiwi Interactive
+1320,Global Gaming 555,Sverige,First North,Sällanköpsvaror,Betting & Casino,GLOBAL,11,145174,Global Gaming 555 AB
+1321,Samhällsbyggnads Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,SBB PREF,11,144694,Samhällsbyggnadsbolaget i Norden AB Pref
+1322,Ferronordic Machines,Sverige,Mid Cap,Industri,Industrikomponenter,FNM,11,145193,Ferronordic Machines AB
+1323,Bublar,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,BUBL MTF,13,425F,Bublar Group
+1324,Touchtech,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System, TOUCH,11,135872,Tangiamo Touch Technology AB
+1325,Indentive,Sverige,First North,Informationsteknik,Affärs- & IT-System,INDEN B,11,145803,Indentive AB ser. B
+1326,2cureX,Sverige,First North,Hälsovård,Medicinsk Utrustning,2CUREX,11,146225,2cureX AB
+1327,Time People Group,Sverige,NGM,Informationsteknik,IT-Konsulter,TPGR MTF,13,43CP,Time People Group
+1328,Seafire,Sverige,NGM,Finans & Fastighet,Investmentbolag,SEA MTF,52,410B,Safe at Sea
+1329,BIBBIntrument,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,BIBB,52,41FC,BiBBInstruments
+1330,Flexqube,Sverige,First North,Industri,Industrikomponenter,FLEXQ,11,147105,FlexQube AB
+1331,Awardit,Sverige,First North,Sällanköpsvaror,Marknadsföring,AWRD,11,146773,Awardit AB
+1332,Atvexa,Sverige,First North,Industri,Utbildning,ATVEXA B,11,147039,Atvexa AB ser. B
+1333,Komplett Bank,Norge,OB Match,Finans & Fastighet,Kredit & Finansiering,KOMP,15,1303481,Komplett Bank
+1334,ESEN eSports,Sverige,Spotlight,Sällanköpsvaror,Gaming & Spel,ESEN,52,41GV,ESEN eSports
+1335,IRRAS,Sverige,First North,Hälsovård,Medicinsk Utrustning,IRRAS,11,145951,IRRAS AB
+1336,Logistri,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,LOGIST,52,41FB,Logistri
+1337,Tre Kronor Property,Sverige,First North,Finans & Fastighet,Fastighetsbolag,3KR,11,145914,Tre Kronor Property Investment AB
+1338,Tempest Security,Sverige,First North,Industri,Säkerhet,TSEC,11,146774,Tempest Security AB
+1339,DevPort,Sverige,First North,Informationsteknik,IT-Konsulter,DEVP B,11,146592,DevPort AB ser. B
+1340,MAG Interactive,Sverige,First North,Sällanköpsvaror,Gaming & Spel,MAGI,11,146957,MAG Interactive AB
+1341,Terveystalo,Finland,Large Cap,Hälsovård,Hälsovård & Hjälpmedel,TTALO,24,144124,Terveystalo Plc
+1342,Efecte,Finland,First North,Informationsteknik,Affärs- & IT-System,EFECTE,24,146391,Efecte Plc
+1343,Gofore,Finland,First North,Informationsteknik,IT-Konsulter,GOFORE,24,145875,Gofore Plc
+1344,Titanium,Finland,First North,Finans & Fastighet,Kapitalförvaltning,TITAN,24,144071,Titanium Oyj
+1345,Scout Gaming,Sverige,First North,Sällanköpsvaror,Betting & Casino,SCOUT,11,147064,Scout Gaming Group AB
+1346,Acconeer,Sverige,First North,Industri,Mätning & Analys,ACCON,11,147041,Acconeer AB
+1347,Lyko,Sverige,First North,Dagligvaror,Hygienprodukter,LYKO A,11,147038,Lyko Group AB ser. A
+1348,Arjo,Sverige,Large Cap,Hälsovård,Hälsovård & Hjälpmedel,ARJO B,11,146954,Arjo AB ser. B
+1349,Colabitoil,Sverige,Spotlight,Kraftförsörjning,Bioenergi,COLAB,52,43NY,Colabitoil
+1350,Toadman,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,TOAD MTF,13,43PP,Toadman Interactive
+1351,Bio-Works,Sverige,First North,Hälsovård,Läkemedel,BIOWKS,11,147040,Bio-Works Technologies AB
+1352,TopRight Nordic,Sverige,NGM,Industri,Elektroniska komponenter,TOPR MTF,13,43QS,TopRight Nordic
+1353,24SevenOffice,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,247,52,4489,24SevenOffice
+1354,Crayon Group,Norge,OB Match,Informationsteknik,IT-Konsulter,CRAYON,15,1303474,Crayon Group Holding
+1355,Self Storage,Norge,OB Standard,Sällanköpsvaror,Konsumentservice,SSG,15,1303451,Self Storage Group
+1356,Webstep,Norge,OB Standard,Informationsteknik,IT-Konsulter,WSTEP,15,1303418,Webstep
+1357,Orphazyme,Danmark,Mid Cap,Hälsovård,Biotech,ORPHA,14,145804,Orphazyme A/S
+1358,TCM Group,Danmark,Small Cap,Sällanköpsvaror,Möbler & Inredning,TCM,14,145918,TCM Group A/S
+1359,Copenhagen Capital Praef,Danmark,Small Cap,Finans & Fastighet,Fastighet - REIT,CPHCAP PREF,14,140100,Copenhagen Capital A/S Præf
+1360,Cleantech Building,Danmark,First North,Industri,Byggmaterial,CBM,19,CBMB,CBM BANCORP INC
+1361,Gate Ventures,Danmark,First North,Sällanköpsvaror,Media & Publicering,GATE,14,129610,Gate Ventures Plc
+1362,Monobank,Norge,Merkur Market,Finans & Fastighet,Banker,MONO-ME,49,1302955,Monobank
+1363,Epic Gas,Norge,Merkur Market,Energi,Olja & Gas - Transport,EPIC-ME,49,1302805,Epic Gas
+1364,Gentian Diagnostics,Norge,Merkur Market,Hälsovård,Medicinsk Utrustning,GENT-ME,49,1302803,Gentian Diagnostics
+1365,Kolibri Kapital,Norge,Merkur Market,Finans & Fastighet,Kredit & Finansiering,KOLKAP-ME,49,1302830,Kolibri Kapital
+1366,Grong Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,GRONG-ME,49,1303172,Grong Sparebank
+1367,MPC Container Ships,Norge,OB Match,Industri,Sjöfart & Rederi,MPCC,15,1303147,MPC Container Ships
+1368,Northern Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,NODL,15,1303448,Northern Drilling
+1369,Lillestrom Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,LSTSB-ME,49,1303536,Lillestrøm Sparebank
+1370,Tysnes Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,TYSB-ME,49,1303561,Tysnes Sparebank
+1371,Baltic Sea Properties,Norge,Merkur Market,Finans & Fastighet,Fastighetsbolag,BALT-ME,49,1303501,Baltic Sea Properties
+1372,J.P. Kenny Petroleum,Norge,Merkur Market,Energi,Olja & Gas - Exploatering,JPK-ME,49,1303502,J.P. Kenny Petroleum
+1373,CGit,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,CGIT B,52,44KD,CGit B
+1374,H&D Wireless,Sverige,First North,Informationsteknik,Kommunikation,HDW B,11,147691,H&D Wireless Sweden Holding AB ser. B
+1375,ObsteCare,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,OBST,52,44H7,ObsteCare
+1376,Orgo Tech,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,ORGO,52,44FD,Orgo Tech
+1377,ADDvise Group B,Sverige,First North,Hälsovård,Hälsovård & Hjälpmedel,ADDV B,11,113184,ADDvise Group AB B
+1378,Arbona A,Sverige,NGM,Finans & Fastighet,Investmentbolag,ARBO MTF A,13,2M7N,Arbona A
+1379,Atlas Copco B,Sverige,Large Cap,Industri,Industrimaskiner,ATCO B,11,46,Atlas Copco AB ser. B
+1380,Bonava A,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,BONAV A,11,122974,Bonava AB ser. A
+1381,Catella A,Sverige,Mid Cap,Finans & Fastighet,Kapitalförvaltning,CAT A,11,62547,Catella AB ser. A
+1382,Corem B,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,CORE B,11,147093,Corem Property Group AB ser. B
+1383,Electrolux A,Sverige,Large Cap,Sällanköpsvaror,Hemelektronik,ELUX A,11,80,"Electrolux, AB ser. A"
+1384,Ericsson A,Sverige,Large Cap,Informationsteknik,Kommunikation,ERIC A,11,100,"Ericsson, Telefonab. L M ser. A"
+1385,Essity A,Sverige,Large Cap,Dagligvaror,Hygienprodukter,ESSITY A,11,139300,Essity AB ser. A
+1386,Handelsbanken B,Sverige,Large Cap,Finans & Fastighet,Banker,SHB B,11,341,Svenska Handelsbanken ser. B
+1387,Holmen A,Sverige,Large Cap,Material,Skogsbolag,HOLM A,11,221,Holmen AB ser. A
+1388,Hufvudstaden C,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,HUFV C,11,821,Hufvudstaden AB ser. C
+1389,Husqvarna A,Sverige,Large Cap,Sällanköpsvaror,Hemelektronik,HUSQ A,11,34913,Husqvarna AB ser. A
+1390,Industrivärden A,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,INDU A,11,142,"Industrivärden, AB ser. A"
+1391,Investor A,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,INVE A,11,160,Investor AB ser. A
+1392,Kinnevik A,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,KINV A,11,998,Kinnevik AB ser. A
+1393,Klövern B,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,KLOV B,11,104594,Klövern AB Ser. B
+1394,Midsona A,Sverige,Mid Cap,Dagligvaror,Hälsoprodukter,MSON A,11,3921,Midsona AB ser. A
+1395,Midway A,Sverige,Small Cap,Finans & Fastighet,Investmentbolag,MIDW A,11,834,Midway Holding AB ser. A
+1396,MTG A,Sverige,Large Cap,Sällanköpsvaror,Media & Publicering,MTG A,11,3598,Modern Times Group MTG AB ser. A
+1397,NCC A,Sverige,Large Cap,Industri,Byggnation & Infrastruktur,NCC A,11,837,NCC AB ser. A
+1398,Ortivus A,Sverige,Small Cap,Hälsovård,Hälsovård & Hjälpmedel,ORTI A,11,1031,Ortivus AB ser. A
+1399,Ratos A,Sverige,Large Cap,Finans & Fastighet,Investmentbolag,RATO A,11,1044,Ratos AB ser. A
+1400,Sagax B,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,SAGA B,11,93169,Sagax AB B
+1401,Sagax D,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,SAGA D,11,128555,Sagax AB D
+1402,SCA A,Sverige,Large Cap,Material,Skogsbolag,SCA A,11,322,Svenska Cellulosa AB SCA ser. A
+1403,SEB C,Sverige,Large Cap,Finans & Fastighet,Banker,SEB C,11,282,Skandinaviska Enskilda Banken ser. C
+1404,SKF A,Sverige,Large Cap,Industri,Industrikomponenter,SKF A,11,284,"SKF, AB ser. A"
+1405,Slottsviken A,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,SLOTT A,52,40YJ,Slottsviken A
+1406,SSAB B,Sverige,Large Cap,Material,Gruv - Industrimetaller,SSAB B,11,301,SSAB AB ser. B
+1407,Starbreeze A,Sverige,Mid Cap,Sällanköpsvaror,Gaming & Spel,STAR A,11,110197,Starbreeze AB ser. A
+1408,Stora Enso A,Sverige,Large Cap,Material,Skogsbolag,STE A,11,2169,Stora Enso Oyj ser. A
+1409,Svolder A,Sverige,Mid Cap,Finans & Fastighet,Investmentbolag,SVOL A,11,936,Svolder AB ser. A
+1410,Sweco A,Sverige,Large Cap,Industri,Affärskonsulter,SWEC A,11,1061,SWECO AB ser. A
+1411,Tele2 A,Sverige,Large Cap,Telekommunikation,Bredband & Telefoni,TEL2 A,11,1026,Tele2 AB ser. A
+1412,Transferator B,Sverige,Spotlight,Finans & Fastighet,Investmentbolag,TRAN B,52,4103,Transferator B
+1413,Victoria Park B,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,VICP B,11,100963,Victoria Park AB ser. B
+1414,Volvo A,Sverige,Large Cap,Industri,Industrimaskiner,VOLV A,11,365,"Volvo, AB ser. A"
+1415,Ilkka-Yhtymä 1,Finland,Prelist,Sällanköpsvaror,Media & Publicering,ILK1S,24,24277,Ilkka-Yhtymä Oyj 1
+1416,Kesko A,Finland,Large Cap,Dagligvaror,Livsmedelsbutiker,KESKOA,24,24287,Kesko Corporation A
+1417,Metsä Board A,Finland,Large Cap,Material,Skogsbolag,METSA,24,24306,Metsä Board Oyj A
+1418,Oriola A,Finland,Mid Cap,Dagligvaror,Apotek,OKDAV,24,35365,Oriola Corporation A
+1419,Orion A,Finland,Large Cap,Hälsovård,Läkemedel,ORNAV,24,35362,Orion Corporation A
+1420,SSAB A Oyj,Finland,Large Cap,Material,Gruv - Industrimetaller,SSABAH,24,102049,SSAB AB ser. A
+1421,Stockmann A,Finland,Mid Cap,Sällanköpsvaror,Detaljhandel,STCAS,24,24362,Stockmann Plc A
+1422,Stora Enso A Oyj,Finland,Large Cap,Material,Skogsbolag,STEAV,24,24359,Stora Enso Oyj A
+1423,Ålandsbanken A,Finland,Mid Cap,Finans & Fastighet,Banker,ALBAV,24,24229,Bank of Åland Plc A
+1424,Odfjell A,Norge,OB Match,Industri,Sjöfart & Rederi,ODF,15,6269,Odfjell ser. A
+1425,Schibsted B,Norge,OB Match,Sällanköpsvaror,Media & Publicering,SCHB,15,1301905,Schibsted ser. B
+1426,Wilh. Wilhelmsen A,Norge,OB Match,Industri,Sjöfart & Rederi,WWI,15,6310,Wilh. Wilhelmsen Holding ser. A
+1427,A.P. Moller Maersk A,Danmark,Large Cap,Industri,Sjöfart & Rederi,MAERSK A,14,3200,A.P. Møller - Mærsk A A/S
+1428,Carlsberg A,Danmark,Large Cap,Dagligvaror,Bryggeri,CARL A,14,1595,Carlsberg A A/S
+1429,Gyldendal A,Danmark,Small Cap,Sällanköpsvaror,Media & Publicering,GYLD A,14,3281,Gyldendal A A/S
+1430,Hojgaard A,Danmark,Small Cap,Industri,Byggnation & Infrastruktur,HOEJ A,14,3359,Højgaard Holding A A/S
+1431,Rockwool A,Danmark,Large Cap,Industri,Byggmaterial,ROCK A,14,3454,Rockwool International A A/S
+1432,Infracom,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,INFRA,52,44S2,Infracom
+1433,NPinvestor.com,Danmark,First North,Industri,Mätning & Analys,NPINV,14,145941,NPinvestor.com A/S
+1434,Leading Edge Materials,Sverige,First North,Material,Kemikalier,LEMSE,11,147566,Leading Edge Materials Corp.
+1435,Västsvensk Logistik,Sverige,Spotlight,Finans & Fastighet,Fastighetsbolag,VASLOG,52,458V,Västsvensk Logistik
+1436,Veteranpoolen,Sverige,Spotlight,Industri,Bemanning,VPAB B,52,45YC,Veteranpoolen B
+1437,Dr Sannas,Sverige,NGM,Dagligvaror,Hälsoprodukter,SANNA MTF B,13,469X,Dr Sannas B
+1438,Salmones Camanchaca,Norge,OB Match,Dagligvaror,Fiskodling,SALMON,15,1250275,Norway Royal Salmon
+1439,GoldBlue,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,GOLDB MTF,13,47MN,GoldBlue
+1440,Liv ihop,Sverige,First North,Hälsovård,Sjukhus & Vårdhem,LIVI,11,150928,Liv ihop AB
+1441,OptiMobile,Sverige,Spotlight,Informationsteknik,Kommunikation,OPT,52,47YC,OptiMobile
+1442,Smoltek,Sverige,Spotlight,Informationsteknik,Elektronik & Tillverkning,SMOL,52,47P8,Smoltek
+1443,BBS-Bioactive Bone,Sverige,First North,Hälsovård,Medicinsk Utrustning,BONES,11,151313,BBS-Bioactive Bone Substitutes
+1444,BBS-Bioactive Bone FI,Finland,First North,Hälsovård,Medicinsk Utrustning,BONEH,24,150292,BBS-Bioactive Bone Substitutes
+1445,Admicom,Finland,First North,Informationsteknik,Affärs- & IT-System,ADMCM,24,148598,Admicom Oyj
+1446,HRC World,Danmark,First North,Sällanköpsvaror,Restaurang & Café,HRC,14,149967,HRC World Plc
+1447,Attana,Sverige,NGM,Hälsovård,Biotech,ATANA MTF,13,47UR,Attana
+1448,Cibus Nordic,Sverige,First North,Finans & Fastighet,Fastighetsbolag,CIBUS,11,152133,Cibus Nordic Real Estate AB
+1449,Bygghemma,Sverige,Mid Cap,Sällanköpsvaror,Detaljhandel,BHG,11,153223,Bygghemma Group First AB
+1450,Green Landscaping,Sverige,First North,Industri,Stödtjänster & Service,GREEN,11,153197,Green Landscaping Holding AB
+1451,Zutec,Sverige,First North,Informationsteknik,Affärs- & IT-System,ZUTEC,11,150927,Zutec Holding AB
+1452,Altia,Finland,Mid Cap,Dagligvaror,Bryggeri,ALTIA,24,151998,Altia Plc
+1453,Harvia,Finland,Small Cap,Sällanköpsvaror,Möbler & Inredning,HARVIA,24,152347,Harvia Plc
+1454,Elkem,Norge,OB Match,Material,Kemikalier,ELK,15,1303941,Elkem
+1455,Fjordkraft,Norge,OB Match,Kraftförsörjning,Elförsörjning,FKRAFT,15,1303929,Fjordkraft Holding
+1456,River iGaming,Norge,Merkur Market,Sällanköpsvaror,Betting & Casino,RIVER-ME,49,1303949,River iGaming
+1457,Sunndal Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,SUNSB-ME,49,1303910,Sunndal Sparebank
+1458,Agillic,Danmark,First North,Informationsteknik,Affärs- & IT-System,AGILC,14,151244,Agillic A/S
+1459,Bodyflight,Sverige,Spotlight,Sällanköpsvaror,Resor & Nöjen,BODY,52,4CJ1,Bodyflight
+1460,Iconovo,Sverige,First North,Hälsovård,Medicinsk Utrustning,ICO,11,153694,Iconovo AB
+1461,Fluicell,Sverige,First North,Hälsovård,Biotech,FLUI,11,153897,Fluicell AB
+1462,Infrea,Sverige,First North,Industri,Byggnation & Infrastruktur,INFREA,11,154032,Infrea AB
+1463,NP3 Pref,Sverige,Mid Cap,Finans & Fastighet,Fastighetsbolag,NP3 PREF,11,152346,NP3 Fastigheter AB Pref
+1464,Tectona Capital,Sverige,NGM,Finans & Fastighet,Fastighetsbolag,TCAB MTF B,13,4ABN,Tectona Capital B
+1465,Better Collective,Sverige,Mid Cap,Sällanköpsvaror,Betting & Casino,BETCO,11,156147,Better Collective A/S
+1466,NCAB Group,Sverige,Small Cap,Informationsteknik,Elektronik & Tillverkning,NCAB,11,155562,NCAB Group AB
+1467,I-Tech,Sverige,First North,Material,Kemikalier,ITECH,11,155401,I-Tech AB
+1468,Ovzon,Sverige,First North,Telekommunikation,Telekomtjänster,OVZON,11,155079,Ovzon AB
+1469,JonDeTech Sensors,Sverige,First North,Industri,Mätning & Analys,JDT,11,155232,JonDeTech Sensors AB
+1470,Africa Energy,Sverige,First North,Energi,Olja & Gas - Exploatering,AEC,11,154546,AFRICA ENERGY CORP.
+1471,Africa Resources,Sverige,NGM,Material,Gruv - Ädelstenar,AFRI MTF,13,4CM4,Africa Resources
+1472,Netcompany Group,Danmark,Large Cap,Informationsteknik,Affärs- & IT-System,NETC,14,154904,Netcompany Group A/S
+1473,Enersense,Finland,First North,Industri,Bemanning,ESENSE,24,153716,Enersense International Oyj
+1474,Happy Helper,Danmark,First North,Sällanköpsvaror,Konsumentservice,HAPPY,14,153212,Happy Helper A/S
+1475,Atlantic Sapphire,Norge,Merkur Market,Dagligvaror,Fiskodling,ASA-ME,49,1304025,Atlantic Sapphire
+1476,Golden Energy Offshore,Norge,Merkur Market,Energi,Olja & Gas - Transport,GEOS-ME,49,1303963,Golden Energy Offshore Services
+1477,SoftOx Solutions,Norge,Merkur Market,Hälsovård,Läkemedel,SOFTOX-ME,49,1304050,SoftOx Solutions
+1478,Surnadal Sparebank,Norge,Merkur Market,Finans & Fastighet,Banker,SUSB-ME,49,1303967,Surnadal Sparebank
+1479,TargetEveryOne No,Norge,Merkur Market,Sällanköpsvaror,Marknadsföring,TEONE-ME,11,110094,TargetEveryOne AB
+1480,Arion Banki,Sverige,Large Cap,Finans & Fastighet,Banker,ARION-SDB,11,156393,Arion Banki hf SDB
+1481,Epiroc A,Sverige,Large Cap,Industri,Industrimaskiner,EPI A,11,156424,Epiroc AB ser. A
+1482,Epiroc B,Sverige,Large Cap,Industri,Industrimaskiner,EPI B,11,156425,Epiroc AB ser. B
+1483,Flexion Mobile,Sverige,First North,Sällanköpsvaror,Gaming & Spel,FLEXM,11,156423,Flexion Mobile Plc
+1484,IA Industriarmatur,Sverige,Spotlight,Industri,Installation & VVS,IAG,52,4D9H,IA Industriarmatur
+1485,Kojamo,Finland,Large Cap,Finans & Fastighet,Fastighetsbolag,KOJAMO,24,155855,Kojamo Plc
+1486,Freetrailer,Danmark,Spotlight,Sällanköpsvaror,Bil & Motor,FREETR,67,4DK2,Freetrailer
+1487,Projektengagemang,Sverige,Small Cap,Industri,Affärskonsulter,PENG B,11,156567,Projektengagemang Sweden AB ser. B
+1488,Calliditas Therapeutics,Sverige,Mid Cap,Hälsovård,Läkemedel,CALTX,11,156881,Calliditas Therapeutics AB
+1489,Dicot,Sverige,Spotlight,Hälsovård,Läkemedel,DICOT,52,4DY9,Dicot
+1490,Midsummer,Sverige,First North,Kraftförsörjning,Solkraft,MIDS,11,156613,Midsummer AB
+1491,Raketech,Sverige,First North,Sällanköpsvaror,Betting & Casino,RAKE,11,156880,Raketech Group Holding plc
+1492,Ranplan,Sverige,First North,Informationsteknik,Kommunikation,RPLAN,11,156879,Ranplan Group AB
+1493,VMP,Finland,First North,Industri,Bemanning,VMP,24,156200,VMP Oyj
+1494,ViroGates,Danmark,First North,Hälsovård,Medicinsk Utrustning,VIRO,14,155530,ViroGates A/S
+1495,Lavo.tv,Norge,Merkur Market,Sällanköpsvaror,Media & Publicering,LAVO-ME,49,1304107,Lavo.tv
+1496,Shelf Drilling,Norge,OB Match,Energi,Olja & Gas - Borrning,SHLF,15,1304120,Shelf Drilling
+1497,Veoneer,Sverige,Large Cap,Sällanköpsvaror,Bil & Motor,VNE SDB,11,156882,Veoneer Inc. SDB
+1498,Calmark,Sverige,Spotlight,Hälsovård,Läkemedel,CALMA B,52,4F45,Calmark B
+1499,Odico,Danmark,First North,Industri,Industrimaskiner,ODICO,14,155529,Odico A/S
+1500,Lifecare,Norge,Merkur Market,Hälsovård,Medicinsk Utrustning,LIFE-ME,21,YUMSF,YUME NO MACHI SOUZ
+1501,Okeanis Eco Tankers,Norge,Merkur Market,Industri,Sjöfart & Rederi,OET-ME,49,1304141,Okeanis Eco Tankers
+1502,Star Bulk Carriers Corp,Norge,OB Match,Industri,Sjöfart & Rederi,SBLK R,15,1304148,Star Bulk Carriers
+1503,Alvestaglass,Sverige,Pepins Market,Dagligvaror,Livsmedel,ALVEGL,11,402,ASSA ABLOY AB ser. B
+1504,Risk Intelligence,Danmark,Spotlight,Industri,Sjöfart & Rederi,RISK,67,4HLP,Risk Intelligence
+1505,ADS Crude Carriers,Norge,Merkur Market,Industri,Sjöfart & Rederi,ADSC-ME,49,1304204,ADS Crude Carriers
+1506,BRAbank,Norge,Merkur Market,Finans & Fastighet,Banker,BRA-ME,49,1304211,BRAbank
+1507,Hypefactors,Danmark,First North,Informationsteknik,Affärs- & IT-System,HYPE,14,158208,Hypefactors A/S
+1508,Asarina Pharma,Sverige,First North,Hälsovård,Läkemedel,ASAP,11,160270,Asarina Pharma AB
+1509,Lumito,Sverige,NGM,Hälsovård,Medicinsk Utrustning,LUMITO MTF,13,4N0K,Lumito
+1510,Metacon,Sverige,NGM,Kraftförsörjning,Bioenergi,META MTF,13,4KGL,Metacon
+1511,Nordic Iron Ore,Sverige,First North,Material,Gruv - Prospekt & Drift,NIO,11,160324,Nordic Iron Ore AB
+1512,Ziccum,Sverige,Spotlight,Hälsovård,Läkemedel,ZICC,52,4NG9,Ziccum
+1513,Fellow Finance,Finland,First North,Finans & Fastighet,Kredit & Finansiering,FELLOW,24,160307,Fellow Finance Plc
+1514,Stenocare,Danmark,Spotlight,Hälsovård,Läkemedel,STENO,67,4NGD,STENOCARE
+1515,poLight,Norge,OB Standard,Informationsteknik,Biometri,PLT,15,1304302,poLight
+1516,Zordix,Sverige,NGM,Sällanköpsvaror,Gaming & Spel,ZORDIX MTF,13,4RGH,Zordix B
+1517,Comintelli,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,COMINT,52,4QSL,Comintelli
+1518,Nyfosa,Sverige,Large Cap,Finans & Fastighet,Fastighetsbolag,NYF,11,162997,Nyfosa AB
+1519,Adverty,Sverige,NGM,Sällanköpsvaror,Marknadsföring,ADVT MTF,13,4S00,Adverty
+1520,AlzeCure Pharma,Sverige,First North,Hälsovård,Läkemedel,ALZCUR,11,164009,AlzeCure Pharma AB
+1521,Aros Bostadsutveckling Pref,Sverige,First North,Finans & Fastighet,Fastighetsbolag,AROS PREF,11,163357,Aros Bostadsutveckling AB Pref
+1522,Axolot Solutions,Sverige,First North,Industri,Energi & Återvinning,AXOLOT,11,163678,Axolot Solutions Holding AB
+1523,Hoodin,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,HOODIN,52,4PE4,Hoodin
+1524,Jetty,Sverige,Spotlight,Informationsteknik,Affärs- & IT-System,JETTY,52,4QHK,Jetty
+1525,PolarCool,Sverige,Spotlight,Hälsovård,Medicinsk Utrustning,POLAR,52,4RX3,PolarCool
+1526,S2Medical,Sverige,First North,Hälsovård,Läkemedel,S2M,11,163983,S2Medical AB ser. B
+1527,Scandion Oncology,Sverige,Spotlight,Hälsovård,Biotech,SCOL,52,4PE5,Scandion Oncology
+1528,Nordic ID,Finland,First North,Industri,Mätning & Analys,NORDID,24,162514,Nordic ID Plc
+1529,Oma Säästöpankki,Finland,Mid Cap,Finans & Fastighet,Banker,OMASP,24,163392,Oma Säästöpankki Oyj
+1530,Rush Factory,Finland,First North,Sällanköpsvaror,Resor & Nöjen,RUSH,24,161318,Rush Factory Plc
+1531,Viafin Service,Finland,First North,Finans & Fastighet,Investmentbolag,VIAFIN,24,162444,Viafin Service Oyj
+1532,Den Jyske Sparekasse,Danmark,Small Cap,Finans & Fastighet,Banker,DJS,14,163680,Den Jyske Sparekasse A/S
+1533,Scape Technologies,Danmark,First North,Industri,Industrimaskiner,SCAPE,14,162397,Scape Technologies A/S
+1534,Seluxit,Danmark,First North,Informationsteknik,Affärs- & IT-System,SLXIT,14,161005,Seluxit A/S
+1535,Zenith Energy Ltd,Norge,Merkur Market,Energi,Olja & Gas - Exploatering,ZENA-ME,49,1304392,Zenith Energy
+1536,Tallink Grupp,Finland,Mid Cap,Industri,Sjöfart & Rederi,TALLINK,24,163393,AS Tallink Grupp FDR
+1537,Azelio,Sverige,First North,Kraftförsörjning,Solkraft,AZELIO,11,164690,Azelio AB
+1538,Beyond Frames,Sverige,Spotlight,Sällanköpsvaror,Gaming & Spel,BEYOND,52,4S9Y,Beyond Frames
+1539,Jetpak,Sverige,First North,Industri,Tåg- & Lastbilstransport,JETPAK,11,164293,Jetpak Top Holding AB
+1540,Lime Technologies,Sverige,Small Cap,Informationsteknik,Affärs- & IT-System,LIME,11,164294,Lime Technologies AB
+1541,NeoDynamics,Sverige,Spotlight,Hälsovård,Läkemedel,NEOD,52,4SA1,NeoDynamics
+1542,Q-Linea,Sverige,Mid Cap,Hälsovård,Medicinsk Utrustning,QLINEA,11,164308,Q-Linea AB
+1543,CAG Group,Sverige,First North,Informationsteknik,IT-Konsulter,CAG,11,164724,CAG Group AB
+1544,Footway,Sverige,First North,Sällanköpsvaror,Kläder & Skor,FOOT B,11,165271,Footway Group AB ser. B
+1545,Raytelligence,Sverige,NGM,Hälsovård,Medicinsk Utrustning,RAYTL MTF,13,4TLK,Raytelligence
+1546,Samhällsbyggnadsbolag D,Sverige,First North,Finans & Fastighet,Fastighetsbolag,SBB D,11,164962,Samhällsbyggnadsbo. i Norden AB ser. D
+1547,InCoax Networks,Sverige,First North,Telekommunikation,Telekomtjänster,INCOAX,11,165674,InCoax Networks AB

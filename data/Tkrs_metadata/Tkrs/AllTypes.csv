@@ -1,0 +1,1897 @@
+S & P 500 Index,.BTK,US Index,2
+Amex Gold Bugs Index,.HUI,US Index,62
+Amex Oil Index,.XOI,US Index,2
+Amex Pharmaceutical Index,.DRG,US Index,2
+Amex Securities Broker/Dealer Index,.XBD,US Index,2
+Boerse DAX Index,.GDAXI,Global Index,.
+Boerse DAX Mid-Cap Index,.MDAXI,Global Index,.
+Boerse SDAX Performance Index,.SDAXI,Global Index,.
+Boerse TecDAX Index,.TECDAX,Global Index,.
+Bolsa IBEX 35 Index,.IBEX,Global Index,.
+Borsa FTSE Italia STAR Index,ITSTAR.MI,Global Index,.
+Borsa FTSE MIB Index,ITMC.MI,Global Index,.
+BSE Sensex Index,.BSESN,US Index,2
+Dow Jones Composite Index,.DJA,US Index,72
+Dow Jones Industrial Average Index,.DJI,US Index,72
+Dow Jones Transportation Average Index,.DJT,US Index,72
+Dow Jones US Financials Index,.DJUSFN,US Index,72
+Dow Jones Utilities Average Index,.DJU,US Index,72
+EURONEXT 100 Index,.N100,Global Index,.
+Euronext AMS Exchange Index,.AEX,Global Index,.
+Euronext BEL 20 Index,.BEL20,Global Index,.
+Euronext CAC 40 Index,.CAC,Global Index,.
+Euronext CAC Basic Materials Index,.FRBM,Global Index,.
+Euronext CAC Health Care Index,.FRHC,Global Index,.
+Euronext CAC NEXT 20 Index,.CN20,Global Index,.
+Euronext CAC Oil & Gas Index,.FROG,Global Index,.
+Euronext CAC Telecommunications Index,.FRTEL,Global Index,.
+Euronext CAC Utilities Index,.FRUT,Global Index,.
+Euronext PSI 20 Index,.PSI20,Global Index,.
+FTSE 100 Index,.FTSE,Global Index,.
+FTSE 350 Index,.FTLC,Global Index,.
+FTSE AERO & DEF  Index,.FTASX2710,Global Index,.
+FTSE All-Share Index,.FTAS,Global Index,.
+FTSE AUTO&PARTS  Index,.FTASX3350,Global Index,.
+FTSE BANKS       Index,.FTASX8350,Global Index,.
+FTSE BEVERAGES   Index,.FTASX3530,Global Index,.
+FTSE CHEMICALS   Index,.FTASX1350,Global Index,.
+FTSE CNSTR&MAT   Index,.FTASX2350,Global Index,.
+FTSE ELEC&EQPT   Index,.FTASX2730,Global Index,.
+FTSE ELECTRICTY  Index,.FTASX7530,Global Index,.
+FTSE EQ INV IST  Index,.FTASX8980,Global Index,.
+FTSE FD&DRG RET  Index,.FTASX5330,Global Index,.
+FTSE FOOD PRODR  Index,.FTASX3570,Global Index,.
+FTSE FOREST&PAP  Index,.FTASX1730,Global Index,.
+FTSE FXD LN TEL  Index,.FTASX6530,Global Index,.
+FTSE GAS WT&ULT  Index,.FTASX7570,Global Index,.
+FTSE GEN FIN     Index,.FTASX8770,Global Index,.
+FTSE GENERL RET  Index,.FTASX5370,Global Index,.
+FTSE GENL INDUS  Index,.FTASX2720,Global Index,.
+FTSE HLTH EQ&SR  Index,.FTASX4530,Global Index,.
+FTSE HSEHLD GDS  Index,.FTASX3720,Global Index,.
+FTSE IND ENG     Index,.FTASX2750,Global Index,.
+FTSE IND METALS  Index,.FTASX1750,Global Index,.
+FTSE IND TRANS   Index,.FTASX2770,Global Index,.
+FTSE LEIS GOODS  Index,.FTASX3740,Global Index,.
+FTSE LIFE INS    Index,.FTASX8570,Global Index,.
+FTSE MEDIA       Index,.FTASX5550,Global Index,.
+FTSE MIB Index,.FTMIB,Global Index,.
+FTSE MINING      Index,.FTASX1770,Global Index,.
+FTSE MOB TELECO  Index,.FTASX6570,Global Index,.
+FTSE NONLIF INS  Index,.FTASX8530,Global Index,.
+FTSE OIL EQ S&D  Index,.FTASX0570,Global Index,.
+FTSE OIL&GAS PD  Index,.FTASX0530,Global Index,.
+FTSE PERS GOODS  Index,.FTASX3760,Global Index,.
+FTSE PHAR & BIO  Index,.FTASX4570,Global Index,.
+FTSE RL EST INV  Index,.FTASX8630,Global Index,.
+FTSE SFT CP SRV  Index,.FTASX9530,Global Index,.
+FTSE SmallCap Index,.FTSC,Global Index,.
+FTSE SUPRT SERV  Index,.FTASX2790,Global Index,.
+FTSE TCH HWR EQ  Index,.FTASX9570,Global Index,.
+FTSE TOBACCO     Index,.FTASX3780,Global Index,.
+FTSE TRAV&LEIS   Index,.FTASX5750,Global Index,.
+Hang Seng Index,.HSI,Global Index,.
+HSCEI Hang Seng China Enterprises Index,.HSCE,Global Index,.
+KBW Bank Sector (.BKX) Index,.BKX,US Index,2
+Kospi 100  Index,.kS100,Global Index,.
+Kospi 200 Index,.kS200,Global Index,.
+MSCI Singapore Index,.SIMSCI,Global Index,.
+MSCI Taiwan Index,.MSCITW,Global Index,.
+NASDAQ 100 Index,.NDX,US Index,2
+NASDAQ Bank Index,.BANK,US Index,2
+NASDAQ Bank Index,.IXBK,US Index,2
+NASDAQ Biotechnology Index,.NBI,US Index,2
+NASDAQ Financial 100 Index,.IXF,US Index,2
+NASDAQ Insurance Index,.IXIS,US Index,2
+NASDAQ NMS COMPOSITE Index,.IXIC,US Index,12
+NASDAQ OMX Copenhagen 20  Index,.OMXC20,Global Index,.
+NASDAQ OMX Helsinki 25 Index,.HEX25,Global Index,.
+NASDAQ OMX Helsinki_PI Index,.HEX,Global Index,.
+NASDAQ OMX Stockholm 30 Index,.OMXS30,Global Index,.
+NASDAQ Telecommunication Index,.IXUT,US Index,2
+NASDAQ Transport Index,.IXTR,US Index,2
+Nikkei 225 Index,.N225,Global Index,.
+Nikkei 300 Index,.N300,Global Index,.
+NYSE Composite Index,.NYA,US Index,12
+NYSE MKT Composite Index,.XAX,US Index,12
+PHLX Gold & Silver Sector Index,.XAU,US Index,62
+PHLX Oil Service Sector Index,.OSX,US Index,2
+PHLX Semiconductor Sector Index,.SOX,US Index,2
+Russell 1000 Index,.RUI,US Index,2
+Russell 2000 Index,.RUT,US Index,2
+S & P 500 Index,.SPX,US Index,3
+S & P MidCap 400 Index,.MID,US Index,2
+S & P SmallCap 600 Index,.SPCY,US Index,2
+S&P 100 Index,.OEX,US Index,2
+S&P ASX 200 Index (Australia) Index,.AXJO,Global Index,.
+S&P CNX Nifty Index (National Stock Exchange of India) Index,.NSEI,Global Index,.
+S&P Composite 1500 Index,.SPSUPX,US Index,2
+S&P/TSX 60 Index,.TXCC-TC,Global Index,.
+S&P/TSX Composite Index,.TSX-TC,Global Index,.
+S&P/TSX MidCap (Completion) Index,.TXMC-TC,Global Index,.
+S&P/TSX SmallCap Index,.TXSC-TC,Global Index,.
+S&P/TSX Venture Composite Index,.JX-TC,Global Index,.
+Swiss Market Index,.SSMI,Global Index,.
+Swiss Performance Index - SPI) Index,.SSHI,Global Index,.
+Topix 100 Index,.TOPX100,Global Index,.
+Topix 500 Index,.TOPX500,Global Index,.
+Topix Core 30 Index,.TOPXC,Global Index,.
+Topix Index,.TOPX,Global Index,.
+Topix Large 70 Index,.TOPXL,Global Index,.
+Topix Mid 400 Index,.TOPXM,Global Index,.
+Topix Small Index,.TOPXS,Global Index,.
+TSE2 (Tokyo Stock Exchange Second Section Issues) Index,.TSI2,Global Index,.
+Amex Airline Index,.XAL,US Index,2
+AdvisorShares Active Bear ETF,HDGE,US Equity ETF,.
+AdvisorShares Cornerstone Small Cap ETF,SCAP,US Equity ETF,8
+AdvisorShares Dorsey Wright Micro-Cap ETF,DWMC,US Equity ETF,.
+AdvisorShares Dorsey Wright Short ETF,DWSH,US Equity ETF,.
+AdvisorShares DoubleLine Value Eq ETF,DBLV,US Equity ETF,8
+AdvisorShares Focused Equity ETF,CWS,US Equity ETF,8
+AdvisorShares Madrona Global Bond ETF,FWDB,US Fund of Funds ETF,.
+AdvisorShares Newfleet Multi-Sector Income ETF,MINC,Fixed Income ETF,.
+AdvisorShares Pure Cannabis ETF,YOLO,US Equity ETF,.
+AdvisorShares Sage Core Reserves ETF,HOLD,US Fixed Income ETF,.
+AdvisorShares STAR Global Buy-Write ETF,VEGA,US Fund of Funds ETF,.
+AdvisorShares Vice ETF,ACT,US Equity ETF,8
+AdvisorShares WCM/BNY Mellon Focused Growth ADR ETF,AADR,US Equity ETF,.
+AGFiQ Dynamic Hedged U.S. Equity ETF **,USHG,US Equity ETF,.
+AGFiQ Global Infrastructure ETF **,GLIF,Global Equity ETF,.
+AGFiQ Hedged Dividend Income ETF,DIVA,US Equity ETF,.
+AGFiQ U.S. Market Neutral Anti-Beta Fund ETF,BTAL,US Equity ETF,.
+AGFiQ U.S. Market Neutral Momentum Fund ETF,MOM,US Equity ETF,.
+AGFiQ U.S. Market Neutral Value Fund *,CHEP,US Equity ETF,.
+Alerian Energy Infrastructure ETF,ENFR,Global Equity ETF,.
+Alerian MLP ETF,AMLP,US Equity ETF,8
+Alpha Architect ETF TR U.S. Quantitative ETF,VMOT,US Equity ETF,8
+Alpha Architect Freedom 100 Em Mkts ETF,FRDM,Global Equity ETF,.
+Alpha Architect Merlyn.AI Bl-Rdr B-F ETF,WIZ,Fund of Funds ETF,.
+Alpha Architect MomentumShares International Quantitative Momentum ETF,IMOM,US Equity ETF,8
+Alpha Architect MomentumShares U.S. Quantitative Momentum ETF,QMOM,US Equity ETF,8
+Alpha Architect ValueShares International Quantitative Value ETF,IVAL,Global Equity ETF,8
+Alpha Architect ValueShares U.S. Quantitative Value ETF,QVAL,Global Equity ETF,8
+AlphaClone Alternative Alpha ETF,ALFA,US Equity ETF,8
+AlphaMark Actively Managed Small Cap ETF,SMCP,US Fund of Funds ETF,8
+ALPS Clean Energy ETF,ACES,Global Equity ETF,.
+ALPS Disruptive Technologies ETF,DTEC,Global Equity ETF,.
+ALPS Emerging Sector Dividend Dogs ETF,EDOG,Global Equity ETF,.
+ALPS Equal Sector Weight ETF,EQL,US Fund of Funds ETF,8
+ALPS International Sector Dividend Dogs ETF,IDOG,Global Equity ETF,.
+ALPS Medical Breakthroughs ETF,SBIO,US Equity ETF,8
+ALPS REIT Dividend Dogs ETF,RDOG,US Equity ETF,.
+ALPS Sector Dividend Dogs ETF,SDOG,US Equity ETF,8
+American Customer Satisfaction Core Alpha ETF,ACSI,US Equity ETF,.
+Amplify Advanced Battery Metals and Materials ETF,BATT,Global Equity ETF,.
+Amplify BlackSwan Growth & Treasury Core ETF,SWAN,US Fixed Income ETF,.
+Amplify CrowdBureau® Peer-to-Peer Lending & Crowdfunding ETF,LEND,US Equity ETF,.
+Amplify EASI Tactical Growth ETF,EASI,US Equity ETF,.
+Amplify International Online Retail ETF,XBUY,Global Equity ETF,.
+Amplify Online Retail ETF,IBUY,Global Equity ETF,.
+Amplify Seymour Cannabis ETF,CNBS,Global Equity ETF,.
+Amplify Transformational Data Sharing ETF,BLOK,Global Equity ETF,.
+Amplify YieldShares CWP Dividend & Option Income ETF,DIVO,US Equity ETF,.
+Aptus Drawdown-Managed Equity ETF,ADME,US Equity ETF,.
+Aptus Fortified Value ETF,FTVA,US Equity ETF,.
+Ark Fintech Innovation ETF,ARKF,Global Equity ETF,.
+ARK Genomic Revolution Multi-Sector ETF,ARKG,US Equity ETF,.
+ARK Industrial Innovation ETF,ARKQ,US Equity ETF,.
+ARK Innovation ETF,ARKK,US Equity ETF,.
+ARK Israeli Innovation ETF Hdg,IZRL,Global Equity ETF,.
+Ark The 3D Printing ETF,PRNT,Global Equity ETF,.
+ARK Web x.0 ETF,ARKW,US Equity ETF,.
+Arrow Dow Jones Global Yield ETF,GYLD,Global Equity ETF,.
+Arrow DWA Country Rotation ETF,DWCR,Global Equity ETF,.
+Arrow DWA Tactical ETF,DWAT,Asset Allocation ETF,.
+Arrow QVM Equity Factor ETF,QVM,US Equity ETF,.
+Arrow Reserve Capital Management ETF,ARCM,Global Fixed Income ETF,.
+Barclays ETN+ FI Enhanced Europe 50 B,FLEU,ETN,.
+Barclays ETN+ S&P VEQTOR ETN,VQT,ETN,.
+Barclays ETN+ Select MLP ETN,ATMP,ETN,.
+Barclays ETN+ Shiller CAPE™ Index ETNs,CAPE,ETN,.
+Barclays Inverse US Treasury Composite ETN,TAPR,ETN,.
+Barclays Return on Disability ETN,RODI,ETN,.
+Barclays Women in Leadership ETN,WIL,ETN,.
+BARRON'S 400SM ETF,BFOR,US Equity ETF,8
+BlackRock U.S. Equity Factor Rotation ETF,DYNF,US Equity ETF,.
+BlueStar TA-BIGITech™ Israel Tech ETF,ITEQ,Global Equity ETF,.
+BMO Innovator DWA MLP Select™ ETN,BMLP,ETN,.
+Cambria Cannabis ETF,TOKE,US Equity ETF,.
+Cambria Emerging Shareholder Yield ETF,EYLD,Global Equity ETF,.
+Cambria Foreign Shareholder Yield ETF,FYLD,Global Equity ETF,.
+Cambria Global Asset Allocation ETF,GAA,Global Asset Allocation ETF,.
+Cambria Global Momentum ETF,GMOM,Asset Allocation ETF,.
+Cambria Global Value ETF,GVAL,Global Equity ETF,.
+Cambria Shareholder Yield ETF,SYLD,US Equity ETF,.
+Cambria Sovereign High Yield Bond ETF,SOVB,US Fixed Income ETF,.
+Cambria Tail Risk ETF,TAIL,US Fixed Income ETF,.
+Cambria Trinity ETF,TRTY,US Fund of Funds ETF,.
+Citigroup ETNs lnkd VS Dly 4X Lng AUDUSD,UAUD,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng CHFUSD,UCHF,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng EURUSD,UEUR,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng GBPUSD,UGBP,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng JPYUSD,UJPY,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng USDAUD,DAUD,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng USDCHF,DCHF,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng USDEUR,DEUR,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng USDGBP,DGBP,ETN,.
+Citigroup ETNs lnkd VS Dly 4X Lng USDJPY,DJPY,ETN,.
+CLAYMORE CEF GS CONNECT ETN,GCE,ETN,.
+Columbia Diversified Fixed Inc Allc ETF,DIAL,Global Fixed Income ETF,.
+Columbia EM Core ex-China ETF,XCEM,Global Equity ETF,.
+Columbia Emerging Markets Consumer ETF,ECON,Global Equity ETF,.
+Columbia India Consumer ETF,INCO,Global Equity ETF,.
+Columbia Multi-Sector Municipal Income ETF,MUST,US Fixed Income ETF,.
+Columbia Research Enhanced Core ETF,RECS,US Equity ETF,.
+Columbia Research Enhanced Value ETF,REVS,US Equity ETF,.
+Columbia Sustainable Global Eq Inc ETF,ESGW,Global Equity ETF,.
+Columbia Sustainable International Equity Income ETF,ESGN,Global Equity ETF,.
+Columbia Sustainable U.S. Equity Income ETF,ESGS,US Equity ETF,.
+Credit Suisse AxlTrdr 3x LngBrntCrdOlETN,UBRT,ETN,.
+Credit Suisse FI Large Cap Gr Enh ETN,FLGE,ETN,.
+Credit Suisse Gold Shrs Cov Call Exc ETN,GLDI,ETN,.
+Credit Suisse S & P MLP Index ETN,MLPO,ETN,.
+Credit Suisse Silver Shares Cov Call ETN,SLVO,ETN,.
+Credit Suisse X-Links Mlt-Ast Hi Inc ETN,MLTI,ETN,.
+Credit Suisse X-Links MP2xLvgAlrnMLP ETN,AMJL,ETN,.
+Credit Suisse X-LinksMP2xLvgMortREIT ETN,REML,ETN,.
+Credit Suisse X-Lnks Crde OlShrsCvCllETN,USOI,ETN,.
+CSOP FTSE China A50 ETF,AFTY,Global Equity ETF,.
+CSOP MSCI China A International Hdgd ETF,CNHX,Global Equity ETF,.
+C-Tracks Bsd on Perf of M/H MLP Fdmt ETN,MLPC,ETN,.
+C-Tracks ETN Miller/Howard Strt Div Rinv ETN,DIVC,ETN,.
+C-Tracks ETNs Miller/Howard MLP Fdmtl B,MLPE,ETN,.
+DB Agriculture Double Short ETN,AGATF,ETN,.
+DB Base Metals Double Long ETN,BDD,ETN,.
+DB Base Metals Long ETN,BDG,ETN,.
+DB Commodity Double Long ETN,DYY,ETN,.
+DB Commodity Double Short ETN,DEE,ETN,.
+DB Crude Oil Double Short ETN,DTO,ETN,.
+DB Crude Oil Short ETN,SZO,ETN,.
+DB FI Enhanced Global High Yield ETN,FIEG,ETN,.
+Deutsche X-trackers CSI300 CHN A Hdgd Eq ETF,ASHX,Global Equity ETF,.
+Deutsche X-trackers EMkts Bd Intr Rt Hdg ETF,EMIH,Global Fixed Income ETF,.
+Deutsche X-trackers Eurozone Equity ETF,EURZ,Global Equity ETF,.
+Deutsche X-trackers FTSE Dev exUSCmpsFtr ETF,DEEF,Global Equity ETF,.
+Deutsche X-Trackers Harvest China ETF,ASHR,Global Equity ETF,.
+Deutsche X-Trackers High Beta High Yield Bond ETF,HYUP,Global Fixed Income ETF,.
+Deutsche X-Trackers Hrvst CSI 500China A Sm Cp ETF,ASHS,Global Equity ETF,.
+Deutsche X-Trackers Hvst MSCI All China Eq ETF,CN,Global Equity ETF,.
+Deutsche X-trackers HY Corp Bd IntrRtHdg ETF,HYIH,Global Fixed Income ETF,.
+Deutsche X-Trackers International Real Estate ETF,HAUZ,Global Equity ETF,.
+Deutsche X-trackers Invt Grd BdIntrRtHdg ETF,IGIH,Global Fixed Income ETF,.
+Deutsche X-trackers JPN JPX-Nikkei400 Eq ETF,JPN,Global Equity ETF,.
+Deutsche X-Trackers Low Beta High Yield Bond ETF,HYDW,Global Fixed Income ETF,.
+Deutsche X-Trackers MSCI ACWI ex USA ESG LdrsEqETF,ACSG,Global Equity ETF,.
+Deutsche X-Trackers MSCI AW exUS Hdgd Eq ETF,DBAW,Global Equity ETF,.
+Deutsche X-Trackers MSCI EAFE ESG Leaders Eq ETF,EASG,Global Equity ETF,.
+Deutsche X-trackers MSCI EAFE HiDvYdHgEq ETF,HDEF,Global Equity ETF,.
+Deutsche X-Trackers MSCI Em Mkts Hdg Eq ETF,DBEM,Global Equity ETF,.
+Deutsche X-Trackers MSCI EMs ESG Leaders Eq ETF,EMSG,Global Equity ETF,.
+Deutsche X-Trackers MSCI EMU Hedged Eq ETF,DBEZ,Global Equity ETF,.
+Deutsche X-Trackers MSCI Europe Hdgd Eq ETF,DBEU,Global Equity ETF,.
+Deutsche X-Trackers MSCI Germany Hedged Eq ETF,DBGR,Global Equity ETF,.
+Deutsche X-Trackers MSCI Latin A Pac Alliance ETF,PACA,Global Equity ETF,.
+Deutsche X-Trackers MSCI USA ESG Leaders Eq ETF,USSG,US Equity ETF,.
+Deutsche X-trackers MSCIAWdexUSHDvYdHgEq ETF,HDAW,Global Equity ETF,.
+Deutsche X-Trackers Muni Infras Revn Bd ETF,RVNU,US Fixed Income ETF,.
+Deutsche X-Trackers Russell 1000 Cmprhsv Fac ETF,DEUS,US Equity ETF,.
+Deutsche X-Trackers Russell 1000 US  ETF,QARP,US Equity ETF,.
+Deutsche X-Trackers S&P 500 ESG ETF,SNPE,US Equity ETF,.
+Deutsche X-Trackers Short Duration High Yld Bd ETF,SHYL,Global Fixed Income ETF,.
+Deutsche X-trackers USD HY Corp Bd,HYLB,Global Fixed Income ETF,.
+Direxion All Cap Insider Sentiment Shrs ETF,KNOW,US Equity ETF,.
+Direxion NASDAQ-100 Equal Wtd Idx Shrs ETF,QQQE,US Equity ETF,.
+Direxion Zacks MLP High Income Shares ETF,ZMLP,US Equity ETF,.
+Eaton Vance Global Income Builder NS ETF,EVGBC,Global Equity ETF,.
+Eaton Vance Stock NextShares,EVSTC,Global Equity ETF,.
+Eaton Vance TABS 5to15Yr Ldrd MuniBd NS,EVLMC,Global Fixed Income ETF,.
+ELEMENTS - Dogs of the Dow Linked to the Dow Jones High Yield Select 10 Total Return Index ETN,DOD,ETN,.
+ELEMENTS Linked to the MLCX Grains Index ETN,GRU,ETN,.
+ELEMENTS Linked to the Morningstar? Wide Moat FocusSM Total Return Index ETN,WMW,ETN,.
+ELEMENTS Linked to the Rogers International Commodity Index Agriculture Total Return ETN,RJA,ETN,.
+ELEMENTS Linked to the Rogers International Commodity Index ETN,RJI,ETN,.
+ELEMENTS Linked to the Rogers International Commodity Index® – Energy Total Return ETN,RJN,ETN,.
+ELEMENTS Linked to the Rogers International Commodity Index® – Metals Total Return ETN,RJZ,ETN,.
+ELEMENTS Linked to the SPECTRUM Large Cap U.S. Sector Momentum Index ETN,EEH,ETN,.
+ELEMENTS SM Linked to the MLCX Biofuels Index (Exchange Series) ETN,FUE,ETN,.
+Emerging Markets Debt Defensive ETF,IEMD,Global Fixed Income ETF,.
+Emerging Markets Debt Value ETF,IEMV,Global Fixed Income ETF,.
+Emerging Markets Ultra Dividend Revenue ETF,REDV,US Equity ETF,.
+EMQQ Emerging Markets Intrnt & Ecmrc ETF,EMQQ,Global Equity ETF,.
+ETFMG AI Powered Equity ETF,AIEQ,US Equity ETF,.
+ETFMG Alternative Harvest ETF,MJ,Global Equity ETF,.
+ETFMG Drone Economy Strategy ETF,IFLY,Global Equity ETF,.
+ETFMG Etho Climate Leadership Index – US ETF,ETHO,US Equity ETF,.
+ETFMG Prime Cyber Security ETF,HACK,Global Equity ETF,.
+ETFMG Prime Junior Silver ETF,SILJ,Global Equity ETF,.
+ETFMG Prime Mobile Payments ETF,IPAY,Global Equity ETF,.
+ETFMG Video Game Tech ETF,GAMR,US Equity ETF,.
+ETRACS 2xLeveraged Long Wells Fargo Business Development Company Index ETN,BDCL,ETN,.
+E-TRACS Alerian MLP ETN,AMU,ETN,.
+ETRACS Alerian MLP Infrastructure ETN,MLPI,ETN,.
+ETRACS Alerian Natural Gas MLP ETN,MLPG,ETN,.
+E-TRACS BgCstMtCdy,UCIB,ETN,.
+ETRACS CMCI Agriculture TR ETN,UAG,ETN,.
+ETRACS CMCI Food TR ETN,FUD,ETN,.
+ETRACS CMCI Gold TR ETN,UBG,ETN,.
+ETRACS CMCI Silver TR ETN,USV,ETN,.
+ETRACS CMCI TR* ETN,UCI,ETN,.
+ETRACS DJ-UBS Commodity Index TR ETN,DJCI,ETN,.
+E-TRACS ProShares Dly 3x Lng Crud ETN,WTIU,ETN,.
+ETRACS Wells Fargo Business Development Company Index ETN,BDCS,ETN,.
+EventShares US Policy Alpha ETF,PLCY,US Equity ETF,.
+Fidelity Core Dividend ETF,FDVV,Global Equity ETF,.
+Fidelity Corporate Bond ETF,FCOR,US Fixed Income ETF,.
+Fidelity Dividend ETF,FDRR,Global Equity ETF,.
+Fidelity Limited Term Bond ETF,FLTB,US Fixed Income ETF,.
+Fidelity Low Volatility Factor ETF,FDLO,US Equity ETF,.
+Fidelity Momentum Factor ETF,FDMO,US Equity ETF,.
+Fidelity MSCI Consumer Discretionary ETF,FDIS,US Equity ETF,.
+Fidelity MSCI Consumer Staples Index ETF,FSTA,US Equity ETF,.
+Fidelity MSCI Energy Index ETF,FENY,US Equity ETF,.
+Fidelity MSCI Financials Index ETF,FNCL,US Equity ETF,.
+Fidelity MSCI Health Care Index ETF,FHLC,US Equity ETF,.
+Fidelity MSCI Industrials Index ETF,FIDU,US Equity ETF,.
+Fidelity MSCI Information Technology ETF,FTEC,US Equity ETF,.
+Fidelity MSCI Materials Index ETF,FMAT,US Equity ETF,.
+Fidelity MSCI Real Estate Index ETF,FREL,US Equity ETF,.
+Fidelity MSCI Telecom Svcs ETF,FCOM,US Equity ETF,.
+Fidelity MSCI Utilities Index ETF,FUTY,US Equity ETF,.
+Fidelity Nasdaq Composite Index Tracking Stock ETF,ONEQ,US Equity ETF,.
+Fidelity Quality Factor ETF,FQAL,Global Equity ETF,.
+Fidelity Total Bond ETF,FBND,US Fixed Income ETF,.
+Fidelity Value Factor ETF,FVAL,US Equity ETF,.
+First Trust Amex Biotech Index Fund ETF,FBT,US Equity ETF,.
+First Trust Asia Pacific Ex-Japan AlphaDEX ETF,FPA,Global Equity ETF,.
+First Trust Australia AlphaDEX ETF,FAUS,Global Equity ETF,.
+First Trust BICK Index Fund ETF,BICK,Global Equity ETF,.
+First Trust Brazil AlphaDEX ETF,FBZ,Global Equity ETF,.
+First Trust California Muni Hi Inc ETF,FCAL,US Fixed Income ETF,.
+First Trust Canada AlphaDEX ETF,FCAN,Global Equity ETF,.
+First Trust Capital Strength ETF,FTCS,US Equity ETF,.
+First Trust CEF Income Opportunity ETF,FCEF,US Fund of Funds ETF,.
+First Trust China AlphaDEX ETF,FCA,Global Equity ETF,.
+First Trust Cloud Computing ETF,SKYY,US Equity ETF,.
+First Trust Cons. Discret. AlphaDEX ETF,FXD,US Equity ETF,.
+First Trust Cons. Staples AlphaDEX ETF,FXG,US Equity ETF,.
+First Trust Dev Mkts ex-US SC AlphaDEX ETF,FDTS,Global Equity ETF,.
+First Trust Developed Intl Eq Sel ETF,RNDM,Global Equity ETF,.
+First Trust Developed Markets Ex-US AlphaDEX ETF,FDT,Global Equity ETF,.
+First Trust DJ Global Select Dividend ETF,FGD,Global Equity ETF,.
+First Trust DJ Internet Index Fund ETF,FDN,US Equity ETF,.
+First Trust DJ Select MicroCap ETF,FDM,US Equity ETF,.
+First Trust Dorsey Wrght People's Pt ETF,DWPP,US Equity ETF,.
+First Trust Dorsey Wright Dynamic Foc 5 ETF,FVC,US Asset Allocation ETF,.
+First Trust Dorsey Wright Focus 5 ETF,FV,US Fund of Funds ETF,.
+First Trust Dorsey Wright Intl Foc 5 ETF,IFV,US Fund of Funds ETF,.
+First Trust Dorsey Wright Momt & Div ETF,DDIV,US Equity ETF,.
+First Trust DorseyWright DALI 1 ETF,DALI,US Fund of Funds ETF,.
+First Trust Dow 30 Equal Weight ETF,EDOW,US Equity ETF,7
+First Trust Dow Jones International Internet ETF,FDNI,Global Equity ETF,.
+First Trust Dow Jones STOXX Select Dividend 30 Index Fund ETF,FDD,Global Equity ETF,.
+First Trust Emerging Markets AlphaDEX ETF,FEM,Global Equity ETF,.
+First Trust Emerging Markets Eq Sel ETF,RNEM,Global Equity ETF,.
+First Trust Emerging Markets SC AlphaDEX ETF,FEMS,Global Equity ETF,.
+First Trust Emerging Mkts Lcl Ccy Bd ETF,FEMB,Global Fixed Income ETF,.
+First Trust Energy AlphaDEX Fund ETF,FXN,US Equity ETF,.
+First Trust Enhanced Short Maturity ETF,FTSM,US Fixed Income ETF,.
+First Trust Europe AlphaDEX ETF,FEP,Global Equity ETF,.
+First Trust Eurozone AlphaDEX Fund ETF,FEUZ,Global Equity ETF,.
+First Trust Financials AlphaDEX ETF,FXO,US Equity ETF,.
+First Trust FTSE EPRA/NAREIT Global Real Estate Index Fund ETF,FFR,Global Equity ETF,.
+First Trust Germany AlphaDEX ETF,FGM,Global Equity ETF,.
+First Trust Health Care AlphaDEX ETF,FXH,US Equity ETF,.
+First Trust Heitman Glbl Prm Rl Estt ETF,PRME,Global Equity ETF,.
+First Trust High Income ETF,FTHI,US Equity ETF,.
+First Trust High Yield Long/Short ETF,HYLS,US Fixed Income ETF,.
+First Trust Hong Kong AlphaDEX ETF,FHK,Global Equity ETF,.
+First Trust Hrzn MgdVolatil Dev Intl ETF,HDMV,Global Equity ETF,.
+First Trust India NIFTY 50 Equal Wtd ETF,NFTY,Global Equity ETF,.
+First Trust Industrials AlphaDEX ETF,FXR,US Equity ETF,.
+First Trust Indxx Glbl Natrl Res Inc ETF,FTRI,US Equity ETF,.
+First Trust Indxx Innovative Transaction & Process ETF,LEGR,Global Equity ETF,.
+First Trust Indxx NextG ETF,NXTG,Global Equity ETF,.
+First Trust Instl Pref Secs and Inc ETF,FPEI,Global Fixed Income ETF,.
+First Trust International IPO ETF,FPXI,Global Equity ETF,.
+First Trust IPOX Europe Equity Opportunities ETF,FPXE,Global Equity ETF,.
+First Trust IPOX-100 Index Fund ETF,FPX,US Equity ETF,.
+First Trust ISE Chindia ETF,FNI,US Equity ETF,.
+First Trust ISE Global Engineering and Construction Index Fund ETF,FLM,Global Equity ETF,.
+First Trust ISE Global Wind Energy ETF,FAN,Global Equity ETF,.
+First Trust ISE Water Index Fund ETF,FIW,US Equity ETF,.
+First Trust ISE-Revere Natural Gas ETF,FCG,US Equity ETF,.
+First Trust Japan AlphaDEX ETF,FJP,Global Equity ETF,.
+First Trust Large Cap Core AlphaDEX ETF,FEX,US Equity ETF,.
+First Trust Large Cap Growth Opportunities AlphaDEX Fund ETF,FTC,US Equity ETF,.
+First Trust Large Cap US Equity Sel ETF,RNLC,US Equity ETF,.
+First Trust Large Cap Value Opportunities AlphaDEX Fund ETF,FTA,US Equity ETF,.
+First Trust Latin America AlphaDEX ETF,FLN,Global Equity ETF,.
+First Trust Long Duration Opportunities ETF,LGOV,US Fixed Income ETF,.
+First Trust Long/Short Equity ETF,FTLS,US Equity ETF,.
+First Trust Low Beta Income ETF,FTLB,US Equity ETF,.
+First Trust Low Duration Mortg Opps ETF,LMBS,US Fixed Income ETF,.
+First Trust Low Duration Strategic Focus ETF,LDSF,US Fund of Funds ETF,.
+First Trust Lunt US Factor Rotation ETF,FCTR,US Equity ETF,.
+First Trust Managed Municipal ETF,FMB,US Fixed Income ETF,.
+First Trust Materials AlphaDEX Fund ETF,FXZ,US Equity ETF,.
+First Trust Mega Cap AlphaDex ETF,FMK,US Equity ETF,.
+First Trust Mid Cap Core AlphaDEX ETF,FNX,US Equity ETF,.
+First Trust Mid Cap US Equity Select ETF,RNMC,US Equity ETF,.
+First Trust Mid Cap Value AlphaDEX ETF,FNK,US Equity ETF,.
+First Trust Morningstar ETF,FDL,US Equity ETF,.
+First Trust Multi Cap Value AlphaDEX Fund ETF,FAB,US Equity ETF,.
+First Trust Multi CG AlphaDEX ETF,FAD,US Equity ETF,.
+First Trust Multi-Asset Div Income Index ETF,MDIV,Global Equity ETF,.
+First Trust Municipal CEF Income Opp ETF,MCEF,US Fund of Funds ETF,.
+First Trust Municipal High Income ETF,FMHI,US Fixed Income ETF,.
+First Trust NASDAQ ABA Community Bank Index Fund ETF,QABA,US Equity ETF,.
+First Trust Nasdaq Artificial Intelligence and Robotics ETF,ROBT,Global Equity ETF,.
+First Trust Nasdaq Bank ETF,FTXO,US Equity ETF,.
+First Trust NASDAQ CEA Cybersecurity ETF,CIBR,Global Equity ETF,.
+First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund ETF,GRID,Global Equity ETF,.
+First Trust NASDAQ Clean Edge U.S. Liquid Series Index Fund ETF,QCLN,US Equity ETF,.
+First Trust Nasdaq Food &  Beverage ETF,FTXG,US Equity ETF,.
+First Trust NASDAQ Global Auto ETF,CARZ,Global Equity ETF,.
+First Trust Nasdaq Oil & Gas ETF,FTXN,US Equity ETF,.
+First Trust Nasdaq Pharmaceuticals ET,FTXH,US Equity ETF,.
+First Trust Nasdaq Retail ETF,FTXD,US Equity ETF,.
+First Trust NASDAQ Rising Div Achiev ETF,RDVY,US Equity ETF,.
+First Trust Nasdaq Semiconductor ETF,FTXL,US Equity ETF,.
+First Trust NASDAQ Technology Div ETF,TDIV,US Equity ETF,.
+First Trust Nasdaq Transportation ETF,FTXR,US Equity ETF,.
+First Trust NASDAQ-100 Equal Weighted IndexSMFund ETF,QQEW,US Equity ETF,.
+First Trust NASDAQ-100 Ex-Technology Sector Index Fund ETF,QQXT,US Equity ETF,.
+First Trust NASDAQ-100-Technology Sector Index Fund ETF,QTEC,US Equity ETF,.
+First Trust North American Energy Infras ETF,EMLP,Global Equity ETF,.
+First Trust Preferred Securities and Income ETF,FPE,US Fixed Income ETF,.
+First Trust RBA American Indl Rnsnc ETF,AIRR,US Equity ETF,.
+First Trust RiverFront Dyn Asia Pac ETF,RFAP,Global Equity ETF,.
+First Trust RiverFront Dyn Dev Intl ETF,RFDI,Global Equity ETF,.
+First Trust RiverFront Dyn Em Mkts ETF,RFEM,Global Equity ETF,.
+First Trust RiverFront Dynamic Eurp ETF,RFEU,Global Equity ETF,.
+First Trust S&P Int Div Aristocrats ETF,FID,Global Equity ETF,.
+First Trust S&P REIT Index Fund ETF,FRI,US Equity ETF,.
+First Trust Senior Loan ETF,FTSL,US Fixed Income ETF,.
+First Trust Short Duration Managed Municipal ETF,FSMB,US Fixed Income ETF,.
+First Trust Small Cap Core AlphaDEX ETF,FYX,US Equity ETF,.
+First Trust Small Cap Growth AlphaDEX ETF,FYC,US Equity ETF,.
+First Trust Small Cap US Equity Sel ETF,RNSC,US Equity ETF,.
+First Trust Small Cap Value AlphaDEX ETF,FYT,US Equity ETF,.
+First Trust SMID Cp Rising Div Achv ETF,SDVY,US Equity ETF,.
+First Trust South Korea AlphaDEX ETF,FKO,Global Equity ETF,.
+First Trust SSI Strat Convert Secs ETF,FCVT,US Fixed Income ETF,.
+First Trust Strategic Income ETF,FDIV,US Asset Allocation ETF,.
+First Trust Switzerland AlphaDEX ETF,FSZ,Global Equity ETF,.
+First Trust TCW Unconstrained Plus Bond ETF,UCON,US Fixed Income ETF,.
+First Trust TCWOpportunistic Fxd Inc ETF,FIXD,US Fixed Income ETF,.
+First Trust Technology AlphaDEX ETF,FXL,US Equity ETF,.
+First Trust Total US Market AlphaDEX ETF,TUSA,US Equity ETF,.
+First Trust Ultra Short Duration Municipal ETF,FUMB,US Fixed Income ETF,.
+First Trust United Kingdom AlphaDEX ETF,FKU,Global Equity ETF,.
+First Trust US Equity Dividend Sel ETF,RNDV,US Equity ETF,.
+First Trust Utilities AlphaDEX? Fund ETF,FXU,US Equity ETF,.
+First Trust Value Line 100 Fund ETF,FVL,US Equity ETF,.
+First Trust VL Dividend ETF,FVD,US Equity ETF,.
+FlexShares Ccy Hdgd MS EM Fct TiltIdx ETF,TLEH,Global Equity ETF,.
+FlexShares Ccy Hdgd MSDM ex-USFct TltIdx ETF,TLDH,Global Equity ETF,.
+FlexShares Core Select Bond ETF,BNDC,US Asset Allocation ETF,.
+FlexShares Crdt-Scrd US Lng Corp Bd ETF,LKOR,US Fixed Income ETF,.
+FlexShares Credit-Scored US Corp Bd ETF,SKOR,US Fixed Income ETF,.
+FlexShares Disciplined Dur MBS Idx ETF,MBSD,US Fixed Income ETF,.
+FlexShares Global Quality Real Estate ETF,GQRE,Global Equity ETF,.
+FlexShares iBoxx 3-Year Target Duration TIPS Index Fund ETF,TDTT,US Fixed Income ETF,.
+FlexShares iBoxx 5-Year Target Duration TIPS Index Fund ETF,TDTF,US Fixed Income ETF,.
+FlexShares International Qual Div Dfnsv ETF,IQDE,Global Equity ETF,.
+FlexShares International Qual Div Dyn ETF,IQDY,Global Equity ETF,.
+FlexShares International Qual Div ETF,IQDF,Global Equity ETF,.
+FlexShares Morningstar Global Upstream Natural Resources Index Fund ETF,GUNR,Global Equity ETF,.
+FlexShares Morningstar U.S. Market Factor Tilt Index Fund ETF,TILT,US Equity ETF,.
+FlexShares Mstar Dev Mk ex-US Fct Tl Idx ETF,TLTD,Global Equity ETF,.
+FlexShares Mstar Emrg Mkts Fct Tl Idx ETF,TLTE,Global Equity ETF,.
+FlexShares Quality Dividend Defensive ETF,QDEF,US Equity ETF,.
+FlexShares Quality Dividend Dynamic ETF,QDYN,US Equity ETF,.
+FlexShares Quality Dividend ETF,QDF,US Equity ETF,.
+FlexShares Ready Access Variable Inc ETF,RAVI,US Fixed Income ETF,.
+FlexShares Real Assets Allocation ETF,ASET,Global Equity ETF,.
+FlexShares STOXX Glbl ESG Impact ETF,ESGG,Global Equity ETF,.
+FlexShares STOXX Global Broad Infras ETF,NFRA,Global Equity ETF,.
+FlexShares STOXX US ESG Impact ETF,ESG,US Equity ETF,.
+FlexShares US Quality Large Cap ETF,QLC,US Equity ETF,.
+Forensic Accounting ETF,FLAG,US Equity Income ETF,.
+FormulaFolios Hedged Growth ETF,FFHG,US Asset Allocation ETF,.
+FormulaFolios Tactical Income ETF,FFTI,US Asset Allocation ETF,.
+Franklin FTSE Asia ex Japan ETF,FLAX,Global Equity ETF,.
+Franklin FTSE Australia ETF,FLAU,Global Equity ETF,.
+Franklin FTSE Brazil ETF,FLBR,Global Equity ETF,.
+Franklin FTSE Canada ETF,FLCA,Global Equity ETF,.
+Franklin FTSE China ETF,FLCH,Global Equity ETF,.
+Franklin FTSE Europe ETF,FLEE,Global Equity ETF,.
+Franklin FTSE Europe Hedged ETF,FLEH,Global Equity ETF,.
+Franklin FTSE France ETF,FLFR,Global Equity ETF,.
+Franklin FTSE Germany ETF,FLGR,Global Equity ETF,.
+Franklin FTSE Hong Kong ETF,FLHK,Global Equity ETF,.
+Franklin FTSE India ETF,FLIN,Global Equity ETF,.
+Franklin FTSE Italy ETF,FLIY,Global Equity ETF,.
+Franklin FTSE Japan ETF,FLJP,Global Equity ETF,.
+Franklin FTSE Japan Hedged ETF,FLJH,Global Equity ETF,.
+Franklin FTSE Latin America ETF,FLLA,Global Equity ETF,.
+Franklin FTSE Mexico ETF,FLMX,Global Equity ETF,.
+Franklin FTSE Russia ETF,FLRU,Global Equity ETF,.
+Franklin FTSE Saudi Arabia ETF,FLSA,Global Equity ETF,.
+Franklin FTSE South Africa ETF,FLZA,Global Equity ETF,.
+Franklin FTSE South Korea ETF,FLKR,Global Equity ETF,.
+Franklin FTSE Switzerland ETF,FLSW,Global Equity ETF,.
+Franklin FTSE Taiwan ETF,FLTW,Global Equity ETF,.
+Franklin FTSE United Kingdom ETF,FLGB,Global Equity ETF,.
+Franklin Liberty High Yield Corporate ETF,FLHY,US Fixed Income ETF,.
+Franklin Liberty Interm Muni Oppos ETF,FLMI,US Fixed Income ETF,.
+Franklin Liberty International Aggregate Bond ETF,FLIA,Global Fixed Income ETF,.
+Franklin Liberty International Opps ETF,FLIO,Global Equity ETF,.
+Franklin Liberty Investment Grd Corp ETF,FLCO,Global Fixed Income ETF,.
+Franklin Liberty Muni Bd ETF,FLMB,US Fixed Income ETF,.
+Franklin Liberty Senior Loan ETF,FLBL,US Fixed Income ETF,.
+Franklin Liberty Short Duration U.S. Government ETF,FTSD,US Fixed Income ETF,.
+Franklin Liberty US Low Volatility ETF,FLLV,US Equity ETF,.
+Franklin LibertyQ Emerging Markets ETF,FLQE,Global Equity ETF,.
+Franklin LibertyQ Global Dividend ETF,FLQD,Global Equity ETF,.
+Franklin LibertyQ Global Equity ETF,FLQG,Global Equity ETF,.
+Franklin LibertyQ US Equity ETF,FLQL,US Equity ETF,.
+Franklin LibertyQ US Mid Cap Eq ETF,FLQM,US Equity ETF,.
+Franklin LibertyQ US Small Cap Eq ETF,FLQS,US Equity ETF,.
+GaveKal Knowledge Leaders Dev Wld ETF,KLDW,Global Equity ETF,.
+Global X Adaptive US Factor ETF,AUSF,US Equity ETF,.
+Global X Atnms &amp; Elcc Vhcls ETF,DRIV,Global Equity ETF,.
+Global X Cannabis ETF,POTX,Global Equity ETF,.
+Global X China Consumer ETF,CHIQ,Global Equity ETF,.
+Global X China Energy ETF,CHIE,Global Equity ETF,.
+Global X China Financials ETF,CHIX,Global Equity ETF,.
+Global X China Industrials ETF,CHII,Global Equity ETF,.
+Global X China Materials ETF,CHIM,Global Equity ETF,.
+Global X Cloud Computing ETF,CLOU,US Equity ETF,.
+Global X Conscious Companies ETF,KRMA,US Equity ETF,.
+Global X Copper Miners ETF,COPX,Global Equity ETF,.
+Global X Cybersecurity ETF,BUG,US Equity ETF,.
+Global X E-commerce ETF,EBIZ,US Equity ETF,.
+Global X Fertilizers/Potash ETF,SOIL,Global Equity ETF,.
+Global X FinTech ETF,FINX,Global Equity ETF,.
+Global X Founder-Run Companies ETF,BOSS,US Equity ETF,.
+Global X FTSE Argentina 20 ETF,ARGT,Global Equity ETF,.
+Global X FTSE ASEAN 40 ETF,ASEA,Global Equity ETF,.
+Global X FTSE Greece 20 ETF,GREK,Global Equity ETF,.
+Global X FTSE Nordic 30 ETF,GXF,Global Equity ETF,.
+Global X FTSE Norway 30 ETF,NORW,Global Equity ETF,.
+Global X FTSE Portugal 20 ETF,PGAL,Global Equity ETF,.
+Global X Future Analytics Tech ETF,AIQ,US Equity ETF,.
+Global X Genomics &amp; Biotechnology ETF,GNOM,US Equity ETF,.
+Global X Gold Explorers ETF,GOEX,Global Equity ETF,.
+Global X Health  &  Wellness Thematic ETF,BFIT,US Equity ETF,.
+Global X Interbolsa FTSE Colombia 20 ETF,GXG,Global Equity ETF,.
+Global X Internet of Things ETF,SNSR,US Equity ETF,.
+Global X Lithium ETF,LIT,Global Equity ETF,.
+Global X Longevity Thematic ETF,LNGR,US Equity ETF,.
+Global X Millennials Thematic ETF,MILN,US Equity ETF,.
+Global X MLP  &  Energy Infrastructure ETF,MLPX,US Equity ETF,.
+Global X MLP ETF,MLPA,Global Equity ETF,.
+Global X MSCI China Comm Services ETF,CHIC,Global Equity ETF,.
+Global X MSCI China Consumer Stpls ETF,CHIS,Global Equity ETF,.
+Global X MSCI China Health Care ETF,CHIH,Global Equity ETF,.
+Global X MSCI China Information Tech ETF,CHIK,Global Equity ETF,.
+Global X MSCI China Large-Cap 50 ETF,CHIL,Global Equity ETF,.
+Global X MSCI China Real Estate ETF,CHIR,Global Equity ETF,.
+Global X MSCI China Utilities ETF,CHIU,Global Equity ETF,.
+Global X MSCI Pakistan ETF,PAK,Global Equity ETF,.
+Global X MSCI SuperDividend EAFE ETF,EFAS,Global Equity ETF,.
+Global X Nasdaq 100 Covered Call ETF,QYLD,US Equity ETF,.
+Global X Next Emerging  &  Frontier ETF,EMFM,Global Equity ETF,.
+Global X Nigeria Index ETF,NGE,Global Equity ETF,.
+Global X Robotics  &  Artfcl Intllgnc ETF,BOTZ,Global Equity ETF,.
+Global X Russell 2000 Covered Call ETF,RYLD,Option Based ETF,.
+Global X S&amp;P 500  Quality Dividend ETF,QDIV,US Equity ETF,.
+Global X S&P 500? Catholic Values ETF,CATH,US Equity ETF,.
+Global X Scientific Beta Asia ex-JPN ETF,SCIX,Global Equity ETF,.
+Global X Scientific Beta Europe ETF,SCID,Global Equity ETF,.
+Global X Scientific Beta Japan ETF,SCIJ,Global Equity ETF,.
+Global X Scientific Beta US ETF,SCIU,US Equity ETF,.
+Global X Silver Miners ETF,SIL,Global Equity ETF,.
+Global X Social Media Index ETF,SOCL,Global Equity ETF,.
+Global X SuperDividend ETF,SDIV,Global Equity ETF,.
+Global X SuperDividend US ETF,DIV,Global Equity ETF,.
+Global X SuperDividend? Alternatives ETF,ALTY,Asset Allocation ETF,.
+Global X SuperDividend? Emerg Mkts ETF,SDEM,Global Equity Income ETF,.
+Global X SuperDividend? REIT ETF,SRET,Global Equity Income ETF,.
+Global X SuperIncome Preferred ETF,SPFF,US Fixed Income ETF,.
+Global X TargetIncome  5 ETF,TFIV,Global Equity ETF,.
+Global X TargetIncome  Plus 2 ETF,TFLT,Global Equity ETF,.
+Global X Thematic Growth ETF,GXTG,Fund of Funds ETF,.
+Global X Top Guru Holdings Index ETF,GURU,Global Equity ETF,.
+Global X Uranium ETF,URA,Global Equity ETF,.
+Global X US Infrastructure Dev ETF,PAVE,US Equity ETF,.
+Global X US Preferred ETF,PFFD,US Equity ETF,.
+Global X Video Games &amp; Esports ETF,HERO,Global Equity ETF,.
+Global X YieldCo ETF,YLCO,Global Equity ETF,.
+Goldman Sachs,GHYB,US Fixed Income ETF,.
+Goldman Sachs Acss Invmt Grd Corp Bd ETF,GIGB,US Fixed Income ETF,.
+Goldman Sachs ActiveBeta Emerging Markets Equity ETF,GEM,Global Equity ETF,.
+Goldman Sachs ActiveBeta International Equity ETF,GSIE,Global Equity ETF,.
+Goldman Sachs ActiveBeta Japan Equity ETF,GSJY,Global Equity ETF,.
+Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF,GSLC,Global Equity ETF,.
+Goldman Sachs ActiveBeta® US SmCp Eq ETF,GSSC,Global Equity ETF,.
+Goldman Sachs Equal Wght US Lg Cp Eq ETF,GSEW,Global Equity ETF,.
+Goldman Sachs Hedge Industry VIP ETF,GVIP,US Equity ETF,.
+Goldman Sachs TreasuryAccess 0-1 Year ETF,GBIL,US Fixed Income ETF,.
+GraniteShares HIPS US High Income ETF,HIPS,US Equity ETF,.
+GRANITESHARES XOUT U.S. LARGE CAP ETF,XOUT,US Equity ETF,.
+GS CONNECT S&P GSCI ENH COMM,GSC,ETN,.
+Hartford Multifactor Developed Markets (ex-US) ETF,RODM,Global Equity ETF,.
+Hartford Multifactor Diversified International ETF,RODE,Global Equity ETF,.
+Hartford Multifactor Emerging Markets ETF,ROAM,Global Equity ETF,.
+Hartford Multifactor Low Volatility US Equity ETF,LVUS,US Equity ETF,.
+Hartford Multifactor REIT ETF,RORE,US Equity ETF,.
+Hartford Multifactor Small Cap ETF,ROSC,US Equity ETF,.
+Hartford Multifactor US Equity ETF,ROUS,US Equity ETF,.
+Hartford Municipal Opportunities ETF,HMOP,US Fixed Income ETF,.
+Hartford Schroders Tax-Aware Bond ETF,HTAB,Global Fixed Income ETF,.
+Hartford Short Duration ETF,HSRT,US Fixed Income ETF,.
+Hartford Total Return Bond ETF,HTRB,US Fixed Income ETF,.
+Highland/iBoxx Senior Loan ETF,SNLN,US Fixed Income ETF,.
+HORIZONS DAX GERMANY ETF,DAX,Global Equity ETF,.
+Horizons S&P 500 Covered Call ETF,HSPX,US Equity Income ETF,.
+Hull Tactical US ETF,HTUS,US Fund of Funds ETF,.
+Innovator IBD® 50 ETF,FFTY,US Equity ETF,.
+INNOVATOR IBD® BREAKOUT OPPORTUNITIES ETF,BOUT,US Equity ETF,.
+Innovator IBD® ETF Leaders ETF,LDRS,US Fund of Funds ETF,.
+Innovator Loup Frontier Tech ETF,LOUP,US Equity ETF,.
+Innovator Lunt Low Vol/High Beta Tact,LVHB,US Equity ETF,.
+Innovator S&P Investment Grade Preferred ETF,EPRF,US Fixed Income ETF,.
+Inspire 100 ETF,BIBL,US Equity ETF,.
+Inspire Corporate Bond Impact ETF,IBD,US Fixed Income ETF,.
+Inspire Global Hope ETF,BLES,US Equity ETF,.
+Inspire Small/Mid Cap Impact ETF,ISMD,US Equity ETF,.
+International Ultra Dividend Revenue ETF,RIDV,US Equity ETF,.
+Invesco - Guggenheim (Rydex) BulletShares 2024 Corporate Bond ETF,BSCQ,US Fixed Income ETF,.
+Invesco - Guggenheim (Rydex) BulletShares 2026 Corporate Bond ETF,BSJO,US Fixed Income ETF,.
+Invesco - Guggenheim (Rydex) MSCI Emerging Markets Equal Weight ETF,EWEM,Global Asset Allocation ETF,.
+Invesco - Guggenheim (Rydex) Russell Top 50? ETF,XLG,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P 500 Pure Growth ETF,RPG,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P 500 Pure Value ETF,RPV,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Consumer Discretionary ETF,RCD,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Consumer Staples ETF,RHS,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Energy ETF,RYE,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight ETF,RSP,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Financial ETF,RYF,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Health Care ETF,RYH,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Industrials ETF,RGI,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Materials ETF,RTM,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Technology ETF,RYT,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P Equal Weight Utilities ETF,RYU,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P MidCap 400 Pure Growth ETF,RFG,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P MidCap 400 Pure Value ETF,RFV,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P SmallCap 600 Pure Growth ETF,RZG,US Equity ETF,.
+Invesco - Guggenheim (Rydex) S&P SmallCap 600 Pure Value ETF,RZV,US Equity ETF,.
+Invesco - Guggenheim BRIC ETF,EEB,Global Equity ETF,.
+Invesco - Guggenheim BulletShares 2020 Corp Bond ETF,BSCK,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShares 2020 HY C Bd ETF,BSJK,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShares 2021 Corp Bd ETF,BSCL,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShares 2022 Corp Bd ETF,BSCM,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShares 2027 Corp Bd ETF,BSCR,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2021 HY CorpBd ETF,BSJL,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2022 HY CorpBd ETF,BSJM,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2023 Corp Bd ETF,BSCN,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2023 HY CorpBd ETF,BSJN,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2024 Corp Bd ETF,BSCO,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2025 Corp Bd ETF,BSCP,US Fixed Income ETF,.
+Invesco - Guggenheim BulletShrs 2025 HY CorpBd ETF,BSJP,US Fixed Income ETF,.
+Invesco - Guggenheim China Real Estate ETF,TAO,Global Equity ETF,.
+Invesco - Guggenheim China Small Cap ETF,HAO,Global Equity ETF,.
+Invesco - Guggenheim China Technology ETF,CQQQ,Global Equity ETF,.
+Invesco - Guggenheim Defensive Equity ETF,DEF,US Equity ETF,.
+Invesco - Guggenheim Dow Jones Indl Avg Div ETF,DJD,US Equity ETF,7
+Invesco - Guggenheim Enhanced Ultra-Short Bond ETF,GSY,US Fixed Income ETF,.
+Invesco - Guggenheim Frontier Markets ETF,FRN,Global Equity ETF,.
+Invesco - Guggenheim Insider Sentiment ETF,NFO,US Equity ETF,.
+Invesco - Guggenheim Mid-Cap Core ETF,CZA,US Equity ETF,.
+Invesco - Guggenheim Raymond James SB-1 Equity ETF,RYJ,US Equity ETF,.
+Invesco - Guggenheim S&P 500? Eql Wght Rel Est ETF,EWRE,US Equity ETF,.
+Invesco - Guggenheim S&P Global Dividend Opportunities Index ETF,LVL,Global Equity ETF,.
+Invesco - Guggenheim S&P Global Water Index ETF,CGW,Global Equity ETF,.
+Invesco - Guggenheim S&P High Income Infras ETF,GHII,Global Equity ETF,.
+Invesco - Guggenheim S&P MidCap 400? Equal Wt ETF,EWMC,US Equity ETF,.
+Invesco - Guggenheim S&P SmallCap 600? Eql Wt ETF,EWSC,US Equity ETF,.
+Invesco - Guggenheim Shipping ETF,SEA,Global Equity ETF,.
+Invesco - Guggenheim Solar ETF,TAN,Global Equity ETF,.
+Invesco - Guggenheim Spin-Off ETF,CSD,US Equity ETF,.
+Invesco - Guggenheim Timber ETF,CUT,Global Equity ETF,.
+Invesco - Guggenheim Total Return Bond ETF,GTO,US Fixed Income ETF,.
+Invesco 1-30 Treasury Ladder Portfolio ETF,PLW,US Fixed Income ETF,.
+Invesco Active U.S. Real Estate Fund ETF,PSR,US Equity ETF,.
+Invesco Aerospace & Defense ETF,PPA,US Equity ETF,.
+Invesco Bal Multi-Asst Allc ETF,PSMB,US Asset Allocation ETF,.
+Invesco BLDRS Asia 50 ADR Index Fund ETF,ADRA,US Equity ETF,.
+Invesco BLDRS Developed Markets 100 ADR Index Fund ETF,ADRD,US Equity ETF,.
+Invesco BLDRS Emerging Markets 50 ADR Index Fund ETF,ADRE,US Equity ETF,.
+Invesco BLDRS Europe 100 ADR Index Fund ETF,ADRU,US Equity ETF,.
+Invesco Build America Bond Portfolio ETF,BAB,US Fixed Income ETF,.
+Invesco BulletShares 2019 Corp Bd ETF,BSCJ,US Fixed Income ETF,.
+Invesco BulletShares 2019 HY Corp Bd ETF,BSJJ,US Fixed Income ETF,.
+Invesco BulletShares 2021 Municipal Bond ETF,BSML,US Fixed Income ETF,.
+Invesco BulletShares 2021 USD Emerging Markets Debt ETF,BSAE,Global Fixed Income ETF,.
+Invesco BulletShares 2022 Municipal Bond ETF,BSMM,US Fixed Income ETF,.
+Invesco BulletShares 2022 USD Emerging Markets Debt ETF,BSBE,Global Fixed Income ETF,.
+Invesco BulletShares 2023 Municipal Bond ETF,BSMN,US Fixed Income ETF,.
+Invesco BulletShares 2023 USD Emerging Markets Debt ETF,BSCE,Global Fixed Income ETF,.
+Invesco BulletShares 2024 Municipal Bond ETF,BSMO,US Fixed Income ETF,.
+Invesco BulletShares 2024 USD Emerging Markets Debt ETF,BSDE,Global Fixed Income ETF,.
+Invesco BulletShares 2026 High Yield Corporate Bond ETF,BSJQ,US Fixed Income ETF,.
+Invesco BulletShares 2026 Municipal Bond ETF,BSMQ,US Fixed Income ETF,.
+Invesco BulletShares 2027 High Yield Corporate Bond ETF,BSJR,US Fixed Income ETF,.
+Invesco BulletShares 2027 Municipal Bond ETF,BSMR,US Fixed Income ETF,.
+Invesco BulletShares 2028 Corporate Bond ETF,BSCS,US Fixed Income ETF,.
+Invesco BulletShares 2028 Municipal Bond ETF,BSMS,US Fixed Income ETF,.
+Invesco BulletShares 2029 Corporate Bond ETF,BSCT,US Fixed Income ETF,.
+Invesco BulletShares 2029 Municipal Bond ETF,BSMT,US Fixed Income ETF,.
+Invesco Buyback Achievers ETF,PKW,US Equity ETF,.
+Invesco CEF Income Composite Portfolio (Fund) ETF,PCEF,US Fixed Income ETF,.
+Invesco Cleantech Portfolio ETF,PZD,Global Equity ETF,.
+Invesco Cnsrv Multi-Asst Allc ETF,PSMC,US Asset Allocation ETF,.
+Invesco Corporate Income Defensive ETF,IHYD,US Fixed Income ETF,.
+Invesco Corporate Income Value ETF,IHYV,US Fixed Income ETF,.
+Invesco Dividend Achievers ETF,PEY,US Equity ETF,.
+Invesco Dividend Achievers ETF,PFM,US Equity ETF,.
+Invesco DWA Basic Materials Momentum Portfolio ETF,PYZ,US Equity ETF,.
+Invesco DWA Consumer Cyclicals Momentum Portfolio ETF,PEZ,US Equity ETF,.
+Invesco DWA Consumer Staples Momentum Portfolio ETF,PSL,US Equity ETF,.
+Invesco DWA Developed Market Technical Leaders Portfolio ETF,PIZ,Global Equity ETF,.
+Invesco DWA Emerging Market Technical Leaders? Portfolio ETF,PIE,Global Equity ETF,.
+Invesco DWA Energy Momentum Portfolio ETF,PXI,US Equity ETF,.
+Invesco DWA Financial Momentum Portfolio ETF,PFI,US Equity ETF,.
+Invesco DWA Healthcare Momentum Portfolio ETF,PTH,US Equity ETF,.
+Invesco DWA NASDAQ Momentum Portfolio ETF,DWAQ,US Equity ETF,.
+Invesco DWA SmCp Technical Ldrs ETF,DWAS,US Equity ETF,.
+Invesco DWA Tact Multi-Asst Inc ETF,DWIN,US Fund of Funds ETF,.
+Invesco DWA Tactical Sector Rtn,DWTR,US Fund of Funds ETF,.
+Invesco DWA Technical Leaders Portfolio ETF,PDP,US Equity ETF,.
+Invesco DWA Technology Momentum Portfolio ETF,PTF,US Equity ETF,.
+Invesco DWA Utilities Momentum Portfolio ETF,PUI,US Equity ETF,.
+Invesco Dynamic Biotech &Genome ETF,PBE,US Equity ETF,.
+Invesco Dynamic Build & Construction ETF,PKB,US Equity ETF,.
+Invesco Dynamic Developed International Opportunities Portfolio ETF,IDHQ,Global Equity ETF,.
+Invesco Dynamic Energy E&P ETF,PXE,US Equity ETF,.
+Invesco Dynamic Food & Beverage ETF,PBJ,US Equity ETF,.
+Invesco Dynamic LargeCap Growth ETF,PWB,US Equity ETF,.
+Invesco Dynamic LargeCap Value ETF,PWV,US Equity ETF,.
+Invesco Dynamic Leisure and Entertainment ETF,PEJ,US Equity ETF,.
+Invesco Dynamic Media ETF,PBS,US Equity ETF,.
+Invesco Dynamic Networking ETF,PXQ,US Equity ETF,.
+Invesco Dynamic Oil Services ETF,PXJ,US Equity ETF,.
+Invesco Dynamic Pharmaceuticals ETF,PJP,US Equity ETF,.
+Invesco Dynamic Retail ETF,PMR,US Equity ETF,.
+Invesco Dynamic Semiconductors ETF,PSI,US Equity ETF,.
+Invesco Dynamic Software ETF,PSJ,US Equity ETF,.
+Invesco Emerging Markets Revenue ETF,REEM,Global Equity ETF,.
+Invesco Emerging Markets Sovereign Debt Portfolio ETF,PCY,US Fixed Income ETF,.
+Invesco ESG Revenue ETF,ESGL,US Equity ETF,.
+Invesco Exchange-Traded Fund ETF,BKLN,US Fixed Income ETF,.
+Invesco Financial Preferred ETF,PGF,US Fixed Income ETF,.
+Invesco FTSE Intl Lw Bt Eq Wgt ETF,IDLB,Global Equity ETF,.
+Invesco FTSE RAFI Developed Markets ex-U.S. Portfolio ETF,PXF,Global Equity ETF,.
+Invesco FTSE RAFI Developed Markets ex-U.S. Small-Mid Portfolio ETF,PDN,Global Equity ETF,.
+Invesco FTSE RAFI Emerging Markets Portfolio ETF,PXH,Global Equity ETF,.
+Invesco FTSE RAFI US 1000 Portfolio ETF,PRF,US Equity ETF,.
+Invesco FTSE RAFI US 1500 Small-Mid Portfolio ETF,PRFZ,US Equity ETF,.
+Invesco Fundamental High Yield Corporate Bond Portfolio ETF,PHB,US Fixed Income ETF,.
+Invesco Fundamental Investment Grade Corporate Bond Portfolio ETF,PFIG,US Fixed Income ETF,.
+Invesco Glbl S/T Hi Yld Bd ETF,PGHY,US Fixed Income ETF,.
+Invesco Global Clean Energy Portfolio ETF,PBD,Global Equity ETF,.
+Invesco Global ESG Revenue ETF,ESGF,Global Equity ETF,.
+Invesco Global Listed Private Eq ETF,PSP,Global Equity ETF,.
+Invesco Global Revenue ETF,RGLB,US Equity ETF,.
+Invesco Global Water Portfolio ETF,PIO,Global Equity ETF,.
+Invesco Golden Dragon Halter USX China Portfolio ETF,PGJ,Global Equity ETF,.
+Invesco Gr Multi-Asst Allc ETF,PSMG,US Asset Allocation ETF,.
+Invesco India Portfolio ETF,PIN,Global Equity ETF,.
+Invesco Insured CA Municipal Bond Portfolio ETF,PWZ,US Fixed Income ETF,.
+Invesco Insured National Municipal Bond Portfolio ETF,PZA,US Fixed Income ETF,.
+Invesco Insured NY Municipal Bond Portfolio ETF,PZT,US Fixed Income ETF,.
+Invesco International BuyBack Achiev ETF,IPKW,Global Equity ETF,.
+Invesco International Corporate Bond Portfolio ETF,PICB,US Fixed Income ETF,.
+Invesco International Revenue ETF,REFA,Global Equity ETF,.
+Invesco Intl Dividend Achievers ETF,PID,US Equity ETF,.
+Invesco Investment Grade Defensive ETF,IIGD,US Fixed Income ETF,.
+Invesco Investment Grade Value ETF,IIGV,US Fixed Income ETF,.
+Invesco KBW Bank Portfolio ETF,KBWB,US Equity ETF,.
+Invesco KBW High Dividend Yield Financial Portfolio ETF,KBWD,US Equity ETF,.
+Invesco KBW Premium Yield Equity REIT Portfolio ETF,KBWY,US Equity ETF,.
+Invesco KBW Property & Casualty Insurance Portfolio ETF,KBWP,US Equity ETF,.
+Invesco KBW Regional Banking Portfolio ETF,KBWR,US Equity ETF,.
+Invesco LadderRite 0-5YCorpBdPortETF,LDRI,US Fixed Income ETF,.
+Invesco Mod Cnsrv Multi-Asst Allc ETF,PSMM,US Asset Allocation ETF,.
+Invesco Multi-Factor Core Fixed Income ETF,IMFC,US Fixed Income ETF,.
+Invesco Multi-Factor Core Plus Fixed Income ETF,IMFP,US Fixed Income ETF,.
+Invesco Multi-Factor Defensive Core Fixed Income ETF,IMFD,US Fixed Income ETF,.
+Invesco Multi-Factor Income ETF,IMFI,US Fixed Income ETF,.
+Invesco Nasdaq Internet Portfolio ETF,PNQI,US Equity ETF,.
+Invesco Preferred Portfolio ETF,PGX,US Fixed Income ETF,.
+Invesco PureBeta 0-5 Yr US TIPS,PBTP,US Fixed Income ETF,.
+Invesco PureBeta FTSE Dv ex-Nrth Amr,PBDM,Global Equity ETF,.
+Invesco PureBeta FTSE Emerg Mkts,PBEE,Global Equity ETF,.
+Invesco PureBeta MSCI USA,PBUS,US Equity ETF,.
+Invesco PureBeta MSCI USA Sm Cp,PBSM,US Equity ETF,.
+Invesco PureBeta US Aggt Bd,PBND,US Fixed Income ETF,.
+Invesco QQQ Trust ETF,QQQ,US Equity ETF,.
+Invesco RAFI™ Strategic Developed ex-US ETF,ISDX,Global Equity ETF,.
+Invesco RAFI™ Strategic Developed ex-US Small Company ETF,ISDS,Global Equity ETF,.
+Invesco RAFI™ Strategic Emerging Markets ETF,ISEM,Global Equity ETF,.
+Invesco RAFI™ Strategic US ETF,IUS,US Equity ETF,.
+Invesco RAFI™ Strategic US Small Company ETF,IUSS,US Equity ETF,.
+Invesco Russell 1000 Enhanced Eq Wt,USEQ,US Equity ETF,.
+Invesco Russell 1000 Equal Weight ETF,EQAL,US Equity ETF,.
+Invesco Russell 1000 Low Beta Eq Wgt,USLB,US Equity ETF,.
+Invesco Russell 1000® Dynamic Multifactor ETF,OMFL,US Equity ETF,.
+Invesco Russell 1000® Low Volatility Factor ETF,OVOL,US Equity ETF,.
+Invesco Russell 1000® Momentum Factor ETF,OMOM,US Equity ETF,.
+Invesco Russell 1000® Quality Factor ETF,OQAL,US Equity ETF,.
+Invesco Russell 1000® Size Factor ETF,OSIZ,US Equity ETF,.
+Invesco Russell 1000® Value Factor ETF,OVLU,US Equity ETF,.
+Invesco Russell 1000® Yield Factor ETF,OYLD,US Equity ETF,.
+Invesco Russell 2000® Dynamic Multifactor ETF,OMFS,US Equity ETF,.
+Invesco Russell Top 200?Equal Weight Portfolio ETF,EQWL,US Equity ETF,.
+Invesco S & P Intl Dev Hi Div Low Vltl ETF,IDHD,Global Equity ETF,.
+Invesco S & P SmallCap Quality ETF,XSHQ,US Equity ETF,.
+Invesco S & P SmCp Hi Div Low Volatil ETF,XSHD,US Equity ETF,.
+Invesco S&P 400 Low Volatility ETF,XMLV,US Equity ETF,.
+Invesco S&P 500 BuyWrite Portfolio ETF,PBP,US Equity ETF,.
+Invesco S&P 500 Downside Hdg ETF,PHDG,US Equity ETF,.
+Invesco S&P 500 Enhanced Value Portfolio,SPVU,US Equity ETF,.
+Invesco S&P 500 Equal Weight Communication Services ETF,EWCO,US Equity ETF,.
+Invesco S&P 500 GARP ETF,SPGP,US Equity ETF,.
+Invesco S&P 500 High Beta ETF,SPHB,US Equity ETF,.
+Invesco S&P 500 High Div Portfolio ETF,SPHD,US Equity ETF,.
+Invesco S&P 500 High Quality Portfolio ETF,SPHQ,US Equity ETF,.
+Invesco S&P 500 Low Volatility ETF,SPLV,US Equity ETF,.
+Invesco S&P 500 Minimum Variance Portfolio,SPMV,US Equity ETF,.
+Invesco S&P 500 Momentum Portfolio,SPMO,US Equity ETF,.
+Invesco S&P 500 Revenue ETF,RWL,US Equity ETF,.
+Invesco S&P 500 Value with Momentum ETF,SPVM,US Equity ETF,.
+Invesco S&P 500ex-Rate SnsvLwVtl ETF,XRLV,US Equity ETF,.
+Invesco S&P 600 Low Volatility ETF,XSLV,US Equity ETF,.
+Invesco S&P Emerg Mkts Momentum ETF,EEMO,Global Equity ETF,.
+Invesco S&P Emerging Markets Low Vol ETF,EELV,Global Equity ETF,.
+Invesco S&P Financials Revenue ETF,RWW,US Equity ETF,.
+Invesco S&P Intl Dev Low Volatility ETF,IDLV,Global Equity ETF,.
+Invesco S&P Intl Dev Momentum ETF,IDMO,Global Equity ETF,.
+Invesco S&P MidCap 400 Revenue ETF,RWK,US Equity ETF,.
+Invesco S&P MidCap Momentum ETF,XMMO,US Equity ETF,.
+Invesco S&P MidCap Quality ETF,XMHQ,US Equity ETF,.
+Invesco S&P MidCap Value with Momentum ETF,XMVM,US Equity ETF,.
+Invesco S&P SmallCap 600 Revenue ETF,RWJ,US Equity ETF,.
+Invesco S&P SmallCap Consumer Discretionary Portfolio ETF,PSCD,US Equity ETF,.
+Invesco S&P SmallCap Consumer Staples Portfolio ETF,PSCC,US Equity ETF,.
+Invesco S&P SmallCap Energy Portfolio ETF,PSCE,US Equity ETF,.
+Invesco S&P SmallCap Financials Portfolio ETF,PSCF,US Equity ETF,.
+Invesco S&P SmallCap Health Care Portfolio ETF,PSCH,US Equity ETF,.
+Invesco S&P SmallCap Industrials Portfolio ETF,PSCI,US Equity ETF,.
+Invesco S&P SmallCap Info Tech ETF,PSCT,US Equity ETF,.
+Invesco S&P SmallCap Materials Portfolio ETF,PSCM,US Equity ETF,.
+Invesco S&P SmallCap Momentum ETF,XSMO,US Equity ETF,.
+Invesco S&P SmallCap Utilities Portfolio ETF,PSCU,US Equity ETF,.
+Invesco S&P SmallCap Value with Momentum ETF,XSVM,US Equity ETF,.
+Invesco S&P Ultra Dividend Revenue ETF,RDIV,US Equity ETF,.
+Invesco Treasury Collateral ETF,CLTL,US Fixed Income ETF,.
+Invesco Variable Rate Invmt Grd ETF,VRIG,US Fixed Income ETF,.
+Invesco Variable Rate Preferred ETF,VRP,US Fixed Income ETF,.
+Invesco VRDO Tax Free Weekly Portfolio ETF,PVI,US Fixed Income ETF,.
+Invesco Water Resource Port ETF,PHO,US Equity ETF,.
+Invesco WilderHill Clean Energy Portfolio ETF,PBW,US Equity ETF,.
+Invesco XTF: Dynamic Market Portfolio ETF,PWC,US Equity ETF,.
+Invesco Zacks Multi-Asset Income ETF,CVY,US Equity ETF,.
+iPath Asian & Gulf Currency Revaluation ETN,PGDDF,ETN,.
+iPath Bloomberg Agriculture Subindex Total Return ETN,JJATF,ETN,.
+iPath Bloomberg Aluminum Subindex Total Return ETN,JJUFF,ETN,.
+iPath Bloomberg Cocoa Subindex Total Return ETN,NIB,ETN,.
+iPath Bloomberg Coffee Subindex Total Return ETN,JJOFF,ETN,.
+iPath Bloomberg Commodity Index Total Return ETN,DJP,ETN,.
+iPath Bloomberg Copper Subindex Total Return ETN,JJCTF,ETN,.
+iPath Bloomberg Cotton Subindex Total Return ETN,BALTF,ETN,.
+iPath Bloomberg Energy Subindex Total Return ETN,JJETF,ETN,.
+iPath Bloomberg Grains Subindex Total Return ETN,JJGTF,ETN,.
+iPath Bloomberg Industrial Metals Subindex Total Return ETN,JJMTF,ETN,.
+iPath Bloomberg Lead Subindex Total Return ETN,LD,ETN,.
+iPath Bloomberg Livestock Subindex Total Return ETN,COWTF,ETN,.
+iPath Bloomberg Natural Gas Subindex Total Return ETN,GAZZF,ETN,.
+iPath Bloomberg Nickel Subindex Total Return ETN,JJNTF,ETN,.
+iPath Bloomberg Platinum Subindex Total Return ETN,PGMFF,ETN,.
+iPath Bloomberg Precious Metals Subindex Total Return ETN,JJPFF,ETN,.
+iPath Bloomberg Softs Subindex Total Return ETN,JJSSF,ETN,.
+iPath Bloomberg Sugar Subindex Total Return ETN,SGGFF,ETN,.
+iPath Bloomberg Tin Subindex Total Return ETN,JJTFF,ETN,.
+iPath CBOE S&P 500 BuyWrite Index ETN,BWVTF,ETN,.
+iPath EUR/USD Exchange Rate ETN,EROTF,ETN,.
+iPath GBP/USD Exchange Rate ETN,GBBEF,ETN,.
+iPath GEMS Asia 8 ETN,AYTEF,ETN,.
+iPath GEMS Index ETN,JEMTF,ETN,.
+iPath Global Carbon ETN,GRNTF,ETN,.
+iPath Inverse S&P 500 VIX Short-Term Futures ETN,XXVFF,ETN,.
+iPath JPY/USD Exchange Rate ETN,JYNFF,ETN,.
+iPath Long Enhanced MSCI EAFE Index ETN,MFLAF,ETN,.
+iPath Long Enhanced MSCI Emerging Markets Index ETN,EMLBF,ETN,.
+iPath Long Extended Russell 1000 TR Index ETN,ROLAF,ETN,.
+iPath Long Extended Russell 2000 TR Index ETN,RTLAF,ETN,.
+iPath Long Extended S&P 500 TR Index ETN,SFLAF,ETN,.
+iPath MSCI India Index ETN,INPTF,ETN,.
+iPath Optimized Currency Carry ETN,ICITF,ETN,.
+iPath Pure Beta Broad Commodity ETN,BCM,ETN,.
+iPath Pure Beta Crude Oil ETN,OLEM,ETN,.
+iPath S&P 500 Dynamic VIX ETN,XVZ,ETN,.
+iPath S&P GSCI Crude Oil Total Return Index ETN,OILNF,ETN,.
+iPath S&P GSCI Total Return Index ETN,GSP,ETN,.
+iPath S&P MLP ETN,IMLP,ETN,.
+iPath Series B Bloomberg Agriculture Subindex Total Return ETN,JJA,ETN,.
+iPath Series B Bloomberg Aluminum Subindex Total Return ETN,JJU,ETN,.
+iPath Series B Bloomberg Coffee Subindex Total Return ETN,JO,ETN,.
+iPath Series B Bloomberg Copper Subindex Total Return ETN,JJC,ETN,.
+iPath Series B Bloomberg Cotton Subindex Total Return ETN,BAL,ETN,.
+iPath Series B Bloomberg Energy Subindex Total Return ETN,JJE,ETN,.
+iPath Series B Bloomberg Grains Subindex Total Return ETN,JJG,ETN,.
+iPath Series B Bloomberg Industrial Metals Subindex Total Return ETN,JJM,ETN,.
+iPath Series B Bloomberg Livestock Subindex Total Return ETN,COW,ETN,.
+iPath Series B Bloomberg Natural Gas Subindex Total Return ETN,GAZ,ETN,.
+iPath Series B Bloomberg Nickel Subindex Total Return ETN,JJN,ETN,.
+iPath Series B Bloomberg Platinum Subindex Total Return ETN,PGM,ETN,.
+iPath Series B Bloomberg Precious Metals Subindex Total Return ETN,JJP,ETN,.
+iPath Series B Bloomberg Softs Subindex Total Return ETN,JJS,ETN,.
+iPath Series B Bloomberg Sugar Subindex Total Return ETN,SGG,ETN,.
+iPath Series B Bloomberg Tin Subindex Total Return ETN,JJT,ETN,.
+iPath Series B S&P 500 VIX Mid-Term Futures ETN,VXZ,ETN,.
+iPath Series B S&P 500 VIX Short-Term Futures ETN,VXX,ETN,.
+iPath Series B S&P GSCI Crude Oil Total Return Index ETN,OIL,ETN,.
+iPath US Treasury 10-year Bear ETN,DTYS,ETN,.
+iPath US Treasury 10-year Bull ETN,DTYL,ETN,.
+iPath US Treasury 2-year Bear ETN,DTUS,ETN,.
+iPath US Treasury 2-year Bull ETN,DTUL,ETN,.
+iPath US Treasury 5-year Bear ETN,DFVS,ETN,.
+iPath US Treasury 5-year Bull ETN,DFVL,ETN,.
+iPath US Treasury Flattener ETN,FLAT,ETN,.
+iPath US Treasury Long Bond Bear ETN,DLBS,ETN,.
+iPath US Treasury Long Bond Bull ETN,DLBLF,ETN,.
+iPath US Treasury Steepener ETN,STPP,ETN,.
+IQ 500 International ETF (IQIN),IQIN,Global Equity ETF,.
+IQ Candriam ESG International Equity ETF (IQSI),IQSI,Global Equity ETF,.
+IQ Candriam ESG U.S. Equity ETF (IQSU),IQSU,US Equity ETF,.
+IQ Chaikin U.S. Large Cap ETF (CLRG),CLRG,US Equity ETF,.
+IQ Chaikin U.S. Small Cap ETF (CSML),CSML,US Equity ETF,.
+IQ Enhanced Core Plus Bond U.S. ETF (AGGP),AGGP,US Equity ETF,.
+IQ Global Agribusiness Small Cap ETF (CROP),CROP,Global Equity ETF,.
+IQ Global Resources ETF (GRES),GRES,Global Asset Allocation ETF,.
+IQ Leaders GTAA Tracker ETF (QGTA),QGTA,Global Equity ETF,.
+IQ MacKay Municipal Insured ETF (MMIN),MMIN,US fixed Income ETF,.
+IQ MacKay Municipal Intermediate ETF (MMIT),MMIT,US fixed Income ETF,.
+IQ S&P High Yield Low Volatility Bond ETF (HYLV),HYLV,US Fixed Income ETF,.
+IQ Short Duration Enhanced Core Bond U.S. ETF (SDAG),SDAG,US Fixed Income ETF,.
+IQ Ultra Short Duration ETF (ULTR),ULTR,US Fixed Income ETF,.
+IQ US Real Estate Small Cap ETF (ROOF),ROOF,US Equity ETF,.
+iShares 0-5 Year High Yield Corp Bd ETF,SHYG,US Fixed Income ETF,.
+iShares 0-5 Year Invmt Grd Corp Bd ETF,SLQD,US Fixed Income ETF,.
+iShares 2020 Investment Grade Corp Bd ETF,IBCD,Global Fixed Income ETF,.
+iShares 2023 Investment Grade Corp Bd ETF,IBCE,Global Fixed Income ETF,.
+iShares 5-10 Year USD Bond ETF,IMTB,US Fixed Income ETF,.
+iShares A79MSCI Philippines Investable Market Index Fund (EPHE) ETF,EPHE,Global Equity ETF,.
+iShares Aaa - A Rated Corporate Bond ETF,QLTA,US Fixed Income ETF,.
+iShares Asia/Pacific Dividend 30 ETF,DVYA,Global Equity ETF,.
+iShares Barclays 0-5 Year TIPS ETF,STIP,US Fixed Income ETF,.
+iShares Barclays 10-20 Year Treasury Bond Fund ETF,TLH,US Fixed Income ETF,.
+iShares Barclays 1-3 Year Treasury Bond Fund ETF,SHY,US Fixed Income ETF,.
+iShares Barclays 20 Year Treasury Bond Fund ETF,TLT,US Fixed Income ETF,.
+iShares Barclays 3-7 Year Treasury Bond Fund ETF,IEI,US Fixed Income ETF,.
+iShares Barclays 7-10 Year Treasury Bond Fund ETF,IEF,US Fixed Income ETF,.
+iShares Barclays Agency Bond Fund ETF,AGZ,US Fixed Income ETF,.
+iShares Barclays Aggregate ETF,AGG,US Fixed Income ETF,.
+iShares Barclays CMBS Bond ETF,CMBS,US Fixed Income ETF,.
+iShares Barclays GNMA Bond ETF,GNMA,US Fixed Income ETF,.
+iShares Barclays Government/Credit Bond Fund ETF,GBF,US Fixed Income ETF,.
+iShares Barclays Intermediate Government/Credit Bond Fund ETF,GVI,US Fixed Income ETF,.
+iShares Barclays MBS Fixed-Rate Bond ETF,MBB,US Fixed Income ETF,.
+iShares Barclays Short Treasury Bond Fund ETF,SHV,US Fixed Income ETF,.
+iShares Barclays TIPS Bond Fund ETF,TIP,US Fixed Income ETF,.
+iShares Barclays U.S. Treasury Bond ETF,GOVT,US Fixed Income ETF,.
+iShares Broad USD High Yield Corp Bd ETF,USHY,US Fixed Income ETF,.
+iShares Broad USD Invm Grd Corp Bd ETF,USIG,US Fixed Income ETF,.
+iShares Cohen & Steers Realty Major ETF,ICF,US Equity ETF,.
+iShares Convertible Bond ETF,ICVT,US Fixed Income ETF,.
+iShares Core Dividend Growth ETF,DGRO,US Equity ETF,.
+iShares Core International Aggregate Bd ETF,IAGG,Global Fixed Income ETF,.
+iShares Core Long-Term U.S. Bond ETF,ILTB,US Fixed Income ETF,.
+iShares Core MSCI EAFE ETF,IEFA,Global Equity ETF,.
+iShares Core MSCI Emerging Markets ETF,IEMG,Global Equity ETF,.
+iShares Core MSCI Europe ETF,IEUR,Global Equity ETF,.
+iShares Core MSCI Pacific ETF,IPAC,Global Equity ETF,.
+iShares Core MSCI Total Intl Stk ETF,IXUS,Global Equity ETF,.
+iShares Core S&P 500 Index Fund ETF,IVV,US Equity ETF,3
+iShares Core S&P Total U.S. Stock Market ETF,ITOT,US Equity ETF,.
+iShares Core Short-Term US Bond ETF,ISTB,US Fixed Income ETF,.
+iShares Core Total USD Bond Market ETF,IUSB,US Fixed Income ETF,.
+iShares Core US REIT ETF,USRT,US Equity ETF,.
+iShares Currency Hedged MSCI EMU ETF,HEZU,Global Equity ETF,.
+iShares Cybersecurity and Tech ETF,IHAK,Global Equity ETF,.
+iShares Dow Jones EPAC Select Dividend ETF,IDV,Global Equity ETF,.
+iShares Dow Jones Select Dividend Index Fund ETF,DVY,US Equity ETF,7
+iShares Dow Jones Transportation Average Index Fund ETF,IYT,US Equity ETF,7
+iShares Dow Jones U.S. Basic Materials Index ETF,IYM,US Equity ETF,7
+iShares Dow Jones U.S. Broker-Dealers Index Fund ETF,IAI,US Equity ETF,7
+iShares Dow Jones U.S. Consumer Goods Index Fund ETF,IYK,US Equity ETF,7
+iShares Dow Jones U.S. Consumer Index Fund ETF,IYC,US Equity ETF,7
+iShares Dow Jones U.S. Energy Sector Fund ETF,IYE,US Equity ETF,7
+iShares Dow Jones U.S. Financial Sector Index Fund ETF,IYF,US Equity ETF,7
+iShares Dow Jones U.S. Financial Services Index Fund ETF,IYG,US Equity ETF,7
+iShares Dow Jones U.S. Health Care Index Fund ETF,IYH,US Equity ETF,7
+iShares Dow Jones U.S. Health Care Providers Index Fund ETF,IHF,US Equity ETF,7
+iShares Dow Jones U.S. Home Construction Index Fund ETF,ITB,US Equity ETF,7
+iShares Dow Jones U.S. Industrial Sector Index Fund ETF,IYJ,US Equity ETF,7
+iShares Dow Jones U.S. Insurance Index Fund ETF,IAK,US Equity ETF,7
+iShares Dow Jones U.S. Medical Devices Index Fund ETF,IHI,US Equity ETF,7
+iShares Dow Jones U.S. Oil & Gas Exploration & Production Index Fund ETF,IEO,Global Equity ETF,.
+iShares Dow Jones U.S. Oil Equipment & Services Index Fund ETF,IEZ,US Equity ETF,7
+iShares Dow Jones U.S. Pharmaceutical Index Fund ETF,IHE,US Equity ETF,7
+iShares Dow Jones U.S. Real Estate Index Fund ETF,IYR,US Equity ETF,7
+iShares Dow Jones U.S. Regional Banks Index Fund ETF,IAT,US Equity ETF,7
+iShares Dow Jones U.S. Technology Index Fund ETF,IYW,US Equity ETF,7
+iShares Dow Jones U.S. Telecommunications Index Fund ETF,IYZ,US Equity ETF,7
+iShares Dow Jones U.S. Total Market Index Fund ETF,IYY,US Equity ETF,7
+iShares Dow Jones U.S. Utilities Index Fund ETF,IDU,US Equity ETF,7
+iShares Edge High Yield Defensive Bd ETF,HYDB,Global Fixed Income ETF,.
+iShares Edge Investment Grade Enh Bd ETF,IGEB,US Fixed Income ETF,.
+iShares Edge MSCI Min Vol USA Small-Cap ETF,SMMV,US Equity ETF,.
+iShares Edge MSCI Multifactor USA Mid-Cap ETF,MIDF,US Equity ETF,.
+iShares Edge US Fixed Income Bal Risk ETF,FIBR,US Fixed Income ETF,.
+iShares Emerging Markets Corporate Bond ETF,CEMB,US Fixed Income ETF,.
+iShares Emerging Markets Dividend ETF,DVYE,Global Equity ETF,.
+iShares Emerging Markets High Yield Bond ETF,EMHY,US Fixed Income ETF,.
+iShares Emerging Markets Local Currency Bond Fund ETF,LEMB,US Fixed Income ETF,.
+iShares ESG 1-5 Year USD Corp Bd ETF,SUSB,Global Fixed Income ETF,.
+iShares ESG MSCI USA Leaders ETF,SUSL,US Equity ETF,.
+iShares ESG MSCI USA Small-Cap ETF,ESML,US Equity ETF,.
+iShares ESG U.S. Aggregate Bond ETF,EAGG,US Fixed Income ETF,.
+iShares ESG USD Corporate Bond ETF,SUSC,Global Fixed Income ETF,.
+iShares Evolved U.S. Consumer Staples ETF - Active,IECS,US Equity ETF,.
+iShares Evolved U.S. Discretionary Spending ETF - Active,IEDI,US Equity ETF,.
+iShares Evolved U.S. Financials ETF - Active,IEFN,US Equity ETF,.
+iShares Evolved U.S. Healthcare Staples ETF  - Active,IEHS,US Equity ETF,.
+iShares Evolved U.S. Innovative Healthcare ETF - Active,IEIH,US Equity ETF,.
+iShares Evolved U.S. Media and Entertainment ETF - Active,IEME,US Equity ETF,.
+iShares Evolved U.S. Technology ETF - Active,IETC,US Equity ETF,.
+iShares Exponential Technologies ETF,XT,Global Equity ETF,.
+iShares FactorSelect MSCI Emerging ETF,EMGF,Global Equity ETF,.
+iShares FactorSelect MSCI Global ETF,ACWF,Global Equity ETF,.
+iShares FactorSelect MSCI International ETF,INTF,Global Equity ETF,.
+iShares FactorSelect MSCI Intl Small-Cap ETF,ISCF,Global Equity ETF,.
+iShares FactorSelect MSCI USA ETF,LRGF,US Equity ETF,.
+iShares FactorSelect MSCI USA Small-Cap ETF,SMLF,US Equity ETF,.
+iShares Floating Rate Note ETF,FLOT,US Fixed Income ETF,.
+iShares Focused Value Factor ETF,FOVL,US Equity ETF,.
+iShares FTSE EPRA/NAREIT Europe Index Fund ETF,IFEU,Global Equity ETF,.
+iShares FTSE EPRA/NAREIT Global Real Estate ex-U.S. Index Fund ETF,IFGL,Global Equity ETF,.
+iShares FTSE NAREIT Mortgage REITs Index Fund ETF,REM,US Equity ETF,.
+iShares FTSE NAREIT Residential Index Fund ETF,REZ,US Equity ETF,.
+iShares FTSE/Xinhua China 25 Index Fund ETF,FXI,Global Equity ETF,.
+iShares Genomics Immunology and Healthcare ETF,IDNA,Global Equity ETF,.
+iShares Global ex USD High Yield Corp Bd ETF,HYXU,US Fixed Income ETF,.
+iShares Global Green Bond ETF,BGRN,Global Fixed Income ETF,.
+iShares Global High Yield Corporate Bond ETF,GHYG,US Fixed Income ETF,.
+iShares Global REIT ETF,REET,Global Equity ETF,.
+iShares Goldman Sachs Natural Resources Index Fund ETF,IGE,US Equity ETF,.
+iShares Goldman Sachs Network Index Fund ETF,IGN,US Equity ETF,.
+iShares Goldman Sachs Software Index Fund ETF,IGV,US Equity ETF,.
+iShares Goldman Sachs Technology Index Fund ETF,IGM,US Equity ETF,.
+iShares GS . InvesTopTM Corporate Bond Fund ETF,LQD,US Fixed Income ETF,.
+iShares GSCI Commodity-Indexed Trust Fund ETF,GSG,US Fixed Income ETF,.
+iShares High Dividend Equity ETF,HDV,US Equity ETF,.
+iShares iBonds Dec 2019 Corporate ETF,IBDK,US Fixed Income ETF,.
+iShares iBonds Dec 2021 Corporate ETF,IBDM,US Fixed Income ETF,.
+iShares iBonds Dec 2021 Term Muni Bond ETF,IBMJ,US Fixed Income ETF,.
+iShares iBonds Dec 2022 Corporate ETF,IBDN,US Fixed Income ETF,.
+iShares iBonds Dec 2022 Term Muni Bond ETF,IBMK,US Fixed Income ETF,.
+iShares iBonds Dec 2023 Corporate ETF,IBDO,US Fixed Income ETF,.
+iShares iBonds Dec 2023 Term Muni Bond ETF,IBML,US Fixed Income ETF,.
+iShares iBonds Dec 2024 Corporate ETF,IBDP,US Fixed Income ETF,.
+iShares iBonds Dec 2025 Corporate ETF,IBDQ,US Fixed Income ETF,.
+iShares iBonds Dec 2026 Term Corporate ETF,IBDR,US Fixed Income ETF,.
+iShares iBonds Dec 2027 Term Corp ETF,IBDS,US Fixed Income ETF,.
+iShares iBonds Dec 2028 Term Corporate ETF,IBDT,US Fixed Income ETF,.
+iShares iBonds Sep 2020 AMT-Free Muni Bd ETF,IBMI,US Fixed Income ETF,.
+iShares iBonds? Dec 2020 Corporate ETF,IBDL,US Fixed Income ETF,.
+iShares iBoxx $ HY ex Oil  &  Gas Corp Bd ETF,HYXE,US Fixed Income ETF,.
+iShares iBoxx . HY Corp Bond Fund ETF,HYG,US Fixed Income ETF,.
+iShares Inc iShares MSCI South Korea ETF,EWY,Global Equity ETF,.
+iShares Interest Rate Hedged Corp Bd ETF,LQDH,US Fixed Income ETF,.
+iShares Intermediate-Term Corp Bd ETF,IGIB,US Fixed Income ETF,.
+iShares International Dividend Growth ETF,IGRO,Global Fixed Income ETF,.
+iShares JP Morgan Em Bond Fd ETF,EMB,US Fixed Income ETF,.
+iShares JPX-Nikkei 400 ETF,JPXN,Global Equity ETF,.
+iShares KLD 400 Social Index Fund ETF,DSI,US Equity ETF,.
+iShares Latin America 40 Index Fund ETF,ILF,Global Equity ETF,.
+iShares Liquidity Income ETF,ICSH,US Fixed Income ETF,.
+iShares Long-Term Corporate Bond ETF,IGLB,US Fixed Income ETF,.
+iShares Morningstar Large Core Index Fund ETF,JKD,US Equity ETF,.
+iShares Morningstar Large Growth Index Fund ETF,JKE,US Equity ETF,.
+iShares Morningstar Large Value Index Fund ETF,JKF,US Equity ETF,.
+iShares Morningstar Mid Core Index Fund ETF,JKG,US Equity ETF,.
+iShares Morningstar Mid Growth Index Fund ETF,JKH,US Equity ETF,.
+iShares Morningstar Mid Value Index Fund ETF,JKI,US Equity ETF,.
+iShares Morningstar Multi-Asset Income ETF,IYLD,US Asset Allocation ETF,.
+iShares Morningstar Small Core Index Fund ETF,JKJ,US Equity ETF,.
+iShares Morningstar Small Growth Index Fund ETF,JKK,US Equity ETF,.
+iShares Morningstar Small Value Index Fund ETF,JKL,US Equity ETF,.
+iShares MSCI ACWI (All Country World Index) Index Fund ETF,ACWI,Global Equity ETF,.
+iShares MSCI ACWI ex US Index Fund ETF,ACWX,Global Equity ETF,.
+iShares MSCI ACWI Low Carbon Target ETF,CRBN,US Equity ETF,.
+iShares MSCI All Country Asia ex Japan Index Fund ETF,AAXJ,Global Equity ETF,.
+iShares MSCI All Country World Minimum Volatility Index Fund ETF,ACWV,Global Equity ETF,.
+iShares MSCI All Peru Capped Index Fund ETF,EPU,Global Equity ETF,.
+iShares MSCI Argentina & Glb Exps ETF,AGT,Global Equity ETF,.
+iShares MSCI Australia Index Fund ETF,EWA,Global Equity ETF,.
+iShares MSCI Austria Index Fund ETF,EWO,Global Equity ETF,.
+iShares MSCI Belgium Index Fund ETF,EWK,Global Equity ETF,.
+iShares MSCI Brazil Index Fund ETF,EWZ,Global Equity ETF,.
+iShares MSCI Brazil Small Cap Index Fund (EWZS) ETF,EWZS,Global Equity ETF,.
+iShares MSCI BRIC Index Fund ETF,BKF,Global Equity ETF,.
+iShares MSCI Canada Index Fund ETF,EWC,Global Equity ETF,.
+iShares MSCI Chile ETF,ECH,Global Equity ETF,.
+iShares MSCI China A ETF,CNYA,Global Equity ETF,.
+iShares MSCI China ETF,MCHI,Global Equity ETF,.
+iShares MSCI China Small Cap Index Fund (ECNS) ETF,ECNS,Global Equity ETF,.
+iShares MSCI Colombia Capped ETF,ICOL,Global Equity ETF,.
+iShares MSCI Denmark Cppd Investable Mkt ETF,EDEN,Global Equity ETF,.
+iShares MSCI EAFE ESG Optimized ETF,ESGD,Global Equity ETF,.
+iShares MSCI EAFE Index Fund ETF,EFA,Global Equity ETF,.
+iShares MSCI EAFE Minimum Volatility Index Fund ETF,EFAV,Global Equity ETF,.
+iShares MSCI EAFE Small Cap ETF,SCZ,Global Equity ETF,.
+iShares MSCI EM ESG Optimized ETF,ESGE,Global Equity ETF,.
+iShares MSCI Emerging Index Fund ETF,EEM,Global Equity ETF,.
+iShares MSCI Emerging Markets Asia ETF,EEMA,Global Equity ETF,.
+iShares MSCI Emerging Markets Minimum Volatility Index Fund ETF,EEMV,Global Equity ETF,.
+iShares MSCI Emerging Markets Small Cap Index Fund ETF,EEMS,Global Equity ETF,.
+iShares MSCI Emerging Mkts ex China ETF,EMXC,Global Equity ETF,.
+iShares MSCI EMU Index Fund ETF,EZU,Global Equity ETF,.
+iShares MSCI Europe Financials Sector Index Fund ETF,EUFN,Global Equity ETF,.
+iShares MSCI Europe Minimum Volatility ETF,EUMV,Global Equity ETF,.
+iShares MSCI Europe Small-Cap ETF,IEUS,Global Equity ETF,.
+iShares MSCI Finland Capped Inv Mkt ETF,EFNL,Global Equity ETF,.
+iShares MSCI France Index Fund ETF,EWQ,Global Equity ETF,.
+iShares MSCI Frontier 100 Index ETF,FM,Global Equity ETF,.
+iShares MSCI Germany Index Fund ETF,EWG,Global Equity ETF,.
+iShares MSCI Germany Small Cap ETF,EWGS,Global Equity ETF,.
+iShares MSCI Global Agriculture Producers Fund ETF,VEGI,Global Equity ETF,.
+iShares MSCI Global Energy Producers Fund ETF,FILL,Global Equity ETF,.
+iShares MSCI Global Gold Miners Fund ETF,RING,Global Equity ETF,.
+iShares MSCI Global Impact ETF,SDG,Global Equity ETF,.
+iShares MSCI Global Select Metals & Mining Producers Fund ETF,PICK,Global Equity ETF,.
+iShares MSCI Global Silver Miners Fund ETF,SLVP,Global Equity ETF,.
+iShares MSCI Growth Index Fund ETF,EFG,Global Equity ETF,.
+iShares MSCI Hong Kong Index Fund ETF,EWH,Global Equity ETF,.
+iShares MSCI India Index ETF,INDA,Global Equity ETF,.
+iShares MSCI India Small-Cap ETF,SMIN,Global Equity ETF,.
+iShares MSCI Indonesia Investable Market Index Fund ETF,EIDO,Global Equity ETF,.
+iShares MSCI International Developed ETF,IDEV,Global Equity ETF,.
+iShares MSCI Intl Dev Mom Factr ETF,IMTM,Global Equity ETF,.
+iShares MSCI Intl Dev Qual Factr ETF,IQLT,Global Equity ETF,.
+iShares MSCI Intl Dev Size Factor ETF,ISZE,Global Equity ETF,.
+iShares MSCI Intl Dev Val Factor ETF,IVLU,Global Equity ETF,.
+iShares MSCI Ireland Capped Investable Market Index Fund ETF,EIRL,Global Equity ETF,.
+iShares MSCI Israel Capped Investable Market Index Fund ETF,EIS,Global Equity ETF,.
+iShares MSCI Italy Index Fund ETF,EWI,Global Equity ETF,.
+iShares MSCI Japan Equal Weighted ETF,EWJE,Global Equity ETF,.
+iShares MSCI Japan Index Fund ETF,EWJ,Global Equity ETF,.
+iShares MSCI Japan Minimum Volatility ETF,JPMV,Global Equity ETF,.
+iShares MSCI Japan Sm Cap ETF,SCJ,Global Equity ETF,.
+iShares MSCI Japan Value ETF,EWJV,Global Equity ETF,.
+iShares MSCI Kokusai ETF,TOK,Global Equity ETF,.
+iShares MSCI Malaysia Index Fund ETF,EWM,Global Equity ETF,.
+iShares MSCI Mexico Index Fund ETF,EWW,Global Equity ETF,.
+iShares MSCI Netherlands Index Fund ETF,EWN,Global Equity ETF,.
+iShares MSCI New Zealand Investable Market Index Fund (ENZL) ETF,ENZL,Global Equity ETF,.
+iShares MSCI Norway Cppd Investable Mkt ETF,ENOR,Global Equity ETF,.
+iShares MSCI Pacific Ex-Japan Index Fund ETF,EPP,Global Equity ETF,.
+iShares MSCI Poland Investable Market Index Fund ETF,EPOL,Global Equity ETF,.
+iShares MSCI Qatar Capped ETF,QAT,Global Equity ETF,.
+iShares MSCI Russia Capped Index Fund ETF,ERUS,Global Equity ETF,.
+iShares MSCI Saudi Arabia Capped ETF,KSA,Global Equity ETF,.
+iShares MSCI Singapore Index Fund ETF,EWS,Global Equity ETF,.
+iShares MSCI South Africa Index Fund ETF,EZA,Global Equity ETF,.
+iShares MSCI Spain Index Fund ETF,EWP,Global Equity ETF,.
+iShares MSCI Sweden Index Fund ETF,EWD,Global Equity ETF,.
+iShares MSCI Switzerland Index Fund ETF,EWL,Global Equity ETF,.
+iShares MSCI Taiwan Index Fund ETF,EWT,Global Equity ETF,.
+iShares MSCI Thailand Investable Market Index Fund ETF,THD,Global Equity ETF,.
+iShares MSCI Turkey ETF,TUR,Global Equity ETF,.
+iShares MSCI UAE Capped ETF,UAE,Global Equity ETF,.
+iShares MSCI United Kingdom Index Fund ETF,EWU,Global Equity ETF,.
+iShares MSCI United Kingdom Small Cap ETF,EWUS,Global Equity ETF,.
+iShares MSCI USA ESG Optimized ETF,ESGU,Global Equity ETF,.
+iShares MSCI USA ESG Select ETF,SUSA,US Equity ETF,.
+iShares MSCI USA Index Fund ETF,EUSA,US Equity ETF,.
+iShares MSCI USA Minimum Volatility Index Fund ETF,USMV,US Equity ETF,.
+iShares MSCI USA Momentum Factor ETF,MTUM,US Equity ETF,.
+iShares MSCI USA Quality Factor ETF,QUAL,US Equity ETF,.
+iShares MSCI USA Size Factor ETF,SIZE,US Equity ETF,.
+iShares MSCI USA Value Factor ETF,VLUE,US Equity ETF,.
+iShares MSCI Value Index Fund ETF,EFV,Global Equity ETF,.
+iShares MSCI World ETF,URTH,Global Equity ETF,.
+iShares Nasdaq Biotechnology ETF,IBB,US Equity ETF,.
+iShares PHLX SOX Semiconductor Sector Index Fund ETF,SOXX,US Equity ETF,.
+iShares Robotics and Artificial Intelligence ETF,IRBO,Global Equity ETF,.
+iShares Russell 1000 ETF,IWB,US Equity ETF,.
+iShares Russell 1000 Growth ETF,IWF,US Equity ETF,.
+iShares Russell 1000 Pure US Revenue ETF,AMCA,US Equity ETF,.
+iShares Russell 1000 Value ETF,IWD,US Equity ETF,.
+iShares Russell 2000 ETF,IWM,US Equity ETF,.
+iShares Russell 2000 Growth ETF,IWO,US Equity ETF,.
+iShares Russell 2000 Value ETF,IWN,US Equity ETF,.
+iShares Russell 3000 ETF,IWV,US Equity ETF,.
+iShares Russell 3000 Growth ETF,IUSG,Global Equity ETF,.
+iShares Russell 3000 Value ETF,IUSV,US Equity ETF,.
+iShares Russell Microcap Index Fund ETF,IWC,US Equity ETF,.
+iShares Russell Midcap Growth Index ETF,IWP,US Equity ETF,.
+iShares Russell Midcap Index Fund ETF,IWR,US Equity ETF,.
+iShares Russell Midcap Value Index ETF,IWS,US Equity ETF,.
+iShares Russell Top 200 Growth Index Fund ETF,IWY,US Equity ETF,.
+iShares Russell Top 200 Index Fund ETF,IWL,US Equity ETF,.
+iShares Russell Top 200 Value Index Fund ETF,IWX,US Equity ETF,.
+iShares S&P 100 Index Fund ETF,OEF,US Equity ETF,.
+iShares S&P 500 Growth Index Fund ETF,IVW,US Equity ETF,.
+iShares S&P 500 Value Index Fund ETF,IVE,US Equity ETF,.
+iShares S&P Aggressive Allocation Fund ETF,AOA,US Asset Allocation ETF,.
+iShares S&P Asia 50 ETF,AIA,Global Equity ETF,.
+iShares S&P Cali Muni Bond ETF,CMF,US Fixed Income ETF,.
+iShares S&P Conservative Allocation Fund ETF,AOK,US Asset Allocation ETF,.
+iShares S&P Emerging Markets Infrastructure Index Fund ETF,EMIF,Global Equity ETF,.
+iShares S&P Europe 350 Index Fund ETF,IEV,Global Equity ETF,.
+iShares S&P Global 100 Index Fund ETF,IOO,Global Equity ETF,.
+iShares S&P Global Clean Energy Index Fund ETF,ICLN,Global Equity ETF,.
+iShares S&P Global Consumer Discretionary Sector Index Fund ETF,RXI,Global Equity ETF,.
+iShares S&P Global Consumer Staples Sector Index Fund ETF,KXI,Global Equity ETF,.
+iShares S&P Global Energy Index Fund ETF,IXC,Global Equity ETF,.
+iShares S&P Global Financial Index Fund ETF,IXG,Global Equity ETF,.
+iShares S&P Global Healthcare Index Fund ETF,IXJ,Global Equity ETF,.
+iShares S&P Global Industrials Sector Index Fund ETF,EXI,Global Equity ETF,.
+iShares S&P Global Infrastructure ETF,IGF,Global Equity ETF,.
+iShares S&P Global Materials Sector Index Fund ETF,MXI,Global Equity ETF,.
+iShares S&P Global Technology Index Fund ETF,IXN,Global Equity ETF,.
+iShares S&P Global Telecommunications Index Fund ETF,IXP,Global Equity ETF,.
+iShares S&P Global Timber & Forestry Index Fund ETF,WOOD,Global Equity ETF,.
+iShares S&P Global Utilities Sector Index Fund ETF,JXI,Global Equity ETF,.
+iShares S&P Growth Allocation Fund ETF,AOR,US Asset Allocation ETF,.
+iShares S&P India Nifty 50 Index Fund ETF,INDY,Global Equity ETF,.
+iShares S&P Intl Preferred Stock Index ETF,IPFF,Global Equity Income ETF,.
+iShares S&P MidCap 400 Growth Index Fund ETF,IJK,US Equity ETF,.
+iShares S&P MidCap 400 Index Fund ETF,IJH,US Equity ETF,.
+iShares S&P MidCap 400 Value Index Fund ETF,IJJ,US Equity ETF,.
+iShares S&P Moderate Allocation Fund ETF,AOM,US Asset Allocation ETF,.
+iShares S&P National Municipal Bond Fund ETF,MUB,US Fixed Income ETF,.
+iShares S&P NY Muni ETF,NYF,US Fixed Income ETF,.
+iShares S&P Short Term National AMT-Free Municipal Bond Fund ETF,SUB,US Fixed Income ETF,.
+iShares S&P SmallCap 600 Growth Index Fund ETF,IJT,US Equity ETF,.
+iShares S&P SmallCap 600 Index Fund ETF,IJR,US Equity ETF,.
+iShares S&P SmallCap 600 Values Index Fund ETF,IJS,US Equity ETF,.
+iShares S&P US Preferred Stock Fund ETF,PFF,US Equity Income ETF,.
+iShares S&P World ex-US Property ETF,WPS,Global Equity ETF,.
+iShares S&P/Citigroup 1-3 Year International Treasury Bond Fund ETF,ISHG,US Fixed Income ETF,.
+iShares S&P/Citigroup International Treasury Fund ETF,IGOV,US Fixed Income ETF,.
+iShares Self-Driving EV and Tech ETF,IDRV,Global Equity ETF,.
+iShares Short Maturity Bond ETF,NEAR,US Fixed Income ETF,.
+iShares Short Maturity Municipal Bond ETF,MEAR,US Fixed Income ETF,.
+iShares Short-Term Corporate Bond ETF,IGSB,US Fixed Income ETF,.
+iShares Treasury Floating Rate Bond ETF,TFLO,US Fixed Income ETF,.
+iShares U.S. Infrastructure ETF,IFRA,US Equity ETF,.
+iShares US Aerospace  &  Defense ETF,ITA,US Equity ETF,.
+iShares US Dividend and Buyback ETF,DIVB,US Fixed Income ETF,.
+iShares US Fallen Angels USD Bond ETF,FALN,US Fixed Income ETF,.
+iShares Yield Optimized Bond ETF,BYLD,US Fixed Income ETF,.
+iShares® iBonds® 2021 Term High Yield and Income ETF,IBHA,US Fixed Income ETF,.
+iShares® iBonds® 2022 Term High Yield and Income ETF,IBHB,US Fixed Income ETF,.
+iShares® iBonds® 2023 Term High Yield and Income ETF,IBHC,US Fixed Income ETF,.
+iShares® iBonds® 2024 Term High Yield and Income ETF,IBHD,US Fixed Income ETF,.
+iShares® iBonds® 2025 Term High Yield and Income ETF,IBHE,US Fixed Income ETF,.
+iShares® iBonds® Dec 2024 Term Muni Bond ETF,IBMM,US Fixed Income ETF,.
+iShares® iBonds® Dec 2025 Term Muni Bond ETF,IBMN,US Fixed Income ETF,.
+iShares® iBonds® Dec 2026 Term Muni Bond ETF,IBMO,US Fixed Income ETF,.
+iShares® iBonds® Dec 2028 Term Muni Bond ETF,IBMQ,US Fixed Income ETF,.
+iSharesBond 2020 Corporate Term ETF,IBDC,US Fixed Income ETF,.
+iSharesBond 2023 Corporate Term ETF,IBDD,US Fixed Income ETF,.
+iSharesiBonds® Dec 2027 Term Muni Bond ETF,IBMP,US Fixed Income ETF,.
+Ivy Energy NextShares ETF,IVENC,Global Equity ETF,.
+Ivy Focused Growth NextShares ETF,IVFGC,US Equity ETF,.
+Ivy Focused Value NextShares ETF,IVFVC,US Equity ETF,.
+Janus-Henderson JSML ? Small Cap Growth Alpha ETF,JSML,US Equity ETF,.
+Janus-Henderson Mortgage-Backed Securities ETF,JMBS,US Fixed Income ETF,.
+Janus-Henderson SLIM - The Obesity ETF,SLIM,Global Equity ETF,.
+Janus-Henderson Small/Mid Cap Growth Alpha ETF,JSMD,US Equity ETF,.
+Janus-Henderson the Long-Term Care ETF,OLD,Global Equity ETF,.
+Janus-Henderson The Organics ETF Holdings,ORG,Global Equity ETF,.
+JHancock Multifactor Small Cap ETF,JHSC,Small Blend,.
+John Hancock 	Multifactor Consumer Staples ETF,JHMS,US Equity ETF,.
+John Hancock Multi Media & Communications ETF,JHCS,US Equity ETF,.
+John Hancock Multifactor Consumer Discretionary ETF,JHMC,US Equity ETF,.
+John Hancock Multifactor Developed International ETF,JHMD,Global Equity ETF,.
+John Hancock Multifactor Emerging Markets ETF,JHEM,Global Equity ETF,.
+John Hancock Multifactor Energy ETF,JHME,US Equity ETF,.
+John Hancock Multifactor Financials ETF,JHMF,US Equity ETF,.
+John Hancock Multifactor Healthcare ETF,JHMH,US Equity ETF,.
+John Hancock Multifactor Industrials ETF,JHMI,US Equity ETF,.
+John Hancock Multifactor Large Cap ETF,JHML,US Equity ETF,.
+John Hancock Multifactor Materials ETF,JHMA,US Equity ETF,.
+John Hancock Multifactor Mid Cap ETF,JHMM,US Equity ETF,.
+John Hancock Multifactor Technology ETF,JHMT,US Equity ETF,.
+John Hancock Multifactor Utilities ETF,JHMU,US Equity ETF,.
+JPMorgan Disciplined High Yield ETF,JPHY,Global Fixed Income ETF,.
+JPMorgan Divers Ret US Mid Cp Eq ETF,JPME,US Equity ETF,.
+JPMorgan Divers Ret US Small Cap Eq ETF,JPSE,US Equity ETF,.
+JPMorgan Diversified Alternative ETF,JPHF,Global Equity ETF,.
+JPMorgan Diversified Return Eurp Eq ETF,JPEU,Global Equity ETF,.
+JPMorgan Diversified Return Glbl Eq ETF,JPGE,Global Equity ETF,.
+JPMorgan Diversified Return US Eq ETF,JPUS,US Equity ETF,.
+JPMorgan Diversified Rt Intl Eqty ETF,JPIN,Global Equity ETF,.
+JPMorgan Event Driven ETF,JPED,Global Equity ETF,.
+JPMorgan Global Bond Opportunities ETF,JPGB,Global Fixed Income ETF,.
+JPMorgan Ultra-Short Income ETF,JPST,Global Fixed Income ETF,.
+JPMorgan US Dividend ETF,JDIV,US Equity ETF,.
+JPMorgan US Minimum Volatility ETF,JMIN,US Equity ETF,.
+JPMorgan US Momentum Factor ETF,JMOM,US Equity ETF,.
+JPMorgan US Quality Factor ETF,JQUA,US Equity ETF,.
+JPMorgan US Value Factor ETF,JVAL,US Equity ETF,.
+JPMorganDiversified Return Emerging Markets Equity ETF,JPEM,Global Equity ETF,.
+KraneShares Bosera MSCI China A Shr ETF,KBA,Global Equity ETF,.
+KraneShares CSI China Five Year Plan ETF,KFYP,Global Equity ETF,.
+KraneShares CSI China Internet ETF,KWEB,Global Equity ETF,.
+KraneShares E Fund China Comrcl Papr ETF,KCNY,Global Fixed Income ETF,.
+KraneShares Em Mkts Cnsmr Tech ETF,KEMQ,Global Equity ETF,.
+KraneShares MSCI All China ETF,KALL,Global Equity ETF,.
+KraneShares MSCI China Environment ETF,KGRN,Global Equity ETF,.
+KraneShares MSCI One Belt One Road ETF,OBOR,Global Equity ETF,.
+Legg Mason ClearBridge All Cap Growth ETF,CACG,US Equity ETF,.
+Legg Mason ClearBridge Dividend Strategy ESG ETF,YLDE,US Fixed Income ETF,.
+Legg Mason ClearBridge Large Cap Growth ESG ETF,LRGE,US Equity ETF,.
+Legg Mason Dev ex-US Divers Cor ETF,DDBI,Global Equity ETF,.
+Legg Mason Emerging Mkts Divers Cor ETF,EDBI,Global Equity ETF,.
+Legg Mason Global Infrastructure ETF,INFR,Global Equity ETF,.
+Legg Mason Low Volatility High Div ETF,LVHD,US Equity ETF,.
+Legg Mason Small-Cap Quality Value ETF,SQLV,US Equity ETF,.
+Legg Mason Western Asset Short Duration Income ETF,WINC,Global Fixed Income ETF,.
+Loncar Cancer Immunotherapy ETF,CNCR,US Equity ETF,.
+Loncar CHINA BIOPHARMA ETF,CHNA,Global Equity ETF,.
+Main Sector Rotation ETF,SECT,US Asset Allocation ETF,.
+Market Vectors BDC Income ETF,BIZD,US Equity Income ETF,.
+Market Vectors Biotech ETF,BBH,US Equity ETF,.
+Market Vectors Brazil Small-Cap ETF,BRF,Global Equity ETF,.
+Market Vectors CEF Municipal Income ETF,XMPT,US Asset Allocation ETF,.
+Market Vectors China ETF,PEK,Global Equity ETF,.
+Market Vectors ChinaAMC China Bond ETF,CBON,Global Fixed Income ETF,.
+Market Vectors ChinaAMC SME-ChiNext ETF,CNXT,Global Equity ETF,.
+Market Vectors Coal ETF,KOL,Global Equity ETF,.
+Market Vectors Egypt Index ETF,EGPT,Global Equity ETF,.
+Market Vectors Emer Mkts Hi Yld Bond ETF,HYEM,Global Fixed Income ETF,.
+Market Vectors Emerg Mkt Aggt Bd ETF,EMAG,Global Fixed Income ETF,.
+Market Vectors Emerging Markets Local Currency Bond ETF,EMLC,US Fixed Income ETF,.
+Market Vectors Environment Index ETF Fund ETF,EVX,US Equity ETF,.
+Market Vectors Fallen Angel HY Bond ETF,ANGL,US Fixed Income ETF,.
+Market Vectors Gaming ETF,BJK,Global Equity ETF,.
+Market Vectors Green Bond ETF,GRNB,Global Fixed Income ETF,.
+Market Vectors High Yield Municipal Index ETF,HYD,US Fixed Income ETF,.
+Market Vectors India Small-Cap Index ETF,SCIF,Global Equity ETF,.
+Market Vectors Indonesia Index ETF,IDX,Global Equity ETF,.
+Market Vectors Intermediate Municipal ETF,ITM,US Fixed Income ETF,.
+Market Vectors Intl High Yield Bond ETF,IHY,US Fixed Income ETF,.
+Market Vectors Investment Grade Floating Rate ETF,FLTR,US Fixed Income ETF,.
+Market Vectors Israel ETF,ISRA,Global Equity ETF,.
+Market Vectors Junior Gold Miners ETF,GDXJ,Global Equity ETF,.
+Market Vectors Low Carbon Energy ETF,SMOG,Global Equity ETF,.
+Market Vectors Morningstar Durable Dividend ETF,DURA,US Equity Income ETF,.
+Market Vectors Morningstar Global Wide Moat ETF,GOAT,Global Equity ETF,.
+Market Vectors Morningstar Intl Moat ETF,MOTI,Global Equity ETF,.
+Market Vectors Morningstar Wide Moat ETF,MOAT,US Equity ETF,.
+Market Vectors Mortgage REIT Income ETF,MORT,US Equity ETF,.
+Market Vectors Municipal Allocation ETF,MAAX,US Fixed Income ETF,.
+Market Vectors Oil Refiners ETF,CRAK,Global Equity ETF,.
+Market Vectors Oil Services ETF,OIH,US Equity ETF,.
+Market Vectors Pharmaceutical ETF,PPH,US Equity ETF,.
+Market Vectors Pref Secs ex Fincls ETF,PFXF,US Equity Income ETF,.
+Market Vectors Rare Earth/Strat Mtls ETF,REMX,Global Equity ETF,.
+Market Vectors Real Asset Allocation ETF,RAAX,US Asset Allocation ETF,.
+Market Vectors Retail ETF,RTH,US Equity ETF,.
+Market Vectors Russia Small-Cap ETF,RSXJ,Global Equity ETF,.
+Market Vectors RVE Hard Assets Prod ETF,HAP,Global Equity ETF,.
+Market Vectors Semiconductor ETF,SMH,US Equity ETF,.
+Market Vectors Short Hi-Yld Muni Idx ETF,SHYD,US Fixed Income ETF,.
+Market Vectors Short Municipal Index ETF,SMB,US Fixed Income ETF,.
+Market Vectors Steel Index ETF Fund ETF,SLX,US Equity ETF,6
+Market Vectors TR Gold Miners ETF,GDX,Global Equity ETF,.
+Market Vectors TR Russia ETF,RSX,Global Equity ETF,.
+Market Vectors Unconventl Oil & Gas ETF,FRAK,Global Equity ETF,.
+Market Vectors Video Gaming and eSports ETF,ESPO,US Equity ETF,.
+Market Vectors Vietnam ETF,VNM,Global Equity ETF,.
+Market Vectors® Chinese Renminbi/USD ETN,CNY,ETN,.
+Market Vectors® Double Long Euro ETN,URR,ETN,.
+Market Vectors® Double Short Euro ETN,DRR,ETN,.
+Market Vectors® Indian Rupee/USD ETN,INR,ETN,.
+Market Vectors® NDR CMG Lg/FlatAllc ETF,LFEQ,US Equity ETF,.
+Market Vectors-Africa Index ETF,AFK,Global Equity ETF,.
+Market Vectors-Agribusiness ETF,MOO,Global Equity ETF,.
+Market Vectors-Lehman Brothers AMT-Free Long Municipal Index ETF,MLN,US Fixed Income ETF,.
+Market Vectors-Nuclear Energy ETF,NLR,Global Equity ETF,.
+Morgan Stanley Cushing? MLP High Income Index ETN,MLPY,ETN,.
+Nationwide Max Divers US Cor Eq ETF,MXDU,US Equity ETF,.
+Nationwide Risk-Based Intl Eq ETF,RBIN,Global Equity ETF,.
+Nationwide Risk-Based US Equity ETF,RBUS,US Equity ETF,.
+Natixis Loomis Sayles Shrt Dur Inc ETF,LSST,US Fixed Income ETF,.
+Natixis Seeyond Intl Mnmm Volatil ETF,MVIN,Global Equity ETF,.
+NuShares Enhanced Yield US Aggt Bd ETF,NUAG,US Fixed Income ETF,.
+NuShares ESG Emerging Markets Equity ETF,NUEM,Global Equity ETF,.
+NuShares ESG Intl Dev Mkts Eq ETF,NUDM,Global Equity ETF,.
+NuShares ESG Large-Cap Growth ETF,NULG,US Equity ETF,.
+NuShares ESG Large-Cap Value ETF,NULV,US Equity ETF,.
+NuShares ESG Mid-Cap Growth ETF,NUMG,US Equity ETF,.
+NuShares ESG Mid-Cap Value ETF,NUMV,US Equity ETF,.
+NuShares ESG Small-Cap ETF,NUSC,US Equity ETF,.
+NuShares ESG US Aggregate Bond ETF,NUBD,US Fixed Income ETF,.
+NuShares EY 1-5 Year US Aggt Bd ETF,NUSA,US Fixed Income ETF,.
+NuShares Short-Term REIT ETF,NURE,US Equity ETF,.
+O’Shares Global Internet Giants ETF,OGIG,Global Equity ETF,.
+O'Shares FTSE Europe Quality Div ETF,OEUR,Global Equity ETF,.
+O'Shares FTSE Russell Sm Cp Qual Div,OUSM,US Equity ETF,.
+O'Shares FTSE US Quality Dividend ETF,OUSA,US Equity ETF,.
+Pacer Dev Mkts Intl Csh Cows 100 ETF,ICOW,Global Equity ETF,.
+Pacer Global Cash Cows Dividend ETF,GCOW,Global Equity ETF,.
+Pacer Trendpilot 100 ETF,PTNQ,US Equity ETF (?),.
+Pacer Trendpilot 450 ETF,PTMC,US Equity ETF (?),.
+Pacer Trendpilot 750 ETF,PTLC,US Equity ETF (?),.
+Pacer Trendpilot European ETF,PTEU,Global Equity ETF,.
+Pacer US Cash Cows 100 ETF,COWZ,US Equity ETF,.
+Pacer US Small Cap Cash Cows 100 ETF,CALF,US Equity ETF,.
+Pacer WealthShield ETF,PWS,US Fixed Income ETF,.
+PACIFIC GLOBAL SENIOR LOAN ETF,FLRT,US Fixed Income ETF,.
+PIMCO 0-5 Year High Yield Corporate Bond Index Fund ETF,HYS,US Fixed Income ETF,.
+PIMCO 1-5 Year U.S. TIPS Index Fund ETF,STPZ,US Fixed Income ETF,.
+PIMCO 15+ Year U.S. TIPS Index Fund ETF,LTPZ,US Fixed Income ETF,.
+PIMCO 25+ Year Zero Coupon U.S. Treasury Index Fund ETF,ZROZ,US Fixed Income ETF,.
+PIMCO Broad U.S. TIPS Index Fund ETF,TIPZ,US Fixed Income ETF,.
+PIMCO Enhanced Short Maturity Strategy Fund ETF,MINT,US Fixed Income ETF,.
+PIMCO Intermediate Municipal Bond Strategy Fund ETF,MUNI,US Fixed Income ETF,.
+PIMCO Investment Grade Corporate Bond Index Fund ETF,CORP,US Fixed Income ETF,.
+PIMCO Low Duration ETF,LDUR,US Fixed Income ETF,.
+PIMCO RAFI Dyn Mlt-Fctr Emrg Mkts Eq ETF,MFEM,Global Equity ETF,.
+PIMCO RAFI Dyn Multi-Factor Intl Eq ETF,MFDX,Global Equity ETF,.
+PIMCO RAFI Dyn Multi-Factor US Eq ETF,MFUS,US Equity ETF,.
+PIMCO Short Term Municipal Bond Strategy Fund ETF,SMMU,US Fixed Income ETF,.
+PIMCO Total Return Exchange-Traded Fund ETF,BOND,US Fixed Income ETF,.
+Point Bridge GOP Stock Tracker ETF,MAGA,US Equity ETF,.
+Premise Capital Frntr Advtg Dvrs Tct ETF,TCTL,US Fund of Funds ETF,.
+Principal Active Global Dividend Income ETF,GDVD,Global Equity ETF,.
+Principal Contrarian Value ETF,PVAL,US Equity ETF,.
+Principal EDGE Active Income ETF,YLD,Global Equity ETF,.
+Principal Healthcare Innovators Index ETF,BTEC,US Equity ETF,.
+Principal Millennials Index ETF,GENY,Global Equity ETF,.
+Principal Price Setters ETF,PSET,US Equity ETF,.
+Principal Shareholder Yield ETF,PY,US Equity ETF,.
+Principal Spectrum Preferred Securities Active ETF,PREF,Global Asset Allocation ETF,.
+Principal Sustainable Momentum ETF,PMOM,US Equity ETF,.
+Principal U.S. Small Cap Index ETF,PSC,US Equity ETF,.
+Principal US Mega-Cap Multi-Factor ETF,USMC,US Equity ETF,.
+ProShares DJ Brookfield Glbl Infras ETF,TOLZ,Global Equity ETF,.
+ProShares Equities for Rising Rates ETF,EQRR,US Equity ETF,.
+ProShares Global Listed Private Eq ETF,PEX,Global Equity ETF,.
+ProShares Investment Grd-Intr Rt Hdgd ETF,IGHG,Fixed Income ETF,.
+ProShares Morningstar Alts Solu ETF,ALTS,US Fund of Funds ETF,.
+ProShares MSCI EAFE Dividend Growers ETF,EFAD,Global Equity ETF,.
+ProShares MSCI Emerg Mkts Div Growers,EMDV,Global Equity ETF,.
+ProShares MSCI Europe Dividend Gr ETF,EUDV,Global Equity ETF,.
+ProShares Online Retail ETF,ONLN,US Equity ETF,.
+ProShares Pet Care ETF,PAWZ,Global Equity ETF,.
+ProShares Russell 2000 Dividend Growers ETF,SMDV,US Equity ETF,.
+ProShares S&P 500 Aristocrats ETF,NOBL,US Equity Income ETF,3
+ProShares S&P MidCap 400 Dividend Arst ETF,REGL,US Equity ETF,.
+ProShares Shrt Term USD Emrg Mkts Bd ETF,EMSH,Fixed Income ETF,.
+ProShares UltraPro QQQ ETF,TQQQ,US Equity ETF,.
+ProSports Sponsors ETF,FANZ,US Equity ETF,.
+Reality Shares Divcon Dividend Dfndr ETF,DFND,US Equity ETF,.
+Reality Shares Divcon Dividend Guard ETF,GARD,US Equity ETF,.
+Reality Shares Divcon Leaders Div ETF,LEAD,US Equity ETF,.
+Reality Shares Nasdaq NexGen Economy ETF,BLCN,Global Equity ETF,.
+Reaves Utilities ETF,UTES,US Equity ETF,.
+Renaissance IPO ETF,IPO,US Equity Income ETF,.
+Reverse Cap Weighted US Large Cap ETF,RVRS,US Equity ETF,.
+RiverFront Dynamic Core Income ETF,RFCI,US Equity ETF,8
+RiverFront Dynamic Unconstrained Income ETF,RFUN,Global Equity ETF,.
+RiverFront Dynamic US Dividend Advantage ETF,RFDA,US Equity ETF,8
+RiverFront Dynamic US Flex-Cap ETF,RFFC,US Equity ETF,8
+RiverFront Strategic Income Fund,RIGS,Global Equity ETF,.
+ROBO GLOBAL ROBOTICS & AUTOMATION INDEX ETF,ROBO,Global Equity ETF,.
+S&P 500 Bond ETF,SPXB,US Fixed Income ETF,.
+S&P 500 Ex-Energy ETF,SPXE,US Equity ETF,.
+S&P 500 Ex-Financials ETF,SPXN,US Equity ETF,.
+S&P 500 Ex-Health Care ETF,SPXV,US Equity ETF,.
+S&P 500 Ex-Technology ETF,SPXT,US Equity ETF,.
+S&P Dividend ETF,SDY,US Equity ETF,.
+Sage ESG Intermediate Credit ETF,GUDB,Global Fixed Income ETF,.
+Schwab 1000 Index ETF,SCHK,US Equity ETF,.
+Schwab Emerging Markets Equity ETF,SCHE,Global Equity ETF,.
+Schwab Fundamental Emerging Markets Large Company Index ETF,FNDE,Global Equity ETF,.
+Schwab Fundamental International Large Company Index ETF,FNDF,Global Equity ETF,.
+Schwab Fundamental International Small Cap Company Index ETF,FNDC,Global Equity ETF,.
+Schwab Fundamental U.S. Broad Market Index ETF,FNDB,US Equity ETF,.
+Schwab Fundamental U.S. Large Company Index ETF,FNDX,US Equity ETF,.
+Schwab Fundamental U.S. Small Company Index ETF,FNDA,US Equity ETF,.
+Schwab Intermediate-Term U.S. Treasury ETF,SCHR,US Fixed Income ETF,.
+Schwab International Equity ETF,SCHF,Global Equity ETF,.
+Schwab International Small-Cap Equity ETF,SCHC,Global Equity ETF,.
+Schwab Short-Term U.S. Treasury ETF,SCHO,US Fixed Income ETF,.
+Schwab U.S. Aggregate Bond ETF,SCHZ,US Fixed Income ETF,.
+Schwab U.S. Broad Market ETF,SCHB,US Equity ETF,.
+Schwab U.S. Dividend Equity ETF,SCHD,US Equity ETF,.
+Schwab U.S. Large-Cap ETF,SCHX,US Equity ETF,.
+Schwab U.S. Large-Cap Growth ETF,SCHG,US Equity ETF,.
+Schwab U.S. Large-Cap Value ETF,SCHV,US Equity ETF,.
+Schwab U.S. Mid Cap ETF,SCHM,US Equity ETF,.
+Schwab U.S. REIT ETF,SCHH,US Equity ETF,.
+Schwab U.S. Small-Cap ETF,SCHA,US Equity ETF,.
+Schwab U.S. TIPS ETF,SCHP,US Fixed Income ETF,.
+SPDR  Portfolio Corporate Bond ETF,SPBO,US Fixed Income ETF,.
+SPDR  Portfolio Europe ETF,SPEU,Global Equity ETF,.
+SPDR  Portfolio High Yield Bond ETF,SPHY,US Fixed Income ETF,.
+SPDR  Portfolio Intmdt Term Trs ETF,SPTI,US Fixed Income ETF,.
+SPDR  Portfolio Mortgage Backed Bond ETF,SPMB,US Fixed Income ETF,.
+SPDR  Portfolio MSCI Global Stk Mkt ETF,SPGM,Global Equity ETF,.
+SPDR  Portfolio TIPS ETF,SPIP,US Fixed Income ETF,.
+SPDR Blackstone / GSO Senior Loan ETF,SRLN,US Fixed Income ETF,.
+SPDR Bloomberg Barclays 1-10 Year TIPS ETF,TIPX,US Fixed Income ETF,.
+SPDR Bloomberg Barclays 1-3 Month T-Bill ETF,BIL,US Fixed Income ETF,.
+SPDR Bloomberg Barclays Convertible Securities ETF,CWB,US Fixed Income ETF,.
+SPDR Bloomberg Barclays Emerging Markets Local Bond ETF,EBND,Global Fixed Income ETF,.
+SPDR Bloomberg Barclays High Yield Bond ETF,JNK,US Fixed Income ETF,.
+SPDR Bloomberg Barclays International Corporate Bond ETF,IBND,Global Fixed Income ETF,.
+SPDR Bloomberg Barclays International Treasury Bond ETF,BWX,Global Fixed Income ETF,.
+SPDR Bloomberg Barclays Investment Grade Floating Rate ETF,FLRN,US Fixed Income ETF,.
+SPDR Bloomberg Barclays Short Term High Yield Bond ETF,SJNK,US Fixed Income ETF,.
+SPDR Bloomberg Barclays Short Term International Treasury Bond ETF,BWZ,Global Fixed Income ETF,.
+SPDR Citi International Government Inflation-Protected Bond ETF,WIP,Global Fixed Income ETF,.
+SPDR Consumer Discretionary Select Sector Fund,XLY,US Equity ETF,4
+SPDR Consumer Staples Select Sector SPDR Fund,XLP,US Equity ETF,4
+SPDR Dorsey Wright Fixed Income Allocation ETF,DWFI,Income Allocation ETF,.
+SPDR DoubleLine Emerging Markets Fixed Income ETF,EMTL,Global Fixed Income ETF,.
+SPDR DoubleLine Short Duration Total Return Tactical ETF,STOT,US Fixed Income ETF,.
+SPDR DoubleLine Total Return Tactical ETF,TOTL,US Fixed Income ETF,.
+SPDR Dow Jones Global Real Estate ETF,RWO,Global Equity ETF,.
+SPDR Dow Jones Industrial Average ETF,DIA,US Equity ETF,7
+SPDR Dow Jones International Real Estate ETF,RWX,Global Equity ETF,.
+SPDR Dow Jones REIT ETF,RWR,US Equity ETF,7
+SPDR Energy Select Sector SPDR Fund,XLE,US Equity ETF,4
+SPDR EURO STOXX 50 ETF,FEZ,Global Equity ETF,.
+SPDR EURO STOXX Small Cap ETF,SMEZ,Global Equity ETF,.
+SPDR FactSet Innovative Technology ETF,XITK,US Equity ETF,.
+SPDR Financial Select Sector SPDR Fund,XLF,US Equity ETF,4
+SPDR Global Dow ETF,DGT,Global Equity ETF,.
+SPDR Health Care Select Sector SPDR Fund,XLV,US Equity ETF,4
+SPDR Industrial Select Sector SPDR Fund,XLI,US Equity ETF,4
+SPDR Materials Select Sector SPDR Fund,XLB,US Equity ETF,4
+SPDR MFS Systematic Core Equity ETF,SYE,US Equity ETF,.
+SPDR MFS Systematic Growth Equity ETF,SYG,US Equity ETF,.
+SPDR MFS Systematic Value Equity ETF,SYV,US Equity ETF,.
+SPDR MSCI ACWI ex-US ETF,CWI,Global Equity ETF,.
+SPDR MSCI ACWI Low Carbon Target ETF,LOWC,US Equity ETF,.
+SPDR MSCI EAFE Fossil Fuel Reserves Free ETF,EFAX,Global Equity ETF,.
+SPDR MSCI EAFE StrategicFactors ETF,QEFA,Global Equity ETF,.
+SPDR MSCI Emerging Markets Fossil Fuel Reserves Free ETF,EEMX,Global Equity ETF,.
+SPDR MSCI Emerging Markets StrategicFactors ETF,QEMM,Global Equity ETF,.
+SPDR MSCI USA StrategicFactors ETF,QUS,US Equity ETF,.
+SPDR MSCI World StrategicFactors ETF,QWLD,Global Equity ETF,.
+SPDR Nuveen Bloomberg Barclays Municipal Bond ETF,TFI,US Fixed Income ETF,.
+SPDR Nuveen Bloomberg Barclays Short Term Municipal Bond ETF,SHM,US Fixed Income ETF,.
+SPDR Nuveen S & P High Yield Municipal Bond ETF,HYMB,US Fixed Income ETF,.
+SPDR Portfolio Aggregate Bond ETF,SPAB,US Fixed Income ETF,.
+SPDR Portfolio Developed World ex-US ETF,SPDW,Global Equity ETF,.
+SPDR Portfolio Emerging Markets ETF,SPEM,Global Equity ETF,.
+SPDR Portfolio Intermediate Term Corporate Bond ETF,SPIB,US Fixed Income ETF,.
+SPDR Portfolio Large Cap ETF,SPLG,US Equity ETF,.
+SPDR Portfolio Long Term Corporate Bond ETF,SPLB,US Fixed Income ETF,.
+SPDR Portfolio Long Term Treasury ETF,SPTL,US Fixed Income ETF,.
+SPDR Portfolio Mid Cap ETF,SPMD,US Equity ETF,.
+SPDR Portfolio S & P 500 Growth ETF,SPYG,US Equity ETF,.
+SPDR Portfolio S & P 500 High Dividend ETF,SPYD,US Equity ETF,.
+SPDR Portfolio S & P 500 Value ETF,SPYV,US Equity ETF,.
+SPDR Portfolio Short Term Corporate Bond ETF,SPSB,US Fixed Income ETF,.
+SPDR Portfolio Short Term Treasury ETF,SPTS,US Fixed Income ETF,.
+SPDR Portfolio Small Cap ETF,SPSM,US Equity ETF,.
+SPDR Portfolio Total Stock Market ETF,SPTM,US Equity ETF,.
+SPDR Real Estate Select Sector SPDR Fund,XLRE,US Equity ETF,.
+SPDR Russell 1000 Low Volatility Focus ETF,ONEV,US Equity ETF,.
+SPDR Russell 1000 Momentum Focus ETF,ONEO,US Equity ETF,.
+SPDR Russell 1000 Yield Focus ETF,ONEY,US Equity ETF,.
+SPDR S & P 1500 Momentum Tilt ETF,MMTM,US Equity ETF,.
+SPDR S & P 1500 Value Tilt ETF,VLU,US Equity ETF,.
+SPDR S & P 400 Mid Cap Growth ETF,MDYG,US Equity ETF,.
+SPDR S & P 400 Mid Cap Value ETF,MDYV,US Equity ETF,.
+SPDR S & P 500 Buyback ETF,SPYB,US Equity ETF,.
+SPDR S & P 500 ETF,SPY,US Equity ETF,7
+SPDR S & P 500 Fossil Fuel Reserves Free ETF,SPYX,US Equity ETF,.
+SPDR S & P 600 Small Cap ETF,SLY,US Equity ETF,.
+SPDR S & P 600 Small Cap Growth ETF,SLYG,US Equity ETF,.
+SPDR S & P 600 Small Cap Value ETF,SLYV,US Equity ETF,.
+SPDR S & P Aerospace & Defense ETF,XAR,US Equity ETF,.
+SPDR S & P Bank ETF,KBE,US Equity ETF,.
+SPDR S & P Biotech ETF,XBI,US Equity ETF,.
+SPDR S & P Capital Markets ETF,KCE,US Equity ETF,.
+SPDR S & P China ETF,GXC,Global Equity ETF,.
+SPDR S & P Emerging Markets Dividend ETF,EDIV,Global Fixed Income ETF,.
+SPDR S & P Emerging Markets Small Cap ETF,EWX,Global Equity ETF,.
+SPDR S & P Global Dividend ETF,WDIV,Global Fixed Income ETF,.
+SPDR S & P Global Infrastructure ETF,GII,Global Equity ETF,.
+SPDR S & P Global Natural Resources ETF,GNR,Global Equity ETF,.
+SPDR S & P Health Care Equipment ETF,XHE,US Equity ETF,.
+SPDR S & P Health Care Services ETF,XHS,US Equity ETF,.
+SPDR S & P Homebuilders ETF,XHB,US Equity ETF,.
+SPDR S & P Insurance ETF,KIE,US Equity ETF,.
+SPDR S & P International Dividend ETF,DWX,Global Fixed Income ETF,.
+SPDR S & P International Small Cap ETF,GWX,Global Equity ETF,.
+SPDR S & P MIDCAP 400 ETF,MDY,US Equity ETF,.
+SPDR S & P North American Natural Resources ETF,NANR,US Equity ETF,.
+SPDR S & P Oil & Gas Equipment & Services ETF,XES,US Equity ETF,.
+SPDR S & P Regional Banking ETF,KRE,US Equity ETF,.
+SPDR SPDR NYSE Technology ETF,XNTK,US Equity ETF,.
+SPDR SPDR S & P Internet ETF,XWEB,US Equity ETF,.
+SPDR SPDR S & P Metals & Mining ETF,XME,US Equity ETF,6
+SPDR SPDR S & P Oil & Gas Exploration & Production ETF,XOP,US Equity ETF,.
+SPDR SPDR S & P Pharmaceuticals ETF,XPH,US Equity ETF,.
+SPDR SPDR S & P Retail ETF,XRT,US Equity ETF,.
+SPDR SPDR S & P Semiconductor ETF,XSD,US Equity ETF,.
+SPDR SPDR S & P Software & Services ETF,XSW,US Equity ETF,.
+SPDR SPDR S & P Technology Hardware ETF,XTH,US Equity ETF,.
+SPDR SPDR S & P Telecom ETF,XTL,US Equity ETF,.
+SPDR SPDR S & P Transportation ETF,XTN,US Equity ETF,.
+SPDR SSGA Gender Diversity Index ETF,SHE,US Equity ETF,.
+SPDR SSGA Global Allocation ETF,GAL,US Fund of Funds,.
+SPDR SSGA Income Allocation ETF,INKM,Income Allocation ETF,.
+SPDR SSGA Multi-Asset Real Return ETF,RLY,US Asset Allocation ETF,.
+SPDR SSGA Ultra Short Term Bond ETF,ULST,US Fixed Income ETF,.
+SPDR SSGA US Large Cap Low Volatility Index ETF,LGLV,US Equity ETF,.
+SPDR SSGA US Small Cap Low Volatility Index ETF,SMLV,US Equity ETF,.
+SPDR Technology Select Sector SPDR Fund,XLK,US Equity ETF,4
+SPDR Utilities Select Sector SPDR Fund,XLU,US Equity ETF,4
+SPDR Wells Fargo Preferred Stock ETF,PSK,US Fixed Income ETF,.
+SPDR® Communication Services Select Sector ETF,XLC,US Equity ETF,4
+SPDR® S&P Kensho Clean Power ETF,CNRG,US Equity ETF,.
+SPDR® S&P Kensho Final Frontiers ETF,ROKT,US Equity ETF,.
+SPDR® S&P Kensho Future Security ETF,FITE,US Equity ETF,.
+SPDR® S&P Kensho Intelligent Structures ETF,SIMS,US Equity ETF,.
+SPDR® S&P Kensho New Economies Composite ETF,KOMP,US Equity ETF,.
+SPDR® S&P Kensho Smart Mobility ETF,HAIL,US Equity ETF,.
+SPDR® Solactive Canada ETF,ZCAN,Global Equity ETF,.
+SPDR® Solactive Germany ETF,ZDEU,Global Equity ETF,.
+SPDR® Solactive Hong Kong ETF,ZHOK,Global Equity ETF,.
+SPDR® Solactive Japan ETF,ZJPN,Global Equity ETF,.
+SPDR® Solactive United Kingdom ETF,ZGBR,Global Equity ETF,.
+SPDR® SSGA Fixed Income Sector Rotation ETF,FISR,US Fund of Funds ETF,.
+SPDR® SSGA US Sector Rotation ETF,XLSR,US Fund of Funds ETF,.
+Strategy Shares EcoLogical Strategy ETF,HECO,US Equity ETF,.
+Strategy Shares NASDAQ 7 HANDL INDEX ETF,HNDL,US Fund of Funds ETF,.
+Strategy Shares Newfound/ReSolve Robust Momentum ETF,ROMO,US Fund of Funds ETF,.
+Strategy Shares US Equity Rotation Strat ETF,HUSE,US Equity ETF,.
+Tiedemann Deep Value ETF,DVP,US Equity ETF,.
+Tortoise North American Pipeline Fund ETF,TPYP,Global Equity ETF,.
+Tortoise Water ETF,TBLU,Global Equity ETF,.
+TrimTabs All Cap Intl Free-Cash-Flow ETF,TTAI,Global Equity ETF,.
+TrimTabs Float Shrink ETF,TTAC,US Equity ETF,.
+UBS AG FI Enhanced Europe 50 ETN,FIEE,ETN,.
+UBS AG FI Enhanced Global High Yield ETN,FIHD,ETN,.
+UBS AG FI Enhanced Large Cap Growth ETN,FBGX,ETN,.
+UBS ETRACS 2?Lvg Lng WF? B D Co ETN SerB,LBDC,ETN,.
+UBS ETRACS 2x M Lvg S&P MLP Idx ETN SerB,MLPZ,ETN,.
+UBS ETRACS 2xMLvgAlerianMLPIfrIdxETNSerB,MLPQ,ETN,.
+UBS ETRACS Alerian MLP ETN Series B,AMUB,ETN,.
+UBS ETRACS Alerian MLPInfrs ETN SerB,MLPB,ETN,.
+UBS ETRACS M Py 2xLvg MortgREIT ETN SerB,MRRL,ETN,.
+UBS ETRACS M Py 2xLvg US HiDivLowVol ETN,HDLV,ETN,.
+UBS ETRACS M Py 2xLvg US Sm Cp HiDiv ETN,SMHD,ETN,.
+UBS E-TRACS Mo Pay 2x DJ Select Div ETN,DVYL,ETN,.
+UBS E-TRACS Mo Pay 2x S&P Dividend ETN,SDYL,ETN,.
+UBS ETRACS MPy 2xLvg MSCI US REITIdx ETN,LRET,ETN,.
+UBS E-TRACS Mthly Pay 2x ClosedEnd ETN,CEFL,ETN,.
+UBS E-TRACS Mthly Pay 2x Divs Hi Inc ETN,DVHL,ETN,.
+UBS ETRACS Mthly Pay 2xLeverg Mortg REIT ETN,MORL,ETN,.
+UBS ETRACS MtPy2xLvWellsFargoMLPExEgETN,LMLP,ETN,.
+UBS ETRACS ProShares Dly 3x Invrs Crd ETN,WTID,ETN,.
+UBS ETRACS S&P GSCI Crd OilTtl RtIdx ETN,OILX,ETN,.
+UBS ETRACS Wells Fargo? Busn Dev Co ETN,BDCZ,ETN,.
+US Global GO GOLD Kitco US Glbl Prec Mnral Eq ETF,GOAU,Global Equity ETF,.
+US Global Jets ETF,JETS,Global Equity ETF,.
+USCF SummerHaven Priv Eq Strat ETF,BUY,US Equity ETF,.
+USCF SummerHaven Prv Eq Ntrl Rs Strt ETF,BUYN,US Equity ETF,.
+Validea Market Legends ETF,VALX,US Equity ETF,.
+Vanguard Consumer Discretion ETF - DNQ ETF,VCR,US Equity ETF,.
+Vanguard Consumer Staples ETF - DNQ ETF,VDC,US Equity ETF,.
+Vanguard Div Appreciation ETF - DNQ ETF,VIG,US Equity ETF,.
+Vanguard Emerg Mkts Govt Bd Idx ETF,VWOB,US Fixed Income ETF,.
+Vanguard Emerging Markets ETF,VWO,Global Equity ETF,.
+Vanguard Energy ETF,VDE,US Equity ETF,.
+Vanguard ESG International Stock ETF,VSGX,Global Equity ETF,.
+Vanguard ESG U.S. Stock ETF,ESGV,Global Equity ETF,.
+Vanguard Europe Pacific ETF,VEA,Global Equity ETF,.
+Vanguard European ETF,VGK,Global Equity ETF,.
+Vanguard Extended Duration Treasury ETF,EDV,US Fixed Income ETF,.
+Vanguard Extended Market ETF,VXF,US Equity ETF,.
+Vanguard Financials ETF - DNQ ETF,VFH,US Equity ETF,.
+Vanguard FTSE All World Ex US ETF,VEU,Global Equity ETF,.
+Vanguard FTSE All-World ex-US Small-Cap ETF,VSS,Global Equity ETF,.
+Vanguard Global ex-U.S. Real Estate ETF,VNQI,Global Equity ETF,.
+Vanguard Growth ETF,VUG,US Equity ETF,.
+Vanguard Health Care ETF - DNQ ETF,VHT,US Equity ETF,.
+Vanguard High Dividend Yield ETF,VYM,US Equity ETF,.
+Vanguard Industrials ETF - DNQ ETF,VIS,US Equity ETF,.
+Vanguard Information Tech ETF - DNQ ETF,VGT,US Equity ETF,.
+Vanguard Intermediate-Term Bond ETF,BIV,US Fixed Income ETF,.
+Vanguard Intermediate-Term Corporate Bond ETF,VCIT,US Fixed Income ETF,.
+Vanguard Intermediate-Term Government Bond ETF,VGIT,US Fixed Income ETF,.
+Vanguard Intl Div Apprec Idx ETF,VIGI,Global Equity ETF,.
+Vanguard Intl Hi Div Yld Idx ETF,VYMI,Global Equity ETF,.
+Vanguard Large-Cap ETF,VV,US Equity ETF,.
+Vanguard Long-Term Bond ETF,BLV,US Fixed Income ETF,.
+Vanguard Long-Term Corporate Bond ETF,VCLT,US Fixed Income ETF,.
+Vanguard Long-Term Government Bond ETF,VGLT,US Fixed Income ETF,.
+Vanguard Materials ETF - DNQ ETF,VAW,US Equity ETF,.
+Vanguard Mega Cap 300 ETF,MGC,US Equity ETF,.
+Vanguard Mega Cap 300 Growth ETF,MGK,US Equity ETF,.
+Vanguard Mega Cap 300 Value ETF,MGV,US Equity ETF,.
+Vanguard Mid-Cap ETF,VO,US Equity ETF,.
+Vanguard Mid-Cap Growth ETF,VOT,US Equity ETF,.
+Vanguard Mid-Cap Value ETF,VOE,US Equity ETF,.
+Vanguard Mortgage-Backed Securities ETF,VMBS,US Fixed Income ETF,.
+Vanguard Pacific ETF,VPL,Global Equity ETF,.
+Vanguard REIT ETF - DNQ ETF,VNQ,US Equity ETF,.
+Vanguard Russell 1000 ETF,VONE,US Equity ETF,.
+Vanguard Russell 1000 Growth ETF,VONG,US Equity ETF,.
+Vanguard Russell 1000 Value ETF,VONV,US Equity ETF,.
+Vanguard Russell 2000 ETF,VTWO,US Equity ETF,.
+Vanguard Russell 2000 Growth ETF,VTWG,US Equity ETF,.
+Vanguard Russell 2000 Value ETF,VTWV,US Equity ETF,.
+Vanguard Russell 3000 ETF,VTHR,US Equity ETF,.
+Vanguard S&P 500 ETF,VOO,US Equity ETF,3
+Vanguard S&P 500 Growth ETF,VOOG,US Equity ETF,.
+Vanguard S&P 500 Value ETF,VOOV,US Equity ETF,.
+Vanguard S&P Mid-Cap 400 ETF,IVOO,US Equity ETF,.
+Vanguard S&P Mid-Cap 400 Growth ETF,IVOG,US Equity ETF,.
+Vanguard S&P Mid-Cap 400 Value ETF,IVOV,US Equity ETF,.
+Vanguard S&P Small-Cap 600 ETF,VIOO,US Equity ETF,.
+Vanguard S&P Small-Cap 600 Growth ETF,VIOG,US Equity ETF,.
+Vanguard S&P Small-Cap 600 Value ETF,VIOV,US Equity ETF,.
+Vanguard Short-Term Bond ETF,BSV,US Fixed Income ETF,.
+Vanguard Short-Term Corporate Bond ETF,VCSH,US Fixed Income ETF,.
+Vanguard Short-Term Government Bond ETF,VGSH,US Fixed Income ETF,.
+Vanguard Shrt-Term Infl-Prot Sec Idx ETF,VTIP,US Fixed Income ETF,.
+Vanguard Small-Cap ETF,VB,US Equity ETF,.
+Vanguard Small-Cap Growth ETF,VBK,US Equity ETF,.
+Vanguard Small-Cap Value ETF,VBR,US Equity ETF,.
+Vanguard Tax-Exempt Bond ETF,VTEB,US Fixed Income ETF,.
+Vanguard Telecom ETF - DNQ ETF,VOX,US Equity ETF,.
+Vanguard Total Bond Market ETF,BND,US Fixed Income ETF,.
+Vanguard Total International Stock ETF,VXUS,Global Equity ETF,.
+Vanguard Total Intl Bd Idx ETF,BNDX,Global Fixed Income ETF,.
+Vanguard Total Stock Market ETF,VTI,US Equity ETF,.
+Vanguard Total World Stock ETF,VT,Global Equity ETF,.
+Vanguard U.S. Liquidity Factor ETF,VFLQ,US Equity ETF,.
+Vanguard U.S. Minimum Volatility ETF,VFMV,US Equity ETF,.
+Vanguard U.S. Momentum Factor ETF,VFMO,US Equity ETF,.
+Vanguard U.S. Multifactor ETF,VFMF,US Equity ETF,.
+Vanguard U.S. Quality Factor ETF,VFQY,US Equity ETF,.
+Vanguard U.S. Value Factor ETF,VFVA,US Equity ETF,.
+Vanguard Utilities ETF - DNQ ETF,VPU,US Equity ETF,.
+Vanguard Value ETF,VTV,US Equity ETF,.
+VelocityShares 1x Dly Invrs VSTOXXFtsETN,EXIV,ETN,.
+VelocityShares 1x Long VSTOXX Futs ETN,EVIX,ETN,.
+VelocityShares 3x Inverse Crude Oil ETN,DWTIF,ETN,.
+VelocityShares 3x Inverse Gold ETN,DGLD,ETN,.
+VelocityShares 3x Inverse Silver ETN,DSLV,ETN,.
+VelocityShares 3x Invrs Crude Oil ETNNew,DWT,ETN,.
+VelocityShares 3x Lng Crude Oil ETN New,UWT,ETN,.
+VelocityShares 3x Long Gold ETN,UGLD,ETN,.
+VelocityShares 3x Long Natural Gas ETN,UGAZ,ETN,.
+VelocityShares Daily 2x VIX ST ETN,TVIX,ETN,.
+VelocityShares Daily Inverse VIX Medium-Term ETN,ZIV,ETN,.
+VelocityShares Daily Long VIX Short-Term ETN,VIIX,ETN,.
+VelocityShares Long LIBOR ETN,ULBR,ETN,.
+VelocityShares Short LIBOR ETN,DLBR,ETN,.
+VictoryShares CEMP EMk 500 Volatil Wtd Idx ETF,CEZ,Global Equity ETF,.
+VictoryShares CEMP International Vol Wtd ETF,CIL,Global Equity ETF,.
+VictoryShares CEMP Intl High Dv Vol Wtd ETF,CID,Global Equity ETF,.
+VictoryShares Developed Enh Vol Wtd ETF,CIZ,Global Equity ETF,.
+VictoryShares Dividend Accelerator ETF,VSDA,US Equity ETF,.
+VictoryShares Emerging Market High Div Volatility Wtd ETF,CEY,Global Equity ETF,.
+VictoryShares US 500 Enh Vol Wtd ETF,CFO,US Equity ETF,.
+VictoryShares US 500 Volatility Wtd ETF,CFA,US Equity ETF,.
+VictoryShares US Discv Enh Vol Wtd ETF,CSF,US Equity ETF,.
+VictoryShares US EQ Inc Enh Vol Wtd ETF,CDC,US Equity ETF,.
+VictoryShares US LgCp Hi Div Vol Wtd ETF,CDL,US Equity ETF,.
+VictoryShares US Mult-Fctr Mnmm Vltl ETF,VSMV,US Equity ETF,.
+VictoryShares US Small Cap Vol Wtd ETF,CSA,US Equity ETF,.
+VictoryShares US SmCp Hi Div Vol Wtd ETF,CSB,US Equity ETF,.
+VictoryShares USAA Core Intermediate-Term Bond ETF,UITB,US Fixed Income ETF,.
+VictoryShares USAA Core Short-Term Bond ETF,USTB,US Fixed Income ETF,.
+VictoryShares USAA MSCI Emerg Mkts Val Mom Blnd ETF,UEVM,Global Equity ETF,.
+VictoryShares USAA MSCI Intl Val Mom Blnd ETF,UIVM,Global Equity ETF,.
+VictoryShares USAA MSCI USA Sm Cp Val Mom Blnd ETF,USVM,US Equity ETF,.
+VictoryShares USAA MSCI USA Value Mom Blnd ETF,ULVM,US Equity ETF,.
+Vident Core US Bond Strategy ETF,VBND,US Fixed Income ETF,.
+Vident Core US Equity ETF,VUSE,Global Equity ETF,.
+Vident International Equity ETF,VIDI,Global Equity ETF,.
+Vident U.S. Diversified Real Estate ETF,PPTY,US Equity ETF,.
+Virtus Glovista Emerging Markets ETF,EMEM,Global Equity ETF,.
+Virtus InfraCap REIT Preferred ETF,PFFR,US Fixed Income ETF,.
+Virtus InfraCap U.S. Preferred Stock ETF,PFFA,US Fixed Income ETF,.
+Virtus LifeSci Biotech Clinical Trials ETF,BBC,US Equity ETF,.
+Virtus LifeSci Biotech Products ETF,BBP,US Equity ETF,.
+Virtus Newfleet Dynamic Credit ETF,BLHY,US Fixed Income ETF,.
+Virtus Newfleet Multi-Sector Unconstrained Bond ETF,NFLT,Global Fixed Income ETF,.
+Virtus Private Credit Strategy ETF,VPC,US Equity ETF,.
+Virtus Real Asset Income ETF,VRAI,US Equity ETF,.
+Virtus Seix Senior Loan ETF,SEIX,US Fixed Income ETF,.
+Virtus WMC Global Factor Oppos ETF,VGFO,Global Equity ETF,.
+WBI Large Cap Tactical Growth Shares ETF,WBIE,US Equity ETF,.
+WBI Large Cap Tactical Select Shares ETF,WBIL,US Equity ETF,.
+WBI Large Cap Tactical Value Shares ETF,WBIF,US Equity ETF,.
+WBI Large Cap Tactical Yield Shares ETF,WBIG,US Equity ETF,.
+WBI Power Factor? High Dividend ETF,WBIY,US Equity ETF,.
+WBI Tactical High Income Shares ETF,WBIH,US Equity ETF,.
+WBI Tactical Income Shares ETF,WBII,US Equity ETF,.
+WBI Tactical Rotation Shares,WBIR,US Equity ETF,.
+WisdomTree Asia Pacific ex-Japan Fund ETF,AXJL,Global Equity ETF,.
+WisdomTree Barclays US Aggt Bd Enh Yld ETF,AGGY,Global Fixed Income,.
+WisdomTree Barclays US Aggt Bd Ngt Dur ETF,AGND,US Fixed Income ETF,.
+WisdomTree Barclays US Aggt Bd Zero Dur ETF,AGZD,US Fixed Income ETF,.
+WisdomTree Bloomberg Floating Rt Trs ETF,USFR,US Fixed Income ETF,.
+WisdomTree BofA Merrill Lynch HY Bd Ngt ETF,HYND,US Fixed Income ETF,.
+WisdomTree BofA Merrill Lynch HY Bd Zero ETF,HYZD,US Fixed Income ETF,.
+WisdomTree Brclys Yld Enh USS-TAggtBdETF,SHAG,US Fixed Income ETF,.
+WisdomTree China ex-State-Owd Entpr ETF,CXSE,Global Equity ETF,.
+WisdomTree Cloud Computing,WCLD,US Equity ETF,.
+WisdomTree DEFA Fund ETF,DWM,Global Equity ETF,.
+WisdomTree DEFA High-Yielding Equity Fund ETF,DTH,Global Equity ETF,.
+WisdomTree Dividend Top 100 Fund ETF,DTN,US Equity ETF,.
+WisdomTree Dynamic Long/Short US Eq ETF,DYLS,US Equity ETF,.
+WisdomTree Earnings 500 Fund ETF,EPS,US Equity ETF,.
+WisdomTree EM Consumer Growth Fund ETF,EMCG,Global Equity ETF,.
+WisdomTree Emer Mkts Corporate Bond ETF,EMCB,US Fixed Income ETF,.
+WisdomTree Emerging Market SmallCap Fund ETF,DGS,Global Equity ETF,.
+WisdomTree Emerging Markets Dividend ETF,DVEM,Global Equity ETF,.
+WisdomTree Emerging Markets High-Yielding Fund ETF,DEM,Global Equity ETF,.
+WisdomTree Emerging Mkts Dividend Gr ETF,DGRE,Global Equity ETF,.
+WisdomTree EmMkts ex-Stt-Ownd EntrprsETF,XSOE,Global Equity ETF,.
+WisdomTree Europe Dividend Growth ETF,EUDG,Global Equity ETF,.
+WisdomTree Europe SmallCap Dividend Fund ETF,DFE,Global Equity ETF,.
+WisdomTree Fdmtl US Shrt-Term Corp Bd ETF,SFIG,US Fixed Income ETF,.
+WisdomTree Fdmtl US S-T HiYld CorpBd ETF,SFHY,US Fixed Income ETF,.
+WisdomTree Fundamental US Corporate Bond ETF,WFIG,US Fixed Income ETF,.
+WisdomTree Fundamental US Hi Yld Corp Bd ETF,WFHY,US Fixed Income ETF,.
+WisdomTree Global Equity Income Fund ETF,DEW,Global Equity ETF,.
+WisdomTree Global ex-U.S. Growth Fund ETF,DNL,Global Equity ETF,.
+WisdomTree Global ex-U.S. Real Estate Fund ETF,DRW,Global Equity ETF,.
+WisdomTree High-Yielding Equity Fund ETF,DHS,US Equity ETF,.
+WisdomTree ICBCCS S&P China 500,WCHN,Global Equity ETF,.
+WisdomTree India Earnings Fund ETF,EPI,Global Equity ETF,.
+WisdomTree India ex-State-Owned Enterprises,IXSE,Global Equity ETF,.
+WisdomTree International Dividend Top 100 Fund ETF,DOO,Global Equity ETF,.
+WisdomTree International LargeCap Dividend Fund ETF,DOL,Global Equity ETF,.
+WisdomTree International MidCap Dividend Fund ETF,DIM,Global Equity ETF,.
+WisdomTree International Qual Div Gr ETF,IQDG,Global Equity ETF,.
+WisdomTree International SmallCap Fund ETF,DLS,Global Equity ETF,.
+WisdomTree Japan SmallCap Fund ETF,DFJ,Global Equity ETF,.
+WisdomTree LargeCap Dividend Fund ETF,DLN,Global Equity ETF,.
+WisdomTree Low P/E Fund ETF,EZY,Global Equity ETF,.
+WisdomTree MidCap Dividend Fund ETF,DON,US Equity ETF,.
+WisdomTree MidCap Earnings Fund ETF,EZM,US Equity ETF,.
+WisdomTree Middle East Dividend ETF,GULF,Global Equity ETF,.
+WisdomTree Modern Tech Platforms,PLAT,Global Equity ETF,.
+WisdomTree Mortgage Plus Bond,MTGP,US Fixed Income ETF,.
+WisdomTree SmallCap Earnings Fund ETF,EES,US Equity ETF,.
+WisdomTree Total Dividend Fund ETF,DTD,US Equity ETF,.
+WisdomTree Total Earnings Fund ETF,EXT,US Equity ETF,.
+WisdomTree Trust SmallCap Dividend Fund ETF,DES,US Equity ETF,.
+WisdomTree U.S. Multifactor,USMF,US Equity ETF,.
+WisdomTree U.S. Quality Shareholder Yield,QSY,US Equity ETF,.
+WisdomTree US Dividend Growth ETF,DGRW,US Equity ETF,.
+WisdomTree US SmallCap Dividend Growth ETF,DGRS,US Equity ETF,.
+YieldShares High Income ETF,YYY,US Asset Allocation ETF,.

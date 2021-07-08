@@ -1,0 +1,15 @@
+{
+  "reddit": {
+    "username": "Pooltrade",
+    "password": "zbrahbottiti",
+    "client_id": "xxIo1y2kcZ5dzA",
+    "client_secret": "3bBBiRjplmbgyROa9skpc6Fvp4Y",
+    "user_agent": "PoolTrade Sentiment AI"
+  },
+  "twitter": {
+    "ACCESS_TOKEN": "1111768302068457472-zDLOvuQftjsBwjBylJ0Jqa5T0KVOqf",
+    "ACCESS_SECRET": "zUJJXcGNRitQcGOWJIJIXzxQCjcUbVv1MonZAIxsMBkwf",
+    "CONSUMER_KEY": "fhZurJVyQK6BHfJBw2At85o52",
+    "CONSUMER_SECRET": "HcJuQIuLRXngQ0ILVKtRtzWbs2F4BcYCWOUW236c0mcHqqx7A9"
+  }
+}

@@ -1,0 +1,134 @@
+{
+	"United States of America":
+		{
+			"Chicago Board of Trade": ".CBT",
+			"Chicago Mercantile Exchange": ".CME",
+			"New York Board of Trade": ".NYB",
+			"New York Commodities Exchange": ".CMX",
+			"New York Mercantile Exchange": ".NMY",
+			"OTC Bulletin Board Market": ".OB",
+			"Pink Sheets": ".PK"
+		},
+	"Argentina":
+		{
+			"Buenos Aires Stock Exchange": ".BA"
+		},
+	"Austria":
+		{
+			"Vienna Stock Exchange": ".VI"
+		},
+	"Australia":
+		{
+			"Australian Stock Exchange": ".AX"
+		},
+	"Brazil":
+		{
+			"BOVESPA - Sao Paolo Stock Exchange": ".SA"
+		},
+	"Canada":
+		{
+			"Toronto Stock Exchange": ".TO",
+			"TSX Venture Exchange": ".V"
+		},
+	"Chile":
+		{
+			"Santiago Stock Exchange": ".SN"
+		},
+	"China":
+		{
+			"Shanghai Stock Exchange": ".SS",
+			"Shenzhen Stock Exchange": ".SZ"
+		},
+	"Denmark":
+		{
+			"Copenhagen Stock Exchange": ".CO"
+		},
+	"France":
+		{
+			"Euronext": ".NX",
+			"Paris Stock Exchange": ".PA"
+		},
+	"Germany":
+		{
+			"Berlin Stock Exchange": ".BE",
+			"Bremen Stock Exchange": ".BM",
+			"Dusseldorf Stock Exchange": ".DU",
+			"Frankfurt Stock Exchange": ".F",
+			"Hamburg Stock Exchange": ".HM",
+			"Hanover Stock Exchange": ".HA",
+			"Munich Stock Exchange": ".MU",
+			"Stuttgart Stock Exchange": ".SG",
+			"XETRA Stock Exchange": ".DE"
+		},
+	"Hong Kong":
+		{
+			"Hong Kong Stock Exchange": ".HK"
+		},
+	"India":
+		{
+			"Bombay Stock Exchange": ".BO",
+			"National Stock Exchange of India": ".NS"
+		},
+	"Indonesia":
+		{
+			"Jakarta Stock Exchange": ".JK"
+		},
+	"Israel":
+		{
+			"Tel Aviv Stock Exchange": ".TA"
+		},
+	"Italy":
+		{
+			"Milan Stock Exchange": ".MI"
+		},
+	"Mexico":
+		{
+			"Mexico Stock Exchange": ".MX"
+		},
+	"Netherlands":
+		{
+			"Amsterdam Stock Exchange": ".AS"
+		},
+	"New Zeland":
+		{
+			"New Zealand Stock Exchange": ".NZ"
+		},
+	"Norway":
+		{
+			"Oslo Stock Exchange": ".OL"
+		},
+	"Singapore":
+		{
+			"Singapore Stock Exchange": ".SI"
+		},
+	"South Korea":
+		{
+			"Korea Stock Exchange": ".KS",
+			"KOSDAQ": ".KQ"
+		},
+	"Spain":
+		{
+			"Barcelona Stock Exchange": ".BC",
+			"Bilbao Stock Exchange": ".BI",
+			"Madrid Fixed Income Market": ".MF",
+			"Madrid SE C.A.T.S.": ".MC",
+			"Madrid Stock Exchange": ".MA"
+		},
+	"Sweden":
+		{
+			"Stockholm Stock Exchange": ".ST"
+		},
+	"Switzerland":
+		{
+			"Swiss Exchange": ".SW"
+		},
+	"Taiwan":
+		{
+			"Taiwan OTC Exchange": ".TWO",
+			"Taiwan Stock Exchange": ".TW"
+		},
+	"United Kingdom":
+		{
+			"London Stock Exchange": ".L"
+		}
+}

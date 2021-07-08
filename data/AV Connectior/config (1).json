@@ -1,0 +1,12 @@
+{
+    "trading_logs": [
+        "/opt/TradingMate/data/trading_log.json"
+    ],
+    "general": {
+        "credentials_filepath": "/opt/TradingMate/data/.credentials"
+    },
+    "alpha_vantage": {
+        "api_base_uri": "https://www.alphavantage.co/query",
+        "polling_period_sec": 12
+    }
+}

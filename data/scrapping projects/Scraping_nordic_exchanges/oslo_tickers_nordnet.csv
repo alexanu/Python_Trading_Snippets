@@ -1,0 +1,210 @@
+,company_name,ticker,market_id,stock_id
+0,5th Planet Games,FIVEPG,15,1301972
+1,ABG Sundal Collier Holding,ASC,15,6085
+2,Aega,AEGA,15,1251504
+3,AF Gruppen,AFG,15,27028
+4,African Petroleum Corporation,APCL,15,1301079
+5,Akastor,AKA,15,56655
+6,Aker,AKER,15,57522
+7,Aker BP,AKER,15,66985
+8,Aker Solutions,AKER,15,1301283
+9,Aker BP,AKERBP,15,66985
+10,Aker Solutions,AKSO,15,1301283
+11,AKVA Group,AKVA,15,63319
+12,American Shipping Company,AMSC,15,59576
+13,Aqua Bio Technology,ABT,15,68900
+14,Aqualis,AQUA,15,1301198
+15,Aqua Bio Technology,AQUA,15,68900
+16,Archer,ARCHER,15,1249973
+17,Arcus,ARCUS,15,1302776
+18,Arendals Fossekompani,AFK,15,6006
+19,Asetek,ASETEK,15,1300289
+20,Atea,ATEA,15,6157
+21,Atlantic Petroleum,ATLA NOK,15,1300746
+22,Aurskog Sparebank,AURG,15,34079
+23,Austevoll Seafood,AUSS,15,63004
+24,Avance Gas Holding,AVANCE,15,1300995
+25,Avocet Mining PLC,AVM,15,1249085
+26,Awilco Drilling,AWDR,15,1250770
+27,Awilco LNG,ALNG,15,1251293
+28,Axactor,AXA,15,28597
+29,B2Holding,B2H,15,1302448
+30,Bakkafrost,BAKKA,15,81451
+31,Belships,BEL,15,6026
+32,BerGenBio,BERGEN,15,1303054
+33,Bergen Group,BERGEN,15,70904
+34,BerGenBio,BGBIO,15,1303054
+35,Borr Drilling,BOR,15,1303306
+36,Borregaard,BOR,15,1270371
+37,Borr Drilling,BDRILL,15,1303306
+38,Borregaard,BRG,15,1270371
+39,Bouvet,BOUVET,15,65052
+40,BW LPG,BWLPG,15,1300695
+41,BW Offshore Limited,BWO,15,61979
+42,Byggma,BMA,15,26940
+43,ContextVision,COV,15,23281
+44,Crayon Group Holding,CRAYON,15,1303474
+45,Cxense,CXENSE,15,1301162
+46,Data Respons,DAT,15,28775
+47,DNO,DNO,15,6065
+48,DOF,DOF,15,46930
+49,Dolphin Drilling,DDASA,15,27721
+50,EAM Solar,EAM,15,1300298
+51,Eidesvik Offshore,EIOF,15,59496
+52,Electromagnetic Geoservices,EMGS,15,64806
+53,Elkem,ELK,15,1303941
+54,EMAS Offshore,EMAS,15,67405
+55,Entra,ENTRA,15,1301320
+56,Equinor,EQNR,15,15578
+57,Europris,EPR,15,1301946
+58,EVRY,EVRY,15,1303207
+59,Fjord1,FJORD,15,1303125
+60,Fjordkraft Holding,FJORD,15,1303929
+61,Fjordkraft Holding,FKRAFT,15,1303929
+62,FLEX LNG,FLNG,15,79729
+63,Frontline,FRO,15,38027
+64,Funcom,FUNCOM,15,60667
+65,Gaming Innovation Group,GIG,15,58337
+66,GC Rieber Shipping,RISH,15,58609
+67,Gjensidige Forsikring,GJF,15,1249975
+68,Golden Ocean Group,GOGL,15,1301610
+69,Goodtech,GOD,15,6105
+70,Grieg Seafood,GSF,15,65259
+71,Gyldendal,GYL,15,6108
+72,Havila Shipping,HAVI,15,59268
+73,Havyard Group,HYARD,15,1301163
+74,Helgeland Sparebank,HELG,15,45402
+75,Hiddn Solutions,HIDDN,15,49006
+76,Hofseth BioCare,HBC,15,1258882
+77,Hunter Group,HUNT,15,65258
+78,Höegh LNG Holdings,HLNG,15,1251127
+79,Høland og Setskog Sparebank,HSPG,15,44223
+80,IDEX,IDEX,15,81220
+81,Indre Sogn Sparebank,ISSG,15,17135
+82,Infront,INFRNT,15,1303390
+83,Insr Insurance Group,INSR,15,1300977
+84,InterOil Exploration and Production,IOX,15,62361
+85,Itera,ITE,15,39773
+86,Jinhui Shipping and Transportation,JIN,15,15440
+87,Jæren Sparebank,JAEREN,15,65050
+88,Kid,KID,15,1302115
+89,Kitron,KIT,15,29719
+90,Komplett Bank,KOMP,15,1303481
+91,Kongsberg Automotive,KOA,15,59485
+92,Kongsberg Gruppen,KOG,15,6177
+93,Kværner,KVAER,15,1251131
+94,Lerøy Seafood Group,LSG,15,51529
+95,Magnora,MGN,15,58030
+96,Magseis Fairfield,MSEIS,15,1301093
+97,Melhus Sparebank,MELG,15,38026
+98,Mowi,MOWI,15,16258
+99,MPC Container Ships,MPCC,15,1303147
+100,Multiconsult,MULTI,15,1301887
+101,Napatech,NAPA,15,1300730
+102,NattoPharma,NATTO,15,68905
+103,Navamedic,NAVA,15,61513
+104,NEL,NEL,15,57456
+105,NEXT Biometrics Group,NEXT,15,1301145
+106,NextGenTel Holding,NGT,15,61983
+107,Nordic Mining,NOM,15,67633
+108,Nordic Nanovector,NANO,15,1301592
+109,Nordic Semiconductor,NOD,15,16511
+110,Northern Drilling,NOD,15,1303448
+111,Norsk Hydro,NHY,15,6180
+112,Northern Drilling,NODL,15,1303448
+113,Norway Royal Salmon,NRS,15,1250275
+114,Norwegian Air Shuttle,NAS,15,55463
+115,Norwegian Finans Holding,NOFI,15,1302477
+116,Norwegian Property,NPRO,15,63318
+117,NRC Group,NRC,15,6034
+118,NTS,NTS,15,6169
+119,Ocean Yield,OCY,15,1300504
+120,Oceanteam,OTS,15,63829
+121,Odfjell Drilling,ODL,15,1300591
+122,Odfjell Drilling,ODF,15,1300591
+123,Odfjell ser. A,ODF,15,6269
+124,Odfjell ser. B,ODF,15,6270
+125,Odfjell ser. B,ODFB,15,6270
+126,Olav Thon Eiendomsselskap,OLT,15,6212
+127,Orkla,ORK,15,6214
+128,Otello Corporation,OTELLO,15,56454
+129,Pareto Bank,PARB,15,1302433
+130,PCI Biotech Holding,PCIB,15,71329
+131,Petroleum Geo-Services,PGS,15,6220
+132,Petrolia,PSE,15,24518
+133,Philly Shipyard,PHLY,15,68945
+134,Photocure,PHO,15,46096
+135,Pioneer Property Group,PPG PREF,15,1301947
+136,Polarcus,PLCS,15,79256
+137,poLight,PLT,15,1304302
+138,Prosafe,PRS,15,24019
+139,Protector Forsikring,PROTCT,15,65045
+140,Q-Free,QFR,15,51098
+141,Questerre Energy Corporation,QEC,15,59363
+142,RAK Petroleum,RAKP,15,1301358
+143,Reach Subsea,REACH,15,6195
+144,REC Silicon,REC,15,61696
+145,RomReal,ROM,15,65262
+146,S.D. Standard Drilling,SDSD,15,1250271
+147,SalMar,SALM,15,65055
+148,Norway Royal Salmon,SALM,15,1250275
+149,Salmones Camanchaca,SALM,15,1303837
+150,Norway Royal Salmon,SALMON,15,1250275
+151,Salmones Camanchaca,SALMON,15,1303837
+152,The Scottish Salmon Company,SALMON,15,81453
+153,Sandnes Sparebank,SADG,15,16189
+154,SAS AB,SAS NOK,15,48943
+155,Sbanken,SBANK,15,1302111
+156,Scanship Holding,SSHIP,15,1300985
+157,Scatec Solar,SSO,15,1301292
+158,Schibsted ser. A,SCHA,15,6240
+159,Schibsted ser. B,SCHB,15,1301905
+160,SeaBird Exploration,SBX,15,61088
+161,Seadrill,SDRL,15,1304153
+162,Self Storage Group,SSG,15,1303451
+163,Selvaag Bolig,SBO,15,1267552
+164,Shelf Drilling,SHLF,15,1304120
+165,Siem Offshore,SIOFF,15,60065
+166,Skue Sparebank,SKUE,15,37518
+167,Solon Eiendom,SOLON,15,45901
+168,Solstad Offshore,SOFF,15,27953
+169,Songa Bulk,SBULK,15,1302814
+170,SpareBank 1 BV,SBVG,15,15145
+171,SpareBank 1 Nord-Norge,NONG,15,15121
+172,SpareBank 1 Nordvest,SNOR,15,1303395
+173,SpareBank 1 Ringerike Hadeland,RING,15,16545
+174,SpareBank 1 SMN,MING,15,15120
+175,SpareBank 1 SR-Bank,SRBANK,15,1264688
+176,SpareBank 1 Østfold Akershus,SOAG,15,60387
+177,SpareBank 1 Østlandet,SPOL,15,1303168
+178,Sparebanken Sør,SOR,15,34078
+179,Sparebanken Telemark,SBTE,15,1304311
+180,Sparebanken Vest,SVEG,15,15669
+181,Sparebanken Øst,SPOG,15,6073
+182,Spectrum,SPU,15,71330
+183,Star Bulk Carriers,SBLK R,15,1304148
+184,Stolt-Nielsen,SNI,15,16466
+185,Storebrand,STB,15,6288
+186,Storm Real Estate,STORM,15,1249133
+187,StrongPoint,STRONG,15,48772
+188,Subsea 7,SUBC,15,25289
+189,Targovax,TRVX,15,1302524
+190,Team Tankers International,TEAM,15,1301566
+191,The Scottish Salmon Company,SSC,15,81453
+192,Thin Film Electronics,THIN,15,68907
+193,Tomra Systems,TOM,15,6282
+194,Totens Sparebank,TOTG,15,16224
+195,TTS Group,TTS,15,15900
+196,Veidekke,VEI,15,6296
+197,Vistin Pharma,VISTIN,15,1301918
+198,Voss Veksel- og Landmandsbank,VVL,15,6306
+199,Wallenius Wilhelmsen,WALWIL,15,1249129
+200,Webstep,WSTEP,15,1303418
+201,Wentworth Resources,WEN,15,59574
+202,Wilh. Wilhelmsen Holding ser. A,WWI,15,6310
+203,Wilh. Wilhelmsen Holding ser. B,WWI,15,6311
+204,Wilh. Wilhelmsen Holding ser. B,WWIB,15,6311
+205,Wilson,WILS,15,58630
+206,XXL,XXL,15,1301298
+207,Yara International,YAR,15,56559
+208,Zalaris,ZAL,15,1301140

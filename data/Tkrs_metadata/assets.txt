@@ -1,0 +1,54 @@
+Symbol,Quandlcode,Description
+AGG,GOOG/NYSEARCA_AGG,iShares Core U.S. Aggregate Bond ETF
+DBC,GOOG/NYSEARCA_DBC,PowerShares DB Commodity Index Tracking Fund
+DFE,GOOG/NYSEARCA_DFE,WisdomTree Europe SmallCap Dividend Fund
+DIA,GOOG/NYSEARCA_DIA,SPDR Dow Jones® Industrial Average ETF
+DXJ,GOOG/NYSEARCA_DXJ,WisdomTree Japan Hedged Equity Fund
+EEM,GOOG/NYSEARCA_EEM,iShares MSCI Emerging Markets ETF
+EFA,GOOG/NYSEARCA_EFA,iShares MSCI EAFE ETF
+EWG,GOOG/NYSEARCA_EWG,iShares MSCI Germany ETF
+EWH,GOOG/NYSEARCA_EWH,iShares MSCI Hong Kong ETF
+#EWI,GOOG/NYSEARCA_EWI,iShares MSCI Italy Capped ETF
+#EWT,GOOG/NYSEARCA_EWT,iShares MSCI Taiwan ETF
+EWU,GOOG/NYSEARCA_EWU,iShares MSCI United Kingdom Index Fund
+EWW,GOOG/NYSEARCA_EWW,iShares MSCI Mexico Capped ETF
+EWY,GOOG/NYSEARCA_EWY,iShares MSCI South Korea Capped ETF
+EWZ,GOOG/NYSEARCA_EWZ,iShares MSCI Brazil Capped ETF
+EZU,GOOG/NYSEARCA_EZU,iShares MSCI EMU ETF
+FEZ,GOOG/NYSEARCA_FEZ,SPDR EURO STOXX 50 ETF
+FXI,GOOG/NYSEARCA_FXI,iShares China Large-Cap ETF
+GDX,GOOG/NYSEARCA_GDX,VanEck Vectors Gold Miners ETF
+GLD,GOOG/NYSEARCA_GLD,SPDR Gold Shares ETF
+IAU,GOOG/NYSEARCA_IAU,iShares Gold Trust ETF
+IBB,GOOG/NASDAQ_IBB,iShares NASDAQ Biotechnology Index ETF
+ITB,GOOG/NYSEARCA_ITB,iShares U.S. Home Construction ETF
+IVV,GOOG/NYSEARCA_IVV,iShares Core S&P 500 ETF
+IWD,GOOG/NYSEARCA_IWD,iShares Russell 1000 Value ETF
+IWM,GOOG/NYSEARCA_IWM,iShares Russell 2000 ETF
+IYR,GOOG/NYSEARCA_IYR,iShares U.S. Real Estate ETF
+KBE,GOOG/NYSEARCA_KBE,SPDR S&P Bank ETF
+KRE,GOOG/NYSEARCA_KRE,SPDR S&P Regional Banking ETF
+LQD,GOOG/NYSEARCA_LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF
+OIL,GOOG/NYSEARCA_OIL,iPath S&P GSCI Crude Oil Total Return Index ETN
+SDS,GOOG/NYSEARCA_SDS,UltraShort S&P500 ETF
+#SH,GOOG/NYSEARCA_SH,Short S&P500 ETF
+SLV,GOOG/NYSEARCA_SLV,iShares Silver Trust ETF
+SPY,GOOG/NYSEARCA_SPY,SPDR S&P 500 ETF
+USO,GOOG/NYSEARCA_USO,United States Oil Fund
+VGK,GOOG/NYSE_VGK,Vanguard FTSE Europe ETF
+VNQ,GOOG/NYSEARCA_VNQ,Vanguard REIT ETF
+VTI,GOOG/NYSEARCA_VTI,Vanguard Total Stock Market ETF
+VWO,GOOG/NYSEARCA_VWO,Vanguard FTSE Emerging Markets ETF
+XHB,GOOG/NYSEARCA_XHB,SPDR Homebuilders ETF
+XLB,GOOG/NYSEARCA_XLB,Materials Select Sector SPDR Fund
+XLE,GOOG/NYSEARCA_XLE,Energy Select Sector SPDR Fund
+XLF,GOOG/NYSEARCA_XLF,Financial Select Sector SPDR Fund
+XLI,GOOG/NYSEARCA_XLI,Industrial Select Sector SPDR Fund
+XLK,GOOG/NYSEARCA_XLK,Technology Select Sector SPDR Fund
+XLP,GOOG/NYSEARCA_XLP,Consumer Staples Select Sector SPDR Fund
+XLU,GOOG/NYSEARCA_XLU,Utilities Select Sector SPDR Fund
+XLV,GOOG/NYSEARCA_XLV,Health Care Select Sector SPDR Fund
+XLY,GOOG/NYSEARCA_XLY,Consumer Discretionary Select Sector SPDR Fund
+XME,GOOG/NYSEARCA_XME,SPDR S&P Metals & Mining ETF
+XOP,GOOG/NYSEARCA_XOP,SPDR S&P Oil & Gas Exploration & Production ETF
+USDOLLAR,FRED/DTB3,Federal funds effective rate

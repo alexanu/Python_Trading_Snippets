@@ -1,0 +1,86 @@
+# ./ext/extensions.txt
+# -----------------------------------------------------------------------------
+#
+# iTrade loads extensions and plugins in the order they appear in this file.
+#
+# The first mention of a plugin in this file controls whether the plugin is
+# enabled or not:
+#   - if the extension's name is commented out, it is disabled, otherwise it is
+#     enabled
+#   - Extensions not appearing in this file are disabled.
+#
+# File names may be indented as desired
+#
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# standard extensions enabled in the official builds
+# -----------------------------------------------------------------------------
+
+# import historical data
+itrade_import_euronext.py
+#itrade_import_euronext_bonds.py
+itrade_import_yahoo.py
+itrade_import_yahoo_japan.py
+
+# import live data
+itrade_liveupdate_euronext.py
+itrade_liveupdate_yahoo.py
+itrade_liveupdate_yahoo_japan.py
+itrade_liveupdate_realtime.py
+#itrade_liveupdate_euronext_bonds.py
+
+# import list of quotes
+itrade_quotes_asx.py
+itrade_quotes_barchart.py
+itrade_quotes_euronext.py
+itrade_quotes_nasdaq.py
+itrade_quotes_otcbb.py
+itrade_quotes_swx.py
+itrade_quotes_lse.py
+itrade_quotes_ie.py
+itrade_quotes_xetra.py
+itrade_quotes_nse.py
+itrade_quotes_nze.py
+#itrade_quotes_buenos-aires.py
+itrade_quotes_oslo.py
+itrade_quotes_omx.py
+itrade_quotes_shenzhen.py
+#itrade_quotes_bombay.py
+itrade_quotes_hong-kong.py
+itrade_quotes_singapore.py
+itrade_quotes_krx.py
+#itrade_quotes_mexico.py
+itrade_quotes_madrid.py
+itrade_quotes_sao-paulo.py
+itrade_quotes_milan.py
+itrade_quotes_vienna.py
+itrade_quotes_shanghai.py
+itrade_quotes_tokyo.py
+itrade_quotes_taiwan.py
+# login
+
+# -----------------------------------------------------------------------------
+# experimental - use with caution
+# -----------------------------------------------------------------------------
+
+# import live data
+#__ itrade_liveupdate_fortuneo.py
+
+# login
+#__ itrade_login_fortuneo.py
+#__ itrade_login_boursorama.py
+
+# -----------------------------------------------------------------------------
+# deprecated extensions still enabled in the official builds
+# -----------------------------------------------------------------------------
+
+# import historical data
+itrade_import_abcbourse.py
+
+# import live data
+itrade_liveupdate_abcbourse.py
+
+# -----------------------------------------------------------------------------
+# That's all folks !
+# -----------------------------------------------------------------------------

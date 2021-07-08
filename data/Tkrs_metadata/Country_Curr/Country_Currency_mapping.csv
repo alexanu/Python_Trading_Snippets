@@ -1,0 +1,95 @@
+;;;Used in R script for Nasdaq Indexes;Used in R script for ETFs;
+Country;Name;CURR.CODE;Nasdaq.Country.Code;ETF.REGION;Region
+Argentina;Argentine Peso;ARS;;Emerging South and Lat Am (Argentina);SLatAm
+Australia;Australian Dollar;AUD;AU;Developed Asia (Australia);Asia
+Azerbaijan;Azerbaijan New Manat;AZN;;;Asia
+Bangladesh;Bangladeshi Taka;BDT;;Emerging Asia (Bangladesh);Asia
+Brazil;Brazilian Real;BRL;BR;Emerging South and Lat Am (Brazil);SLatAm
+Bulgaria;Bulgarian Lev;BGN;;;Europe
+Canada;Canadian Dollar;CAD;CA;Developed North America (Canada);NAmerica
+Chile;Chilean Peso;CLP;CL;Emerging South and Lat Am (Chile);SLatAm
+China;Yuan Renminbi;CNY;CN;Emerging Asia (China);Asia
+Colombia;Colombian Peso;COP;CO;Emerging South and Lat Am (Colombia);SLatAm
+Costa Rica;Costa Rican Colon;CRC;;;SLatAm
+Croatia;Croatian Kuna;HRK;;;Europe
+Cuba;Cuban Peso;CUP;;;SLatAm
+Czech Republic;Czech Koruna;CZK;;;Europe
+Denmark;Danish Krone;DKK;DK;Developed Europe (Denmark);Europe
+Dominican Republic;Dominican Peso;DOP;;;SLatAm
+Ecuador;Ecuador Sucre;ECS;;;SLatAm
+Egypt;Egyptian Pound;EGP;EG;Emerging MENA (Egypt);MENA
+Ghana;Ghanaian Cedi;GHS;;;MENA
+UK;Pound Sterling;GBP;GB;Developed Europe (UK);Europe
+Guatemala;Guatemalan Quetzal;QTQ;;;SLatAm
+Hong Kong;Hong Kong Dollar;HKD;;Developed Asia (HK);Asia
+Hungary;Hungarian Forint;HUF;;;Europe
+India;Indian Rupee;INR;IN;Emerging Asia (India);Asia
+Indonesia;Indonesian Rupiah;IDR;ID;Emerging Asia (Indonesia);Asia
+Iran;Iranian Rial;IRR;;;MENA
+Iraq;Iraqi Dinar;IQD;;;MENA
+Israel;Israeli New Shekel;ILS;;Emerging MENA (Israel);MENA
+Japan;Japanese Yen;JPY;JP;Developed Asia (Japan);Asia
+Kazakhstan;Kazakhstan Tenge;KZT;;;Asia
+Kenya;Kenyan Shilling;KES;;;MENA
+Korea;Korean Won;KRW;KR;Developed Asia (Skorea);Asia
+Kuwait;Kuwaiti Dinar;KWD;;;MENA
+Lebanon;Lebanese Pound;LBP;;;MENA
+Libya;Libyan Dinar;LYD;;;MENA
+Macau;Macau Pataca;MOP;;;Asia
+Macedonia;Denar;MKD;;;Europe
+Malaysia;Malaysian Ringgit;MYR;MY;Emerging Asia (Malaysia);Asia
+Mexico;Mexican Nuevo Peso;MXN;MX;Emerging South and Lat Am (Mexico);SLatAm
+Morocco;Moroccan Dirham;MAD;;;MENA
+Myanmar;Myanmar Kyat;MMK;;;Asia
+New Zealand;New Zealand Dollar;NZD;;Developed Asia (New Zealand);Asia
+Nigeria;Nigerian Naira;NGN;;Emerging MENA (Nigeria);MENA
+Norway;Norwegian Krone;NOK;NO;Developed Europe (Norway);Europe
+Oman;Omani Rial;OMR;;;MENA
+Pakistan;Pakistan Rupee;PKR;;Emerging Asia (Pakistan);Asia
+Panama;Panamanian Balboa;PAB;;;SLatAm
+Peru;Peruvian Nuevo Sol;PEN;;Emerging South and Lat Am (Peru);SLatAm
+Philippines;Philippine Peso;PHP;PH;Emerging Asia (Philippines);Asia
+Poland;Polish Zloty;PLN;PL;Emerging Europe (Poland);Europe
+Puerto Rico;US Dollar;USD;;;SLatAm
+Qatar;Qatari Rial;QAR;;Emerging MENA (Qatar);MENA
+Romania;Romanian New Leu;RON;;;Europe
+Russia;Russian Ruble;RUB;RU;Emerging Europe (Russia);Europe
+Saudi Arabia;Saudi Riyal;SAR;;Emerging MENA (Saudi Arabia);MENA
+Serbia;Dinar;RSD;;;Europe
+Singapore;Singapore Dollar;SGD;;Developed Asia (SG);Asia
+South Africa;South African Rand;ZAR;ZA;Emerging MENA (South Africa);MENA
+Sri Lanka;Sri Lanka Rupee;LKR;;;Asia
+Sudan;Sudanese Pound;SDG;;;MENA
+Sweden;Swedish Krona;SEK;SE;Developed Europe (Sweden);Europe
+Switzerland;Swiss Franc;CHF;CH;Developed Europe (Swiss);Europe
+Syria;Syrian Pound;SYP;;;MENA
+Taiwan;Taiwan Dollar;TWD;TW;Emerging Asia (Taiwan);Asia
+Thailand;Thai Baht;THB;TH;Emerging Asia (Thailand);Asia
+Tunisia;Tunisian Dollar;TND;;;MENA
+Turkey;Turkish Lira;TRY;TR;Emerging Europe (Turkey);Europe
+Turkmenistan;Manat;TMT;;;Asia
+USA;US Dollar;USD;US;Developed North America (US);NAmerica
+Ukraine;Ukraine Hryvnia;UAH;;;Europe
+United Arab Emirates;Arab Emirates Dirham;AED;;Emerging MENA (UAE);MENA
+Uruguay;Uruguayan Peso;UYU;;;SLatAm
+Uzbekistan;Uzbekistan Sum;UZS;;;Asia
+Venezuela;Venezuelan Bolivar;VEF;;;SLatAm
+Vietnam;Vietnamese Dong;VND;;Emerging Asia (Vietnam);Asia
+Yemen;Yemeni Rial;YER;;;Asia
+Austria;Euro;EUR;AT;Developed Eurozone (Austria);Eurozone
+Belgium;Euro;EUR;BE;Developed Eurozone (Belgium);Eurozone
+Cyprus;Euro;EUR;;;Eurozone
+Estonia;Euro;EUR;;;Eurozone
+Finland;Euro;EUR;FI;Developed Eurozone (Finland);Eurozone
+France;Euro;EUR;FR;Developed Eurozone (France);Eurozone
+Germany;Euro;EUR;DE;Developed Eurozone (Germany);Eurozone
+Greece;Euro;EUR;GR;Developed Eurozone (Greece);Eurozone
+Ireland;Euro;EUR;;Developed Eurozone (Ireland);Eurozone
+Italy;Euro;EUR;IT;Developed Eurozone (Italy);Eurozone
+Netherlands;Euro;EUR;NL;Developed Eurozone (Netherlands);Eurozone
+Portugal;Euro;EUR;;Developed Eurozone (Portugal);Eurozone
+Slovakia;Euro;EUR;;;Eurozone
+Slovenia;Euro;EUR;;;Eurozone
+Spain;Euro;EUR;ES;Developed Eurozone (Spain);Eurozone
+Lithuania;Euro;EUR;;;Eurozone
+Latvia;Euro;EUR;;;Eurozone

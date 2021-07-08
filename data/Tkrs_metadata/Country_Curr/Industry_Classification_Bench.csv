@@ -1,0 +1,187 @@
+New.ICB.Industry.code;New.ICB.Industry;New.ICB.Supersector.code;New.ICB.Supersector;New.ICB.Sector.code;New.ICB.Sector;New.ICB.Subsector.code;New.ICB.Subsector;Old.ICB.Industry.code;Old.ICB.Industry;Old.ICB.Subsector.code;Old.ICB.Subsector;Old.Russel.Sector.code;Old.Russel.Sector;Old.Russel.Industry.code;Old.Russel.Industry
+10;Technology;1010;Technology;101010;Software & Computer Services;10101010;Computer Services;9000;Technology;9533;Computer Services;1;Technology;130439;Computer Services Software & Systems
+10;Technology;1010;Technology;101010;Software & Computer Services;10101015;Software;9000;Technology;9537;Software;1;Technology;130439;Computer Services Software & Systems
+10;Technology;1010;Technology;101010;Software & Computer Services;10101020;Consumer Digital Services ;9000;Technology;9535;Internet;1;Technology;130439;Computer Services Software & Systems
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;10102010;Semiconductors;9000;Technology;9576;Semiconductors;1;Technology;120476;Semiconductors & Components
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;10102015;Electronic Components;2000;Industrials;2733;Electrical Components & Equipment;1;Technology;120463;Electronic Components
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;;;;;;;1;Technology;120643;Technology: Misc
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;;;;;;;1;Technology;120475;Electronics
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;10102020;Production Technology Equipment;2000;Industrials;2733;Electrical Components & Equipment;1;Technology;120738;Production Technology Equipment
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;10102030;Computer Hardware;9000;Technology;9572;Computer Hardware;1;Technology;130449;Computer Technology
+10;Technology;1010;Technology;101020;Technology Hardware & Equipment;10102035;Electronic Office Equipment;9000;Technology;9574;Electronic Office Equipment;8;Producer Durables;820650;Office Supplies Equipment
+15;Telecommunications;1510;Telecommunications;151010;Telecommunications Equipment;15101010;Telecommunications Equipment;9000;Technology;9578;Telecommunications Equipment;1;Technology;140849;Telecommunications Equipment
+15;Telecommunications;1510;Telecommunications;151010;Telecommunications Equipment;;;;;;;1;Technology;140448;Communications Technology
+15;Telecommunications;1510;Telecommunications;151020;Telecommunications Service Providers ;15102010;Cable Television Services;5000;Consumer Services;5553;Broadcasting & Entertainment;3;Consumer Discretionary;350432;Cable Television Services
+15;Telecommunications;1510;Telecommunications;151020;Telecommunications Service Providers ;15102015;Telecommunications Services;6000;Telecommunications;6535;Fixed Line Telecommunications;11;Utilities;1110880;Utilities: Telecommunications
+15;Telecommunications;1510;Telecommunications;151020;Telecommunications Service Providers ;;;6000;Telecommunications;6575;Mobile Telecommunications;;;;
+20;Health Care ;2010;Health Care  ;201010;Health Care Providers;20101010;Health Care Facilities;4000;Health Care;4533;Health Care Providers;2;Health Care;210504;Health Care Facilities
+20;Health Care ;2010;Health Care  ;201010;Health Care Providers;20101020;Health Care Management Services;4000;Health Care;4533;Health Care Providers;2;Health Care;210503;Health Care Management Services
+20;Health Care ;2010;Health Care  ;201010;Health Care Providers;20101025;Health Care Services;4000;Health Care;4533;Health Care Providers;2;Health Care;210499;Health Care Services
+20;Health Care ;2010;Health Care  ;201010;Health Care Providers;20101030;Health Care: Misc.;4000;Health Care;4533;Health Care Providers;2;Health Care;210639;Health Care: Misc
+20;Health Care ;2010;Health Care  ;201020;Medical Equipment & Services;20102010;Medical Equipment;4000;Health Care;4535;Medical Equipment;2;Health Care;220471;Medical Equipment
+20;Health Care ;2010;Health Care  ;201020;Medical Equipment & Services;20102015;Medical Supplies;4000;Health Care;4537;Medical Supplies;2;Health Care;220507;Medical & Dental Instruments & Supplies
+20;Health Care ;2010;Health Care  ;201020;Medical Equipment & Services;20102020;Medical Services;4000;Health Care;4533;Health Care Providers;2;Health Care;220622;Medical Services
+20;Health Care ;2010;Health Care  ;201030;Pharmaceuticals & Biotechnology ;20103010;Biotechnology;4000;Health Care;4573;Biotechnology;2;Health Care;230412;Biotechnology
+20;Health Care ;2010;Health Care  ;201030;Pharmaceuticals & Biotechnology ;20103015;Pharmaceuticals ;4000;Health Care;4577;Pharmaceuticals ;2;Health Care;230460;Pharmaceuticals
+30;Financials;3010;Banks;301010;Banks;30101010;Banks;8000;Financials;8355;Banks;10;Financial Services;1010400;Banks: Diversified
+30;Financials;3010;Banks;301010;Banks;;;;;;;10;Financial Services;1010820;Banks: Savings/Thrifts & Mortgage Lend
+30;Financials;3020;Financial Services ;302010;Finance & Credit Services;30201020;Consumer Lending;8000;Financials;8773;Consumer Finance;10;Financial Services;1020492;Consumer Lending
+30;Financials;3020;Financial Services ;302010;Finance & Credit Services;30201025;Mortgage Finance;8000;Financials;8779;Mortgage Finance;10;Financial Services;1020487;Commercial Finance & Mortgage Co
+30;Financials;3020;Financial Services ;302010;Finance & Credit Services;30201030;Financial Data & Systems;2000;Industrials;2795;Financial Administration;10;Financial Services;1020489;Financial Data & Systems
+30;Financials;3020;Financial Services ;302020;Investment Banking & Brokerage Services ;30202000;Diversified Financial Services ;8000;Financials;8775;Specialty Finance;10;Financial Services;1040457;Diversified Financial Services
+30;Financials;3020;Financial Services ;302020;Investment Banking & Brokerage Services ;30202010;Asset Managers & Custodians;8000;Financials;8771;Asset Managers;10;Financial Services;1040544;Asset Management & Custodian
+30;Financials;3020;Financial Services ;302020;Investment Banking & Brokerage Services ;30202015;Investment Services;8000;Financials;8777;Investment Services;10;Financial Services;1040823;Securities Brokerage & Services
+30;Financials;3020;Financial Services ;302030;Mortgage Real Estate Investment Trusts;30203000;Mortgage REITs: Diversified;8000;Financials;8676;Mortgage REITs;10;Financial Services;1060932;Mortgage REIT: Diversified
+30;Financials;3020;Financial Services ;302030;Mortgage Real Estate Investment Trusts;30203010;Mortgage REITs: Commercial;8000;Financials;8676;Mortgage REITs;10;Financial Services;1060931;Mortgage REIT: Commercial
+30;Financials;3020;Financial Services ;302030;Mortgage Real Estate Investment Trusts;30203020;Mortgage REITs: Residential;8000;Financials;8676;Mortgage REITs;10;Financial Services;1060930;Mortgage REIT: Residential
+30;Financials;3020;Financial Services ;302040;Equity Investment Instruments;30204000;Equity Investment Instruments;8000;Financials;8985;Equity Investment Instruments;;;NEW;
+30;Financials;3020;Financial Services ;302050;Nonequity Investment Instruments;30205000;Nonequity Investment Instruments;8000;Financials;8995;Nonequity Investment Instruments;;;NEW;
+30;Financials;3030;Insurance;303010;Life Insurance;30301010;Life Insurance;8000;Financials;8575;Life Insurance;10;Financial Services;1030528;Insurance: Life
+30;Financials;3030;Insurance;303020;Non-life Insurance;30302010;Full Line Insurance;8000;Financials;8532;Full Line Insurance;10;Financial Services;1030535;Insurance: Multi-Line
+30;Financials;3030;Insurance;303020;Non-life Insurance;30302015;Insurance Brokers;8000;Financials;8534;Insurance Brokers;10;Financial Services;1030535;Insurance: Multi-Line
+30;Financials;3030;Insurance;303020;Non-life Insurance;30302020;Reinsurance;8000;Financials;8538;Reinsurance;10;Financial Services;1030542;Insurance: Property-Casualty
+30;Financials;3030;Insurance;303020;Non-life Insurance;30302025;Property & Casualty Insurance;8000;Financials;8536;Property & Casualty Insurance;10;Financial Services;1030542;Insurance: Property-Casualty
+35;Real Estate;3510;Real Estate ;351010;Real Estate Investment & Services;35101010;Real Estate Holding and Development ;8000;Financials;8633;Real Estate Holding and Development ;10;Financial Services;1050802;Real Estate Holding and Development
+35;Real Estate;3510;Real Estate ;351010;Real Estate Investment & Services;35101015;Real Estate Services;8000;Financials;8637;Real Estate Services;10;Financial Services;1050801;Real Estate Services
+35;Real Estate;3510;Real Estate ;351010;Real Estate Investment & Services;;;;;;;10;Financial Services;1050803;Diversified Real Estate Activities
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102000;Diversified REITs;8000;Financials;8674;Diversified REITs;10;Financial Services;1060916;Equity REIT: Diversified
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102010;Health Care REITs;8000;Financials;8675;Specialty REITs;10;Financial Services;1060910;Equity REIT: Health Care
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102015;Hotel & Lodging REITs;8000;Financials;8677;Hotel & Lodging REITs;10;Financial Services;1060909;Equity REIT: Lodging and Resorts
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102020;Industrial REITs;8000;Financials;8671;Industrial & Office REITs;10;Financial Services;1060906;Equity REIT: Industrial
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102025;Infrastructure REITs;8000;Financials;8675;Specialty REITs;10;Financial Services;1060914;Equity REIT: Infrastructure
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102030;Office REITs;8000;Financials;8671;Industrial & Office REITs;10;Financial Services;1060912;Equity REIT: Office
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102040;Residential REITs;8000;Financials;8673;Residential REITs;10;Financial Services;1060907;Equity REIT: Residential
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102045;Retail REITs;8000;Financials;8672;Retail REITs;10;Financial Services;1060908;Equity REIT: Retail
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102050;Storage REITs;8000;Financials;8675;Specialty REITs;10;Financial Services;1060911;Equity REIT: Storage
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102060;Timber REITs;8000;Financials;8675;Specialty REITs;10;Financial Services;1060913;Equity REIT: Timber
+35;Real Estate;3510;Real Estate ;351020;Real Estate Investment Trusts;35102070;Other Specialty REITs;8000;Financials;8675;Specialty REITs;10;Financial Services;1060915;Equity REIT: Other Specialty
+40;Consumer Discretionary;4010;Automobiles & Parts;401010;Automobiles & Parts;40101010;Auto Services ;3000;Consumer Goods;3357;Tires;3;Consumer Discretionary;310854;Auto Services
+40;Consumer Discretionary;4010;Automobiles & Parts;401010;Automobiles & Parts;40101015;Tires;3000;Consumer Goods;3357;Tires;3;Consumer Discretionary;310854;Auto Services
+40;Consumer Discretionary;4010;Automobiles & Parts;401010;Automobiles & Parts;40101020;Automobiles;3000;Consumer Goods;3353;Automobiles;3;Consumer Discretionary;310360;Automobiles
+40;Consumer Discretionary;4010;Automobiles & Parts;401010;Automobiles & Parts;40101025;Auto Parts;3000;Consumer Goods;3355;Auto Parts;3;Consumer Discretionary;310340;Auto Parts
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201010;Education Services;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330461;Education Services
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201020;Funeral Parlors & Cemetery;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330495;Funeral Parlors & Cemetery
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201030;Printing and Copying Services;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330736;Printing and Copying Services
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201040;Rental & Leasing Services: Consumer;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330809;Rental & Leasing Services: Consumer
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201050;Storage Facilities;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330838;Storage Facilities
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201060;Vending & Catering Service;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330890;Vending & Catering Service
+40;Consumer Discretionary;4020;Consumer Products & Services;402010;Consumer Services ;40201070;Consumer Services: Misc.;5000;Consumer Services;5377;Specialized Consumer Services;3;Consumer Discretionary;330638;Consumer Services: Misc
+40;Consumer Discretionary;4020;Consumer Products & Services;402020;Household Goods & Home Construction;40202010;Home Construction;3000;Consumer Goods;3728;Home Construction;3;Consumer Discretionary;320501;Homebuilding
+40;Consumer Discretionary;4020;Consumer Products & Services;402020;Household Goods & Home Construction;;;;;;;3;Consumer Discretionary;320640;Manufactured Housing
+40;Consumer Discretionary;4020;Consumer Products & Services;402020;Household Goods & Home Construction;40202015;Household Furnishings;3000;Consumer Goods;3726;Furnishings;3;Consumer Discretionary;320523;Household Furnishings
+40;Consumer Discretionary;4020;Consumer Products & Services;402020;Household Goods & Home Construction;40202020;Household Appliance;3000;Consumer Goods;3722;Durable Household Products;3;Consumer Discretionary;320470;Household Appliance
+40;Consumer Discretionary;4020;Consumer Products & Services;402020;Household Goods & Home Construction;40202025;Household Equipment & Products;3000;Consumer Goods;3722;Durable Household Products;3;Consumer Discretionary;320521;Household Equip & Products
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203010;Consumer Electronics;3000;Consumer Goods;3743;Consumer Electronics;3;Consumer Discretionary;320451;Consumer Electronics
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203040;Electronic Entertainment;3000;Consumer Goods;3747;Toys;1;Technology;130469;Electronic Entertainment
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203045;Toys;3000;Consumer Goods;3747;Toys;3;Consumer Discretionary;320858;Toys
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203050;Recreational Products;3000;Consumer Goods;3745;Recreational Products;3;Consumer Discretionary;340556;Leisure Time
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203055;Recreational Vehicles & Boats;3000;Consumer Goods;3745;Recreational Products;3;Consumer Discretionary;340804;Recreational Vehicles & Boats
+40;Consumer Discretionary;4020;Consumer Products & Services;402030;Leisure Goods;40203060;Photography;3000;Consumer Goods;3745;Recreational Products;3;Consumer Discretionary;320730;Photography
+40;Consumer Discretionary;4020;Consumer Products & Services;402040;Personal Goods;40204020;Clothing & Accessories;3000;Consumer Goods;3763;Clothing & Accessories;3;Consumer Discretionary;320850;Textiles Apparel & Shoes
+40;Consumer Discretionary;4020;Consumer Products & Services;402040;Personal Goods;40204025;Footwear;3000;Consumer Goods;3765;Footwear;3;Consumer Discretionary;320850;Textiles Apparel & Shoes
+40;Consumer Discretionary;4020;Consumer Products & Services;402040;Personal Goods;40204030;Luxury Items;3000;Consumer Goods;3763;Clothing & Accessories;3;Consumer Discretionary;320547;Luxury Items
+40;Consumer Discretionary;4020;Consumer Products & Services;402040;Personal Goods;40204035;Cosmetics;3000;Consumer Goods;3767;Personal Products;3;Consumer Discretionary;320450;Cosmetics
+40;Consumer Discretionary;4030;Media;403010;Media;40301010;Entertainment;5000;Consumer Services;5553;Broadcasting & Entertainment;3;Consumer Discretionary;350480;Entertainment
+40;Consumer Discretionary;4030;Media;403010;Media;;;;;;;3;Consumer Discretionary;350438;Diversified Media
+40;Consumer Discretionary;4030;Media;403010;Media;40301020;Media Agencies;5000;Consumer Services;5555;Media Agencies;3;Consumer Discretionary;350301;Advertising Agencies
+40;Consumer Discretionary;4030;Media;403010;Media;40301030;Publishing;5000;Consumer Services;5557;Publishing;3;Consumer Discretionary;350740;Publishing
+40;Consumer Discretionary;4030;Media;403010;Media;40301035;Radio & TV Broadcasters;5000;Consumer Services;5553;Broadcasting & Entertainment;3;Consumer Discretionary;350760;Radio & TV Broadcasters
+40;Consumer Discretionary;4040;Retail ;404010;Retailers ;40401010;Diversified Retailers;5000;Consumer Services;5373;Broadline Retailers;3;Consumer Discretionary;360815;Diversified Retail
+40;Consumer Discretionary;4040;Retail ;404010;Retailers ;40401020;Apparel Retailers;5000;Consumer Services;5371;Apparel Retailers;3;Consumer Discretionary;360834;Specialty Retail
+40;Consumer Discretionary;4040;Retail ;404010;Retailers ;40401025;Home Improvement Retailers;5000;Consumer Services;5375;Home Improvement Retailers;3;Consumer Discretionary;360834;Specialty Retail
+40;Consumer Discretionary;4040;Retail ;404010;Retailers ;40401030;Specialty Retailers ;5000;Consumer Services;5379;Specialty Retailers ;3;Consumer Discretionary;360834;Specialty Retail
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501010;Airlines;5000;Consumer Services;5751;Airlines;8;Producer Durables;840310;Air Transport
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501015;Travel & Tourism;5000;Consumer Services;5759;Travel & Tourism;3;Consumer Discretionary;340556;Leisure Time
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501020;Casinos & Gambling;5000;Consumer Services;5752;Gambling;3;Consumer Discretionary;340434;Casinos & Gambling
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501025;Hotels & Motels ;5000;Consumer Services;5753;Hotels;3;Consumer Discretionary;340514;Hotel/Motel
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501030;Recreational Services;5000;Consumer Services;5755;Recreational Services;3;Consumer Discretionary;340556;Leisure Time
+40;Consumer Discretionary;4050;Travel & Leisure;405010;Travel & Leisure;40501040;Restaurants & Bars;5000;Consumer Services;5757;Restaurants & Bars;3;Consumer Discretionary;340810;Restaurants
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451010;Beverages;45101010;Brewers;3000;Consumer Goods;3533;Brewers;4;Consumer Staples;410405;Beverage: Brewers & Distillers
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451010;Beverages;45101015;Distillers & Vintners;3000;Consumer Goods;3535;Distillers & Vintners;4;Consumer Staples;410405;Beverage: Brewers & Distillers
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451010;Beverages;45101020;Soft Drinks;3000;Consumer Goods;3537;Soft Drinks;4;Consumer Staples;410410;Beverage: Soft Drinks
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451020;Food Producers;45102010;Farming, Fishing, Ranching & Plantations;3000;Consumer Goods;3573;Farming, Fishing & Plantations;4;Consumer Staples;410305;Agriculture Fishing & Ranching
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451020;Food Producers;45102020;Food Products;3000;Consumer Goods;3577;Food Products;4;Consumer Staples;410494;Foods
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451020;Food Producers;45102030;Fruit & Grain Processing;3000;Consumer Goods;3577;Food Products;4;Consumer Staples;410646;Fruit & Grain Processing
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451020;Food Producers;45102035;Sugar;3000;Consumer Goods;3577;Food Products;4;Consumer Staples;410840;Sugar
+45;Consumer Staples ;4510;Food, Beverage & Tobacco ;451030;Tobacco;45103010;Tobacco;3000;Consumer Goods;3785;Tobacco;4;Consumer Staples;410856;Tobacco
+45;Consumer Staples ;4520;Personal Care, Drug & Grocery Stores ;452010;Personal Care, Drug & Grocery Stores ;45201010;Food Retailers & Wholesalers ;5000;Consumer Services;5337;Food Retailers & Wholesalers ;4;Consumer Staples;420459;Drug & Grocery Store Chains
+45;Consumer Staples ;4520;Personal Care, Drug & Grocery Stores ;452010;Personal Care, Drug & Grocery Stores ;45201015;Drug Retailers;5000;Consumer Services;5333;Drug Retailers;4;Consumer Staples;420459;Drug & Grocery Store Chains
+45;Consumer Staples ;4520;Personal Care, Drug & Grocery Stores ;452010;Personal Care, Drug & Grocery Stores ;45201020;Personal Products;3000;Consumer Goods;3767;Personal Products;4;Consumer Staples;420832;Personal Care
+45;Consumer Staples ;4520;Personal Care, Drug & Grocery Stores ;452010;Personal Care, Drug & Grocery Stores ;45201030;Nondurable Household Products;3000;Consumer Goods;3724;Nondurable Household Products;3;Consumer Discretionary;320521;Household Equip & Products
+45;Consumer Staples ;4520;Personal Care, Drug & Grocery Stores ;452010;Personal Care, Drug & Grocery Stores ;45201040;Miscellaneous Consumer Staple Goods;3000;Consumer Goods;3767;Personal Products;4;Consumer Staples;420637;Miscellaneous Consumer Staples
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101010;Construction;2000;Industrials;2357;Heavy Construction;8;Producer Durables;820443;Construction
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101015;Engineering & Contracting Services;2000;Industrials;2357;Heavy Construction;8;Producer Durables;850479;Engineering & Contracting Services
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101020;Building, Roofing/Wallboard & Plumbing;2000;Industrials;2353;Building Materials & Fixtures;7;Materials & Processing;710427;Building: Roofing/Wallboard & Plumbing
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101025;Building: Climate Control;2000;Industrials;2353;Building Materials & Fixtures;7;Materials & Processing;710415;Building: Climate Control
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101030;Cement;2000;Industrials;2353;Building Materials & Fixtures;7;Materials & Processing;710420;Cement
+50;Industrials;5010;Construction & Materials;501010;Construction & Materials ;50101035;Building Materials: Other;2000;Industrials;2353;Building Materials & Fixtures;7;Materials & Processing;710430;Building Materials
+50;Industrials;5020;Industrial Goods & Services;502010;Aerospace & Defense;50201010;Aerospace;2000;Industrials;2713;Aerospace;8;Producer Durables;840300;Aerospace
+50;Industrials;5020;Industrial Goods & Services;502010;Aerospace & Defense;50201020;Defense;2000;Industrials;2717;Defense;8;Producer Durables;840300;Aerospace
+50;Industrials;5020;Industrial Goods & Services;502020;Electronic & Electrical Equipment;50202010;Electrical Components ;2000;Industrials;2733;Electrical Components & Equipment;8;Producer Durables;820734;Power Transmission Equip
+50;Industrials;5020;Industrial Goods & Services;502020;Electronic & Electrical Equipment;50202020;Electronic Equipment: Control & Filter;2000;Industrials;2737;Electronic Equipment;8;Producer Durables;830524;Scientific Instruments: Control & Filter
+50;Industrials;5020;Industrial Goods & Services;502020;Electronic & Electrical Equipment;50202025;Electronic Equipment: Gauges & Meters;2000;Industrials;2737;Electronic Equipment;8;Producer Durables;830474;Scientific Instruments: Gauges & Meters
+50;Industrials;5020;Industrial Goods & Services;502020;Electronic & Electrical Equipment;50202030;Electronic Equipment: Pollution Control;2000;Industrials;2737;Electronic Equipment;8;Producer Durables;830735;Scientific Instruments: Pollution Control
+50;Industrials;5020;Industrial Goods & Services;502020;Electronic & Electrical Equipment;50202040;Electronic Equipment: Other;2000;Industrials;2733;Electrical Components & Equipment;8;Producer Durables;830465;Scientific Instruments: Electrical
+50;Industrials;5020;Industrial Goods & Services;502030;General Industrials;50203000;Diversified Industrials;2000;Industrials;2727;Diversified Industrials;8;Producer Durables;820453;Diversified Manufacturing Operations
+50;Industrials;5020;Industrial Goods & Services;502030;General Industrials;50203010;Paints & Coatings;1000;Basic Materials;1357;Specialty Chemicals;7;Materials & Processing;730714;Paints & Coatings
+50;Industrials;5020;Industrial Goods & Services;502030;General Industrials;50203015;Plastics;1000;Basic Materials;1357;Specialty Chemicals;7;Materials & Processing;730733;Plastics
+50;Industrials;5020;Industrial Goods & Services;502030;General Industrials;50203020;Glass;2000;Industrials;2353;Building Materials & Fixtures;7;Materials & Processing;730502;Glass
+50;Industrials;5020;Industrial Goods & Services;502030;General Industrials;50203030;Containers & Packaging;2000;Industrials;2723;Containers & Packaging;7;Materials & Processing;730442;Containers & Packaging
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204000;Machinery: Industrial;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810584;Machinery: Industrial
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;;;;
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204010;Machinery: Agricultural;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810570;Machinery: Agricultural
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;;;;
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204020;Machinery: Construction & Handling;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810577;Machinery: Construction & Handling
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;;;;
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204030;Machinery: Engines;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810579;Machinery: Engines
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;;;;
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204040;Machinery: Tools;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810563;Machinery: Tools
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;;;;
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;50204050;Machinery: Specialty;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;810610;Machinery: Specialty
+50;Industrials;5020;Industrial Goods & Services;502040;Industrial Engineering;;;2000;Industrials;2757;Industrial Machinery;8;Producer Durables;820644;Producer Durables: Misc
+50;Industrials;5020;Industrial Goods & Services;502050;Industrial Support Services;50205010;Industrial Suppliers;2000;Industrials;2797;Industrial Suppliers;8;Producer Durables;850546;International Trade & Diversified Logistics
+50;Industrials;5020;Industrial Goods & Services;502050;Industrial Support Services;50205020;Back Office Support, HR & Consulting;2000;Industrials;2795;Financial Administration;8;Producer Durables;850365;Back Office Support HR & Consulting
+50;Industrials;5020;Industrial Goods & Services;502050;Industrial Support Services;50205025;Business Training & Employment Agencies;2000;Industrials;2793;Business Training & Employment Agencies;8;Producer Durables;850365;Back Office Support HR & Consulting
+50;Industrials;5020;Industrial Goods & Services;502050;Industrial Support Services;50205030;Forms & Bulk Printing Services;2000;Industrials;2791;Business Support Services;8;Producer Durables;850486;Forms and Bulk Printing Services
+50;Industrials;5020;Industrial Goods & Services;502050;Industrial Support Services;50205040;Security Services;2000;Industrials;2791;Business Support Services;8;Producer Durables;850484;Environmental Maintenance & Security Services
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206010;Trucking;2000;Industrials;2779;Trucking;8;Producer Durables;840865;Truckers
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206015;Commercial Vehicles & Parts;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;840350;Commercial Vehicles & Parts
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206020;Railroads;2000;Industrials;2775;Railroads;8;Producer Durables;840800;Railroads
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206025;Railroad Equipment;2000;Industrials;2753;Commercial Vehicles & Trucks;8;Producer Durables;840770;Railroad Equipment
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;;;2000;Industrials;2777;Transportation Services;;;;
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206030;Marine Transportation;2000;Industrials;2773;Marine Transportation;8;Producer Durables;840830;Shipping
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206040;Delivery Services;2000;Industrials;2771;Delivery Services;8;Producer Durables;840310;Air Transport
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206050;Commercial Vehicle-Equipment Leasing;2000;Industrials;2777;Transportation Services;8;Producer Durables;840808;Commercial Services: Rental & Leasing
+50;Industrials;5020;Industrial Goods & Services;502060;Industrial Transportation;50206060;Transportation Services;2000;Industrials;2777;Transportation Services;8;Producer Durables;840860;Transportation Miscellaneous
+55;Basic Materials;5510;Basic Resources;551010;Industrial Materials;55101000;Diversified Materials;1000;Basic Materials;1357;Specialty Chemicals;7;Materials & Processing;730452;Diversified Materials & Processing
+55;Basic Materials;5510;Basic Resources;551010;Industrial Materials;55101010;Forestry;1000;Basic Materials;1733;Forestry;7;Materials & Processing;730496;Forest Products
+55;Basic Materials;5510;Basic Resources;551010;Industrial Materials;55101015;Paper;1000;Basic Materials;1737;Paper;7;Materials & Processing;730720;Paper
+55;Basic Materials;5510;Basic Resources;551010;Industrial Materials;55101020;Textile Products;3000;Consumer Goods;3763;Clothing & Accessories;7;Materials & Processing;730852;Textile Products
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102000;General Mining;1000;Basic Materials;1775;General Mining;7;Materials & Processing;740635;Metals & Minerals: Diversified
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102010;Iron & Steel;1000;Basic Materials;1757;Iron & Steel;7;Materials & Processing;740835;Steel
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102015;Metal Fabricating ;2000;Industrials;2757;Industrial Machinery;7;Materials & Processing;740630;Metal Fabricating
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102035;Aluminum;1000;Basic Materials;1753;Aluminum;7;Materials & Processing;740320;Aluminum
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102040;Copper;1000;Basic Materials;1755;Nonferrous Metals;7;Materials & Processing;740447;Copper
+55;Basic Materials;5510;Basic Resources;551020;Industrial Metals & Mining;55102050;Nonferrous Metals;1000;Basic Materials;1755;Nonferrous Metals;7;Materials & Processing;740635;Metals & Minerals: Diversified
+55;Basic Materials;5510;Basic Resources;551030;Precious Metals & Mining;55103020;Diamonds & Gemstones;1000;Basic Materials;1773;Diamonds & Gemstones;7;Materials & Processing;740549;Precious Metals & Minerals
+55;Basic Materials;5510;Basic Resources;551030;Precious Metals & Mining;55103025;Gold Mining;1000;Basic Materials;1777;Gold Mining;7;Materials & Processing;740498;Gold
+55;Basic Materials;5510;Basic Resources;551030;Precious Metals & Mining;55103030;Platinum & Precious Metals;1000;Basic Materials;1779;Platinum & Precious Metals;7;Materials & Processing;740549;Precious Metals & Minerals
+55;Basic Materials;5520;Chemicals;552010;Chemicals;55201000;Chemicals: Diversified;1000;Basic Materials;1353;Commodity Chemicals;7;Materials & Processing;720433;Chemicals: Diversified
+55;Basic Materials;5520;Chemicals;552010;Chemicals;55201010;Chemicals & Synthetic Fibers;1000;Basic Materials;1353;Commodity Chemicals;7;Materials & Processing;720845;Synthetic Fibers & Chemicals
+55;Basic Materials;5520;Chemicals;552010;Chemicals;55201015;Fertilizers;1000;Basic Materials;1353;Commodity Chemicals;7;Materials & Processing;720485;Fertilizers
+55;Basic Materials;5520;Chemicals;552010;Chemicals;55201020;Specialty Chemicals;1000;Basic Materials;1357;Specialty Chemicals;7;Materials & Processing;720833;Chemicals: Specialty
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101000;Integrated Oil & Gas;1;Oil & Gas;537;Integrated Oil & Gas;6;Energy;620700;Oil: Integrated
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101010;Oil: Crude Producers;1;Oil & Gas;533;Exploration & Production;6;Energy;620670;Oil: Crude Producers
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101015;Offshore Drilling & Other Services;1;Oil & Gas;533;Exploration & Production;6;Energy;620660;Offshore Drilling & Other Services
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101020;Oil Refining and Marketing;1;Oil & Gas;533;Exploration & Production;6;Energy;620605;Oil: Refining & Marketing
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101030;Oil Equipment & Services;1;Oil & Gas;573;Oil Equipment & Services;6;Energy;610600;Oil Well Equipment & Services
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101035;Pipelines;1;Oil & Gas;577;Pipelines;6;Energy;620877;Gas Pipeline
+60;Energy;6010;Energy;601010;Non-Renewable Energy;60101040;Coal;1000;Basic Materials;1771;Coal;6;Energy;620435;Coal
+60;Energy;6010;Energy;601020;Renewable Energy;60102010;Alternative Fuels ;1;Oil & Gas;587;Alternative Fuels ;6;Energy;630478;Alternative Energy
+60;Energy;6010;Energy;601020;Renewable Energy;60102020;Renewable Energy Equipment ;1;Oil & Gas;583;Renewable Energy Equipment ;6;Energy;610477;Energy Equipment
+65;Utilities;6510;Utilities;651010;Electricity;65101010;Alternative Electricity;7000;Utilities;7537;Alternative Electricity;11;Utilities;1110870;Utilities: Electrical
+65;Utilities;6510;Utilities;651010;Electricity;65101015;Conventional Electricity;7000;Utilities;7535;Conventional Electricity;11;Utilities;1110870;Utilities: Electrical
+65;Utilities;6510;Utilities;651020;Gas, Water & Multi-utilities ;65102000;Multi-Utilities;7000;Utilities;7575;Multi-Utilities;11;Utilities;1110868;Utilities: Miscellaneous
+65;Utilities;6510;Utilities;651020;Gas, Water & Multi-utilities ;65102020;Gas Distribution;7000;Utilities;7573;Gas Distribution;11;Utilities;1110875;Utilities: Gas Distributors
+65;Utilities;6510;Utilities;651020;Gas, Water & Multi-utilities ;65102030;Water;7000;Utilities;7577;Water;11;Utilities;1110882;Utilities: Water
+65;Utilities;6510;Utilities;651030;Waste & Disposal Services;65103035;Waste & Disposal Services;2000;Industrials;2799;Waste & Disposal Services;8;Producer Durables;850484;Environmental Maintenance & Security Services
