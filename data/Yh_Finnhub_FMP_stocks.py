@@ -148,6 +148,8 @@ import yfinance as yf
         pd.json_normalize(fmpsdk.historical_dowjones_constituent(apikey=fmp_key)).to_csv('dj_hist.csv')
 
 
+
+
     # Available ETFs
         FMP_ETFs = pd.json_normalize(fmpsdk.etf_list(apikey=fmp_key))
         fmp_etf = pd.json_normalize(fmpsdk.available_efts(apikey=fmp_key))

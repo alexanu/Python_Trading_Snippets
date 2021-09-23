@@ -59,6 +59,8 @@ while schedule.jobs:
 # -----------------------------------------------------------------------------------
 # email stock alert
     import os
+
+    print(os.environ)
     import smtplib
     import imghdr
     from email.message import EmailMessage
