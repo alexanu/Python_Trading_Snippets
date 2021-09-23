@@ -9,11 +9,11 @@ import time
 
 
 import finnhub
-token='br4gvpvrh5r8ufeot14g'
+token='xxxx'
 hub = finnhub.Client(api_key=token)
 
 import fmpsdk
-fmp_key="d0e821d6fc75c551faef9d5c495136cc"
+fmp_key="xxxx"
 
 # https://github.com/ranaroussi/yfinance
 # I had big problems with installation of yfinance to conda
@@ -645,7 +645,7 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     pd.json_normalize(hub.country()).to_csv("Country_codes.csv") # I've integrated it to my country DB
 
         # Database of countries is already created using also the Finnhub data
-        Country_DB_directory= "C:\\Users\\oanuf\\Google Drive\\Programming\\GitHub\\Python_Trading_Snippets\\data\\Tkrs_metadata\\"
+        Country_DB_directory= "...\\Google Drive\\..."
         Country_DB=pd.read_csv(Country_DB_directory + 'country_mapping.csv', usecols=[0,5,6,8], skiprows=1) 
         Country_in_scope=Country_DB[Country_DB['Country Group']!="No"]
         Country_codes = Country_in_scope.code3.to_list()

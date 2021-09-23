@@ -5,11 +5,11 @@
 import yfinance as yf
 
 import finnhub
-token='br4gvpvrh5r8ufeot14g'
+token='xxxx'
 hub = finnhub.Client(api_key=token)
 
 import fmpsdk
-fmp_key="d0e821d6fc75c551faef9d5c495136cc"
+fmp_key="xxx"
 
 
 import os
@@ -84,7 +84,7 @@ data = yf.download(
 
     # Use finnhub to get current index members
     import finnhub
-    token='br4gvpvrh5r8ufeot14g'
+    token='xxx'
     hub = finnhub.Client(api_key=token)
     All_constitu = set([item for sublist in [hub.indices_const(symbol=x)['constituents'] for x in ['^GSPC', '^NDX', '^DJI']] for item in sublist])
 
@@ -117,7 +117,7 @@ data = yf.download(
 
     # Use finnhub to get current index members
     import finnhub
-    token='br4gvpvrh5r8ufeot14g'
+    token='xxxx'
     hub = finnhub.Client(api_key=token)
     All_constitu = set([item for sublist in [hub.indices_const(symbol=x)['constituents'] for x in ['^GSPC', '^NDX', '^DJI']] for item in sublist])
 
@@ -181,7 +181,7 @@ data = yf.download(
 
 # Minute data from FMP. I bought 1 month access and download hell a lot
 
-        fmp_key="d0e821d6fc75c551faef9d5c495136cc"
+        fmp_key="xxxx"
 
         # Example of endpoint (it was not implemented in fmpsdk package, I got it by twitting to fmp)
         # https://financialmodelingprep.com/api/v4/historical-price/UN/1/minute/2020-04-26/2020-05-26?apikey=d0e821d6fc75c551faef9d5c495136cc'
