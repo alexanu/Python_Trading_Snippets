@@ -7,13 +7,15 @@ import pandas as pd
 import datetime as dt
 import time
 
-
-import finnhub
-token='xxxx'
-hub = finnhub.Client(api_key=token)
+from keys_config import *
 
 import fmpsdk
-fmp_key="xxxx"
+
+
+import finnhub
+hub = finnhub.Client(api_key=finnhub_key)
+
+
 
 # https://github.com/ranaroussi/yfinance
 # I had big problems with installation of yfinance to conda
@@ -22,7 +24,6 @@ import yfinance as yf
 
 
 # Add https://github.com/iexcloud/pyEX
-
 
 ## Helpers -------------------------------------
 
@@ -46,7 +47,7 @@ import yfinance as yf
 
 ##########################################################################################
 
-### Symbols from different FX / CFD providers --------------------------------------
+### Symbols from different FX / CFD providers / Crypto --------------------------------------
 
     hub.forex_exchanges()
     pd.json_normalize(hub.forex_symbols("fxcm"))
@@ -56,11 +57,14 @@ import yfinance as yf
     All_FX.to_csv("FX_tickers_FinnHub.csv")
 
     pd.json_normalize(fmpsdk.forex(apikey=fmp_key))
-    pd.json_normalize(fmpsdk.forex_list(apikey=fmp_key))
+    pd.json_normalize(fmpsdk.forex_list(apikey=fmp_key)).transpose()
     pd.json_normalize(fmpsdk.available_forex(apikey=fmp_key))
 
     pd.json_normalize(fmpsdk.available_commodities(apikey=fmp_key))
     pd.json_normalize(fmpsdk.commodities_list(apikey=fmp_key))
+
+    pd.json_normalize(fmpsdk.cryptocurrencies_list(apikey=fmp_key))
+    pd.json_normalize(fmpsdk.available_cryptocurrencies(apikey=fmp_key))
 
 
 ### FX quotes pairs from different providers --------------------------------------
@@ -86,14 +90,13 @@ import yfinance as yf
     hub.stock_symbols('US')[0].keys()
 
     pd.json_normalize(fmpsdk.symbols_list(apikey=fmp_key))
+    pd.json_normalize(fmpsdk.available_traded_list(apikey=fmp_key))
     pd.json_normalize(fmpsdk.delisted_companies(apikey=fmp_key,limit=1000)).to_csv('delisted_companies.csv')
     pd.json_normalize(fmpsdk.cik_list(apikey=fmp_key))
     pd.json_normalize(fmpsdk.available_euronext(apikey=fmp_key))
     pd.json_normalize(fmpsdk.euronext_list(apikey=fmp_key))
     pd.json_normalize(fmpsdk.available_tsx(apikey=fmp_key))
     pd.json_normalize(fmpsdk.tsx_list(apikey=fmp_key))
-    pd.json_normalize(fmpsdk.indexes(apikey=fmp_key))
-    pd.json_normalize(fmpsdk.available_indexes(apikey=fmp_key))
 
 
     # All tickers from main exchanges  --------------------------------------        
@@ -122,9 +125,13 @@ import yfinance as yf
         Merck = pd.concat((pd.json_normalize(hub.quote(x)) for x in On_Many_GER_X[On_Many_GER_X.Family=="6MK"].symbol.to_list()))
 
     # Stock screener
-        market_cap_more_than: int = 1000000000
+        market_cap_more_than: int = 10**10
+        volume_more_than: int = 10**10
+        sector = 'Airlines' # full list if settings.py
+        industry = "Biotechnology" # full list if settings.py
         limit: int = 4000
-        screen_cap = fmpsdk.stock_screener(apikey=fmp_key, market_cap_more_than=market_cap_more_than, limit=limit)
+        screen_cap = fmpsdk.stock_screener(apikey=fmp_key, market_cap_more_than=market_cap_more_than, industry=industry, limit=limit)
+
         pd.json_normalize(screen_cap).to_csv('screen_cap.csv')
 
 
@@ -140,6 +147,17 @@ import yfinance as yf
 
         pd.concat((pd.json_normalize(hub.indices_hist_const(symbol=x)['historicalConstituents']).assign(Index=x) for x in ['^GSPC', '^NDX', '^DJI']), ignore_index=True).to_csv("Indices_add_remove.csv")
 
+
+        FMP_indexes = pd.json_normalize(fmpsdk.indexes(apikey=fmp_key))
+        FMP_indexes['O/N Chg'] = FMP_indexes.open/FMP_indexes.previousClose
+        FMP_indexes['Today Chg'] = FMP_indexes.price/FMP_indexes.open
+        FMP_indexes['50vs200'] = FMP_indexes.priceAvg50/FMP_indexes.priceAvg200
+        FMP_indexes['1vs50'] = FMP_indexes.price/FMP_indexes.priceAvg50
+        FMP_indexes['1vsYHigh'] = FMP_indexes.price/FMP_indexes.yearHigh
+
+        pd.json_normalize(fmpsdk.available_indexes(apikey=fmp_key))
+
+
         pd.json_normalize(fmpsdk.sp500_constituent(apikey=fmp_key)).to_csv('sp500_hist.csv') # premium
         pd.json_normalize(fmpsdk.historical_sp500_constituent(apikey=fmp_key)).to_csv('sp500_hist.csv') # premium
         pd.json_normalize(fmpsdk.nasdaq_constituent(apikey=fmp_key)).to_csv('nasda_hist.csv')
@@ -147,7 +165,10 @@ import yfinance as yf
         pd.json_normalize(fmpsdk.dowjones_constituent(apikey=fmp_key)).to_csv('dj_hist.csv')
         pd.json_normalize(fmpsdk.historical_dowjones_constituent(apikey=fmp_key)).to_csv('dj_hist.csv')
 
-
+        Index_const = pd.json_normalize(fmpsdk.sp500_constituent(apikey=fmp_key)).assign(Index="SP500")
+        Index_const = Index_const.append(pd.json_normalize(fmpsdk.nasdaq_constituent(apikey=fmp_key)).assign(Index="NASD"))
+        Index_const = Index_const.append(pd.json_normalize(fmpsdk.dowjones_constituent(apikey=fmp_key)).assign(Index="DJ"))
+        Index_const[Index_const.duplicated(subset=['symbol'],keep=False)]
 
 
     # Available ETFs
@@ -160,8 +181,13 @@ import yfinance as yf
                                 for exch in FinnHub_code_main_X), ignore_index = True) # ... for every main stock exhange
         ETFs=MAIN_STOCKS.loc[MAIN_STOCKS['type'].isin(['ETP'])]
 
-comb=ETFs.merge(FMP_ETFs, how='outer', on='symbol')
-comb.to_csv("comb.csv")
+        comb=ETFs.merge(FMP_ETFs, how='outer', on='symbol')
+        comb.to_csv("comb.csv")
+
+        # Investment managers (15k rows)
+        pd.json_normalize(fmpsdk.cik_list(apikey=fmp_key))
+        # there some more formulas on asset managers
+
 
     ''' ETFs:
         GACB.DE	    Goldman Sachs ActiveBeta Emerging Markets Equity UCITS ETF
@@ -208,24 +234,20 @@ comb.to_csv("comb.csv")
         MNA	    IQ Merger Arbitrage ETF
         MRGR	ProShares Merger
     '''
-    # ETF profile, holdings, exposure
+
+    # ETF profile, holdings, exposure (not price - it goes separately)
         hub.etfs_profile(symbol='VOO')
-        fmp_etf_price =pd.json_normalize(fmpsdk.etf_price_realtime(apikey=fmp_key))
         pd.json_normalize(hub.etfs_profile(symbol='UOIL')['profile']).transpose()
         pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']) 
                     for x in ['FENY','FHLC','FIDU','FMAT','FNCL','FREL','FSTA','FTEC'])
                   , ignore_index=True).transpose().to_csv("ETF_profile.csv")
 
 
-needed_etfs = ['FXI','DJP','XLY','XLP','YANG','YINN','DVY',
-'PCY','XLE','XLF','XLV','XLI','XMMO','XMHQ','XMVM','XSMO',
-'XSVM','JJATF','JJCTF','JJETF','JJGTF','JJMTF','COWTF','JJNTF',
-'SGGFF','BWVTF','GBBEF','ICITF','OILNF','ILCG','IMCV','IMCG',
-'IMCB','ISCB','ISCG','ISCV','ILCB','ILCV','XLB','XLG','VXX',
-'GSP','XHB','XME','XES','XOP','XPH','XRT','XSD','XNTK','XLK',
-'ZSL','XLU','PRN']
-pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticker = x)
-            for x in needed_etfs), ignore_index=True).to_csv("ETF_profile.csv")
+        needed_etfs = ['FXI','DJP','XLY','XLP','YANG','YINN','DVY', 'PCY','XLE','XLF','XLV','XLI','XMMO','XMHQ','XMVM','XSMO',
+        'XSVM','JJATF','JJCTF','JJETF','JJGTF','JJMTF','COWTF','JJNTF', 'SGGFF','BWVTF','GBBEF','ICITF','OILNF','ILCG','IMCV','IMCG',
+        'IMCB','ISCB','ISCG','ISCV','ILCB','ILCV','XLB','XLG','VXX', 'GSP','XHB','XME','XES','XOP','XPH','XRT','XSD','XNTK','XLK', 'ZSL','XLU','PRN']
+        pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticker = x)
+                    for x in needed_etfs), ignore_index=True).to_csv("ETF_profile.csv")
 
 
 
@@ -239,7 +261,6 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
 
         # CARZ - global autos
         # KARS - self-driv
-
 
         # Only for US
         pd.json_normalize(hub.etfs_holdings(symbol='NIFE')['holdings'])
@@ -261,8 +282,6 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
                     for x in ['XLP','VDC']), ignore_index=True).to_csv("stapl_hold.csv")
 
 
-
-
         pd.json_normalize(fmpsdk.etf_holders(apikey=fmp_key, symbol="CARZ")).head(10)
 
 
@@ -279,11 +298,6 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         data_you_need.to_csv("ETF_hold.csv")
 
 
-
-
-
-
-
         # Only for US
         pd.json_normalize(hub.etfs_country_exp(symbol='ROBO')['countryExposure'])
         pd.json_normalize(hub.etfs_country_exp(symbol='GACA.DE')['countryExposure'])
@@ -291,7 +305,7 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         pd.json_normalize(fmpsdk.etf_country_weightings(apikey=fmp_key, symbol="ARKK"))
 
 
-### Company (profile, peers, executives, ownership) ------------------------------------------------
+### Company (profile, capitalisation, peers, executives, ownership, insider) ------------------------------------------------
     
     all_fields = set(hub.company_profile(symbol="NFLX").keys()) # premium
     free_fields = set(hub.company_profile2(symbol="NFLX").keys()) # symbol, CUSIP, ISIN
@@ -308,6 +322,9 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     needed = ['symbol', 'companyName', 'currency', 'cik', 'isin', 'cusip', 'exchange','exchangeShortName','ipoDate','mktCap','industry', 'description', 'sector', 'country']
     ['price', 'volAvg', 'mktCap', 'lastDiv', 'range', 'changes']
 
+    pd.json_normalize(fmpsdk.company_outlook(apikey=fmp_key, symbol="AAPL")).transpose()
+
+
 
     msft = yf.Ticker("SGP")
     [msft.info[x] for x in ['symbol','shortName', 'longName', 'sector', 'industry',
@@ -316,9 +333,13 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     msft.sustainability
     msft.info['isEsgPopulated']
 
-    pd.json_normalize(fmpsdk.historical_market_capitalization(apikey=fmp_key, symbol="UN",limit=3000))
+    pd.json_normalize(fmpsdk.historical_market_capitalization(apikey=fmp_key, symbol="F",limit=3000))
     fmpsdk.market_capitalization(apikey=fmp_key, symbol="AAPL")[0]['marketCap']
- 
+
+
+
+    fmpsdk.shares_float(apikey=fmp_key, symbol="AAPL")
+    all_float = pd.json_normalize(fmpsdk.shares_float_all(apikey=fmp_key)) # 27k rows
 
 
     # same country and GICS sub-industry
@@ -338,8 +359,7 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         # df.drop(not_needed, axis=1)
     cars_profiles.to_csv("cars_profiles.csv")
 
-
-
+    fmpsdk.stock_peers(apikey=fmp_key, symbol="AAPL")[0]['peersList']
 
 
     hist_index_member=set(pd.read_excel('D:\\Data\\Other_data\\Tickers\\main_ticker_db.xlsx')['symbol'])
@@ -353,10 +373,6 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     flat_data = [item for sublist in data for item in sublist] # flatten the list
     needed = ['symbol', 'companyName', 'currency', 'cik', 'isin', 'cusip', 'exchange','exchangeShortName','ipoDate','mktCap','industry', 'description', 'sector', 'country']
     pd.json_normalize(flat_data).to_csv("memb_profiles.csv")
-
-
-
-
 
 
     not_needed =['address','city','currency','description','employeeTotal','logo','phone','state','weburl']
@@ -386,8 +402,11 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         pd.json_normalize(hub.fund_ownership(symbol='PUM.DE',limit=10)['ownership'])
 
 
-        fmpsdk.insider_trading_rss_feed(apikey=fmp_key)
-        pd.json_normalize(fmpsdk.insider_trading(apikey=fmp_key, symbol="AAPL",limit=1000))
+        pd.json_normalize(fmpsdk.insider_trading_rss_feed(apikey=fmp_key))
+        ins_tr = pd.json_normalize(fmpsdk.insider_trading(apikey=fmp_key, symbol="AAPL",limit=10))
+        ins_tr.dtypes
+        fmpsdk.insider_trans(apikey=fmp_key)
+        pd.json_normalize(fmpsdk.fail_to_deliver(apikey=fmp_key, symbol="AAPL"))
 
 
 ### Company corporate events (divs, splits, merger, IPO) -----------------------------
@@ -406,7 +425,7 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
                                 for x in hub.company_peers(symbol="TSLA")))
 
         pd.json_normalize(fmpsdk.dividend_calendar(apikey=fmp_key)) # looks in the future; max interval 3mo
-        pd.json_normalize(fmpsdk.historical_stock_dividend(apikey=fmp_key,symbol="AAPL")) # max interval 3mo
+        pd.json_normalize(fmpsdk.historical_stock_dividend(apikey=fmp_key,symbol="AAPL")['historical'])
 
 
         # Histor divids from FMP
@@ -506,7 +525,6 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         #  Loughran and McDonald Sentiment Word Lists is used to calculate the sentiment for each filing
         # https://sraf.nd.edu/textual-analysis/resources/
 
-
     # Financial ratios & metrics
 
         pd.read_csv("https://static.finnhub.io/csv/metrics.csv")
@@ -524,16 +542,39 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         Financials_cars = pd.concat((pd.json_normalize(hub.company_basic_financials(x, 'all')['metric']).transpose().rename(columns={0 :x}) 
                                     for x in hub.company_peers(symbol="TSLA")),axis=1)
         
+
+        # here are some formulas: https://site.financialmodelingprep.com/developer/docs/formula
         pd.json_normalize(fmpsdk.financial_ratios_ttm(apikey=fmp_key, symbol="AAPL")).transpose()
         pd.json_normalize(fmpsdk.financial_ratios(apikey=fmp_key, symbol="AAPL", period = "annual")).transpose()
         pd.json_normalize(fmpsdk.financial_ratios(apikey=fmp_key, symbol="AAPL", period = "quarter")).transpose()
+
+
+        pd.json_normalize(fmpsdk.enterprise_values(apikey=fmp_key, symbol="AAPL", period = "annual")).transpose()
+
 
         pd.json_normalize(fmpsdk.key_metrics_ttm(apikey=fmp_key, symbol="AAPL")).transpose()
         pd.json_normalize(fmpsdk.key_metrics(apikey=fmp_key, symbol="AAPL", period = "annual")).transpose()
 
         pd.json_normalize(fmpsdk.financial_growth(apikey=fmp_key, symbol="AAPL", period = "annual")).transpose()
 
+        pd.json_normalize(fmpsdk.rating(apikey=fmp_key, symbol="AAPL")).transpose()
+        pd.json_normalize(fmpsdk.historical_rating(apikey=fmp_key, symbol="AAPL",limit=100)).transpose()
+
     # Financial statements
+
+        # List of symbols that have financial statements at FMP
+        fmpsdk.financial_statement_symbol_lists(apikey=fmp_key)
+        pd.json_normalize(fmpsdk.financial_reports_dates(apikey=fmp_key, symbol="AAPL"))
+
+        pd.json_normalize(fmpsdk.income_statement_growth(apikey=fmp_key, symbol="AAPL")).transpose()
+
+        fmpsdk.balance_sheet_statement_growth(apikey=fmp_key, symbol="AAPL")
+        fmpsdk.cash_flow_statement_growth(apikey=fmp_key, symbol="AAPL")
+        fmpsdk.income_statement_as_reported(apikey=fmp_key, symbol="AAPL")
+        fmpsdk.balance_sheet_statement_as_reported(apikey=fmp_key, symbol="AAPL")
+        fmpsdk.cash_flow_statement_as_reported(apikey=fmp_key, symbol="AAPL")
+        fmpsdk.financial_statement_full_as_reported(apikey=fmp_key, symbol="AAPL")
+
 
         msft = yf.Ticker("MSFT")
         msft.financials
@@ -638,6 +679,10 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     # Only for US: earnings call transcripts
     pd.json_normalize(hub.transcripts_list('AAPL')['transcripts'])
     hub.transcripts('AAPL_176494')
+    fmpsdk.earning_call_transcript(apikey=fmp_key, symbol="AAPL", year=2020,quarter=4)
+    fmpsdk.batch_earning_call_transcript(apikey=fmp_key, symbol="AAPL", year=2020)
+
+    fmpsdk.earning_call_transcripts_available_dates(apikey=fmp_key, symbol="AAPL")
 
 
 ### Macro (country, econ data, calend) ---------------------------------------------------------
@@ -693,6 +738,12 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
     pd.json_normalize(fmpsdk.market_hours(apikey=fmp_key)).transpose()
     pd.json_normalize(pd.json_normalize(fmpsdk.market_hours(apikey=fmp_key))['stockMarketHolidays'][0])
 
+    fmpsdk.is_the_market_open(apikey=fmp_key)[['isTheStockMarketOpen']
+                                                    # isTheEuronextMarketOpen
+                                                    # isTheForexMarketOpen
+                                                    # isTheCryptoMarketOpen
+
+
     msft = yf.Ticker("MSFT")
     [msft.info[x] for x in ['quoteType', 'symbol','shortName','market',
                             'currency','exchange', 'exchangeTimezoneName', 
@@ -724,9 +775,19 @@ pd.concat((pd.json_normalize(hub.etfs_profile(symbol=x)['profile']).assign(ticke
         Daimler_quote = pd.concat((pd.json_normalize(hub.quote(x)).assign(Ticker=x) for x in Daimler))
         Daimler_quote['t'] = pd.to_datetime(Daimler_quote['t'],unit='s')
 
-        pd.json_normalize(fmpsdk.exchange_realtime(apikey=fmp_key,exchange='NYSE'))
-        pd.json_normalize(fmpsdk.quote_short(apikey=fmp_key, symbol="AAPL")) #Prem
-        pd.json_normalize(fmpsdk.quote(apikey=fmp_key, symbol="AAPL")).transpose() #Prem
+        NYSE_now = pd.json_normalize(fmpsdk.exchange_realtime(apikey=fmp_key,exchange='NYSE'))
+
+        needed_x = ["TSX","AMEX","NASDAQ","NYSE","EURONEXT"]
+        all_data_from_x = pd.concat((pd.json_normalize(fmpsdk.exchange_realtime(apikey=fmp_key,exchange=x)).assign(Exchange=x) for x in needed_x))
+        all_data_from_x.columns
+
+        pd.json_normalize(fmpsdk.quote_short(apikey=fmp_key, symbol="AAPL"))
+
+        ListAAPL = fmpsdk.stock_peers(apikey=fmp_key, symbol="AAPL")[0]['peersList']
+        pd.json_normalize(fmpsdk.quote(apikey=fmp_key, symbol=ListAAPL)).transpose()
+
+
+        pd.json_normalize(fmpsdk.euronext_list(apikey=fmp_key))
 
         pd.json_normalize(fmpsdk.etf_price_realtime(apikey=fmp_key))
 
