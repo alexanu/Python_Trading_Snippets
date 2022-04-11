@@ -68,6 +68,9 @@
     btc['BTC_minutely_return'] = btc['close'].pct_change()
     btc['BTC_return'] = btc['BTC_daily_return'].add(1).cumprod().sub(1)
 
+    spy_daily['close_to_close_return'] = spy_daily['close'].pct_change()
+    spy_daily['close_to_close_return'].cumsum().plot()
+
     import talib
     df["roc5"] = talib.ROC(close, timeperiod=5)
 

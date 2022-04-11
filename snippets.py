@@ -7,56 +7,20 @@ all_stock_symbols = pd.read_csv(nasdaq_symbols_url, sep="|").rename(columns={x: 
 all_stock_symbols[all_stock_symbols.etf=="Y"]
 
 
+# links to parse
+    '''
+    https://www.nasdaq.com/market-activity/stocks/hal/dividend-history
+    https://www.nasdaq.com/market-activity/stocks/hal/financials
+    https://www.nasdaq.com/market-activity/stocks/hal/earnings
+    https://www.nasdaq.com/market-activity/stocks/hal/price-earnings-peg-ratios
+    https://www.nasdaq.com/market-activity/stocks/hal/revenue-eps
+    https://www.nasdaq.com/market-activity/stocks/hal/option-chain
+    https://www.nasdaq.com/market-activity/stocks/hal/short-interest
+    https://www.nasdaq.com/market-activity/stocks/hal/institutional-holdings
+    https://www.nasdaq.com/market-activity/stocks/hal/insider-activity
 
-
-https://www.nasdaq.com/market-activity/stocks/hal/dividend-history
-https://www.nasdaq.com/market-activity/stocks/hal/financials
-https://www.nasdaq.com/market-activity/stocks/hal/earnings
-https://www.nasdaq.com/market-activity/stocks/hal/price-earnings-peg-ratios
-https://www.nasdaq.com/market-activity/stocks/hal/revenue-eps
-https://www.nasdaq.com/market-activity/stocks/hal/option-chain
-https://www.nasdaq.com/market-activity/stocks/hal/short-interest
-https://www.nasdaq.com/market-activity/stocks/hal/institutional-holdings
-https://www.nasdaq.com/market-activity/stocks/hal/insider-activity
-
-# ETFs with HAL as top 10 holding
-https://old.nasdaq.com/symbol/hal
-
-https://old.nasdaq.com/symbol/hal/premarket
-https://www.nasdaq.com/market-activity/stocks/hal/pre-market-trades
-https://old.nasdaq.com/symbol/hal/after-hours
-https://www.nasdaq.com/market-activity/stocks/hal/after-hours-trades
-
-
-# Calendars
-https://www.nasdaq.com/market-activity/dividends
-https://www.nasdaq.com/market-activity/earnings
-https://www.nasdaq.com/market-activity/economic-calendar
-https://www.nasdaq.com/market-activity/ipos
-https://www.nasdaq.com/market-activity/ipo-performance
-
-https://www.nasdaq.com/market-activity/stock-splits
-
-
-# Symbol change history:
-https://www.nasdaq.com/market-activity/stocks/symbol-change-history
-
-
-https://www.nasdaq.com/market-activity/unusual-volume
-
-https://www.nasdaq.com/market-activity/nasdaq-52-week-hi-low
-
-
-https://www.nasdaq.com/market-activity/stocks/screener
-https://www.nasdaq.com/market-activity/stocks/screener
-
-
-
-
-
-
-
-
+    https://www.nasdaq.com/market-activity/unusual-volume
+    '''
 
 # Combination of Futures and Option names
     future_types = ['m']
@@ -91,6 +55,7 @@ https://www.nasdaq.com/market-activity/stocks/screener
     def pairs():
         return list(itertools.combinations(CURRENCIES, 2))
 
+
 # Pick random FX pair
     def PickRandomPair(self, pair_type):
         pairs = {
@@ -101,38 +66,34 @@ https://www.nasdaq.com/market-activity/stocks/screener
             }
         return pairs[pair_type][randint(0, len(pairs[pair_type]) - 1)]
 
+
 # FX triangles
 
     def make_instrument_triangles(self, instruments):
-
-            # Making a list of all instrument pairs (based on quoted currency)
-            first_instruments = []
-            for instrument in itertools.combinations(instruments, 2):
-                quote1 = instrument[0][4:]
-                if quote1 in instrument[1]:
-                    first_instruments.append((instrument[0], instrument[1]))
-
-            # Adding the final instrument to the pairs to convert currency back to starting ...
+        # Making a list of all instrument pairs (based on quoted currency)
+        first_instruments = []
+        for instrument in itertools.combinations(instruments, 2):
+            quote1 = instrument[0][4:]
+            if quote1 in instrument[1]:
+                first_instruments.append((instrument[0], instrument[1]))
+        # Adding the final instrument to the pairs to convert currency back to starting ...
         # ... (based on the currency only in one pair and the starting currency)
-            for instrument in first_instruments:
-                currency1 = instrument[0][:3]
-                currency2 = instrument[0][4:]
-                currency3 = instrument[1][:3]
-                currency4 = instrument[1][4:]
-                currencies = [currency1, currency2]
-                if currency3 not in currencies:
-                    currencies.append(currency3)
-                elif currency4 not in currencies:
-                    currencies.append(currency4)
-                for combo in itertools.combinations(currencies, 2):
-                    combo_str = combo[0] + '_' + combo[1]
-                    if combo_str not in instrument and combo_str in instruments:
-                        instruments.append(
-                            (instrument[0], instrument[1], combo_str))
-
+        for instrument in first_instruments:
+            currency1 = instrument[0][:3]
+            currency2 = instrument[0][4:]
+            currency3 = instrument[1][:3]
+            currency4 = instrument[1][4:]
+            currencies = [currency1, currency2]
+            if currency3 not in currencies:
+                currencies.append(currency3)
+            elif currency4 not in currencies:
+                currencies.append(currency4)
+            for combo in itertools.combinations(currencies, 2):
+                combo_str = combo[0] + '_' + combo[1]
+                if combo_str not in instrument and combo_str in instruments:
+                    instruments.append(
+                        (instrument[0], instrument[1], combo_str))
         return instruments
-
-
 
 
 # calculate ib commission
@@ -153,7 +114,7 @@ https://www.nasdaq.com/market-activity/stocks/screener
         return full_cost
 
 
-# Simulate leverage
+# Simulate leverage for ETFs
 
     import pandas_datareader.data as web
     import pandas as pd
@@ -196,28 +157,25 @@ https://www.nasdaq.com/market-activity/stocks/screener
         main()
 
 
+# split request for many tickers
+    def get_stockdata(symbols):
+        '''Get stock data (key stats and previous) from IEX.
+        Just deal with IEX's 99 stocks limit per request.
+        '''
+        partlen = 99
+        result = {}
+        for i in range(0, len(symbols), partlen):
+            part = symbols[i:i + partlen]
+            kstats = iex.Stock(part).get_key_stats()
+            previous = iex.Stock(part).get_previous()
+            for symbol in part:
+                kstats[symbol].update(previous[symbol])
+            result.update(kstats)
 
+        return pd.DataFrame(result)
 
-
-# Comparison of dataframes
-    def overlap_by_symbol(old_df: pd.DataFrame, new_df: pd.DataFrame, overlap: int):
-        """
-        Overlap dataframes for timestamp continuity. 
-        Prepend the end of old_df to the beginning of new_df, grouped by symbol.
-        If no symbol exists, just overlap the dataframes
-        :param old_df: old dataframe
-        :param new_df: new dataframe
-        :param overlap: number of time steps to overlap
-        :return DataFrame with changes
-        """
-        if isinstance(old_df.index, pd.MultiIndex) and isinstance(new_df.index, pd.MultiIndex):
-            old_df_tail = old_df.groupby(level='symbol').tail(overlap)
-
-            old_df_tail = old_df_tail.drop(set(old_df_tail.index.get_level_values('symbol')) - set(new_df.index.get_level_values('symbol')), level='symbol')
-
-            return pd.concat([old_df_tail, new_df], sort=True)
-        else:
-            return pd.concat([old_df.tail(overlap), new_df], sort=True)
-
+# analyse this :https://www.linkedin.com/pulse/data-analysis-example-python-q-ferenc-bodon-ph-d-/
+# and this: https://www.linkedin.com/pulse/python-data-analysis-really-simple-ferenc-bodon-ph-d-/
+# https://github.com/BodonFerenc/bestSize/blob/master/python/bestSizeFn.py
 
 
