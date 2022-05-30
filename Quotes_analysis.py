@@ -1,7 +1,17 @@
+import pandas as pd
+import time
+import datetime as dt
 
 
 
 # Analysing minutes quote file
+
+    Alpaca_directory = 'D:\\Data\\minute_data\\US\\alpaca_ET_adj\\gesamt\\'
+    alpaca_quotes = pd.read_csv(Alpaca_directory+"Alpaca_min_quotes_ET_adj.csv",index_col='timestamp', parse_dates=['timestamp'])
+    alpaca_quotes.groupby('ticker')['trade_count'].nlargest(5) # largest trade_count for every ticker
+
+
+
     dateparse = lambda x: pd.datetime.strptime(x, '%d.%m.%Y %H:%M')
     AAPL = pd.read_csv("D:\\Data\\minute_data\\AAPL.txt", sep='\t', decimal=",", 
                         parse_dates={'datetime': ['Date', 'Time']}, date_parser=dateparse)
@@ -19,11 +29,7 @@
     AAPL[(AAPL.Open - AAPL.Close.shift()>15)(AAPL.Close - AAPL.Open>5)] # shows where the diff btw t-1 close and t > smth
 
 
-
-
-
-
-#convert tick data to 15 minute data
+# convert tick data to 15 minute data
     data_frame = pd.read_csv(tick_data_file, 
                             names=['id', 'deal', 'Symbol', 'Date_Time', 'Bid', 'Ask'], 
                             index_col=3, parse_dates=True, skiprows= 1)
@@ -31,14 +37,6 @@
     ohlc_H1 = data_frame['Bid'].resample('1H').ohlc()
     ohlc_H4 = data_frame['Bid'].resample('4H').ohlc()
     ohlc_D = data_frame['Bid'].resample('1D').ohlc()
-
-
-
-# Rolling prices
-    df['High_Highest'] = df['Adj Close'].rolling(n).max()
-    df['Low_Lowest'] = df['Adj Close'].rolling(n).min()
-
-
 
 
 # Calculate returns & volatility:
@@ -94,7 +92,6 @@
     std = rets.rolling(n).std() 
     historical_vol_annually = std*math.sqrt(252)  
     df['RV'] = 100*historical_vol_annually
-
 
 
 # Claculate return per sec on irregularly spaced tick data
@@ -196,6 +193,10 @@
 
 # Indicators
     # MA
+        df['High_Highest'] = df['Adj Close'].rolling(n).max()
+        df['Low_Lowest'] = df['Adj Close'].rolling(n).min()
+
+
         AAPL['42d'] = np.round(AAPL['Close'].rolling(window=42).mean(), 2)
         AAPL['42-252'] = AAPL['42d'] - AAPL['252d']
         SD = 0.5
@@ -207,6 +208,7 @@
 
         import talib as ta
         df['SMA'] = ta.SMA(df['Adj Close'], timeperiod=3) # EMA
+
 
     # RSI
         df['RSI'] = ta.RSI(df['Adj Close'], timeperiod=14)
@@ -220,14 +222,17 @@
             df['RS'] = df['AVG_Gain']/df['AVG_Loss']
             df['RSI'] = 100 - (100/(1+df['RS']))
 
+
     # True Range
         df['Prior Close'] = df['Adj Close'].shift()
         df['BP'] = df['Adj Close'] - df[['Low','Prior Close']].min(axis=1)
         df['TR'] = df[['High','Prior Close']].max(axis=1) - df[['Low','Prior Close']].min(axis=1)
 
+
     # Regime 
         apple["Regime"] = np.where(apple['20d-50d'] > 0, 1, 0) # np.where() is a vectorized if-else function
         apple["Regime"] = np.where(apple['20d-50d'] < 0, -1, apple["Regime"]) # and to maintain the rest of the vector, the second argument is apple["Regime"]
+
 
     # Drawdown
         df["cum_return"] = (1 + df["return"]).cumprod()
@@ -260,8 +265,6 @@
         df['20 Day STD'] = df['Adj Close'].rolling(window=20).std()
         df['Upper Band'] = df['20 Day MA'] + (df['20 Day STD'] * 2)
         df['Lower Band'] = df['20 Day MA'] - (df['20 Day STD'] * 2)
-
-
 
 
 # Some plotting

@@ -67,7 +67,6 @@ def get_index_symbols(date, index='spr', use_cache=True):
     else:
         logging.debug('\t' + index.upper() + '\tfailed to download')
 
-
 def get_quandl_earnings(date, use_cache=True):
     ls_spr = get_index_symbols(date, 'spr', use_cache).index.values
     
@@ -128,7 +127,6 @@ def get_quandl_earnings(date, use_cache=True):
         
         # save into csv
         df_earnings.to_csv(s_equity_path, date_format='%Y%m%d')
-
 
 def get_stock_earnings(s_equity):
     ''' Derive earnings history for each equity ''' 
@@ -239,8 +237,6 @@ def get_stock_earnings(s_equity):
         logging.debug('\t' + s_equity + '\tfailed to download')
         print s_equity, '\t', sys.exc_info()[0]
         return False
-
-
 
 def get_busystock_earnings(date=None, use_cache=True):
     '''
