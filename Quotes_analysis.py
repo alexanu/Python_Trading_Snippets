@@ -1,7 +1,13 @@
 import pandas as pd
-import time
 import datetime as dt
+import btalib
+import os
+import time
 
+import alpaca_trade_api as tradeapi
+from alpaca_trade_api.rest import TimeFrame
+from keys_config import *
+alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2')
 
 
 # Analysing minutes quote file
@@ -63,7 +69,7 @@ import datetime as dt
     data_std = np.std(data['Volume'])
 
     # cumulative return: (1 + return_1) * (1 + return_2) * …
-    btc['BTC_minutely_return'] = btc['close'].pct_change()
+    btc['BTC_minutely_return'] = btc['close'].pct_change().dropna()
     btc['BTC_return'] = btc['BTC_daily_return'].add(1).cumprod().sub(1)
 
     spy_daily['close_to_close_return'] = spy_daily['close'].pct_change()
@@ -210,8 +216,37 @@ import datetime as dt
         df['SMA'] = ta.SMA(df['Adj Close'], timeperiod=3) # EMA
 
 
+        def MACD(df_dict, a=12 ,b=26, c=9):
+            """function to calculate MACD
+            typical values a(fast moving average) = 12; 
+                            b(slow moving average) =26; 
+                            c(signal line ma window) =9"""
+            for df in df_dict:
+                df_dict[df]["ma_fast"] = df_dict[df]["close"].ewm(span=a, min_periods=a).mean()
+                df_dict[df]["ma_slow"] = df_dict[df]["close"].ewm(span=b, min_periods=b).mean()
+                df_dict[df]["macd"] = df_dict[df]["ma_fast"] - df_dict[df]["ma_slow"]
+                df_dict[df]["signal"] = df_dict[df]["macd"].ewm(span=c, min_periods=c).mean()
+                df_dict[df].drop(["ma_fast","ma_slow"], axis=1, inplace=True)
+
+        def stochastic(df_dict, lookback=14, k=3, d=3):
+            """function to calculate Stochastic Oscillator
+            lookback = lookback period
+            k and d = moving average window for %K and %D"""
+            for df in df_dict:
+                df_dict[df]["HH"] = df_dict[df]["high"].rolling(lookback).max()
+                df_dict[df]["LL"] = df_dict[df]["low"].rolling(lookback).min()
+                df_dict[df]["%K"] = (100 * (df_dict[df]["close"] - df_dict[df]["LL"])/(df_dict[df]["HH"]-df_dict[df]["LL"])).rolling(k).mean()
+                df_dict[df]["%D"] = df_dict[df]["%K"].rolling(d).mean()
+                df_dict[df].drop(["HH","LL"], axis=1, inplace=True)
+
+
+
+
     # RSI
         df['RSI'] = ta.RSI(df['Adj Close'], timeperiod=14)
+
+        data= alpaca.get_bars(ticker, TimeFrame.Hour, (datetime.date.today() - datetime.timedelta(days=+2)).isoformat(), datetime.date.today().isoformat(), adjustment='raw').df
+        rsi= btalib.rsi(data).df # RSI > 50 < 75 
 
         # RSI step-by-step:
             change = df['Adj Close'].diff(1)
