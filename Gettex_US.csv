@@ -1,0 +1,346 @@
+ISIN,Name,RIC,Ticker,Sector,Cap
+US0378331005,Apple Inc,AAPL.GTX,APC,Phones & Smart Phones,2526643629440
+US5949181045,Microsoft Corp,MSFT.GTX,MSF,Software (NEC),1950014987771
+US02079K3059,Alphabet Inc,ABEA.GTX,ABEA,Search Engines,1417353270000
+US02079K1079,Alphabet Inc,ABECG.GTX,ABEC,Search Engines,1417353270000
+US0231351067,Amazon.com Inc,AMZN.GTX,AMZ,Internet & Mail Order Department Stores,1291476324277
+US88160R1014,Tesla Inc,TSLA.GTX,TL0,Electric (Alternative) Vehicles,863615679102
+US0846701086,Berkshire Hathaway Inc,BRKa.GTX,BRH,Consumer Goods Conglomerates,618109065288
+US0846707026,Berkshire Hathaway Inc,BRKb.GTX,BRYN,Consumer Goods Conglomerates,618109065288
+US91324P1021,UnitedHealth Group Inc,UNH.GTX,UNH,Managed Healthcare (NEC),485772302784
+US30303M1027,Meta Platforms Inc,FB2A.GTX,FB2A,Social Media & Networking,437882272542
+US4781601046,Johnson & Johnson,JNJ.GTX,JNJ,Pharmaceuticals (NEC),424191884259
+US92826C8394,Visa Inc,Va.GTX,3V64,Internet Security & Transactions Services,411097357736
+US30231G1022,Exxon Mobil Corp,XON.GTX,XONA,Oil & Gas Refining and Marketing (NEC),398384353439
+US67066G1040,NVIDIA Corp,NVDA.GTX,NVD,Semiconductors (NEC),375840600000
+US9311421039,Walmart Inc,WMT.GTX,WMT,Food Retail & Distribution (NEC),363339439127
+US46625H1005,JPMorgan Chase & Co,JPM.GTX,CMC,Banks (NEC),334030749498
+US7427181091,Procter & Gamble Co,PG.GTX,PRG,Personal Products (NEC),329055796615
+US57636Q1040,Mastercard Inc,MA.GTX,M4I,Internet Security & Transactions Services,313463407123
+US1667641005,Chevron Corp,CVX.GTX,CHV,Oil & Gas Refining and Marketing (NEC),309392146700
+US4370761029,Home Depot Inc,HD.GTX,HDI,Home Improvement Products & Services Retailers (NEC),295263180690
+US5324571083,Eli Lilly and Co,LLY.GTX,LLY,Pharmaceuticals (NEC),286221160124
+US0605051046,Bank of America Corp,BAC.GTX,NCB,Banks (NEC),270064383630
+US1912161007,Coca-Cola Co,KO.GTX,CCC3,Non-Alcoholic Beverages (NEC),266872866327
+US7170811035,Pfizer Inc,PFE.GTX,PFE,Pharmaceuticals (NEC),253846672321
+US7134481081,PepsiCo Inc,PEP.GTX,PEP,Carbonated Soft Drinks,237747216075
+US00287Y1091,Abbvie Inc,4AB.GTX,4AB,Pharmaceuticals (NEC),237738254717
+US22160K1051,Costco Wholesale Corp,COST.GTX,CTO,Discount Stores (NEC),231270955672
+US58933Y1055,Merck & Co Inc,MRK.GTX,6MK,Pharmaceuticals (NEC),216240767569
+US8835561023,Thermo Fisher Scientific Inc,TMO.GTX,TN8,Advanced Medical Equipment & Technology (NEC),213650356757
+US2546871060,Walt Disney Co,DIS.GTX,WDP,Broadcasting (NEC),204328315646
+US11135F1012,Broadcom Inc,1YD.GTX,1YD,Semiconductors (NEC),201549452247
+US68389X1054,Oracle Corp,ORCL.GTX,ORC,Enterprise Software,197604262900
+US2358511028,Danaher Corp,DHR.GTX,DAP,Advanced Medical Equipment & Technology (NEC),196344775768
+US5801351017,McDonald's Corp,MCD.GTX,MDO,Quick Service Restaurants,185606753127
+US17275R1023,Cisco Systems Inc,CSCO.GTX,CIS,Communications & Networking (NEC),185183911734
+US8725901040,T-Mobile US Inc,TM5.GTX,TM5,Wireless Telecommunications Services (NEC),180531776334
+US0028241000,Abbott Laboratories,ABT.GTX,ABL,"Medical Equipment, Supplies & Distribution (NEC)",179762706618
+US92343V1044,Verizon Communications Inc,VZ.GTX,BAC,Integrated Telecommunications Services (NEC),175590070603
+US00724F1012,Adobe Inc,ADBE.GTX,ADB,Application Software,174769920000
+US9113121068,United Parcel Service Inc,UPS.GTX,UPAB,"Courier, Postal, Air Freight & Land-based Logistics (NEC)",168964619098
+US65339F1012,Nextera Energy Inc,FPL.GTX,FP3,Electric Utilities (NEC),167124117305
+US6541061031,Nike Inc,NKE.GTX,NKE,Sports & Outdoor Footwear,166972776087
+US9497461015,Wells Fargo & Co,NOB.GTX,NWT,Banks (NEC),165794194038
+US20030N1019,Comcast Corp,CMCS.GTX,CTP2,Broadcasting (NEC),159715096067
+US79466L3024,Salesforce Inc,FOO.GTX,FOO,Cloud Computing Services,156120000000
+US8825081040,Texas Instruments Inc,TXN.GTX,TII,Semiconductors (NEC),150953593771
+US7475251036,Qualcomm Inc,QCOM.GTX,QCI,Semiconductors (NEC),148539210000
+US7181721090,Philip Morris International Inc,4I1.GTX,4I1,Tobacco (NEC),148025096190
+US6174464486,Morgan Stanley,MWD.GTX,DWD,Investment Banking & Brokerage Services (NEC),146307937882
+US1101221083,Bristol-Myers Squibb Co,BMY.GTX,BRM,Pharmaceuticals (NEC),143937550200
+US9078181081,Union Pacific Corp,UNP.GTX,UNP,Ground Freight & Logistics (NEC),140201689138
+US20825C1045,Conocophillips,COP.GTX,YCP,Oil & Gas Exploration and Production (NEC),139333501799
+US0079031078,Advanced Micro Devices Inc,AMD.GTX,AMD,Semiconductors (NEC),137007414783
+US8085131055,Charles Schwab Corp,SCH.GTX,SWG,Investment Banking & Brokerage Services (NEC),134598381254
+US75513E1010,Raytheon Technologies Corp,5UR.GTX,5UR,Aerospace & Defense (NEC),132517135628
+US4581401001,Intel Corp,INTC.GTX,INL,Semiconductors (NEC),131063520000
+US1266501006,CVS Health Corp,CVS.GTX,CVS,Healthcare Facilities & Services (NEC),128854147407
+US0311621009,Amgen Inc,AMGN.GTX,AMG,Pharmaceuticals (NEC),128543883255
+US4385161066,Honeywell International Inc,HON.GTX,ALD,Consumer Goods Conglomerates,127563640223
+US00206R1023,AT&T Inc,T.GTX,SOBA,Wireless Telecommunications Services (NEC),124990040000
+US4612021034,Intuit Inc,INTU.GTX,ITU,Financial Technology (Fintech) (NEC),121795217854
+US5486611073,Lowe's Companies Inc,LOW.GTX,LWE,Home Improvement Products & Services Retailers (NEC),120502808077
+US03027X1000,American Tower Corp,A0T.GTX,A0T,Specialized REITs (NEC),118282353977
+US78409V1044,S&P Global Inc,MHP.GTX,MHL,Professional Information Services (NEC),117452030000
+US0367521038,Elevance Health Inc,A58.GTX,A58,Managed Healthcare (NEC),116426736666
+US4592001014,International Business Machines Corp,IBM.GTX,IBM,Machine Learning & Artificial Intelligence (AI) Services,116013516342
+US0258161092,American Express Co,AXP.GTX,AEC1,Consumer Credit Cards Services,113961663928
+US09260D1072,Blackstone Inc,BBN1.GTX,BBN1,Investment Management,113947720341
+US38141G1040,Goldman Sachs Group Inc,GS.GTX,GOS,Investment Banking & Brokerage Services (NEC),113558877233
+US2441991054,Deere & Co,DE.GTX,DCO,Agricultural Machinery,111633429198
+US5398301094,Lockheed Martin Corp,LMT.GTX,LOM,Aerospace & Defense (NEC),111393097883
+US70450Y1038,PayPal Holdings Inc,2PP.GTX,2PP,Internet Security & Transactions Services,108061105666
+US0530151036,Automatic Data Processing Inc,AUD.GTX,ADP,IT Services & Consulting (NEC),101556506059
+US09247X1019,BlackRock Inc,BLK.GTX,BLQA,Investment Management & Fund Operators (NEC),100470779982
+US64110L1061,Netflix Inc,NFLO.GTX,NFC,Online Services (NEC),99418381923
+US1491231015,Caterpillar Inc,CAT1.GTX,CAT1,Construction Machinery,97510097803
+US8552441094,Starbucks Corp,SBUX.GTX,SRB,Restaurants & Bars (NEC),96461917999
+US0970231058,Boeing Co,BA.GTX,BCO,Commercial Aircraft Manufacturing,95158239832
+US1729674242,Citigroup Inc,TRVC.GTX,TRVC,Banks (NEC),94530796698
+US74340W1036,Prologis Inc,POJA.GTX,POJN,Industrial REITs,92184464780
+US5184391044,Estee Lauder Companies Inc,EL.GTX,ELAA,Personal Products (NEC),90789137768
+US81762P1021,ServiceNow Inc,4S0.GTX,4S0,Enterprise Software,87793240000
+US1255231003,Cigna Corp,CI.GTX,CGN,Managed Healthcare (NEC),86485187456
+US6092071058,Mondelez International Inc,KFT.GTX,KTF,Food Processing (NEC),84783219750
+US26441C2044,Duke Energy Corp,D2MN.GTX,D2MN,Electric Utilities (NEC),82317356282
+US8425871071,Southern Co,SO.GTX,SOT,Electric Utilities (NEC),81925511732
+US02209S1033,Altria Group Inc,MO.GTX,PHM7,Cigars & Cigarette Manufacturing,81253151040
+US0382221051,Applied Materials Inc,AMAT.GTX,AP2,Semiconductor Machinery Manufacturing,80929303094
+US3696043013,General Electric Co,GCP.GTX,GCP,Consumer Goods Conglomerates,80530859810
+US5717481023,Marsh & McLennan Companies Inc,MMC.GTX,MSN,Multiline Insurance & Brokers (NEC),80526480116
+US3755581036,Gilead Sciences Inc,GILD.GTX,GIS,Bio Therapeutic Drugs,79551228497
+US0326541051,Analog Devices Inc,ADI.GTX,ANL,Semiconductors (NEC),77938172192
+US8636671013,Stryker Corp,SYK.GTX,SYK,Medical Devices & Implants,77631408871
+US09857L1089,Booking Holdings Inc,PCE1.GTX,PCE1,Travel Agents,74481377060
+US22822V1017,Crown Castle Inc,8CW.GTX,8CW,Specialized REITs (NEC),73976097469
+US6668071029,Northrop Grumman Corp,NOC.GTX,NTH,Aerospace & Defense (NEC),73950453809
+US87612E1064,Target Corp,TGT.GTX,DYH,Discount Stores (NEC),73798510094
+US46120E6023,Intuitive Surgical Inc,ISRGD.GTX,IUI1,Advanced Medical Equipment & Technology (NEC),73472056642
+US98978V1035,Zoetis Inc,ZOE.GTX,ZOE,Veterinary Drugs,73277730049
+US8725401090,TJX Companies Inc,TJX.GTX,TJX,Discount Stores without Grocery,72391652118
+US0090661010,Airbnb Inc,6Z1.GTX,6Z1,Online Services (NEC),72340081405
+US92532F1003,Vertex Pharmaceuticals Inc,VRTX.GTX,VX1,Bio Therapeutic Drugs,72260023648
+US0758871091,Becton Dickinson and Co,BDX.GTX,BOX,"Medical Equipment, Supplies & Distribution (NEC)",71988950171
+US7433151039,Progressive Corp,PGR.GTX,PGV,Insurance - Automobile,71725720000
+US26875P1012,EOG Resources Inc,EOGR.GTX,EO5,Oil & Gas Exploration and Production (NEC),71087200518
+US88579Y1010,3M Co,MMM.GTX,MMM,Consumer Goods Conglomerates,70830248446
+US12572Q1058,CME Group Inc,MX4A.GTX,MX4A,Securities & Commodity Exchanges,70308747226
+US94106L1098,Waste Management Inc,UW.GTX,UWS,Environmental Services & Equipment (NEC),69866135906
+US25746U1097,Dominion Energy Inc,D.GTX,DOD,Electric Utilities (NEC),68098728794
+US1264081035,CSX Corp,CSX.GTX,CXR,Railway Freight Operators,67770281954
+US9029733048,US Bancorp,FSR.GTX,UB5,Banks (NEC),67766609517
+US16119P1084,Charter Communications Inc,CQD.GTX,CQD,Integrated Telecommunications Services (NEC),66290967841
+US6745991058,Occidental Petroleum Corp,OXY.GTX,OPC,Oil & Gas Exploration and Production (NEC),66135928237
+US1941621039,Colgate-Palmolive Co,CL.GTX,CPA,Personal Products (NEC),65236538652
+US6934751057,PNC Financial Services Group Inc,PNC.GTX,PNP,Banks (NEC),64799592632
+US3377381088,Fiserv Inc,FISV.GTX,FIV,Transaction & Payment Services,64719540174
+US75886F1075,Regeneron Pharmaceuticals Inc,REGN.GTX,RGO,Bio Therapeutic Drugs,63340375581
+US3695501086,General Dynamics Corp,GD.GTX,GDX,Aerospace & Defense (NEC),62783187144
+US5951121038,Micron Technology Inc,MU.GTX,MTE,Semiconductors (NEC),62360792955
+US89832Q1094,Truist Financial Corp,BBKG.GTX,BBK,Banks (NEC),62128268120
+US00507V1098,Activision Blizzard Inc,ATVI.GTX,AIY,Internet Gaming,61403244406
+US3453708600,Ford Motor Co,F.GTX,FMC1,Auto & Truck Manufacturers (NEC),61268419774
+US4448591028,Humana Inc,HUM.GTX,HUM,Managed Healthcare (NEC),60971040622
+US7237871071,Pioneer Natural Resources Co,PXD.GTX,PNK,Oil & Gas Exploration and Production (NEC),60435246091
+US4523081093,Illinois Tool Works Inc,ITW.GTX,ILT,Consumer Goods Conglomerates,60323597564
+US8243481061,Sherwin-Williams Co,SHW.GTX,SJ3,Paints & Coatings,60156386601
+US5128071082,Lam Research Corp,LRCX.GTX,LAR,Semiconductor Equipment & Testing (NEC),59988323994
+US29444U7000,Equinix Inc,EQN2.GTX,EQN2,Commercial REITs (NEC),59870094363
+US74460D1090,Public Storage,PSA.GTX,PUP,Self-Storage REITs,58074516852
+US1011371077,Boston Scientific Corp,BSXU.GTX,BSX,Advanced Medical Equipment & Technology (NEC),57708372957
+US8334451098,Snowflake Inc.,5Q5.GTX,5Q5,IT Services & Consulting (NEC),57557211677
+US6558441084,Norfolk Southern Corp,NSC.GTX,NFS,Ground Freight & Logistics (NEC),57104830767
+US90353T1007,Uber Technologies Inc,UT8.GTX,UT8,Online Services (NEC),56942446684
+US40412C1018,HCA Healthcare Inc,HCA.GTX,2BH,Healthcare Facilities & Services (NEC),56793597176
+US45866F1049,Intercontinental Exchange Inc,IC2.GTX,IC2,Financial & Commodity Market Operators & Service Providers (NEC),56320511991
+US0091581068,Air Products and Chemicals Inc,APD.GTX,AP3,Industrial Gases,55993153005
+US28176E1082,Edwards Lifesciences Corp,EW.GTX,EWL,Advanced Medical Equipment & Technology (NEC),55856870426
+US37045V1008,General Motors Co,GMC.GTX,8GM,Auto & Truck Manufacturers (NEC),55712050685
+US31620M1062,Fidelity National Information Services Inc,FIS.GTX,ZGY,Financial Technology (Fintech) (NEC),55551000661
+US6974351057,Palo Alto Networks Inc,5AP.GTX,5AP,Internet Security & Transactions Services,55477981505
+US31428X1063,FedEx Corp,FDX.GTX,FDX,"Courier, Postal, Air Freight & Land-based Logistics (NEC)",54791132539
+US49271V1008,Keurig Dr Pepper Inc,DP5.GTX,DP5,Non-Alcoholic Beverages (NEC),53982176441
+AN8068571086,Schlumberger NV,SLB.GTX,SCL,Oil Related Services and Equipment (NEC),53958912271
+US2566771059,Dollar General Corp,DG.GTX,7DG,Discount Stores (NEC),53555239899
+US8716071076,Synopsys Inc,SNPS.GTX,SYP,Software (NEC),52910383250
+US58155Q1031,Mckesson Corp,MCK.GTX,MCK,Drug Retailers (NEC),52749076985
+US6153691059,Moody's Corp,MCO.GTX,DUT,Rating Agencies,52209420000
+US8168511090,Sempra Energy,SRE.GTX,SE4,Multiline Utilities,51851775305
+US60770K1079,Moderna Inc,0QF.GTX,0QF,Biotechnology & Medical Research (NEC),51743963684
+US0255371017,American Electric Power Company Inc,AEP.GTX,AEP,Electric Utilities (NEC),51476145196
+US59156R1086,MetLife Inc,MET.GTX,MWZ,Life & Health Insurance (NEC),51310529141
+US15135B1017,Centene Corp,QEN.GTX,QEN,Managed Healthcare (NEC),51293664850
+US56585A1025,Marathon Petroleum Corp,MPN.GTX,MPN,Oil & Gas Refining and Marketing (NEC),50236373541
+US5719032022,Marriott International Inc,MAR.GTX,MAQ,"Hotels, Motels & Cruise Lines (NEC)",49896525778
+US0394831020,Archer-Daniels-Midland Co,ADM.GTX,ADM,Food Processing (NEC),49267756299
+US9285634021,VMware Inc,VMWa.GTX,BZF1,IT Services & Consulting (NEC),49031953454
+US4824801009,KLA Corp,KLAC.GTX,KLA,Semiconductor Testing Equipment & Service,48798933434
+US2910111044,Emerson Electric Co,EMR.GTX,EMR,Electrical Components & Equipment (NEC),48332862000
+US1273871087,Cadence Design Systems Inc,CDNS.GTX,CDS,Software (NEC),47590389900
+US61174X1090,Monster Beverage Corp,MOB.GTX,MOB,Energy Drinks,46803238520
+US2788651006,Ecolab Inc,ECL.GTX,ECJ,Specialty Chemicals (NEC),46689781946
+US21036P1084,Constellation Brands Inc,STZ.GTX,CB1A,Brewers (NEC),46490941721
+US25179M1036,Devon Energy Corp,DVN.GTX,DY6,Oil & Gas Exploration and Production (NEC),46241976000
+US91913Y1001,Valero Energy Corp,V1L.GTX,V1L,Oil & Gas Refining and Marketing (NEC),46141806455
+US4278661081,Hershey Co,HSY.GTX,HSY,Food Processing (NEC),46053626993
+US5007541064,Kraft Heinz Co,KHNZ.GTX,KHNZ,Food Processing (NEC),45831446537
+US3703341046,General Mills Inc,GIS.GTX,GRM,Food Processing (NEC),45750549427
+US7607591002,Republic Services Inc,RSGU.GTX,RPU,Environmental Services & Equipment (NEC),45090001860
+US7043261079,Paychex Inc,PAYX.GTX,PCX,Outsourcing & Staffing Services,44390915565
+US1696561059,Chipotle Mexican Grill Inc,C9F.GTX,C9F,Quick Service Restaurants,44334588329
+US22052L1044,Corteva Inc,2X0.GTX,2X0,Fishing & Farming (NEC),44143598000
+US67103H1077,O'Reilly Automotive Inc,ORLY.GTX,OM6,Automotive Parts & Accessories Retailers,44140448416
+US0320951017,Amphenol Corp,APH.GTX,XPH,Electronic Components,43737713648
+US5024311095,L3harris Technologies Inc,HRS.GTX,HRS,Aerospace & Defense (NEC),43664876895
+US30161N1019,Exelon Corp,EXC.GTX,PEO,Electric Utilities (NEC),43622478637
+US0527691069,Autodesk Inc,ADSK.GTX,AUD,Application Software,43547404343
+US48251W1045,KKR & Co Inc,KR51.GTX,KR51,Investment Management,43473178928
+US4943681035,Kimberly-Clark Corp,KMB.GTX,KMY,Sanitary Products,43053594165
+US7185461040,Phillips 66,PSX.GTX,R66,Oil & Gas Refining and Marketing (NEC),43034831137
+US7766961061,Roper Technologies Inc,ROP.GTX,ROP,Application Software,42677361676
+US22788C1053,CrowdStrike Holdings Inc,45C.GTX,45C,IT Services & Consulting (NEC),42617613835
+US35671D8570,Freeport-McMoRan Inc,FCXb.GTX,FPMB,Specialty Mining & Metals (NEC),42306401294
+US7561091049,Realty Income Corp,O.GTX,RY6,Commercial REITs (NEC),42168188627
+US98138H1014,Workday Inc,W7D.GTX,W7D,Application Software,42127360000
+US8718291078,Sysco Corp,SYY.GTX,SYY,Food Retail & Distribution (NEC),41612392401
+US49456B1017,Kinder Morgan Inc,2KD.GTX,2KD,Oil & Gas Transportation Services (NEC),41467973749
+US9694571004,Williams Companies Inc,WMB.GTX,WMB,Oil & Gas Transportation Services (NEC),41466580051
+US0533321024,Autozone Inc,AZO.GTX,AZ5,Automotive Parts & Accessories Retailers,41298314676
+US1729081059,Cintas Corp,CTAS.GTX,CIT,Business Support Services (NEC),41167360908
+US8522341036,Block Inc,SQ3.GTX,SQ3,Transaction & Payment Services,40670244283
+US6200763075,Motorola Solutions Inc,MOT.GTX,MTLA,Communications & Networking (NEC),40621508763
+US98389B1008,Xcel Energy Inc,XEL.GTX,NRN,Electric Utilities (NEC),40614106252
+US14040H1059,Capital One Financial Corp,COF.GTX,CFX,Consumer Credit Cards Services,40613716000
+US16411R2085,Cheniere Energy Inc,CHEX.GTX,CHQ1,LNG Transportation & Storage,40010198011
+US5738741041,Marvell Technology Inc,9MW.GTX,9MW,Semiconductors (NEC),39918732000
+US46266C1053,IQVIA Holdings Inc,QTS.GTX,QTS,Biotechnology & Medical Research (NEC),39662776393
+US0268747849,American International Group Inc,AIG.GTX,AINN,Property & Casualty Insurance (NEC),39351535400
+US29355A1079,Enphase Energy Inc,E0P.GTX,E0P,Photovoltaic Solar Systems & Equipment,38800381851
+US34959E1091,Fortinet Inc,FNT.GTX,FO8,IT Services & Consulting (NEC),38393076096
+US89417E1091,Travelers Companies Inc,TRVN.GTX,PA9,Property & Casualty Insurance (NEC),38359292555
+US3635761097,Arthur J. Gallagher & Co.,AJGH.GTX,GAH,Insurance Brokers,38190707520
+US00846U1016,Agilent Technologies Inc,A.GTX,AG8,Advanced Medical Equipment & Technology (NEC),37962000000
+US0010551028,Aflac Inc,AFL.GTX,AFL,Life & Health Insurance (NEC),37548477122
+US42809H1077,Hess Corp,HES.GTX,AHC,Oil & Gas Exploration and Production (NEC),37395288346
+US2605571031,Dow Inc,2OY.GTX,2OY,Plastics,36626541327
+US0404131064,Arista Networks Inc,117.GTX,117,Communications & Networking (NEC),36477141305
+US84265V1052,Southern Copper Corp,SCCO.GTX,PCU,Specialty Mining & Metals (NEC),36389462515
+US55354G1004,MSCI Inc,MSCI.GTX,3HM,Professional Information Services (NEC),36165140765
+US5950171042,Microchip Technology Inc,MCHP.GTX,MCP,Semiconductors (NEC),36049593528
+US7443201022,Prudential Financial Inc,PUFCX.GTX,PLL,Life & Health Insurance (NEC),35619000000
+US2538681030,Digital Realty Trust Inc,DLR.GTX,FQI,Commercial REITs (NEC),35532231506
+US95040Q1040,Welltower OP LLC,HCW.GTX,HCW,Healthcare REITs,35517280069
+US2855121099,Electronic Arts Inc,ERTS.GTX,ERT,Application Software,35275610382
+US78410G1040,SBA Communications Corp,4SB.GTX,4SB,Specialized REITs (NEC),35087431060
+US43300A2033,Hilton Worldwide Holdings Inc,HI91.GTX,HI91,"Hotels, Motels & Cruise Lines (NEC)",34933242117
+US6703461052,Nucor Corp,NUE.GTX,NUO,Iron & Steel (NEC),34801754931
+US2091151041,Consolidated Edison Inc,ED.GTX,EDC,Electric Utilities (NEC),34656853085
+US1156371007,Brown-Forman Corp,BF5A.GTX,BF5A,Distillers & Wineries (NEC),34471776179
+US1156372096,Brown-Forman Corp,BFb.GTX,BF5B,Distillers & Wineries (NEC),34471776179
+US37940X1028,Global Payments Inc,GPN.GTX,GLO,Transaction & Payment Services,34431945576
+US5010441013,Kroger Co,KR.GTX,KOG,Food Retail & Distribution (NEC),34303964665
+US7010941042,Parker-Hannifin Corp,PH.GTX,PAR,Industrial Machinery & Equipment (NEC),34026794205
+US0640581007,Bank of New York Mellon Corp,BN9.GTX,BN9,Investment Management & Fund Operators (NEC),33560526851
+US8288061091,Simon Property Group Inc,SIPG.GTX,SQI,Retail REITs,33384143939
+US23804L1035,Datadog Inc,3QD.GTX,3QD,Application Software,33210974850
+US14448C1045,Carrier Global Corp,4PN.GTX,4PN,"Heating, Ventilation & Air Conditioning Systems",32922744798
+US6516391066,Newmont Corporation,NMMG.GTX,NMM,Gold Mining,32826624859
+US1924461023,Cognizant Technology Solutions Corp,CTSH.GTX,COZ,IT Services & Consulting (NEC),32708473838
+US0200021014,Allstate Corp,ALL.GTX,ALS,Property & Casualty Insurance (NEC),32570618354
+US92939U1060,WEC Energy Group Inc,WICG.GTX,WIC,Electric Utilities (NEC),32533917527
+KYG393871085,Globalfoundries Inc,76J.GTX,76J,Semiconductor Machinery Manufacturing,32311294440
+US2521311074,Dexcom Inc,DXCM.GTX,DC4,"Medical Equipment, Supplies & Distribution (NEC)",32274147804
+US7611521078,Resmed Inc,RMD.GTX,RME,Advanced Medical Equipment & Technology (NEC),32201781821
+US9344231041,Warner Bros Discovery Inc,J5A.GTX,J5A,Television Broadcasting,32141329479
+US7445731067,Public Service Enterprise Group Inc,PEG.GTX,PSE,Multiline Utilities,32106638674
+US55261F1049,M&T Bank Corp,MTBU.GTX,MTZ,Banks (NEC),31923114010
+US03769M1062,Apollo Global Management Inc,N7I.GTX,N7I,Investment Management & Fund Operators (NEC),31818273827
+US9256521090,VICI Properties Inc,1KN.GTX,1KN,Hospitality REITs,31772452057
+US4523271090,Illumina Inc,ILMN.GTX,ILU,Advanced Medical Equipment & Technology (NEC),31677643999
+US9884981013,Yum! Brands Inc,YUM.GTX,TGR,Quick Service Restaurants,31652504807
+US0126531013,Albemarle Corp,ALLE.GTX,AMC,Commodity Chemicals (NEC),31385823333
+US9224751084,Veeva Systems Inc,VEE.GTX,VEE,Medical Software & Technology Services,30864105036
+US88339J1051,Trade Desk Inc,TT8.GTX,TT8,Software (NEC),30613625869
+US6937181088,Paccar Inc,PCAR.GTX,PAE,Heavy Machinery & Vehicles (NEC),30428867112
+US2567461080,Dollar Tree Inc,DLTR.GTX,DT3,Discount Stores without Grocery,30383767411
+US03073E1055,Amerisourcebergen Corp,ABEC.GTX,ABG,"Medical Equipment, Supplies & Distribution (NEC)",30375745963
+US2310211063,Cummins Inc,CUM.GTX,CUM,Engine & Powertrain Systems,30365516604
+US68902V1070,Otis Worldwide Corp,4PG.GTX,4PG,Elevator & Conveying Equipment,30349127163
+US6795801009,Old Dominion Freight Line Inc,ODFL.GTX,ODF,Freight Trucking,30336547142
+US9314271084,Walgreens Boots Alliance Inc,W8A.GTX,W8A,Drug Retailers (NEC),30300838184
+US7782961038,Ross Stores Inc,ROST.GTX,RSO,Apparel & Accessories Retailers (NEC),30188150614
+US6935061076,PPG Industries Inc,PPG.GTX,PPQ,Paints & Coatings,29839966296
+US6821891057,ON Semiconductor Corp,ONNN.GTX,XS4,Semiconductors (NEC),29793667090
+US5312294094,Liberty Media Corp,LM03.GTX,LM03,Broadcasting (NEC),29694980549
+US5312298707,Liberty Media Corp,LM05.GTX,LM05,Broadcasting (NEC),29694980549
+US40434L1052,HP Inc,7HP.GTX,7HP,Computer Hardware (NEC),29690107779
+US90184L1026,Twitter Inc,TWTR.GTX,TWR,Social Media & Networking,29653288390
+US92345Y1064,Verisk Analytics Inc,VA7A.GTX,VA7A,Technology Consulting & Outsourcing Services,29376625177
+US49338L1035,Keysight Technologies Inc,1KT.GTX,1KT,Electrical Measuring & Testing Instruments,29302921509
+US6311031081,Nasdaq Inc,NDAQ.GTX,NAQ,Financial & Commodity Market Operators & Service Providers (NEC),29242696995
+US2193501051,Corning Inc,GLW.GTX,GLW,Display Screens,29011318702
+US03076C1062,Ameriprise Financial Inc,A4S.GTX,A4S,Investment Management & Fund Operators (NEC),28989441551
+US45168D1046,IDEXX Laboratories Inc,IDXX.GTX,IX1,Veterinary Medical Equipment & Supplies,28940652932
+US0718131099,Baxter International Inc,BAX.GTX,BTL,"Medical Equipment, Supplies & Distribution (NEC)",28937472086
+US3119001044,Fastenal Co,FAST.GTX,FAS,Industrial Machinery & Equipment Wholesale,28923583853
+US5178341070,Las Vegas Sands Corp,LVS.GTX,LCR,Casinos,28755193328
+US09062X1037,Biogen Inc,BIIB.GTX,IDP,Biopharmaceuticals,28613794299
+US81181C1045,Seagen Inc,SGTG.GTX,SGT,Biotechnology & Medical Research (NEC),28456546506
+US2172041061,Copart Inc,CPRT.GTX,CO6,Used Car Dealers,28437523718
+US24703L2025,Dell Technologies Inc,12DA.GTX,12DA,Computer Hardware (NEC),28316128904
+US3848021040,WW Grainger Inc,GWW.GTX,GWW,Industrial Machinery & Equipment Wholesale,28230460953
+US4595061015,International Flavors & Fragrances Inc,IFF.GTX,IFF,Food Ingredients,28166553950
+US0534841012,Avalonbay Communities Inc,AVB.GTX,WV8,Residential REITs,28093430539
+US26614N1028,Dupont De Nemours Inc,6D81.GTX,6D81,Diversified Chemicals,27870182439
+US0311001004,AMETEK Inc,AME.GTX,AK1,Electrical Components & Equipment (NEC),27586130450
+US22160N1090,CoStar Group Inc,CSGP.GTX,RLG,Online Services (NEC),27573917957
+US29476L1070,Equity Residential,EQR.GTX,EQR,Residential REITs,27524334266
+US4404521001,Hormel Foods Corp,HRL.GTX,HO7,Meat Processing,27455675316
+US2547091080,Discover Financial Services,DFS.GTX,DC7,Retail & Mortgage Banks,27450985142
+US6826801036,ONEOK Inc,OKE.GTX,ONK,Oil & Gas Transportation Services (NEC),27361374159
+US7739031091,Rockwell Automation Inc,RWL.GTX,RWL,Electrical Components & Equipment (NEC),27351257989
+US4062161017,Halliburton Co,HAL.GTX,HAL,Oil Related Services and Equipment (NEC),27326232693
+US5926881054,Mettler-Toledo International Inc,MTD.GTX,MTO,Scientific & Precision Equipment,27288364360
+US9024941034,Tyson Foods Inc,TSNa.GTX,TF7A,Meat Processing,27108707758
+US74144T1088,T Rowe Price Group Inc,TROW.GTX,TR1,Investment Management & Fund Operators (NEC),27082995720
+US0304201033,American Water Works Company Inc,AWK.GTX,AWC,Water Supply & Irrigation Systems,26986201916
+US21037T1097,Constellation Energy Corp,E7S.GTX,E7S,Electric Utilities (NEC),26667304600
+US30225T1025,Extra Space Storage Inc,EXRS.GTX,FG8,Self-Storage REITs,26612338914
+US45841N1072,Interactive Brokers Group Inc,IBKR.GTX,KY6,Brokerage Services,26035602570
+US2810201077,Edison International,EIX.GTX,EIX,Electric Utilities (NEC),25849645623
+US05722G1004,Baker Hughes Co,68V.GTX,68V,Oil Related Services and Equipment (NEC),25733734198
+GB00BMVP7Y09,Royalty Pharma PLC,RPDG.GTX,RPD,Pharmaceuticals (NEC),25387866903
+US12504L1098,CBRE Group Inc,RF6.GTX,RF6,Real Estate Services (NEC),25359699665
+US2120151012,Continental Resources Inc,CLR.GTX,C5L,Oil & Gas Exploration and Production (NEC),25348360667
+US9621661043,Weyerhaeuser Co,WY.GTX,WHC,Timber REITs,25289160399
+US2333311072,DTE Energy Co,DGY.GTX,DGY,Electric Utilities (NEC),25251599769
+US8574771031,State Street Corp,STT.GTX,ZYA,Investment Management & Fund Operators (NEC),25126783187
+US0152711091,Alexandria Real Estate Equities Inc,A6W.GTX,A6W,Commercial REITs (NEC),25030016146
+US02043Q1076,Alnylam Pharmaceuticals Inc,ALNY.GTX,DUL,Biotechnology & Medical Research (NEC),24805888948
+US4878361082,Kellogg Co,K.GTX,KEL,Food Processing (NEC),24739826530
+US23331A1097,D R Horton Inc,DHI.GTX,HO2,Homebuilding (NEC),24723307800
+US1270971039,Coterra Energy Inc,COG.GTX,XCQ,Oil & Gas Exploration and Production (NEC),24591846921
+US29414B1044,Epam Systems Inc,E3M.GTX,E3M,IT Services & Consulting (NEC),24467209748
+US2786421030,eBay Inc,EBAY.GTX,EBA,E-commerce & Auction Services,24243602558
+US78486Q1013,SVB Financial Group,SIVB.GTX,SV4,Banks (NEC),24018138628
+US98980L1017,Zoom Video Communications Inc,5ZM.GTX,5ZM,Software (NEC),23930669175
+US0236081024,Ameren Corp,AEE.GTX,AE4,Multiline Utilities,23930285435
+US82968B1035,Sirius XM Holdings Inc,RDO.GTX,RDO,Radio Broadcasting,23715802552
+US25278X1090,Diamondback Energy Inc,7DB.GTX,7DB,Oil & Gas Exploration and Production (NEC),23702656610
+US29364G1031,Entergy Corp,ETR.GTX,ETY,Electric Utilities (NEC),23454094823
+US3167731005,Fifth Third Bancorp,FITB.GTX,FFH,Corporate Banks,23433373064
+US25809K1051,DoorDash Inc,DD2G.GTX,DD2,Online Services (NEC),23126199008
+US2944291051,Equifax Inc,EFX.GTX,EFX,Professional Information Services (NEC),23103041336
+US12514G1085,CDW Corp,CDW.GTX,CDW,IT Services & Consulting (NEC),23086020043
+US2644115055,Duke Realty Corp,DRE.GTX,DUR,Industrial REITs,22656821336
+US3379321074,FirstEnergy Corp,FE.GTX,FE7,Electric Utilities (NEC),22598683521
+US98980G1022,Zscaler Inc,0ZC.GTX,0ZC,System Software,22590215551
+US3666511072,Gartner Inc,GART.GTX,GGRA,IT Services & Consulting (NEC),22567071262
+US5797802064,McCormick & Company Inc,MCCRn.GTX,MCX,Food Processing (NEC),22558329133
+US5797801074,McCormick & Company Inc,MCX0.GTX,MCX0,Food Processing (NEC),22558329133
+US34959J1088,Fortive Corp,F03.GTX,F03,Industrial Machinery & Equipment (NEC),22526293036
+US7547301090,Raymond James Financial Inc,RJF.GTX,RJF,Investment Banking & Brokerage Services (NEC),22525654519
+US98956P1021,Zimmer Biomet Holdings Inc,ZMRHV.GTX,ZIM,"Medical Equipment, Supplies & Distribution (NEC)",22308014343
+US9291601097,Vulcan Materials Co,VMC.GTX,VMC,Construction Materials (NEC),22126682162
+US3724601055,Genuine Parts Co,GPC.GTX,GPT,Auto & Truck Parts Wholesale,22064642197
+US5260571048,Lennar Corp,LEN.GTX,LNN,Residential Builders - Single Homes,21993861123
+US60937P1066,MongoDB Inc,526.GTX,526,Server & Database Software,21991604379
+US9553061055,West Pharmaceutical Services Inc,WST.GTX,WPS,"Medical Equipment, Supplies & Distribution (NEC)",21969297263
+US8447411088,Southwest Airlines Co,LUV.GTX,SWN,Regional Airlines,21775950908
+US5732841060,Martin Marietta Materials Inc,MLMT.GTX,MMX,Construction Materials (NEC),21688112219
+US03662Q1058,ANSYS Inc,ANSS.GTX,AKX,Application Software,21619149519
+US90384S3031,Ulta Beauty Inc,ULTA.GTX,34U,Personal Care Products Retailers,21506370365
+US69351T1060,PPL Corp,PPL.GTX,PP9,Multiline Utilities,21408253082
+US6098391054,Monolithic Power Systems Inc,MPWR.GTX,NQG,Semiconductors (NEC),21203839020
+US70432V1026,Paycom Software Inc,0PY.GTX,0PY,Enterprise Software,21081253417
+US4165151048,Hartford Financial Services Group Inc,HIG.GTX,HFF,Multiline Insurance & Brokers (NEC),20781286329
+US5380341090,Live Nation Entertainment Inc,LYV.GTX,3LN,Plays & Concert Production,20780253926
+US1252691001,CF Industries Holdings Inc,CF.GTX,C4F,Fertilizers,20615494951
+US8923561067,Tractor Supply Co,TRCT.GTX,TR4,Miscellaneous Specialty Retailers (NEC),20551666293
+US18915M1071,Cloudflare Inc,8CF.GTX,8CF,Cloud Computing Services,20489196915
+US9113631090,United Rentals Inc,URI.GTX,UR3,Industrial Equipment Rental,20438525994
+US8740541094,Take-Two Interactive Software Inc,TTWO.GTX,TKE,Toys & Children's Products (NEC),20429612069
+US1713401024,Church & Dwight Co Inc,CHD.GTX,CXU,Household Products (NEC),20333943027
+US74762E1029,Quanta Services Inc,PWR.GTX,QAA,Construction & Engineering (NEC),20209143824
+US11133T1034,Broadridge Financial Solutions Inc,BR.GTX,5B9,Compliance & Investor Communication,20078649753
