@@ -45,6 +45,14 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     ohlc_D = data_frame['Bid'].resample('1D').ohlc()
 
 
+
+# Back adjust prices relative to adj_close for dividends and splits.
+    ts['open'] = ts['open'] * ts['adj_close'] / ts['close']
+    ts['high'] = ts['high'] * ts['adj_close'] / ts['close']
+    ts['low'] = ts['low'] * ts['adj_close'] / ts['close']
+    ts['close'] = ts['close'] * ts['adj_close'] / ts['close']
+
+
 # Calculate returns & volatility:
 
     change = df['Adj Close'].diff(1)
