@@ -18,7 +18,7 @@ Scrapy==1.0.5
 service-identity==14.0.0
 six==1.10.0
 SQLAlchemy==1.0.11
-Twisted==15.5.0
+Twisted==22.10.0
 w3lib==1.13.0
 wheel==0.24.0
 zope.interface==4.1.3
