@@ -59,7 +59,8 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     df['Momentum_1D'] = (df['Adj Close'] - df['Adj Close'].shift(1)).fillna(0)
     df['Momentum'] = pd.Series(df['Adj Close'].diff(n))
 
-    pct_change = df["Adj Close"].pct_change(1)
+    df['pct_change'] = df["Adj Close"].pct_change(1)
+    df['pct_change_rank'] = df.pct_change.abs().rank(ascending=False)
     df['ROC'] = ((df['Adj Close'] - df['Adj Close'].shift(n))/df['Adj Close'].shift(n)) * 100
     df['ROC100'] = (df['Adj Close']/df['Adj Close'].shift(n)) * 100
 
@@ -93,7 +94,8 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     
     df['STD'] = df['Adj Close'].rolling(10).std()
     df['Variance'] = df['Adj Close'].rolling(20).var()
-
+    
+    df['abs_z_score_volume'] = df.volume.sub(df.volume.mean()).div(df.volume.std()).abs() # Volume Z-Score (subtracting the mean and dividing by the standard deviation)
 
     # Moving dispersion
     from math import sqrt, log
@@ -309,59 +311,3 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
         df['Upper Band'] = df['20 Day MA'] + (df['20 Day STD'] * 2)
         df['Lower Band'] = df['20 Day MA'] - (df['20 Day STD'] * 2)
 
-
-# Some plotting
-    import plotly.graph_objects as go
-    import plotly.express as px
-    pd.options.plotting.backend = "plotly" # Set default charting for pandas to plotly
-
-    start_date = "2021-01-01"
-    end_date = "2021-10-20"
-    timeframe = TimeFrame.Minute
-
-    btc = alpaca.get_crypto_bars("BTCUSD", timeframe, start_date, end_date).df
-    btc = btc[btc['exchange'] == 'CBSE'] # Keep data from only CBSE exchange
-    coin = alpaca.get_bars("COIN", timeframe, start_date, end_date).df
-    btc['BTC_minutely_return'] = btc['close'].pct_change()
-    coin['COIN_minutely_return'] = coin['close'].pct_change()
-
-
-    # cumulative return: (1 + return_1) * (1 + return_2) * …
-    btc['BTC_return'] = btc['BTC_daily_return'].add(1).cumprod().sub(1)
-    coin['COIN_return'] = coin['COIN_daily_return'].add(1).cumprod().sub(1)
-
-    fig1 = px.line(btc, y='BTC_return', color_discrete_sequence=['red'])
-    fig2 = px.line(coin, y='COIN_return', color_discrete_sequence=['blue'])
-    fig3 = go.Figure(data=fig1.data + fig2.data)
-    fig3.show()
-
-    data['spread'] = data['BTC_return'] - data['COIN_return']
-
-    fig1 = px.line(data, y='spread',  color_discrete_sequence=['green'], render_mode='svg')
-
-    # Configuring the x-axis to hide weekends. We will be doing this often going forward.
-    fig1.update_xaxes(
-        rangebreaks=[
-            { 'pattern': 'day of week', 'bounds': [6, 1]},
-            { 'pattern': 'hour', 'bounds':[23,11]}
-        ])
-    fig1.show()
-
-    historical_spread_std = data['spread'].std()
-    data['spread_std'] = historical_spread_std
-    data['spread_upper_std'] = 1 * data['spread_std']
-    data['spread_lower_std'] = -1 * data['spread_std']
-
-    fig2 = px.line(data * 1, y=['spread_upper_std', 'spread_lower_std'], color_discrete_sequence=['cyan'], render_mode='svg')
-    fig3 = px.line(data * 2, y=['spread_upper_std', 'spread_lower_std'], color_discrete_sequence=['gray'], render_mode='svg')
-    fig4 = px.line(data * 3, y=['spread_upper_std', 'spread_lower_std'], color_discrete_sequence=['red'], render_mode='svg')
-
-    # chart configurations 
-    fig5 = go.Figure(data=fig1.data + fig2.data + fig3.data + fig4.data)
-    fig5.update_xaxes(
-        rangebreaks=[
-            { 'pattern': 'day of week', 'bounds': [6, 1]},
-            { 'pattern': 'hour', 'bounds':[23,11]}
-        ])
-        
-    fig5.show()

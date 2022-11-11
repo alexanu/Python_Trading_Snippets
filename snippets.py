@@ -215,13 +215,3 @@ all_stock_symbols[all_stock_symbols.etf=="Y"]
     df['cap_bin']= pd.qcut(df['Company Market Cap'], q = 4, labels = ["small", "medium", "big", "very big"]) # split into bins
     df.pivot_table(index='TRBC Economic Sector Name', columns='cap_bin', aggfunc='size', fill_value=0)
 
-
-fb.assign(volume_pct_change=fb.volume.pct_change(),
-          avg_volume=lambda x: x.volume.rolling('30D').mean()
-          ewma_volume=lambda x: x.volume.ewm(span=30).mean()
-          pct_change_rank=lambda x: x.volume_pct_change.abs().rank(ascending=False),
-          abs_z_score_volume=lambda x: x.volume.sub(x.volume.mean()).div(x.volume.std()).abs() # Volume Z-Score (subtracting the mean and dividing by the standard deviation)
-          )
-
-volume_binned = pd.cut(fb.volume, bins=3, labels=['low', 'med', 'high'])
-volume_binned.value_counts()
