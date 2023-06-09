@@ -4,10 +4,19 @@ import btalib
 import os
 import time
 
-import alpaca_trade_api as tradeapi
-from alpaca_trade_api.rest import TimeFrame
 from keys_config import *
-alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2')
+from alpaca.trading.client import TradingClient
+from alpaca.trading.enums import OrderSide, TimeInForce, AssetClass, AssetStatus, AssetExchange, OrderStatus
+from alpaca.trading.requests import GetCalendarRequest, GetAssetsRequest, GetOrdersRequest, MarketOrderRequest, LimitOrderRequest, StopLossRequest, TrailingStopOrderRequest, GetPortfolioHistoryRequest
+from alpaca.data import StockHistoricalDataClient
+from alpaca.data.requests import StockLatestQuoteRequest, StockTradesRequest, StockQuotesRequest, StockBarsRequest, StockSnapshotRequest, StockLatestBarRequest
+from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
+from alpaca.data.enums import Adjustment, DataFeed, Exchange
+from alpaca.broker.client import BrokerClient
+import alpaca
+
+trading_client = TradingClient(API_KEY_PAPER, API_SECRET_PAPER)
+stock_client = StockHistoricalDataClient(API_KEY_PAPER,API_SECRET_PAPER)
 
 
 # Analysing minutes quote file
@@ -34,7 +43,6 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
 
     AAPL[(AAPL.Open - AAPL.Close.shift()>15)(AAPL.Close - AAPL.Open>5)] # shows where the diff btw t-1 close and t > smth
 
-
 # convert tick data to 15 minute data
     data_frame = pd.read_csv(tick_data_file, 
                             names=['id', 'deal', 'Symbol', 'Date_Time', 'Bid', 'Ask'], 
@@ -43,8 +51,6 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     ohlc_H1 = data_frame['Bid'].resample('1H').ohlc()
     ohlc_H4 = data_frame['Bid'].resample('4H').ohlc()
     ohlc_D = data_frame['Bid'].resample('1D').ohlc()
-
-
 
 # Back adjust prices relative to adj_close for dividends and splits.
     ts['open'] = ts['open'] * ts['adj_close'] / ts['close']
@@ -60,6 +66,9 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     df['Momentum'] = pd.Series(df['Adj Close'].diff(n))
 
     df['pct_change'] = df["Adj Close"].pct_change(1)
+
+    daily_returns['ret'] = daily_df.groupby("symbol")["close"].pct_change(1).fillna(0)
+
     df['pct_change_rank'] = df.pct_change.abs().rank(ascending=False)
     df['ROC'] = ((df['Adj Close'] - df['Adj Close'].shift(n))/df['Adj Close'].shift(n)) * 100
     df['ROC100'] = (df['Adj Close']/df['Adj Close'].shift(n)) * 100
@@ -109,8 +118,7 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     historical_vol_annually = std*math.sqrt(252)  
     df['RV'] = 100*historical_vol_annually
 
-
-# Claculate return per sec on irregularly spaced tick data
+# Calculate return per sec on irregularly spaced tick data
     # https://www.thertrader.com/2020/03/15/speeding-up-your-python-code/
 
     import numpy as np    
@@ -168,6 +176,99 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
             pos = bb[abs(bb - (timeStamp[i,0] - 1)).argmin()]
         myPos.append(pos)
 
+# Get top 10 for every sector from blob & calculate returns by Alpaca
+
+    BLB_URL = f'https://{STORAGE_NAME}.blob.core.windows.net/{CONTAINER_NAME}/{FILE_NAME_SP500}?{BLB_SAS}'
+    sp500=pd.read_excel(BLB_URL)
+    symbols_in_scope = sp500.symbol.to_list()
+    today = trading_client.get_clock().timestamp
+    previous_day = today - pd.Timedelta('1D')
+    previous_day_10 = today - pd.Timedelta('40D')
+    bars_request_params = StockBarsRequest(symbol_or_symbols=symbols_in_scope[20:25], start = previous_day_10, end = previous_day, timeframe=TimeFrame.Day, adjustment= Adjustment.RAW,feed = DataFeed.SIP)
+    df = stock_client.get_stock_bars(bars_request_params).df
+    df = df.reset_index()
+    df.timestamp = df.timestamp.dt.date
+    df['days'] = (df.timestamp - previous_day.date()).astype('timedelta64[D]')
+
+    # HACK:This block is needed as there could be no -30 or -5 days because of wknds/holidays
+    d0=0
+    d5=-5
+    d30=-30
+    while len(daily_df[daily_df.days==d0])==0:
+        d0 = d0 - 1
+    while len(daily_df[daily_df.days==d5])==0:
+        d5 = d5 - 1
+    while len(daily_df[daily_df.days==d30])==0:
+        d30 = d30 - 1
+
+    returns_df = daily_df[daily_df.days.isin([d0,d5,d30])]
+    returns_df['chg30'] = round(returns_df['close'].pct_change(2)*100,1)
+    returns_df['chg5'] = round(returns_df['close'].pct_change(1)*100,1)
+    returns_df['chg1'] = round(100*(returns_df.close-returns_df.open)/returns_df.open,1)
+    returns_df = returns_df[returns_df.days.isin([d0])]
+
+# 
+    minute_frame = 10
+    bars_request_params = StockBarsRequest(
+        symbol_or_symbols=['AAPL','F','NVDA'], 
+        start = (pd.Timestamp.now(tz="US/Eastern") - pd.Timedelta(4, "days")).floor(freq='T'), # S: sec, T: minutes, H: hours
+        end = pd.Timestamp.now(), # do I need to convert to ET? (tz="US/Eastern") or UTC? pd.Timestamp.utcnow()
+        # limit = 10, # upper limit of number of data points
+        timeframe=TimeFrame(minute_frame, TimeFrameUnit.Minute), # 'Day', 'Hour', 'Minute', 'Month', 'Week'
+        adjustment= Adjustment.RAW, # SPLIT, DIVIDEND, ALL
+        feed = DataFeed.SIP
+        )
+    hist_bars = stock_client.get_stock_bars(bars_request_params).df.reset_index()
+    hist_bars.timestamp = hist_bars.timestamp.dt.tz_convert('America/New_York').dt.tz_localize(None) 
+                                                    # Convert to market time for easier reading
+                                                                                # remove +00:00 from datetime
+
+
+# Overnight returns
+    many_snaps = pd.DataFrame()
+
+    snap = stock_client.get_stock_snapshot(StockSnapshotRequest(symbol_or_symbols=symbols_in_scope[20:25], feed = DataFeed.SIP))
+    snapshot_data = {stock: [
+                            snapshot.latest_trade.timestamp,                        
+                            snapshot.latest_trade.price, 
+
+                            snapshot.daily_bar.timestamp,
+                            snapshot.daily_bar.open,
+                            snapshot.daily_bar.close,
+
+                            snapshot.previous_daily_bar.timestamp,
+                            snapshot.previous_daily_bar.close,
+
+                            ]
+                    for stock, snapshot in snap.items() if snapshot and snapshot.daily_bar and snapshot.previous_daily_bar
+                    }
+    snapshot_columns=['price time', 'price', 'today', 'today_open', 'today_close','yest', 'yest_close']
+    snapshot_df = pd.DataFrame(snapshot_data.values(), snapshot_data.keys(), columns=snapshot_columns)
+
+    snapshot_df['price time'] = snapshot_df['price time'].dt.tz_convert('America/New_York').dt.tz_localize(None) # convert from UTC to ET and remove +00:00 from datetime
+    snapshot_df['today'] = snapshot_df['today'].dt.tz_convert('America/New_York').dt.tz_localize(None)
+    snapshot_df['yest'] = snapshot_df['yest'].dt.tz_convert('America/New_York').dt.tz_localize(None)
+
+    snapshot_df['FULL'] = (snapshot_df['price']-snapshot_df['yest_close'])/snapshot_df['yest_close']
+    snapshot_df['ON'] = (snapshot_df['today_open']-snapshot_df['yest_close'])/snapshot_df['yest_close']
+    snapshot_df['DAY'] = (snapshot_df['today_close']-snapshot_df['today_open'])/snapshot_df['today_open']
+    snapshot_df['POST'] = (snapshot_df['price']-snapshot_df['today_close'])/snapshot_df['today_close']
+
+
+
+    snapshot_df['Now_time'] = trading_client.get_clock().timestamp
+    many_snaps = pd.concat([many_snaps, snapshot_df])
+
+    many_snaps_test = many_snaps.copy()
+    many_snaps_test['price time'] = many_snaps_test['price time'].dt.tz_convert('America/New_York').dt.tz_localize(None)
+    many_snaps_test['today'] = many_snaps_test['today'].dt.tz_convert('America/New_York').dt.tz_localize(None)
+    many_snaps_test['yest'] = many_snaps_test['yest'].dt.tz_convert('America/New_York').dt.tz_localize(None)
+    many_snaps_test['Now_time'] = many_snaps_test['Now_time'].dt.tz_localize(None)
+    many_snaps[['price time', 'today', 'yest', 'Now_time']] = many_snaps_test[['price time', 'today', 'yest', 'Now_time']].dt.tz_localize(None)
+    many_snaps_test.to_excel('many_snaps.xlsx')
+
+
+
 
 # identify outliers and plot them
 
@@ -189,7 +290,6 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
     plt.legend(loc='lower right')
     plt.title('Apple stock returns', fontsize = 20)
     plt.show();
-
 
 # identify outliers
     STD_CUTTOFF = 9
@@ -249,9 +349,6 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
                 df_dict[df]["%D"] = df_dict[df]["%K"].rolling(d).mean()
                 df_dict[df].drop(["HH","LL"], axis=1, inplace=True)
 
-
-
-
     # RSI
         df['RSI'] = ta.RSI(df['Adj Close'], timeperiod=14)
 
@@ -267,17 +364,14 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
             df['RS'] = df['AVG_Gain']/df['AVG_Loss']
             df['RSI'] = 100 - (100/(1+df['RS']))
 
-
     # True Range
         df['Prior Close'] = df['Adj Close'].shift()
         df['BP'] = df['Adj Close'] - df[['Low','Prior Close']].min(axis=1)
         df['TR'] = df[['High','Prior Close']].max(axis=1) - df[['Low','Prior Close']].min(axis=1)
 
-
     # Regime 
         apple["Regime"] = np.where(apple['20d-50d'] > 0, 1, 0) # np.where() is a vectorized if-else function
         apple["Regime"] = np.where(apple['20d-50d'] < 0, -1, apple["Regime"]) # and to maintain the rest of the vector, the second argument is apple["Regime"]
-
 
     # Drawdown
         df["cum_return"] = (1 + df["return"]).cumprod()
@@ -287,7 +381,6 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
         max_drawdown = df["drawdown_pct"].max()
         df.drop(["cum_return","cum_max","drawdown","drawdown_pct"], axis=1, inplace=True)
 
-
     # Correlation
         df = pd.concat([df1['Adj Close'], df2['Adj Close']],axis=1)
         df.columns = [symbol1,symbol2]
@@ -296,14 +389,12 @@ alpaca = tradeapi.REST(API_KEY_PAPER, API_SECRET_PAPER, API_BASE_URL_PAPER, 'v2'
         df['Price Relative'] = df['AAPL']/df['^GSPC']
         df['Percentage Change in Price Relative'] = ((df['Price Relative']-df['Price Relative'].shift())/df['Price Relative'].shift())*100
 
-
     # VWAP
         def VWAP(df):
             return (df['Adj Close'] * df['Volume']).sum() / df['Volume'].sum()
         n = 14
         df['VWAP'] = pd.concat([(pd.Series(VWAP(df.iloc[i:i+n]), index=[df.index[i+n]])) for i in range(len(df)-n)])
         df = df.dropna()
-
 
     # Bollinger Bands
         df['20 Day MA'] = df['Adj Close'].rolling(window=20).mean()

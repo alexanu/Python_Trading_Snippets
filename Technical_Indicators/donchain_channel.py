@@ -61,3 +61,58 @@ ax1.set_ylabel('Price')
 ax1.set_xlabel('Date')
 ax1.legend(loc='best')
 plt.show()
+
+
+# -------------------------------------------------------------------------------------------------
+# Implementation from https://raposa.trade/blog/use-python-to-trade-the-donchian-channel/
+
+import pandas as pd
+import numpy as np
+
+def calcDonchianChannels(data: pd.DataFrame, period: int):
+    data["upperDon"] = data["High"].rolling(period).max()
+    data["lowerDon"] = data["Low"].rolling(period).min()
+    data["midDon"] = (data["upperDon"] + data["lowerDon"]) / 2
+    return data
+
+def calcReturns(df):
+  df['returns'] = df['Close'] / df['Close'].shift(1)
+  df['log_returns'] = np.log(df['returns'])
+  df['strat_returns'] = df['position'].shift(1) * df['returns']
+  df['strat_log_returns'] = df['position'].shift(1) * df['log_returns']
+  df['cum_returns'] = np.exp(df['log_returns'].cumsum()) - 1
+  df['strat_cum_returns'] = np.exp(df['strat_log_returns'].cumsum()) - 1
+  df['peak'] = df['cum_returns'].cummax()
+  df['strat_peak'] = df['strat_cum_returns'].cummax()
+  return df
+
+# enter a position when the price closes above the middle value and will go short when the price drops below
+def midDonCrossOver(data: pd.DataFrame, period: int=20, shorts: bool=True):
+    data = calcDonchianChannels(data, period)
+    data["position"] = np.nan
+    data["position"] = np.where(data["Close"]>data["midDon"], 1, data["position"])
+    if shorts:
+        data["position"] = np.where(data["Close"]<data["midDon"], -1, data["position"])
+    else:
+        data["position"] = np.where(data["Close"]<data["midDon"], 0, data["position"])
+    data["position"] = data["position"].ffill().fillna(0)
+
+    return calcReturns(data)
+
+
+# go long when the price breaks through the upper channel ...
+# ... and short or exit the trade if it breaks below the lower channel
+def donChannelBreakout(data, period=20, shorts=True):
+    data = calcDonchianChannels(data, period)  
+    data["position"] = np.nan
+    data["position"] = np.where(data["Close"]>data["upperDon"].shift(1), 1, data["position"])
+
+    if shorts:
+        data["position"] = np.where(data["Close"]<data["lowerDon"].shift(1), -1, data["position"])
+    else:
+        data["position"] = np.where(data["Close"]<data["lowerDon"].shift(1), 0, data["position"])
+        
+    data["position"] = data["position"].ffill().fillna(0)
+
+    return calcReturns(data)
+
